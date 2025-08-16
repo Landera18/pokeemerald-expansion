@@ -928,7 +928,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = 20,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_SWARM, ABILITY_NONE, ABILITY_TINTED_LENS },
+        .abilities = { ABILITY_SWARM, ABILITY_TINTED_LENS, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Nymble"),
         .cryId = CRY_NYMBLE,
@@ -993,7 +993,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = 0,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_SWARM, ABILITY_NONE, ABILITY_TINTED_LENS },
+        .abilities = { ABILITY_SWARM, ABILITY_TINTED_LENS, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Lokix"),
         .cryId = CRY_LOKIX,
@@ -1622,7 +1622,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .levelUpLearnset = sSmolivLevelUpLearnset,
         .teachableLearnset = sSmolivTeachableLearnset,
         .eggMoveLearnset = sSmolivEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_DOLLIV}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_DOLLIV}),
     },
 
     [SPECIES_DOLLIV] =
