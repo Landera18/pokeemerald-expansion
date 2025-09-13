@@ -2566,22 +2566,19 @@ AI: Check Bad Move / AI_FLAG_TRY_TO_FAINT / AI_FLAG_CHECK_VIABILITY
 Yamper  
 Ability: Rattled  
 Level: 12  
-Tera Type: Electric  
 - Nuzzle  
 - Thunder Fang  
 - Bite  
 - Charm  
 
-Snubbull  
-Ability: Intimidate  
+Snubbull    
 Level: 12  
 Tera Type: Fairy  
 - Bite  
 - Covet  
 - Sweet Kiss  
 
-Growlithe  
-Ability: Flash Fire  
+Growlithe   
 Level: 12  
 Tera Type: Fire  
 - Flame Wheel  
@@ -5336,11 +5333,35 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Shroomish @ Toxic Orb  
+Ability: Poison Heal  
+Level: 15   
+Calm Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Protect  
+- Poison Powder  
+- Mega Drain  
+
+Drizzile @ Scope Lens  
+Ability: Sniper  
+Level: 15   
+Hasty Nature  
+- Water Pulse  
+- Mud Shot  
+- Fell Stinger  
+
+Clefairy (F)  
+Ability: Magic Guard  
+Level: 15  
+Modest Nature  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Magical Leaf  
+- Chilling Water  
+- Calm Mind  
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6518,8 +6539,7 @@ AI: Check Bad Move / AI_FLAG_CHECK_VIABILITY / AI_FLAG_TRY_TO_FAINT
 
 Charcadet @ Charcoal  
 Ability: Flame Body  
-Level: 12  
-Tera Type: Fire  
+Level: 12   
 - Will-O-Wisp  
 - Incinerate  
 - Facade  
@@ -6527,8 +6547,7 @@ Tera Type: Fire
 
 Wooper  
 Ability: Water Absorb  
-Level: 12  
-Tera Type: Water  
+Level: 12    
 - Chilling Water  
 - Mud Shot  
 - Recover  
@@ -6536,8 +6555,7 @@ Tera Type: Water
 
 Nidorino @ Wide Lens  
 Ability: Hustle  
-Level: 14  
-Tera Type: Poison  
+Level: 14   
 - Horn Attack  
 - Double Kick  
 - Poison Jab  
@@ -9016,16 +9034,14 @@ AI: AI_FLAG_SMART_TRAINER
 
 Cleffa (F) @ Sitrus Berry  
 Ability: Friend Guard  
-Level: 11  
-Tera Type: Fairy  
+Level: 11    
 IVs: 0 Atk  
 - Follow Me  
 - Dazzling Gleam  
 
 Tympole (F) @ Ability Shield  
 Ability: Water Absorb  
-Level: 11  
-Tera Type: Water  
+Level: 11   
 IVs: 0 Atk  
 - Muddy Water  
 - Mud Shot  
@@ -9034,16 +9050,14 @@ IVs: 0 Atk
 
 Seedot @ Miracle Seed  
 Ability: Early Bird  
-Level: 12  
-Tera Type: Grass  
+Level: 12   
 - Bullet Seed  
 - Facade  
 - Quick Attack  
 
 Lotad @ Mystic Water  
 Ability: Rain Dish  
-Level: 12  
-Tera Type: Water  
+Level: 12   
 IVs: 0 Atk  
 - Icy Wind  
 - Bubble Beam  
@@ -11347,8 +11361,7 @@ AI: Check Bad Move / AI_FLAG_TRY_TO_FAINT / AI_FLAG_CHECK_VIABILITY
 
 SPECIES_FLABEBE_ORANGE @ Fairy Feather  
 Ability: Flower Veil  
-Level: 12  
-Tera Type: Fairy  
+Level: 12   
 - Fairy Wind  
 - Magical Leaf  
 - Facade  
@@ -11356,15 +11369,13 @@ Tera Type: Fairy
 Gothita  
 Ability: Frisk  
 Level: 12  
-Tera Type: Psychic  
 - Psybeam  
 - Energy Ball  
 - Fake Out  
 
 Ducklett  
 Ability: Big Pecks  
-Level: 12  
-Tera Type: Water  
+Level: 12   
 - Air Slash  
 - Bubble Beam  
 - Aqua Jet  
@@ -11621,15 +11632,13 @@ AI: AI_FLAG_SMART_TRAINER
 
 Pinsir  
 Ability: Mold Breaker  
-Level: 16  
-Tera Type: Bug  
+Level: 15   
 - Lunge  
 - Brick Break  
 
 Heracross  
 Ability: Guts  
-Level: 15  
-Tera Type: Bug  
+Level: 15    
 Modest Nature  
 - Lunge  
 - Knock Off  
