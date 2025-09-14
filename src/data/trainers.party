@@ -346,11 +346,40 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Glimmet @ Focus Sash  
+Ability: Corrosion  
+Level: 17   
+IVs: 0 Atk    
+- Toxic Spikes  
+- Venoshock  
+- Power Gem  
+
+Tentacool @ Poison Barb  
+Ability: Clear Body  
+Level: 18    
+IVs: 0 Atk  
+- Venoshock  
+- Water Pulse  
+- Icy Wind  
+- Hex  
+
+Sealeo @ Leftovers  
+Ability: Thick Fat  
+Level: 18   
+- Charm  
+- Water Pulse  
+- Ice Ball  
+- Body Slam  
+
+Mareanie @ Choice Band  
+Ability: Merciless  
+Level: 19  
+Tera Type: Poison  
+- Liquidation  
+- Poison Jab  
+- Lunge  
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2564,7 +2593,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Yamper  
 Ability: Rattled  
-Level: 12  
+Level: 13  
 Shiny: Yes  
 - Nuzzle  
 - Thunder Fang  
@@ -2573,7 +2602,7 @@ Shiny: Yes
 
 Snubbull @ Big Nugget  
 Ability: Intimidate  
-Level: 12  
+Level: 13  
 Shiny: Yes  
 - Bite  
 - Covet  
@@ -2582,7 +2611,7 @@ Shiny: Yes
 
 Growlithe  
 Ability: Flash Fire  
-Level: 12  
+Level: 13  
 Shiny: Yes    
 - Flame Wheel  
 - Bite  
@@ -5218,11 +5247,19 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Tangela  
+Ability: Chlorophyll  
+Level: 17    
+
+Magnemite  
+Ability: Magnet Pull  
+Level: 17  
+
+Impidimp  
+Ability: Prankster  
+Level: 17  
 
 === TRAINER_TED ===
 Name: TED
@@ -5880,21 +5917,21 @@ AI: AI_FLAG_SMART_TRAINER
 
 Throh  
 Ability: Guts  
-Level: 13   
+Level: 15   
 - Tackle  
 - Rock Smash  
 - Rock Tomb  
 
 Poliwhirl  
 Ability: Swift Swim  
-Level: 15  
+Level: 16  
 - Chilling Water  
 - Ice Punch  
 - Bulldoze  
 
 Gligar  
 Ability: Hyper Cutter  
-Level: 13    
+Level: 15    
 - Slash  
 - Fire Fang  
 - Mud Shot  
@@ -6108,21 +6145,21 @@ AI: AI_FLAG_SMART_TRAINER
 
 Carvanha  
 Ability: Rough Skin  
-Level: 8   
+Level: 9   
 - Ice Fang  
 - Water Gun  
 - Bite  
 
 Dewpider  
 Ability: Water Bubble  
-Level: 8    
+Level: 9    
 IVs: 0 Atk  
 - Struggle Bug  
 - Water Gun  
 
 Yanma @ Focus Sash  
 Ability: Speed Boost  
-Level: 9   
+Level: 10   
 IVs: 0 Atk  
 - Sonic Boom  
 - Struggle Bug  
@@ -6196,17 +6233,22 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Rattata @ Focus Sash  
-Ability: Run Away  
-Level: 1  
-Shiny: Yes  
-- Endeavor  
-- Quick Attack  
+Raticate-Alola @ Wise Glasses  
+Ability: Thick Fat  
+Level: 17   
+IVs: 0 Atk  
+- Snarl  
+- Thunderbolt  
+- Round  
+- Icy Wind  
 
 Raticate @ Flame Orb  
 Ability: Guts  
-Level: 15    
+Level: 17  
+Tera Type: Normal  
 - Hyper Fang  
+- Protect  
+- Flame Wheel  
 
 === TRAINER_BEN ===
 Name: BEN
@@ -6411,21 +6453,21 @@ AI: AI_FLAG_SMART_TRAINER
 
 Phanpy @ Oran Berry  
 Ability: Pickup  
-Level: 7    
+Level: 8    
 - Mud Shot  
 - Ice Shard  
 - Tackle  
 
 Zigzagoon-Galar (M) @ Oran Berry  
 Ability: Quick Feet  
-Level: 7   
+Level: 8   
 - Facade  
 - Bite  
 - Baby-Doll Eyes  
 
 Magby @ Charcoal  
 Ability: Vital Spirit  
-Level: 7  
+Level: 9  
 - Smokescreen  
 - Karate Chop  
 - Fire Punch  
@@ -6538,7 +6580,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Charcadet @ Oran Berry  
 Ability: Flame Body  
-Level: 12  
+Level: 13  
 IVs: 0 Atk  
 - Will-O-Wisp  
 - Incinerate  
@@ -6546,7 +6588,7 @@ IVs: 0 Atk
 
 Wooper  
 Ability: Water Absorb  
-Level: 12   
+Level: 13   
 - Chilling Water  
 - Mud Shot  
 - Recover  
@@ -8086,7 +8128,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Makuhita  
 Ability: Thick Fat  
-Level: 13   
+Level: 14   
 - Brick Break  
 - Chilling Water  
 - Fake Out  
@@ -8094,7 +8136,7 @@ Level: 13
 
 Scraggy  
 Ability: Intimidate  
-Level: 13   
+Level: 14   
 - Brick Break  
 - Dark Pulse  
 - Detect  
@@ -11331,7 +11373,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Ralts  
 Ability: Trace  
-Level: 7    
+Level: 8    
 IVs: 0 Atk  
 - Sweet Kiss  
 - Confusion  
@@ -11339,14 +11381,14 @@ IVs: 0 Atk
 
 Hatenna  
 Ability: Anticipation  
-Level: 7   
+Level: 8   
 IVs: 0 Atk  
 - Disarming Voice  
 - Confusion  
 
 Abra  
 Ability: Magic Guard  
-Level: 7    
+Level: 8    
 IVs: 0 Atk  
 - Shock Wave  
 - Confusion  
@@ -11362,21 +11404,21 @@ AI: AI_FLAG_SMART_TRAINER
 
 SPECIES_FLABEBE_ORANGE @ Fairy Feather  
 Ability: Flower Veil  
-Level: 12   
+Level: 13   
 - Fairy Wind  
 - Magical Leaf  
 - Facade  
 
 Gothita @ Mental Herb  
 Ability: Shadow Tag  
-Level: 12   
+Level: 14   
 - Psybeam  
-- Energy Ball  
+- Grass Knot  
 - Fake Out  
 
 Ducklett @ Wise Glasses  
 Ability: Big Pecks  
-Level: 12   
+Level: 13   
 - Air Slash  
 - Bubble Beam  
 - Aqua Jet  
@@ -11562,20 +11604,20 @@ AI: AI_FLAG_SMART_TRAINER
 
 Metapod @ Oran Berry  
 Ability: Shed Skin  
-Level: 7  
+Level: 8  
 - Bug Bite  
 - Electroweb  
 - Harden  
 
 Cascoon @ Assault Vest  
 Ability: Shed Skin  
-Level: 7  
+Level: 8  
 - Tackle  
 - Bug Bite  
 
 Silcoon @ Focus Sash  
 Ability: Shed Skin  
-Level: 7   
+Level: 8   
 - Snore  
 - Rest  
 - Tackle  
@@ -11613,13 +11655,13 @@ AI: AI_FLAG_SMART_TRAINER
 
 Pinsir  
 Ability: Mold Breaker  
-Level: 16    
+Level: 17    
 - Lunge  
 - Brick Break  
 
 Heracross  
 Ability: Guts  
-Level: 15    
+Level: 16    
 Modest Nature  
 - Lunge  
 - Horn Attack  
@@ -11684,7 +11726,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Butterfree  
 Ability: Tinted Lens  
-Level: 10    
+Level: 12    
 IVs: 0 Atk  
 - Struggle Bug  
 - Air Cutter  
@@ -11692,14 +11734,14 @@ IVs: 0 Atk
 
 Dustox  
 Ability: Shield Dust  
-Level: 10   
+Level: 12   
 - Pounce  
 - Confusion  
 - Protect  
 
 Beautifly @ Wise Glasses  
 Ability: Swarm  
-Level: 10   
+Level: 12   
 IVs: 0 Atk  
 - Mega Drain  
 - Struggle Bug  
@@ -11885,21 +11927,21 @@ AI: AI_FLAG_SMART_TRAINER
 
 Nacli  
 Ability: Clear Body  
-Level: 16    
+Level: 17    
 - Body Press  
 - Rock Throw  
 - Iron Defense  
 
 Machop  
 Ability: No Guard  
-Level: 15   
+Level: 17   
 - Karate Chop  
 - Thunder Punch  
 - Rock Slide  
 
 Palpitoad  
 Ability: Water Absorb  
-Level: 16    
+Level: 18    
 IVs: 0 Atk  
 - Bubble Beam  
 - Mud Bomb  
@@ -13294,23 +13336,22 @@ Music: Rich
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER 
 
-Happiny @ Wise Glasses  
-Ability: Serene Grace  
-Level: 15    
-Bold Nature  
+Swirlix @ Throat Spray  
+Ability: Unburden  
+Level: 15   
 IVs: 0 Atk  
 - Round  
 
 Amaura @ Chople Berry  
 Ability: Refrigerate  
-Level: 15   
+Level: 15    
 Modest Nature  
 IVs: 0 Atk  
 - Round  
 
 Chatot @ Silk Scarf  
 Ability: Tangled Feet  
-Level: 15    
+Level: 15  
 Modest Nature  
 IVs: 0 Atk  
 - Round  
@@ -13324,24 +13365,29 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Riolu @ Focus Sash  
-Ability: Prankster  
-Level: 15   
-- Copycat  
-- Vacuum Wave  
-- Coaching  
-- Helping Hand  
+Fuecoco @ Wise Glasses  
+Ability: Blaze  
+Level: 16  
+Modest Nature  
+IVs: 0 Atk  
+- Round  
+- Encore  
 
 Togetic @ Sitrus Berry  
 Ability: Serene Grace  
-Level: 15   
+Level: 16   
 IVs: 0 Atk  
 - Round  
 - Tailwind  
 - Follow Me  
 - Helping Hand  
 
-
+Froakie @ Oran Berry  
+Ability: Protean  
+Level: 16    
+Modest Nature  
+IVs: 0 Atk  
+- Round  
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -14189,22 +14235,22 @@ AI: AI_FLAG_SMART_TRAINER
 
 Doduo  
 Ability: Tangled Feet  
-Level: 13    
+Level: 14    
 - Drill Peck  
 - Facade  
 - Knock Off  
 
 Raboot  
 Ability: Blaze  
-Level: 14    
+Level: 15    
 - Flame Charge  
 - Acrobatics  
 - Low Sweep  
 
 Nymble @ Bug Gem  
 Ability: Tinted Lens  
-Level: 14  
-Modest Nature  
+Level: 15  
+Adamant Nature  
 - First Impression  
 - Lunge  
 
@@ -14219,7 +14265,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Golbat  
 Ability: Infiltrator  
-Level: 14  
+Level: 16  
 Tera Type: Ghost  
 - Poison Fang  
 - Wing Attack  
@@ -14234,22 +14280,54 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Vulpix @ Charcoal  
-Ability: Flash Fire  
-Level: 14  
-IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD  
-- Incinerate  
-- Extrasensory  
-- Hidden Power
-- Hex  
+Morgrem @ Light Clay  
+Ability: Prankster  
+Level: 16    
+- Reflect  
+- Light Screen  
+- Fake Out  
+- Bite  
 
-Vulpix-Alola @ Loaded Dice  
-Ability: Snow Cloak  
-Level: 14   
-- Icicle Spear  
-- Charm  
-- Dazzling Gleam  
-- Hidden Power  
+Steenee @ Miracle Seed  
+Ability: Oblivious  
+Level: 15   
+- Razor Leaf  
+- Stomp  
+- Trailblaze  
+
+Torracat @ Sitrus Berry  
+Ability: Intimidate  
+Level: 15   
+- Fake Out  
+- Fire Fang  
+- Bite  
+- Trailblaze  
+
+Bibarel @ Muscle Band
+Ability: Simple  
+Level: 15   
+- Aqua Jet  
+- Quick Attack  
+- Cut  
+- Curse  
+
+Eelektrik @ Leftovers  
+Ability: Levitate  
+Level: 16   
+- Super Fang  
+- Knock Off  
+- Shock Wave  
+- Coil  
+
+Meditite @ Sitrus Berry  
+Ability: Pure Power  
+Level: 18  
+Shiny: Yes  
+Tera Type: Psychic  
+- Force Palm  
+- Night Shade  
+- Zen Headbutt  
+- Detect  
 
 === TRAINER_HELENE ===
 Name: HELENE
@@ -14262,7 +14340,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Meowth @ Normal Gem  
 Ability: Technician  
-Level: 14   
+Level: 15   
 - Fake Out  
 - Fury Swipes  
 - Bite  
@@ -14270,7 +14348,7 @@ Level: 14
 
 Meowth-Galar @ Muscle Band  
 Ability: Tough Claws  
-Level: 14   
+Level: 15   
 - Metal Claw  
 - Aerial Ace  
 - Brick Break  
@@ -14278,7 +14356,7 @@ Level: 14
 
 Meowth-Alola @ Wise Glasses  
 Ability: Technician  
-Level: 14   
+Level: 15   
 - Snarl  
 - Chilling Water  
 - Icy Wind  
@@ -14329,7 +14407,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Wiglett @ Mystic Water  
 Ability: Gooey  
-Level: 15  
+Level: 17  
 Shiny: Yes   
 - Aqua Jet  
 - Facade  
@@ -14338,7 +14416,7 @@ Shiny: Yes
 
 Diglett-Alola @ Rocky Helmet  
 Ability: Tangling Hair  
-Level: 14  
+Level: 17  
 - Rock Blast  
 - Metal Claw  
 - Shadow Claw  
@@ -14346,7 +14424,7 @@ Level: 14
 
 Diglett  
 Ability: Arena Trap  
-Level: 16    
+Level: 17    
 - Magnitude  
 - Sludge Bomb  
 - Smack Down  
