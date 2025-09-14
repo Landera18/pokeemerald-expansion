@@ -1567,11 +1567,19 @@
 #define FLAG_UNUSED_0x91E                           (SYSTEM_FLAGS + 0xBE) // Unused Flag
 #define FLAG_UNUSED_0x91F                           (SYSTEM_FLAGS + 0xBF) // Unused Flag
 #define FLAG_AQUA1_BEATEN                           (SYSTEM_FLAGS + 0xC0) // After beating Team Aqua for the first time in petalburg woods
+#define FLAG_AQUA2_BEATEN                           (SYSTEM_FLAGS + 0xC1) // After beating Team Aqua for the second time in slateport museum
+#define FLAG_RIVAL2_BEATEN                          (SYSTEM_FLAGS + 0xC2) // After beating your rival on route 110
+#define FLAG_LTG_BEATEN                             (SYSTEM_FLAGS + 0xC3) // After beating LTG in Fallarbor town
+#define FLAG_MAXIE1_BEATEN                          (SYSTEM_FLAGS + 0xC4) // After beating Team Magma for the first time at mt chimney
+#define FLAG_SHELLY1_BEATEN                         (SYSTEM_FLAGS + 0xC5) // After beating Team Aqua Shelly at the Weather Institute
+#define FLAG_MAXIE2_BEATEN                          (SYSTEM_FLAGS + 0xC6) // After beating Team Magma Maxie at the Magma Hideout
+#define FLAG_MATT_BEATEN                            (SYSTEM_FLAGS + 0xC7) // After beating Matt in Lilycove City
+#define FLAG_ARCHIE_BEATEN                          (SYSTEM_FLAGS + 0xC8) // After beating Team Aqua Archie at the Seafloor Cavern
 
 // Daily Flags
 // These flags are cleared once per day
 // The start and end are byte-aligned because the flags are cleared in byte increments
-#define DAILY_FLAGS_START                           (FLAG_UNUSED_0x91F + (8 - FLAG_AQUA1_BEATEN % 8))
+#define DAILY_FLAGS_START                           (FLAG_UNUSED_0x91F + (8 - FLAG_ARCHIE_BEATEN % 8))
 #define FLAG_UNUSED_0x920                           (DAILY_FLAGS_START + 0x0)  // Unused Flag
 #define FLAG_DAILY_CONTEST_LOBBY_RECEIVED_BERRY     (DAILY_FLAGS_START + 0x1)
 #define FLAG_DAILY_SECRET_BASE                      (DAILY_FLAGS_START + 0x2)

@@ -4862,9 +4862,9 @@ AI: AI_FLAG_SMART_TRAINER
 Pineco @ Silver Powder  
 Ability: Sturdy  
 Level: 15  
-- Spikes  
+- Giga Drain  
 - Lunge  
-- Power Trick  
+- Rock Blast  
 - Self-Destruct  
 
 Cranidos @ Muscle Band  
@@ -4881,10 +4881,11 @@ Level: 16
 - Iron Head  
 - Brick Break  
 - Grass Knot  
-- Protect  
+- Sucker Punch  
 
-Naclstack @ Power Herb  
+Nacli @ Power Herb  
 Ability: Purifying Salt  
+Modest Nature
 Level: 16   
 - Salt Cure  
 - Facade  
@@ -4896,16 +4897,15 @@ Ability: Iron Barbs
 Level: 15  
 - Seed Bomb  
 - Metal Claw  
-- Leech Seed  
-- Protect  
+- Leech Seed    
 
 Lycanroc-Midnight @ Sitrus Berry  
 Ability: No Guard  
 Level: 18   
-Jolly Nature  
-- Stone Edge  
+Timid Nature  
+- Rock Throw  
 - Thunder Fang  
-- Lash Out  
+- Bite  
 - Upper Hand  
 
 
@@ -5337,11 +5337,36 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Shroomish @ Toxic Orb  
+Ability: Poison Heal  
+Level: 15    
+Calm Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Protect  
+- Poison Powder  
+- Mega Drain  
+
+Drizzile @ Scope Lens  
+Ability: Sniper  
+Level: 15    
+Lax Nature  
+- Water Pulse  
+- Mud Shot  
+- Fell Stinger  
+
+Clefairy (F)  
+Ability: Magic Guard  
+Level: 15   
+Adamant Nature  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Magical Leaf  
+- Chilling Water  
+- Calm Mind  
+
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6169,11 +6194,19 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Machop
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rattata @ Focus Sash  
+Ability: Run Away  
+Level: 1  
+Shiny: Yes  
+- Endeavor  
+- Quick Attack  
+
+Raticate @ Flame Orb  
+Ability: Guts  
+Level: 15    
+- Hyper Fang  
 
 === TRAINER_BEN ===
 Name: BEN
@@ -11576,15 +11609,22 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wurmple
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pinsir  
+Ability: Mold Breaker  
+Level: 16    
+- Lunge  
+- Brick Break  
 
-Nincada
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Heracross  
+Ability: Guts  
+Level: 15    
+Modest Nature  
+- Lunge  
+- Horn Attack  
+- Focus Blast  
+- Stomping Tantrum  
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11841,11 +11881,30 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nacli  
+Ability: Clear Body  
+Level: 16    
+- Body Press  
+- Rock Throw  
+- Iron Defense  
+
+Machop  
+Ability: No Guard  
+Level: 15   
+- Karate Chop  
+- Thunder Punch  
+- Rock Slide  
+
+Palpitoad  
+Ability: Water Absorb  
+Level: 16    
+IVs: 0 Atk  
+- Bubble Beam  
+- Mud Bomb  
+- Sludge  
+- Growl  
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13233,15 +13292,28 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER 
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Happiny @ Wise Glasses  
+Ability: Serene Grace  
+Level: 15    
+Bold Nature  
+IVs: 0 Atk  
+- Round  
 
-Poochyena
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Amaura @ Chople Berry  
+Ability: Refrigerate  
+Level: 15   
+Modest Nature  
+IVs: 0 Atk  
+- Round  
+
+Chatot @ Silk Scarf  
+Ability: Tangled Feet  
+Level: 15    
+Modest Nature  
+IVs: 0 Atk  
+- Round  
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -13249,17 +13321,27 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Riolu @ Focus Sash  
+Ability: Prankster  
+Level: 15   
+- Copycat  
+- Vacuum Wave  
+- Coaching  
+- Helping Hand  
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Togetic @ Sitrus Berry  
+Ability: Serene Grace  
+Level: 15   
+IVs: 0 Atk  
+- Round  
+- Tailwind  
+- Follow Me  
+- Helping Hand  
+
+
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -14243,15 +14325,32 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Shroomish
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wiglett @ Mystic Water  
+Ability: Gooey  
+Level: 15  
+Shiny: Yes   
+- Aqua Jet  
+- Facade  
+- Stomping Tantrum  
+- Sucker Punch  
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Diglett-Alola @ Rocky Helmet  
+Ability: Tangling Hair  
+Level: 14  
+- Rock Blast  
+- Metal Claw  
+- Shadow Claw  
+- Charm  
+
+Diglett  
+Ability: Arena Trap  
+Level: 16    
+- Magnitude  
+- Sludge Bomb  
+- Smack Down  
+- Endeavor  
 
 === TRAINER_MELINA ===
 Name: MELINA
