@@ -443,11 +443,24 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gimmighoul @ Light Clay  
+Ability: Rattled  
+Level: 18   
+IVs: 0 Atk  
+- Reflect  
+- Light Screen  
+- Power Gem  
+- Hex  
+
+Eelektrik @ Assault Vest  
+Ability: Levitate  
+Level: 19    
+- Lunge  
+- Throat Chop  
+- Thunder Fang  
+- Headbutt  
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -456,15 +469,30 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frogadier @ Lagging Tail  
+Ability: Protean  
+Level: 18    
+- Spikes  
+- Switcheroo  
+- Trailblaze  
+- Liquidation  
 
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Murkrow @ Scope Lens  
+Ability: Super Luck  
+Level: 19  
+- Air Cutter  
+- Lash Out  
+- Sucker Punch  
+
+Dragonair @ Eviolite  
+Ability: Shed Skin  
+Level: 20    
+- Rest  
+- Breaking Swipe  
+- Slam  
+- Sleep Talk  
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -1094,15 +1122,36 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Azurill  
+Ability: Huge Power  
+Level: 5 
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Magby  
+Ability: Flame Body  
+Level: 5  
+
+
+Pichu  
+Ability: Static  
+Level: 5  
+ 
+
+Smoochum  
+Ability: Oblivious  
+Level: 5  
+
+
+Elekid  
+Ability: Static  
+Level: 5  
+ 
+
+Happiny  
+Ability: Natural Cure  
+Level: 5  
+ 
 
 === TRAINER_AUSTINA ===
 Name: AUSTINA
@@ -1205,15 +1254,24 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zigzagoon
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
-- Headbutt
-- Tail Whip
-- Surf
+Riolu @ Damp Rock  
+Ability: Prankster  
+Level: 1   
+IVs: 0 Atk  
+- Rain Dance  
+
+Mantyke @ Eviolite  
+Ability: Swift Swim  
+Level: 20  
+Shiny: Yes  
+Tera Type: Water  
+IVs: 0 Atk  
+- Hurricane  
+- Surf  
+- Ice Beam  
+- Roost  
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -3255,11 +3313,31 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Machop
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Sandslash @ Leftovers  
+Ability: Sand Rush  
+Level: 23   
+- Stealth Rock  
+- Stomping Tantrum  
+- Counter  
+- Knock Off  
+
+Monferno @ Punching Glove  
+Ability: Iron Fist  
+Level: 23   
+- Mach Punch  
+- Thunder Punch  
+- Fire Punch  
+- Fake Out  
+
+Hakamo-o @ Roseli Berry  
+Ability: Overcoat  
+Level: 23  
+- Breaking Swipe  
+- Brick Break  
+- Vacuum Wave  
+- Dragon Tail  
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -4944,33 +5022,58 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
+Sneasel-Hisui @ Payapa Berry  
+Ability: Pickpocket  
+Level: 23   
+- Fake Out  
+- Poison Tail  
+- Brick Break  
+- Lash Out  
 
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
+Pawmo @ Eviolite  
+Ability: Volt Absorb  
+Level: 23  
+- Fake Out  
+- Knock Off  
+- Nuzzle  
+- Super Fang  
 
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
+Quaxwell @ Sitrus Berry  
+Ability: Moxie  
+Level: 23  
+- Aqua Cutter  
+- Acrobatics  
+- Triple Axel  
+- Flip Turn  
+
+Tauros-Paldea-Blaze @ Rowap Berry  
+Ability: Cud Chew  
+Level: 22   
+Modest Nature  
+IVs: 15 Atk  
+- Will-O-Wisp  
+- Double Kick  
+- Temper Flare  
+- Flame Charge  
+
+Machoke @ Iapapa Berry  
+Ability: Guts  
+Level: 22    
+- Fire Punch  
+- Brick Break  
+- Rock Tomb  
+- Bulk Up  
+
+Grapploct @ Leftovers  
+Ability: Technician  
+Level: 24  
+- Rock Smash  
+- Circle Throw  
+- Payback  
+- Octolock  
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -6479,15 +6582,34 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Aron
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gabite @ Rocky Helmet  
+Ability: Rough Skin  
+Level: 20   
+Nature: Impish
+- Stealth Rock  
+- Fire Fang  
+- Dragon Tail  
+- Dragon Claw  
 
-Electrike
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Porygon @ Iron Ball  
+Ability: Analytic  
+Level: 20
+Nature: Modest   
+IVs: 0 Atk  
+- Tri Attack  
+- Foul Play  
+- Shadow Ball  
+
+Ivysaur @ Life Orb  
+Ability: Overgrow 
+Nature: Adamant 
+Level: 20  
+- Knock Off  
+- Seed Bomb  
+- Body Slam  
+- Swords Dance  
 
 === TRAINER_WALLACE ===
 Name: WALLACE
@@ -6629,19 +6751,32 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Krokorok @ Lum Berry  
+Ability: Anger Point  
+Level: 18   
+- Stomping Tantrum  
+- Lash Out  
+- Aqua Tail  
+- Stealth Rock  
 
-Tentacool
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sandygast  
+Ability: Water Compaction  
+Level: 18   
+IVs: 0 Atk  
+- Chilling Water  
+- Hex  
+- Scorching Sands  
+- Shore Up  
 
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Munchlax @ Salac Berry  
+Ability: Gluttony  
+Level: 18   
+- Belly Drum  
+- Body Slam  
+- Crunch  
+- Ice Punch  
 
 === TRAINER_NED ===
 Name: NED
@@ -6650,11 +6785,29 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 11
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Wailmer @ Metronome  
+Ability: Water Veil  
+Level: 18    
+- Defense Curl  
+- Rollout  
+
+Binacle @ Muscle Band  
+Ability: Tough Claws  
+Level: 18    
+- Razor Shell  
+- Shadow Claw  
+- Grass Knot  
+- Hone Claws  
+
+Marshtomp @ Rindo Berry  
+Ability: Damp  
+Level: 18   
+- Chilling Water  
+- Low Kick  
+- Counter  
+- Mirror Coat  
 
 === TRAINER_DALE ===
 Name: DALE
@@ -8098,11 +8251,22 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Meditite
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Buneary @ Silk Scarf  
+Ability: Limber  
+Level: 23  
+Happiness: 0  
+- Frustration  
+- Fake Out  
+- U-turn  
+
+Floatzel @ Salac Berry  
+Ability: Water Veil  
+Level: 24    
+- Brick Break  
+- Ice Spinner  
+- Waterfall  
 
 === TRAINER_LAURA ===
 Name: LAURA
@@ -8111,11 +8275,24 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Stufful @ Sitrus Berry  
+Ability: Fluffy  
+Level: 20  
+Tera Type: Normal  
+- Low Sweep  
+- Brutal Swing  
+- Headbutt  
+
+Spidops  
+Ability: Insomnia  
+Level: 20  
+Tera Type: Bug  
+- Lunge  
+- Knock Off  
+- Sucker Punch  
+- Silk Trap  
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -9237,15 +9414,23 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Qwilfish @ Poison Barb  
+Ability: Poison Point  
+Level: 18   
+- Throat Chop  
+- Liquidation  
+- Toxic  
+- Barb Barrage  
 
-Machop
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Machoke @ Expert Belt  
+Ability: Steadfast  
+Level: 18  
+- Ice Punch  
+- Thunder Punch  
+- Fire Punch  
+- Karate Chop  
 
 === TRAINER_EDMOND ===
 Name: EDMOND
@@ -9253,12 +9438,42 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wattrel @ Magnet  
+Ability: Wind Power  
+Level: 18   
+IVs: 0 Atk  
+- Weather Ball  
+- Air Cutter  
+- Electro Ball  
+- Roost  
+
+Archen @ Focus Sash  
+Ability: Defeatist  
+Level: 18   
+- Tailwind  
+- Wide Guard  
+- Rock Slide  
+- Rain Dance  
+
+Wingull @ Mystic Water  
+Ability: Rain Dish  
+Level: 18   
+IVs: 0 Atk  
+- Tailwind  
+- Water Pulse  
+- Air Slash  
+- Icy Wind  
+
+Poliwhirl @ Oran Berry  
+Ability: Swift Swim  
+Level: 18    
+- Ice Punch  
+- Liquidation  
+- Low Kick  
+- Rain Dance  
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -10893,11 +11108,22 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Machop
-Level: 13
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Scraggy @ Eviolite  
+Ability: Intimidate  
+Level: 20    
+- Brick Break  
+- Crunch  
+- Fake Out  
+- Dragon Tail  
+
+Trumbeak  
+Ability: Skill Link    
+- Fury Attack  
+- Rock Smash  
+- Rock Blast  
+- Flame Charge  
 
 === TRAINER_LILITH ===
 Name: LILITH
@@ -10906,11 +11132,16 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Makuhita  
+Ability: Thick Fat  
+Level: 22  
+
+Corphish  
+Ability: Adaptability  
+Level: 22    
+IVs: 0 Atk  
 
 === TRAINER_CRISTIAN ===
 Name: CRISTIAN
@@ -10919,11 +11150,32 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Makuhita
-Level: 13
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Pignite @ Passho Berry  
+Ability: Thick Fat  
+Level: 22  
+- Arm Thrust  
+- Flame Charge  
+- Thunder Punch  
+- Will-O-Wisp  
+
+Heracross @ Flame Orb  
+Ability: Guts  
+Level: 22   
+Brave Nature  
+- Brick Break  
+- Lunge  
+- Facade  
+- Protect  
+
+Breloom @ Loaded Dice  
+Ability: Technician  
+Level: 22  
+- Bullet Seed  
+- Rock Tomb  
+- Mach Punch  
+- Aerial Ace  
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
@@ -13446,11 +13698,30 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Marill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fomantis @ Shell Bell  
+Ability: Contrary  
+Level: 18    
+- Superpower  
+- Leafage  
+- Slash  
+
+Vivillon @ Flying Gem  
+Ability: Compound Eyes  
+Level: 18  
+- Protect  
+- Draining Kiss  
+- Struggle Bug  
+- Acrobatics  
+
+Chinchou @ Sitrus Berry  
+Ability: Water Absorb  
+Level: 18    
+- Scald  
+- Shock Wave  
+- Icy Wind  
+- Flip Turn  
 
 === TRAINER_CHANDLER ===
 Name: CHANDLER
@@ -13459,15 +13730,31 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Marill @ Lum Berry  
+Ability: Huge Power  
+Level: 18  
+- Aqua Jet  
+- Body Slam  
+- Trailblaze  
+- Charm  
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Anorith  
+Ability: Battle Armor  
+Level: 18  
+- X-Scissor  
+- Slash  
+- Metal Claw  
+
+Zigzagoon-Galar @ Throat Spray  
+Ability: Quick Feet  
+Level: 18    
+IVs: 0 Atk  
+- Snarl  
+- Surf  
+- Round  
+- Shock Wave  
 
 === TRAINER_KALEB ===
 Name: KALEB

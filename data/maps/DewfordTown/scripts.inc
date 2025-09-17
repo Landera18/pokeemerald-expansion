@@ -72,10 +72,9 @@ DewfordTown_EventScript_HallSign::
 DewfordTown_EventScript_OldRodFisherman::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_OLD_ROD, DewfordTown_EventScript_HowsFishing
-	msgbox DewfordTown_Text_GettingItchToFish, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, DewfordTown_EventScript_GiveOldRod
-	goto_if_eq VAR_RESULT, NO, DewfordTown_EventScript_NotGettingItchToFish
+	goto_if_set FLAG_AQUA2_BEATEN, DewfordTown_EventScript_HowsFishing
+	msgbox DewfordTown_Text_GettingItchToFish
+	release
 	end
 
 DewfordTown_EventScript_GiveOldRod::
@@ -93,11 +92,9 @@ DewfordTown_EventScript_NotGettingItchToFish::
 	end
 
 DewfordTown_EventScript_HowsFishing::
-	message DewfordTown_Text_HowsYourFishing
-	waitmessage
-	multichoice 20, 8, MULTI_HOWS_FISHING, TRUE
-	goto_if_eq VAR_RESULT, 0, DewfordTown_EventScript_FishingExcellent
-	goto_if_eq VAR_RESULT, 1, DewfordTown_EventScript_FishingNotSoGood
+	fadescreen FADE_FROM_BLACK
+	removeobject LOCALID_DEWFORD_GYMGUY
+	release
 	end
 
 DewfordTown_EventScript_FishingExcellent::
@@ -692,8 +689,9 @@ DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
 	.string "you need to set sail again!$"
 
 DewfordTown_Text_GettingItchToFish:
-	.string "This is a renowned fishing spot.\n"
-	.string "Are you getting the itch to fish?$"
+	.string "Dewford Gym is closed right now.\n"
+	.string "Go check out the Slateport Museum.\n"
+	.string "It should be open when you return.$"
 
 DewfordTown_Text_GiveYouOneOfMyRods:
 	.string "I hear you, and I like what\n"
