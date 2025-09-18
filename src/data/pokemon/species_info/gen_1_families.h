@@ -18418,8 +18418,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPorygonLevelUpLearnset,
         .teachableLearnset = sPorygonTeachableLearnset,
     #if P_GEN_2_CROSS_EVOS
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_PORYGON2, CONDITIONS({IF_HOLD_ITEM, ITEM_UPGRADE})},
-                                {EVO_ITEM, ITEM_UPGRADE, SPECIES_PORYGON2}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_PORYGON2}),
     #endif
     },
 

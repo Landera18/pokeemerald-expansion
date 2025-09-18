@@ -10,7 +10,7 @@ Route112_OnTransition:
 Route112_EventScript_MagmaGrunts::
 	lockall
 	delay 40
-	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 20
 	msgbox Route112_Text_LeaderGoingToAwakenThing, MSGBOX_DEFAULT
@@ -18,7 +18,7 @@ Route112_EventScript_MagmaGrunts::
 	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	delay 40
-	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
 	msgbox Route112_Text_YeahWeNeedMeteorite, MSGBOX_DEFAULT
@@ -26,7 +26,7 @@ Route112_EventScript_MagmaGrunts::
 	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	delay 40
-	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 20
 	msgbox Route112_Text_OhThatsWhyCrewWentToFallarbor, MSGBOX_DEFAULT
@@ -34,7 +34,7 @@ Route112_EventScript_MagmaGrunts::
 	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	delay 40
-	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
 	msgbox Route112_Text_CantLetAnyonePassUntilTheyreBack, MSGBOX_DEFAULT

@@ -3447,7 +3447,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .levelUpLearnset = sRellorLevelUpLearnset,
         .teachableLearnset = sRellorTeachableLearnset,
         .eggMoveLearnset = sRellorEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_RABSCA, CONDITIONS({IF_MIN_OVERWORLD_STEPS, 1000})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 29, SPECIES_RABSCA}),
     },
 
     [SPECIES_RABSCA] =
