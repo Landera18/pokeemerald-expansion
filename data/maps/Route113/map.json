@@ -557,6 +557,20 @@
       "y": 10,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
     }
   ],
   "bg_events": [

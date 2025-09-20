@@ -473,11 +473,11 @@ AI: AI_FLAG_SMART_TRAINER
 
 Frogadier @ Lagging Tail  
 Ability: Protean  
-Level: 18    
-- Spikes  
+Level: 18  
+- Fling  
 - Switcheroo  
-- Trailblaze  
-- Liquidation  
+- Grass Knot  
+- Liquidation
 
 Murkrow @ Scope Lens  
 Ability: Super Luck  
@@ -9646,7 +9646,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Qwilfish @ Poison Barb  
 Ability: Poison Point  
-Level: 18   
+Level: 15   
 - Throat Chop  
 - Liquidation  
 - Toxic  
@@ -9654,7 +9654,7 @@ Level: 18
 
 Machoke @ Expert Belt  
 Ability: Steadfast  
-Level: 18  
+Level: 15  
 - Ice Punch  
 - Thunder Punch  
 - Fire Punch  
