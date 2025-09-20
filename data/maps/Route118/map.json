@@ -206,13 +206,13 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
-      "x": 7,
-      "y": 12,
+      "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
+      "x": 24,
+      "y": 10,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
       "movement_range_x": 0,
-      "movement_range_y": 0,
+      "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route118_EventScript_Rose",
@@ -258,19 +258,6 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
-      "x": 17,
-      "y": 11,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_LEFT",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route118_EventScript_Dalton",
-      "flag": "0"
-    },
-    {
       "local_id": "LOCALID_ROUTE118_STEVEN",
       "graphics_id": "OBJ_EVENT_GFX_STEVEN",
       "x": 44,
@@ -298,15 +285,15 @@
       "flag": "FLAG_ITEM_ROUTE_118_HYPER_POTION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
-      "x": 7,
-      "y": 7,
+      "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
+      "x": 19,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "4",
+      "trainer_sight_or_berry_tree_id": "10",
       "script": "Route118_EventScript_Deandre",
       "flag": "0"
     }
