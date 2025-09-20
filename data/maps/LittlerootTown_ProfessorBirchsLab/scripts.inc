@@ -130,6 +130,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou, MSGBOX_DEFAULT
+	giveitem ITEM_RARE_CANDY
+	giveitem ITEM_INFINITE_REPEL
 	clearflag FLAG_HIDE_ROUTE_101_BOY
 	setvar VAR_BIRCH_LAB_STATE, 3
 	releaseall
@@ -525,7 +527,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 50
+	giveitem ITEM_ORAN_BERRY, 100
+	giveitem ITEM_DYNITE_ORE, 1
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 0
@@ -533,7 +537,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 50
+	giveitem ITEM_ORAN_BERRY, 100
+	giveitem ITEM_DYNITE_ORE, 1
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 1
@@ -546,6 +552,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
 	return
 
@@ -713,7 +721,8 @@ LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. BIRCH: Great!\n"
 	.string "{RIVAL} should be happy, too.\p"
 	.string "Get {RIVAL} to teach you what it\n"
-	.string "means to be a TRAINER.$"
+	.string "means to be a TRAINER.\n"
+	.string "These will be helpful too.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "PROF. BIRCH: Oh, don't be that way.\n"

@@ -986,67 +986,67 @@ static const struct InGameTrade sIngameTrades[] =
 {
     [INGAME_TRADE_SEEDOT] =
     {
-        .nickname = _("DOTS"),
-        .species = SPECIES_SEEDOT,
-        .ivs = {5, 4, 5, 4, 4, 4},
-        .abilityNum = 1,
+        .nickname = _("BUNGLE"),
+        .species = SPECIES_BUNNELBY,
+        .ivs = {31, 31, 31, 31, 31, 31},
+        .abilityNum = 0,
         .otId = 38726,
         .conditions = {30, 5, 5, 5, 5},
         .personality = 0x84,
-        .heldItem = ITEM_CHESTO_BERRY,
+        .heldItem = ITEM_ASSAULT_VEST,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("kanye"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_RALTS
+        .requestedSpecies = SPECIES_DITTO
     },
     [INGAME_TRADE_PLUSLE] =
     {
-        .nickname = _("PLUSES"),
-        .species = SPECIES_PLUSLE,
-        .ivs = {4, 4, 4, 5, 5, 4},
+        .nickname = _("GOGGLES"),
+        .species = SPECIES_FLYGON,
+        .ivs = {31, 31, 31, 31, 31, 31},
         .abilityNum = 0,
         .otId = 73996,
         .conditions = {5, 5, 30, 5, 5},
         .personality = 0x6F,
-        .heldItem = ITEM_WOOD_MAIL,
+        .heldItem = ITEM_CHOICE_SPECS,
         .mailNum = 0,
-        .otName = _("ROMAN"),
+        .otName = _("kaicenat"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_VOLBEAT
+        .requestedSpecies = SPECIES_DITTO
     },
     [INGAME_TRADE_HORSEA] =
     {
-        .nickname = _("SEASOR"),
-        .species = SPECIES_HORSEA,
-        .ivs = {5, 4, 4, 4, 5, 4},
+        .nickname = _("PRINCE"),
+        .species = SPECIES_SEADRA,
+        .ivs = {31, 31, 31, 31, 31, 31},
         .abilityNum = 0,
         .otId = 46285,
         .conditions = {5, 5, 5, 5, 30},
         .personality = 0x7F,
-        .heldItem = ITEM_WAVE_MAIL,
+        .heldItem = ITEM_CHOICE_SCARF,
         .mailNum = 1,
-        .otName = _("SKYLAR"),
+        .otName = _("trump"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_BAGON
+        .requestedSpecies = SPECIES_DITTO
     },
     [INGAME_TRADE_MEOWTH] =
     {
-        .nickname = _("MEOWOW"),
-        .species = SPECIES_MEOWTH,
-        .ivs = {4, 5, 4, 5, 4, 4},
+        .nickname = _("BANDO"),
+        .species = SPECIES_MACHAMP,
+        .ivs = {31, 31, 31, 31, 31, 31},
         .abilityNum = 0,
         .otId = 91481,
         .conditions = {5, 5, 5, 30, 5},
         .personality = 0x8B,
         .heldItem = ITEM_RETRO_MAIL,
         .mailNum = 2,
-        .otName = _("ISIS"),
+        .otName = _("ISIS lol"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_SKITTY
+        .requestedSpecies = SPECIES_DITTO
     }
 };
 

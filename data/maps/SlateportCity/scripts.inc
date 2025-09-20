@@ -125,12 +125,16 @@ SlateportCity_EventScript_EnergyGuru::
 
 	.align 2
 SlateportCity_Pokemart_EnergyGuru:
-	.2byte ITEM_PROTEIN
-	.2byte ITEM_IRON
-	.2byte ITEM_CARBOS
-	.2byte ITEM_ZINC
-	.2byte ITEM_CALCIUM
-	.2byte ITEM_HP_UP
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_QUICK_BALL
+	.2byte ITEM_TIMER_BALL
+	.2byte ITEM_MAX_ELIXIR
+	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_RED_NECTAR
+	.2byte ITEM_YELLOW_NECTAR
+	.2byte ITEM_PINK_NECTAR
+	.2byte ITEM_PURPLE_NECTAR
 	pokemartlistend
 
 SlateportCity_EventScript_EffortRibbonWoman::
@@ -499,7 +503,7 @@ SlateportCity_EventScript_ComeBackWithSecretPower::
 SlateportCity_EventScript_DecorClerk::
 	lock
 	faceplayer
-	goto_if_unset FLAG_RECEIVED_SECRET_POWER, SlateportCity_EventScript_ComeBackWithSecretPower
+	goto_if_unset FLAG_BADGE01_GET, SlateportCity_EventScript_ComeBackWithSecretPower
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemartdecoration SlateportCity_PokemartDecor
@@ -539,6 +543,10 @@ SlateportCity_EventScript_PowerTMClerk::
 SlateportCity_Pokemart_PowerTMs:
 	.2byte ITEM_TM_HIDDEN_POWER
 	.2byte ITEM_TM_SECRET_POWER
+	.2byte ITEM_TM_STOMPING_TANTRUM
+	.2byte ITEM_TM_POWER_GEM
+	.2byte ITEM_TM_ME_FIRST
+	.2byte ITEM_TM_WATER_PULSE
 	pokemartlistend
 
 @ Scene with Capt Sterns interview and Team Aqua announcing plans to steal Submarine

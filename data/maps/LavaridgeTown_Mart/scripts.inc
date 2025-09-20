@@ -13,15 +13,16 @@ LavaridgeTown_Mart_EventScript_Clerk::
 
 	.align 2
 LavaridgeTown_Mart_Pokemart:
-	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_BURN_HEAL
-	.2byte ITEM_REVIVE
-	.2byte ITEM_SUPER_REPEL
-	.2byte ITEM_X_SPEED
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_TM_FLASH_CANNON
+	.2byte ITEM_TM_SEED_BOMB
+	.2byte ITEM_TM_EARTH_POWER
+	.2byte ITEM_TM_PSYCHIC_FANGS
+	.2byte ITEM_TM_BREAKING_SWIPE
+	.2byte ITEM_TM_ENERGY_BALL
 	pokemartlistend
 
 LavaridgeTown_Mart_EventScript_ExpertM::

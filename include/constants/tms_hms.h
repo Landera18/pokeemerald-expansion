@@ -2,56 +2,56 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
-    F(DRAGON_CLAW) \
     F(WATER_PULSE) \
-    F(CALM_MIND) \
+    F(DRAGON_CLAW) \
+    F(SCALD) \
+    F(PSYSHOCK) \
     F(ROAR) \
     F(TOXIC) \
-    F(HAIL) \
-    F(BULK_UP) \
-    F(BULLET_SEED) \
+    F(WILL_O_WISP) \
+    F(LOW_SWEEP) \
+    F(MAGICAL_LEAF) \
     F(HIDDEN_POWER) \
-    F(SUNNY_DAY) \
+    F(ME_FIRST) \
     F(TAUNT) \
     F(ICE_BEAM) \
     F(ICY_WIND) \
-    F(HYPER_BEAM) \
-    F(LIGHT_SCREEN) \
-    F(PROTECT) \
-    F(RAIN_DANCE) \
-    F(GIGA_DRAIN) \
-    F(SAFEGUARD) \
-    F(FRUSTRATION) \
+    F(DUAL_WINGBEAT) \
+    F(ROCK_BLAST) \
+    F(PSYCHIC_FANGS) \
+    F(CHILLING_WATER) \
+    F(ENERGY_BALL) \
+    F(DRAINING_KISS) \
+    F(STOMPING_TANTRUM) \
     F(SOLAR_BEAM) \
-    F(IRON_TAIL) \
+    F(IRON_HEAD) \
     F(THUNDERBOLT) \
-    F(THUNDER) \
+    F(SEED_BOMB) \
     F(EARTHQUAKE) \
     F(RETURN) \
     F(DIG) \
     F(PSYCHIC) \
     F(SHADOW_BALL) \
     F(BRICK_BREAK) \
-    F(DOUBLE_TEAM) \
-    F(REFLECT) \
+    F(DARK_PULSE) \
+    F(BREAKING_SWIPE) \
     F(SHOCK_WAVE) \
     F(FLAMETHROWER) \
     F(SLUDGE_BOMB) \
-    F(SANDSTORM) \
-    F(FIRE_BLAST) \
+    F(ROCK_SLIDE) \
+    F(HYPER_VOICE) \
     F(ROCK_TOMB) \
     F(AERIAL_ACE) \
-    F(TORMENT) \
+    F(POWER_GEM) \
     F(FACADE) \
     F(SECRET_POWER) \
     F(REST) \
-    F(ATTRACT) \
-    F(THIEF) \
-    F(STEEL_WING) \
+    F(X_SCISSOR) \
+    F(FEINT_ATTACK) \
+    F(SMART_STRIKE) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(FLASH_CANNON) \
+    F(EARTH_POWER) \
 
 #define FOREACH_HM(F) \
     F(CUT) \
