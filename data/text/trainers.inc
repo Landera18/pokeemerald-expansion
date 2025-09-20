@@ -1738,15 +1738,19 @@ Route113_Text_TiaNotEnoughMons:
 	.string "If we don't, we won't win!$"
 
 Route113_Text_CobyIntro:
-	.string "Pfft, with these wings I can\n"
-	.string "flick you away!$"
+	.string "YOU SHOULD KILL YOURSELF\n"
+	.string "NOW!$"
 
 Route113_Text_CobyDefeat:
-	.string "A… What?$"
+	.string "Using fucking cheese strats\n"
+	.string "You DID NOT BEAT ME\n"
 
 Route113_Text_CobyPostBattle:
-	.string "I don't know what to say when I get\n"
-	.string "beaten so easily…$"
+	.string "...\n"
+	.string "Play me in Gen 3 OU\n"
+	.string "This is some baby fucking meta\n"
+	.string "for retarded losers like you\n"
+	.string "fuck you. kill yourself.$"
 
 Route113_Text_SophieIntro:
 	.string "The warmth here is making me drowsy.\n"

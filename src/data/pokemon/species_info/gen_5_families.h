@@ -2571,7 +2571,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FLYING),
-        .abilities = { ABILITY_UNAWARE, ABILITY_KLUTZ, ABILITY_SIMPLE },
+        .abilities = { ABILITY_UNAWARE, ABILITY_SIMPLE, ABILITY_KLUTZ },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Swoobat"),
         .cryId = CRY_SWOOBAT,
@@ -2789,7 +2789,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_HEALER, ABILITY_REGENERATOR, ABILITY_KLUTZ },
+        .abilities = { ABILITY_TRIAGE, ABILITY_REGENERATOR, ABILITY_KLUTZ },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Audino"),
         .cryId = CRY_AUDINO,
@@ -2862,7 +2862,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_HEALER, ABILITY_HEALER, ABILITY_HEALER },
+        .abilities = { ABILITY_TRIAGE, ABILITY_TRIAGE, ABILITY_TRIAGE },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Audino"),
         .cryId = CRY_AUDINO_MEGA,
@@ -3055,7 +3055,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sGurdurrLevelUpLearnset,
         .teachableLearnset = sGurdurrTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_CONKELDURR},
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_CONKELDURR},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_CONKELDURR}),
     },
 
@@ -7531,7 +7531,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sVanilliteLevelUpLearnset,
         .teachableLearnset = sVanilliteTeachableLearnset,
         .eggMoveLearnset = sVanilliteEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_VANILLISH}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_VANILLISH}),
     },
 
     [SPECIES_VANILLISH] =
@@ -7604,7 +7604,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sVanillishLevelUpLearnset,
         .teachableLearnset = sVanillishTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 47, SPECIES_VANILLUXE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_VANILLUXE}),
     },
 
     [SPECIES_VANILLUXE] =
@@ -7626,7 +7626,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
     #if P_UPDATED_ABILITIES >= GEN_7
-        .abilities = { ABILITY_ICE_BODY, ABILITY_SNOW_WARNING, ABILITY_WEAK_ARMOR },
+        .abilities = { ABILITY_ICE_BODY, ABILITY_ICE_SCALES, ABILITY_SNOW_WARNING },
     #else
         .abilities = { ABILITY_ICE_BODY, ABILITY_NONE, ABILITY_WEAK_ARMOR },
     #endif

@@ -8409,8 +8409,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sKadabraLevelUpLearnset,
         .teachableLearnset = sKadabraTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_ALAKAZAM},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_ALAKAZAM}),
     },
 
 #if P_UPDATED_STATS >= GEN_6
@@ -8664,7 +8663,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMachopLevelUpLearnset,
         .teachableLearnset = sMachopTeachableLearnset,
         .eggMoveLearnset = sMachopEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_MACHOKE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_MACHOKE}),
     },
 
     [SPECIES_MACHOKE] =
@@ -8738,8 +8737,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sMachokeLevelUpLearnset,
         .teachableLearnset = sMachokeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_MACHAMP},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_MACHAMP}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -8960,7 +8958,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sBellsproutLevelUpLearnset,
         .teachableLearnset = sBellsproutTeachableLearnset,
         .eggMoveLearnset = sBellsproutEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_WEEPINBELL}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_WEEPINBELL}),
     },
 
     [SPECIES_WEEPINBELL] =
@@ -9194,7 +9192,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sTentacoolLevelUpLearnset,
         .teachableLearnset = sTentacoolTeachableLearnset,
         .eggMoveLearnset = sTentacoolEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_TENTACRUEL}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 29, SPECIES_TENTACRUEL}),
     },
 
     [SPECIES_TENTACRUEL] =
@@ -9431,7 +9429,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sGravelerLevelUpLearnset,
         .teachableLearnset = sGravelerTeachableLearnset,
         .formSpeciesIdTable = sGravelerFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_GOLEM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_GOLEM}),
     },
 
     [SPECIES_GOLEM] =
@@ -9639,7 +9637,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sGravelerAlolaLevelUpLearnset,
         .teachableLearnset = sGravelerAlolaTeachableLearnset,
         .formSpeciesIdTable = sGravelerFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_GOLEM_ALOLA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_GOLEM_ALOLA}),
     },
 
     [SPECIES_GOLEM_ALOLA] =
@@ -10053,10 +10051,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sSlowpokeTeachableLearnset,
         .eggMoveLearnset = sSlowpokeEggMoveLearnset,
         .formSpeciesIdTable = sSlowpokeFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_SLOWBRO}
+        .evolutions = EVOLUTION({EVO_LEVEL, 29, SPECIES_SLOWBRO}
                             #if P_GEN_2_CROSS_EVOS
                                 ,{EVO_TRADE, 0, SPECIES_SLOWKING, CONDITIONS({IF_HOLD_ITEM, ITEM_KINGS_ROCK})},
-                                {EVO_ITEM, ITEM_KINGS_ROCK, SPECIES_SLOWKING}
+                                {EVO_ITEM, ITEM_WATER_STONE, SPECIES_SLOWKING}
                             #endif
                             ),
     },
@@ -10079,7 +10077,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_WATER_1),
-        .abilities = { ABILITY_OBLIVIOUS, ABILITY_OWN_TEMPO, ABILITY_REGENERATOR },
+        .abilities = { ABILITY_SHELL_ARMOR, ABILITY_REGENERATOR, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Slowbro"),
         .cryId = CRY_SLOWBRO,
@@ -10149,7 +10147,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_WATER_1),
-        .abilities = { ABILITY_OBLIVIOUS, ABILITY_OWN_TEMPO, ABILITY_REGENERATOR },
+        .abilities = { ABILITY_QUEENLY_MAJESTY, ABILITY_REGENERATOR, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Slowking"),
         .cryId = CRY_SLOWKING,
@@ -10337,9 +10335,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sSlowpokeGalarTeachableLearnset,
         .eggMoveLearnset = sSlowpokeGalarEggMoveLearnset,
         .formSpeciesIdTable = sSlowpokeFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_GALARICA_CUFF, SPECIES_SLOWBRO_GALAR}
+        .evolutions = EVOLUTION({EVO_LEVEL, 29, SPECIES_SLOWBRO_GALAR}
                             #if P_GEN_2_CROSS_EVOS
-                                ,{EVO_ITEM, ITEM_GALARICA_WREATH, SPECIES_SLOWKING_GALAR}
+                                ,{EVO_ITEM, ITEM_MOON_STONE, SPECIES_SLOWKING_GALAR}
                             #endif
                             ),
     },
@@ -10362,7 +10360,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_WATER_1),
-        .abilities = { ABILITY_QUICK_DRAW, ABILITY_OWN_TEMPO, ABILITY_REGENERATOR },
+        .abilities = { ABILITY_QUICK_DRAW, ABILITY_REGENERATOR, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Slowbro"),
         .cryId = CRY_SLOWBRO,
@@ -10428,7 +10426,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_WATER_1),
-        .abilities = { ABILITY_CURIOUS_MEDICINE, ABILITY_OWN_TEMPO, ABILITY_REGENERATOR },
+        .abilities = { ABILITY_CURIOUS_MEDICINE, ABILITY_REGENERATOR, ABILITY_OWN_TEMPO },
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Slowking"),
         .cryId = CRY_SLOWKING,
@@ -12965,7 +12963,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_HARVEST },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_HARVEST, ABILITY_OWN_TEMPO},
         .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("Exeggcute"),
         .cryId = CRY_EXEGGCUTE,
@@ -13021,7 +13019,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sExeggcuteTeachableLearnset,
         .eggMoveLearnset = sExeggcuteEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR},
-                                {EVO_NONE, 0, SPECIES_EXEGGUTOR_ALOLA}),
+                                {EVO_ITEM, ITEM_SUN_STONE, SPECIES_EXEGGUTOR_ALOLA}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_7
@@ -13057,7 +13055,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_HARVEST },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_HARVEST, ABILITY_MAGIC_GUARD},
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Exeggutor"),
         .cryId = CRY_EXEGGUTOR,
@@ -13125,7 +13123,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
-        .abilities = { ABILITY_FRISK, ABILITY_NONE, ABILITY_HARVEST },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_HARVEST, ABILITY_DRAGONS_MAW },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Exeggutor"),
         .cryId = CRY_EXEGGUTOR,
@@ -13249,7 +13247,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCuboneTeachableLearnset,
         .eggMoveLearnset = sCuboneEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_MAROWAK},
-                                {EVO_LEVEL, 33, SPECIES_MAROWAK_ALOLA},
+                                {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_MAROWAK_ALOLA},
                                 {EVO_NONE, 0, SPECIES_MAROWAK_ALOLA_TOTEM}),
     },
 
@@ -17655,11 +17653,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_WATER_STONE, SPECIES_VAPOREON},
                                 {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_FLAREON}
                             #if P_GEN_6_CROSS_EVOS
-                                ,{EVO_LEVEL, 0, SPECIES_SYLVEON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD}, {IF_KNOWS_MOVE_TYPE, TYPE_FAIRY})}
+                                ,{EVO_ITEM, ITEM_SHINY_STONE, SPECIES_SYLVEON}
                             #endif
                             #if P_GEN_2_CROSS_EVOS
-                                ,{EVO_LEVEL, 0, SPECIES_ESPEON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD}, {IF_NOT_TIME, TIME_NIGHT})},
-                                {EVO_LEVEL, 0, SPECIES_UMBREON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD}, {IF_TIME, TIME_NIGHT})}
+                                ,{EVO_ITEM, ITEM_SUN_STONE, SPECIES_ESPEON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD}, {IF_NOT_TIME, TIME_NIGHT})},
+                                {EVO_ITEM, ITEM_MOON_STONE, SPECIES_UMBREON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD}, {IF_TIME, TIME_NIGHT})}
                             #endif
                             #if P_GEN_4_CROSS_EVOS
                                 ,{EVO_LEVEL, 0, SPECIES_LEAFEON, CONDITIONS({IF_IN_MAP, MAP_PETALBURG_WOODS})},

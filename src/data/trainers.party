@@ -3547,22 +3547,35 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
-- Spark
-- Leer
+Pincurchin @ Terrain Extender  
+Ability: Electric Surge  
+Level: 32   
+IVs: 0 Atk  
+- Discharge  
+- Scald  
+- Spikes  
+- Thunder Wave  
 
-Voltorb
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
+Loudred @ Silk Scarf  
+Ability: Scrappy 
+Level: 32  
+IVs: 0 Atk  
+- Hyper Voice  
+- Thunderbolt  
+- Flamethrower  
+- Protect  
+
+Raichu-Alola @ Magnet  
+Ability: Surge Surfer  
+Level: 32  
+- Thunderbolt  
+- Alluring Voice  
+- Endeavor  
+- Fake Out  
+
+
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3601,15 +3614,15 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Voltorb
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Electabuzz  
+Ability: Static  
+Level: 31    
 
-Magnemite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu  
+Ability: Static  
+Level: 31    
 
 === TRAINER_FERNANDO_1 ===
 Name: FERNANDO
@@ -4180,13 +4193,31 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dustox
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chansey @ Eviolite  
+Ability: Serene Grace  
+Level: 30    
+IVs: 0 Atk  
+- Flamethrower  
+- Soft-Boiled  
+- Charge Beam  
+- Hyper Voice  
 
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Rabsca @ Twisted Spoon  
+Ability: Synchronize  
+Level: 31  
+IVs: 0 Atk  
+- Bug Buzz  
+- Extrasensory  
+- Power Gem  
+- Calm Mind  
+
+Greedent @ Salac Berry  
+Ability: Gluttony  
+Level: 30 
+- Psychic Fangs  
+- Body Slam  
+- Crunch  
+- Earthquake  
 
 === TRAINER_JEFFREY_2 ===
 Name: JEFFREY
@@ -5069,9 +5100,9 @@ Ability: No Guard
 Level: 18   
 Timid Nature  
 - Rock Throw  
-- Thunder Fang  
+- Stomping Tantrum  
 - Bite  
-- Upper Hand  
+- Charm  
 
 
 === TRAINER_BRAWLY_1 ===
@@ -5085,49 +5116,48 @@ AI: AI_FLAG_SMART_TRAINER
 
 Sneasel-Hisui @ Payapa Berry  
 Ability: Pickpocket  
-Level: 23   
+Level: 22   
 - Fake Out  
 - Poison Tail  
 - Brick Break  
 - Lash Out  
 
+Hitmontop @ Sitrus Berry  
+Ability: Intimidate  
+Level: 22    
+- Fake Out  
+- Mach Punch  
+- Pursuit  
+- Low Kick  
+
 Pawmo @ Eviolite  
 Ability: Volt Absorb  
-Level: 23  
+Level: 23   
 - Fake Out  
 - Knock Off  
 - Nuzzle  
 - Super Fang  
 
-Quaxwell @ Sitrus Berry  
-Ability: Moxie  
-Level: 23  
-- Aqua Cutter  
-- Acrobatics  
-- Triple Axel  
-- Flip Turn  
-
-Tauros-Paldea-Blaze @ Rowap Berry  
-Ability: Cud Chew  
-Level: 22   
-Modest Nature  
-IVs: 15 Atk  
-- Will-O-Wisp  
-- Double Kick  
-- Temper Flare  
-- Flame Charge  
-
-Machoke @ Iapapa Berry  
-Ability: Guts  
-Level: 22    
-- Fire Punch  
+Kubfu @ Iapapa Berry  
+Ability: Inner Focus  
+Level: 23    
 - Brick Break  
-- Rock Tomb  
-- Bulk Up  
+- Ice Punch  
+- Zen Headbutt  
+- Sucker Punch  
+
+Barbaracle @ Rindo Berry  
+Ability: Tough Claws  
+Level: 23   
+Modest Nature  
+- Grass Knot  
+- Razor Shell  
+- Rock Blast  
+- Brick Break  
 
 Grapploct @ Leftovers  
 Ability: Technician  
-Level: 24  
+Level: 25  
 - Rock Smash  
 - Circle Throw  
 - Payback  
@@ -5139,41 +5169,60 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Voltorb
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+Kilowattrel @ Focus Sash  
+Ability: Wind Power  
+Level: 33   
+IVs: 0 Atk  
+- Discharge  
+- Air Slash  
+- Volt Switch  
+- Tailwind  
 
-Electrike
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
+Vikavolt @ Choice Scarf  
+Ability: Levitate  
+Level: 33  
+IVs: 0 Atk  
+- Bug Buzz  
+- Thunderbolt  
+- Mud Shot  
+- Energy Ball  
 
-Magneton
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
-- Thunder Wave
-- Sonic Boom
+Klang @ Eviolite  
+Ability: Clear Body  
+Level: 34  
+- Gear Grind  
+- Wild Charge  
+- Magnet Rise  
+- Shift Gear  
 
-Manectric @ Sitrus Berry
-Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+Toxtricity @ Shuca Berry  
+Ability: Punk Rock  
+Level: 34   
+- Boomburst  
+- Overdrive  
+- Psychic Noise  
+- Nuzzle  
+
+Raikou @ Leftovers  
+Ability: Inner Focus  
+Level: 35  
+Shiny: Yes   
+IVs: 0 Atk  
+- Discharge  
+- Aura Sphere  
+- Scald  
+- Calm Mind  
+
+Ampharos @ Ampharosite  
+Ability: Static  
+Level: 35   
+- Discharge  
+- Dragon Pulse  
+- Ice Punch  
+- Brick Break  
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -5181,7 +5230,6 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
@@ -5223,7 +5271,6 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
@@ -5265,7 +5312,6 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer / Risky
 
@@ -5315,7 +5361,6 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Basic Trainer
 
@@ -5357,7 +5402,6 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
@@ -5683,22 +5727,37 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zigzagoon
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tail Whip
-- Headbutt
-- Odor Sleuth
+Rhydon @ Expert Belt  
+Ability: Lightning Rod  
+Level: 30   
+IVs: 0 Atk  
+- Earth Power  
+- Flamethrower  
+- Power Gem  
+- Thunderbolt  
 
-Makuhita
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Focus Energy
-- Arm Thrust
+Emolga @ Choice Scarf  
+Ability: Motor Drive  
+Level: 30   
+IVs: 0 Atk  
+- Discharge  
+
+Lanturn @ Sitrus Berry  
+Ability: Volt Absorb  
+Level: 30    
+- Discharge  
+- Water Pulse  
+- Icy Wind  
+- Flip Turn  
+
+Seaking @ Wise Glasses  
+Ability: Lightning Rod  
+Level: 30  
+IVs: 0 Atk  
+- Blizzard  
+- Water Pulse  
 
 === TRAINER_ANNA_AND_MEG_2 ===
 Name: ANNA & MEG
@@ -6458,23 +6517,23 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zigzagoon
-Level: 17
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Headbutt
-- Sand Attack
-- Growl
-- Thunderbolt
+Stoutland  
+Ability: Scrappy  
+Level: 32   
+- Body Slam  
+- Thunder Fang  
+- Play Rough  
+- Work Up  
 
-Gulpin
-Level: 17
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+Heliolisk @ Silk Scarf  
+Ability: Solar Power  
+Level: 32    
+IVs: 0 Atk  
+- Hyper Voice  
+- Thunderbolt  
+- Surf  
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -7409,11 +7468,32 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cramorant @ Wacan Berry  
+Ability: Gulp Missile  
+Level: 30  
+IVs: 0 Atk  
+- Surf  
+- Air Slash  
+- Ice Beam  
+- Endeavor  
+
+Drakloak @ Colbur Berry  
+Ability: Cursed Body  
+Level: 30  
+- Hex  
+- Thunder Wave  
+- Sucker Punch  
+- Curse  
+
+Mightyena @ Assault Vest  
+Ability: Intimidate  
+Level: 31  
+- Poison Fang  
+- Fire Fang  
+- Crunch  
+- Ice Fang  
 
 === TRAINER_MARIA_2 ===
 Name: MARIA
@@ -8380,7 +8460,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Buneary @ Silk Scarf  
 Ability: Limber  
-Level: 23  
+Level: 22  
 Happiness: 0  
 - Frustration  
 - Fake Out  
@@ -8388,9 +8468,9 @@ Happiness: 0
 
 Floatzel @ Salac Berry  
 Ability: Water Veil  
-Level: 24    
+Level: 22    
 - Brick Break  
-- Ice Spinner  
+- Ice Fang  
 - Waterfall  
 
 === TRAINER_LAURA ===
@@ -8404,8 +8484,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Stufful @ Sitrus Berry  
 Ability: Fluffy  
-Level: 20  
-Tera Type: Normal  
+Level: 20   
 - Low Sweep  
 - Brutal Swing  
 - Headbutt  
@@ -8413,7 +8492,6 @@ Tera Type: Normal
 Spidops  
 Ability: Insomnia  
 Level: 20  
-Tera Type: Bug  
 - Lunge  
 - Knock Off  
 - Sucker Punch  
@@ -10193,19 +10271,50 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sneasel @ Focus Sash  
+Ability: Inner Focus  
+Level: 27  
+- Fake Out  
+- Triple Axel  
+- Lash Out  
+- X-Scissor  
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Grovyle @ Flying Gem  
+Ability: Unburden  
+Level: 29   
+Jolly Nature  
+- Acrobatics  
+- Leaf Blade  
+- Thunder Punch  
+- Vacuum Wave  
 
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seadra @ Scope Lens  
+Ability: Sniper  
+Level: 29   
+IVs: 0 Atk  
+- Ice Beam  
+- Surf  
+- Swift  
+- Dragon Dance  
+
+Lampent @ Charcoal  
+Ability: Flame Body  
+Level: 29    
+IVs: 0 Atk  
+- Flamethrower  
+- Energy Ball  
+- Shadow Ball  
+- Pain Split  
+
+Raichu-Alola @ Twisted Spoon  
+Ability: Surge Surfer  
+Level: 28  
+- Psychic Noise  
+- Thunderbolt  
+- Draining Kiss  
+- Nuzzle  
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -10248,19 +10357,48 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sneasel @ Focus Sash  
+Ability: Inner Focus  
+Level: 27  
+- Fake Out  
+- Triple Axel  
+- Lash Out  
+- X-Scissor  
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Combusken @ White Herb  
+Ability: Speed Boost  
+Level: 29   
+- Overheat  
+- Close Combat  
+- Rock Slide  
+- Blaze Kick  
 
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seadra @ Scope Lens  
+Ability: Sniper  
+Level: 29   
+IVs: 0 Atk  
+- Ice Beam  
+- Surf  
+- Swift  
+- Dragon Dance  
+
+Tsareena @ Miracle Seed  
+Ability: Queenly Majesty  
+Level: 29   
+- Trop Kick  
+- Knock Off  
+- Zen Headbutt  
+- U-turn  
+
+Raichu-Alola @ Twisted Spoon  
+Ability: Surge Surfer  
+Level: 28   
+- Psychic Noise  
+- Thunderbolt  
+- Draining Kiss  
+- Nuzzle  
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -10303,19 +10441,49 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sneasel @ Focus Sash  
+Ability: Inner Focus  
+Level: 27   
+- Fake Out  
+- Triple Axel  
+- Lash Out  
+- X-Scissor  
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Marshtomp @ Rindo Berry  
+Ability: Damp  
+Level: 29  
+- Liquidation  
+- Stomping Tantrum  
+- Brick Break  
+- Mirror Coat  
 
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tsareena @ Miracle Seed  
+Ability: Queenly Majesty  
+Level: 29    
+- Trop Kick  
+- Knock Off  
+- Zen Headbutt  
+- U-turn  
+
+Lampent @ Charcoal  
+Ability: Flame Body  
+Level: 29    
+IVs: 0 Atk  
+- Flamethrower  
+- Energy Ball  
+- Shadow Ball  
+- Pain Split  
+
+Raichu-Alola @ Twisted Spoon  
+Ability: Surge Surfer  
+Level: 28   
+- Psychic Noise  
+- Thunderbolt  
+- Draining Kiss  
+- Nuzzle  
+
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -10358,19 +10526,50 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sneasel @ Focus Sash  
+Ability: Inner Focus  
+Level: 27  
+- Fake Out  
+- Triple Axel  
+- Lash Out  
+- X-Scissor  
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Grovyle @ Flying Gem  
+Ability: Unburden  
+Level: 29    
+Jolly Nature  
+- Acrobatics  
+- Leaf Blade  
+- Thunder Punch  
+- Vacuum Wave  
 
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seadra @ Scope Lens  
+Ability: Sniper  
+Level: 29    
+IVs: 0 Atk  
+- Ice Beam  
+- Surf  
+- Swift  
+- Dragon Dance  
+
+Lampent @ Charcoal  
+Ability: Flame Body  
+Level: 29   
+IVs: 0 Atk  
+- Flamethrower  
+- Energy Ball  
+- Shadow Ball  
+- Pain Split  
+
+Raichu-Alola @ Twisted Spoon  
+Ability: Surge Surfer  
+Level: 28  
+- Psychic Noise  
+- Thunderbolt  
+- Draining Kiss  
+- Nuzzle  
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -10413,19 +10612,48 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sneasel @ Focus Sash  
+Ability: Inner Focus  
+Level: 27  
+- Fake Out  
+- Triple Axel  
+- Lash Out  
+- X-Scissor  
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Combusken @ White Herb  
+Ability: Speed Boost  
+Level: 29   
+- Overheat  
+- Close Combat  
+- Rock Slide  
+- Blaze Kick  
 
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seadra @ Scope Lens  
+Ability: Sniper  
+Level: 29   
+IVs: 0 Atk  
+- Ice Beam  
+- Surf  
+- Swift  
+- Dragon Dance  
+
+Tsareena @ Miracle Seed  
+Ability: Queenly Majesty  
+Level: 29   
+- Trop Kick  
+- Knock Off  
+- Zen Headbutt  
+- U-turn  
+
+Raichu-Alola @ Twisted Spoon  
+Ability: Surge Surfer  
+Level: 28   
+- Psychic Noise  
+- Thunderbolt  
+- Draining Kiss  
+- Nuzzle  
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -10468,19 +10696,48 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sneasel @ Focus Sash  
+Ability: Inner Focus  
+Level: 27   
+- Fake Out  
+- Triple Axel  
+- Lash Out  
+- X-Scissor  
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Marshtomp @ Rindo Berry  
+Ability: Damp  
+Level: 29  
+- Liquidation  
+- Stomping Tantrum  
+- Brick Break  
+- Mirror Coat  
 
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tsareena @ Miracle Seed  
+Ability: Queenly Majesty  
+Level: 29    
+- Trop Kick  
+- Knock Off  
+- Zen Headbutt  
+- U-turn  
+
+Lampent @ Charcoal  
+Ability: Flame Body  
+Level: 29    
+IVs: 0 Atk  
+- Flamethrower  
+- Energy Ball  
+- Shadow Ball  
+- Pain Split  
+
+Raichu-Alola @ Twisted Spoon  
+Ability: Surge Surfer  
+Level: 28   
+- Psychic Noise  
+- Thunderbolt  
+- Draining Kiss  
+- Nuzzle  
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -10510,31 +10767,19 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Whismur
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dodrio  
+Ability: Run Away  
+Level: 28  
 
-Zigzagoon
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Raboot  
+Ability: Blaze  
+Level: 28  
 
-Aron
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Makuhita
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sneasel  
+Ability: Inner Focus  
+Level: 28   
 
 === TRAINER_DAVIS ===
 Name: DAVIS
@@ -10715,29 +10960,29 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sandaconda @ Wacan Berry  
+Ability: Sand Spit  
+Level: 30   
+- Drill Run  
+- Glare  
+- Rock Blast  
+- Zen Headbutt  
 
-Shroomish
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hippopotas @ Leftovers  
+Ability: Sand Force  
+Level: 31   
+- Body Press  
+- Stomping Tantrum  
+- Ice Fang  
+- Stealth Rock  
 
-Marill
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Roselia
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skitty
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Goldeen
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gligar @ Eviolite  
+Ability: Hyper Cutter  
+Level: 32   
+- Dual Wingbeat  
+- Fire Fang  
+- High Horsepower  
+- Agility  
 
 === TRAINER_HALLE ===
 Name: HALLE
@@ -11323,12 +11568,12 @@ Level: 22
 - Thunder Punch  
 - Will-O-Wisp  
 
-Heracross @ Flame Orb  
+Heracross @ Coba Berry  
 Ability: Guts  
 Level: 22   
 Brave Nature  
 - Brick Break  
-- Lunge  
+- Bug Bite  
 - Facade  
 - Protect  
 
@@ -12142,14 +12387,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Butterfree  
-Ability: Tinted Lens  
-Level: 12    
-IVs: 0 Atk  
-- Struggle Bug  
-- Air Cutter  
-- Sleep Powder  
-
 Dustox  
 Ability: Shield Dust  
 Level: 12   
@@ -12426,19 +12663,41 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Geodude
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spoink @ Focus Sash  
+Ability: Thick Fat  
+Level: 1  
+Shiny: Yes   
+IVs: 0 Atk  
+- Endeavor  
 
-Geodude
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Grumpig @ Leftovers  
+Ability: Thick Fat  
+Level: 32   
+IVs: 0 Atk  
+- Extrasensory  
+- Chilling Water  
+- Earth Power  
+- Thunder Wave  
 
-Machop
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hitmonchan @ Punching Glove  
+Ability: Iron Fist  
+Level: 32   
+- Mach Punch  
+- Thunder Punch  
+- Ice Punch  
+- Fire Punch  
+
+Sableye @ Black Glasses  
+Ability: Prankster  
+Level: 32   
+- Encore  
+- Fake Out  
+- Knock Off  
+- Pursuit  
+
+
 
 === TRAINER_TRENT_2 ===
 Name: TRENT
@@ -12697,23 +12956,30 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Meditite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Thunder Punch
+Haunter @ Eviolite  
+Ability: Levitate  
+Level: 32  
+- Thunderbolt  
+- Shadow Ball  
+- Sludge Bomb  
+- Sucker Punch  
 
-Meditite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
+Pachirisu @ Leftovers  
+Ability: Volt Absorb  
+Level: 32    
+- Charm  
+- Super Fang  
+- Seed Bomb  
+- Wild Charge  
+
+Voltorb-Hisui @ Normal Gem  
+Ability: Soundproof  
+Level: 32   
+- Energy Ball  
+- Discharge  
+- Self-Destruct  
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -14850,29 +15116,28 @@ Level: 15
 
 Torracat @ Sitrus Berry  
 Ability: Intimidate  
-Level: 15   
+Level: 15    
 - Fake Out  
 - Fire Fang  
 - Bite  
-- Trailblaze  
+- Double Kick  
 
 Eelektrik @ Leftovers  
 Ability: Levitate  
-Level: 16   
+Level: 16    
 - Super Fang  
 - Knock Off  
 - Shock Wave  
 - Coil  
 
-Meditite @ Sitrus Berry  
-Ability: Pure Power  
-Level: 18  
-Shiny: Yes  
-Tera Type: Psychic  
-- Force Palm  
-- Night Shade  
-- Zen Headbutt  
-- Detect  
+Kadabra @ Wise Glasses  
+Ability: Magic Guard  
+Level: 17   
+IVs: 0 Atk  
+- Psybeam  
+- Hidden Power  
+- Shock Wave  
+- Recover  
 
 === TRAINER_HELENE ===
 Name: HELENE
@@ -14982,11 +15247,15 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alcremie  
+Ability: Sweet Veil  
+Level: 31    
+
+Togedemaru  
+Ability: Iron Barbs  
+Level: 32   
 
 === TRAINER_BRANDI ===
 Name: BRANDI
@@ -14995,11 +15264,33 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Ralts
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Medicham @ Muscle Band  
+Ability: Pure Power  
+Level: 31  
+Tera Type: Fighting  
+- Mind Reader  
+- High Jump Kick  
+
+Magneton @ Zoom Lens  
+Ability: Analytic  
+Level: 32   
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Zap Cannon  
+- Volt Switch  
+- Supersonic  
+
+Smeargle @ Leftovers  
+Ability: Moody  
+Level: 35  
+Shiny: Yes    
+IVs: 0 Atk  
+- Sheer Cold  
+- Fissure  
+- Guillotine  
+- Origin Pulse  
 
 === TRAINER_AISHA ===
 Name: AISHA
@@ -15008,11 +15299,15 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Meditite
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Primeape  
+Ability: Vital Spirit  
+Level: 30  
+
+Swellow  
+Ability: Guts  
+Level: 30   
 
 === TRAINER_MAKAYLA ===
 Name: MAKAYLA
@@ -16915,17 +17210,17 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Illumise
-Level: 17
+Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
 - Quick Attack
 - Charm
 
 Volbeat
-Level: 17
+Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
 - Quick Attack

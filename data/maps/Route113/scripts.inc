@@ -121,6 +121,7 @@ Route113_EventScript_Sophie::
 Route113_EventScript_Coby::
 	trainerbattle_single TRAINER_COBY, Route113_Text_CobyIntro, Route113_Text_CobyDefeat
 	msgbox Route113_Text_CobyPostBattle, MSGBOX_AUTOCLOSE
+	setflag FLAG_LTG_BEATEN
 	end
 
 Route113_EventScript_Lawrence::

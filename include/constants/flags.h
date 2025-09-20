@@ -44,8 +44,8 @@
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 #define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
+#define FLAG_EGG_MOVES_TUTOR 0x21 // Set when the player has talked to the Egg Move Tutor after beating Wattson in Mauville City.
+#define FLAG_CAN_MEGA_EVOLVE 0x22 // Mega Evolvution tutorial has been seen.
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag

@@ -5916,8 +5916,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sUrsaringLevelUpLearnset,
         .teachableLearnset = sUrsaringTeachableLearnset,
     #if P_GEN_8_CROSS_EVOS
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_PEAT_BLOCK, SPECIES_URSALUNA, CONDITIONS({IF_TIME, TIME_NIGHT})},
-                                {EVO_NONE, 0, SPECIES_URSALUNA_BLOODMOON}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 58, SPECIES_URSALUNA, CONDITIONS({IF_PID_UPPER_MODULO_10_GT, 4})},
+                                {EVO_LEVEL, 58, SPECIES_URSALUNA_BLOODMOON, CONDITIONS({IF_PID_UPPER_MODULO_10_LT, 5})}),
     #endif
     },
 
@@ -6263,7 +6263,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sSwinubLevelUpLearnset,
         .teachableLearnset = sSwinubTeachableLearnset,
         .eggMoveLearnset = sSwinubEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_PILOSWINE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_PILOSWINE}),
     },
 
     [SPECIES_PILOSWINE] =
@@ -6351,7 +6351,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sPiloswineLevelUpLearnset,
         .teachableLearnset = sPiloswineTeachableLearnset,
     #if P_GEN_4_CROSS_EVOS
-        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_MAMOSWINE, CONDITIONS({IF_KNOWS_MOVE, MOVE_ANCIENT_POWER})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_MAMOSWINE}),
     #endif
     },
 

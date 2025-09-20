@@ -459,6 +459,7 @@ Route110_EventScript_BrendanDefeated::
 
 Route110_EventScript_GiveItemfinder::
 	giveitem ITEM_DOWSING_MACHINE
+	setflag FLAG_RIVAL2_BEATEN
 	return
 
 Route110_EventScript_RivalExit::

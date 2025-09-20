@@ -59,16 +59,16 @@ LavaridgeTown_EventScript_RivalGiveGoGoggles::
 
 LavaridgeTown_EventScript_MayGiveGoGoggles::
 	msgbox LavaridgeTown_Text_MayNiceBadgesTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_GO_GOGGLES
-	setflag FLAG_RECEIVED_GO_GOGGLES
+	giveitem ITEM_MEGA_RING
+	setflag FLAG_CAN_MEGA_EVOLVE
 	msgbox LavaridgeTown_Text_MayExplainGoGogglesChallengeDad, MSGBOX_DEFAULT
 	goto LavaridgeTown_EventScript_RivalExit
 	end
 
 LavaridgeTown_EventScript_BrendanGiveGoGoggles::
 	msgbox LavaridgeTown_Text_BrendanNiceBadgesTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_GO_GOGGLES
-	setflag FLAG_RECEIVED_GO_GOGGLES
+	giveitem ITEM_MEGA_RING
+	setflag FLAG_CAN_MEGA_EVOLVE
 	msgbox LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad, MSGBOX_DEFAULT
 	goto LavaridgeTown_EventScript_RivalExit
 	end
@@ -284,16 +284,15 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "have this.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "MAY: With those GO-GOGGLES, you'll\n"
-	.string "have no trouble getting through the\l"
-	.string "desert near ROUTE 111.\p"
-	.string "But, wow, {PLAYER}{KUN}…\n"
-	.string "Challenging GYMS…\p"
-	.string "You're trying hard because you don't\n"
-	.string "want to lose to me, I bet!\p"
-	.string "{PLAYER}{KUN}, I think I should challenge\n"
-	.string "your dad in PETALBURG GYM.\p"
-	.string "See you again!$"
+	.string "MAY: This should be helpful on your\n"
+	.string "journey through HOENN. Just give the\l"
+	.string "appropriate Pokemon their Mega Stone.\p"
+	.string "As for me…\n"
+	.string "I'm considering challenging NORMAN,\l"
+	.string "the GYM LEADER of PETALBURG.\p"
+	.string "Unlike you, {PLAYER}, your dad looks like\n"
+	.string "he really is tough.\p"
+	.string "See you around!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 	.string "BRENDAN: {PLAYER}, hey, it's been a while.\n"
@@ -304,12 +303,9 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 	.string "You may as well have this.$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
-	.string "BRENDAN: Keep those with you if you're\n"
-	.string "planning on going into that desert near\l"
-	.string "ROUTE 111.\p"
-	.string "There should be some POKéMON that\n"
-	.string "are exclusively desert-dwellers.\l"
-	.string "You might look around for those.\p"
+	.string "BRENDAN: This should be helpful on your\n"
+	.string "journey through HOENN. Just give the\l"
+	.string "appropriate Pokemon their Mega Stone.\p"
 	.string "As for me…\n"
 	.string "I'm considering challenging NORMAN,\l"
 	.string "the GYM LEADER of PETALBURG.\p"

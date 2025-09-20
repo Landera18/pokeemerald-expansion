@@ -52,6 +52,31 @@
     F(SKILL_SWAP) \
     F(FLASH_CANNON) \
     F(EARTH_POWER) \
+    F(GRASSY_GLIDE) \
+    F(LASH_OUT) \
+    F(POWER_TRIP) \
+    F(WILD_CHARGE) \
+    F(BUG_BITE) \
+    F(DAZZLING_GLEAM) \
+    F(MOONBLAST) \
+    F(HURRICANE) \
+    F(BULLDOZE) \
+    F(ICICLE_SPEAR) \
+    F(LIQUIDATION) \
+    F(POISON_JAB) \
+    F(PSYCHO_CUT) \
+    F(SHADOW_CLAW) \
+    F(SIGNAL_BEAM) \
+    F(STICKY_WEB) \
+    F(SNARL) \
+    F(TRAILBLAZE) \
+    F(TRIPLE_AXEL) \
+    F(VOLT_SWITCH) \
+    F(U_TURN) \
+    F(FLIP_TURN) \
+    F(WEATHER_BALL) \
+    F(OVERHEAT) \
+    F(BUG_BUZZ) \
 
 #define FOREACH_HM(F) \
     F(CUT) \

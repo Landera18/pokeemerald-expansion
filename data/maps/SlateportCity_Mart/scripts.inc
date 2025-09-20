@@ -22,6 +22,12 @@ SlateportCity_Mart_Pokemart:
 	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_REPEL
 	.2byte ITEM_HARBOR_MAIL
+	.2byte ITEM_TM_HIDDEN_POWER
+	.2byte ITEM_TM_SECRET_POWER
+	.2byte ITEM_TM_STOMPING_TANTRUM
+	.2byte ITEM_TM_POWER_GEM
+	.2byte ITEM_TM_ME_FIRST
+	.2byte ITEM_TM_WATER_PULSE
 	pokemartlistend
 
 SlateportCity_Mart_EventScript_BlackBelt::
