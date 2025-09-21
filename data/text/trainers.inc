@@ -1743,13 +1743,13 @@ Route113_Text_CobyIntro:
 
 Route113_Text_CobyDefeat:
 	.string "Using fucking cheese strats\n"
-	.string "You DID NOT BEAT ME\n"
+	.string "You DID NOT BEAT ME!$"
 
 Route113_Text_CobyPostBattle:
 	.string "...\n"
 	.string "Play me in Gen 3 OU\n"
-	.string "This is some baby fucking meta\n"
-	.string "for retarded losers like you\n"
+	.string "This is some baby fucking meta\l"
+	.string "for retarded losers like you\l"
 	.string "fuck you. kill yourself.$"
 
 Route113_Text_SophieIntro:
