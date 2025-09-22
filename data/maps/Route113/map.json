@@ -71,7 +71,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
-      "x": 16,
+      "x": 18,
       "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -176,7 +176,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 15,
-      "y": 15,
+      "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -213,17 +213,18 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
-      "x": 7,
-      "y": 6,
+      "local_id": "LOCAL_ID_ROUTE113_LTG",
+      "graphics_id": "OBJ_EVENT_GFX_BRANDON",
+      "x": 13,
+      "y": 12,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 1,
-      "movement_range_y": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "7",
-      "script": "Route113_EventScript_Coby",
-      "flag": "0"
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route113_EventScript_LTGBattle",
+      "flag": "FLAG_LTG_BEATEN"
     }
   ],
   "warp_events": [
@@ -252,7 +253,7 @@
   "coord_events": [
     {
       "type": "weather",
-      "x": 19,
+      "x": 20,
       "y": 11,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
@@ -266,14 +267,14 @@
     },
     {
       "type": "weather",
-      "x": 19,
+      "x": 21,
       "y": 12,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
     },
     {
       "type": "weather",
-      "x": 19,
+      "x": 21,
       "y": 13,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
@@ -329,7 +330,7 @@
     },
     {
       "type": "weather",
-      "x": 19,
+      "x": 21,
       "y": 14,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
@@ -357,218 +358,127 @@
     },
     {
       "type": "weather",
-      "x": 15,
+      "x": 11,
       "y": 11,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 15,
+      "x": 11,
       "y": 12,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 15,
+      "x": 11,
       "y": 13,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 15,
+      "x": 11,
       "y": 10,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 6,
-      "y": 7,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 6,
-      "y": 8,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 6,
-      "y": 9,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 6,
-      "y": 10,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 6,
+      "x": 18,
       "y": 11,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
     },
     {
       "type": "weather",
-      "x": 6,
-      "y": 12,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 6,
-      "y": 13,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 5,
-      "y": 7,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 5,
-      "y": 8,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 5,
+      "x": 11,
       "y": 9,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 5,
-      "y": 10,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 5,
-      "y": 11,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 5,
-      "y": 12,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 5,
-      "y": 13,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 8,
-      "y": 13,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 8,
-      "y": 12,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 8,
-      "y": 11,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 8,
-      "y": 10,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 8,
-      "y": 9,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 8,
+      "x": 11,
       "y": 8,
       "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 8,
+      "x": 11,
       "y": 7,
       "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 14,
-      "y": 13,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 14,
-      "y": 12,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 14,
-      "y": 11,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 14,
-      "y": 10,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
-    },
-    {
-      "type": "weather",
-      "x": 6,
+      "x": 11,
       "y": 6,
       "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 18,
+      "y": 12,
+      "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
     },
     {
       "type": "weather",
-      "x": 8,
-      "y": 6,
+      "x": 18,
+      "y": 13,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 18,
+      "y": 14,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 17,
+      "y": 14,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 17,
+      "y": 12,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 17,
+      "y": 13,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 17,
+      "y": 11,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 17,
+      "y": 10,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
     }
@@ -584,7 +494,7 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 14,
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

@@ -121,7 +121,6 @@ Route113_EventScript_Sophie::
 Route113_EventScript_Coby::
 	trainerbattle_single TRAINER_COBY, Route113_Text_CobyIntro, Route113_Text_CobyDefeat
 	msgbox Route113_Text_CobyPostBattle, MSGBOX_AUTOCLOSE
-	setflag FLAG_LTG_BEATEN
 	end
 
 Route113_EventScript_Lawrence::
@@ -132,6 +131,23 @@ Route113_EventScript_Lawrence::
 Route113_EventScript_Wyatt::
 	trainerbattle_single TRAINER_WYATT, Route113_Text_WyattIntro, Route113_Text_WyattDefeat
 	msgbox Route113_Text_WyattPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route113_EventScript_LTGBattle::
+	trainerbattle_single TRAINER_COBY, Route113_Text_CobyIntro, Route113_Text_CobyDefeat
+	goto Route113_EventScript_LTGBattleEnd
+	end
+
+Route113_EventScript_LTGBattleEnd::
+	msgbox Route113_Text_LTGPostBattle, MSGBOX_DEFAULT
+	giveitem ITEM_LIFE_ORB
+	giveitem ITEM_TM_LASH_OUT
+	setflag FLAG_LTG_BEATEN
+	setvar VAR_UNUSED_0x40F7, 1
+	fadescreen FADE_TO_BLACK
+	removeobject LOCAL_ID_ROUTE113_LTG
+	fadescreen FADE_FROM_BLACK
+	releaseall
 	end
 
 Route113_Text_AshCanBeFashionedIntoGlass:
@@ -164,4 +180,12 @@ Route113_Text_TrainerTipsRegisterKeyItems:
 Route113_Text_GlassWorkshopSign:
 	.string "GLASS WORKSHOP\n"
 	.string "“Turning Volcanic Ash into Glass Items”$"
+
+Route113_Text_LTGPostBattle:
+	.string "You can go fuck yourself\n"
+	.string "A complete loser who does not even\p"
+	.string "Know how to play REAL Pokemon\p"
+	.string "Just using modern gimmick bullshit\p"
+	.string "Take these and go jump off\n"
+	.string "METEOR FALLS please...$"
 

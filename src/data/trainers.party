@@ -14439,21 +14439,64 @@ Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COBY ===
-Name: COBY
-Class: Bird Keeper
-Pic: Bird Keeper
+Name: LOWTIERGOD
+Class: Expert
+Pic: Pyramid King Brandon
 Gender: Male
-Music: Cool
+Music: Elite Four
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
+Mugshot: Purple
 
-Skarmory
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mienshao @ Focus Sash  
+Ability: Inner Focus  
+Level: 40   
+- Fake Out  
+- Acrobatics  
+- Aura Sphere  
+- Poison Jab  
 
-Swellow
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Iron Thorns @ Loaded Dice  
+Ability: Quark Drive  
+Level: 40  
+- Rock Blast  
+- Pin Missile  
+- Stealth Rock  
+- Thunder Wave  
+
+Rotom-Heat @ White Herb  
+Ability: Levitate  
+Level: 41   
+IVs: 0 Atk  
+- Thunder  
+- Overheat  
+- Hyper Voice  
+- Volt Switch  
+
+Shiinotic @ Kebia Berry  
+Ability: Rain Dish  
+Level: 41  
+IVs: 0 Atk  
+- Weather Ball  
+- Dazzling Gleam  
+- Strength Sap  
+- Spore  
+
+Drifblim @ Electric Seed  
+Ability: Unburden  
+Level: 40    
+- Acrobatics  
+- Phantom Force  
+- Knock Off  
+- Will-O-Wisp  
+
+Blastoise @ Leftovers  
+Ability: Rain Dish  
+Level: 42   
+- Weather Ball  
+- Terrain Pulse  
+- Dark Pulse  
+- Fake Out  
 
 === TRAINER_LAWRENCE ===
 Name: LAWRENCE
