@@ -30,6 +30,8 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM_FLAMETHROWER
 	.2byte ITEM_TM_DARK_PULSE
 	.2byte ITEM_TM_HYPER_VOICE
+	.2byte ITEM_TM_CROSS_POISON
+	.2byte ITEM_TM_WILD_CHARGE
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
@@ -44,9 +46,12 @@ LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
-	.2byte ITEM_TM_SOLAR_BEAM
 	.2byte ITEM_TM_REST
-	.2byte ITEM_TM_SKILL_SWAP
+	.2byte ITEM_TM_DRAGON_CLAW
+	.2byte ITEM_TM_AURA_SPHERE
+	.2byte ITEM_TM_DRAGON_PULSE
+	.2byte ITEM_TM_PLAY_ROUGH
+	.2byte ITEM_TM_TRI_ATTACK
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:

@@ -20,6 +20,11 @@ VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_NEST_BALL
 	.2byte ITEM_TM_ROCK_BLAST
 	.2byte ITEM_TM_DUAL_WINGBEAT
+	.2byte ITEM_TM_ICICLE_SPEAR
+	.2byte ITEM_TM_ICE_PUNCH
+	.2byte ITEM_TM_THUNDER_PUNCH
+	.2byte ITEM_TM_FIRE_PUNCH
+	.2byte ITEM_TM_DUAL_CHOP
 	pokemartlistend
 
 VerdanturfTown_Mart_EventScript_Boy::

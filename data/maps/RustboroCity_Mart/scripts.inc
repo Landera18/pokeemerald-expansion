@@ -18,13 +18,16 @@ RustboroCity_Mart_EventScript_PokemartBasic::
 
 	.align 2
 RustboroCity_Mart_Pokemart_Basic:
-	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_POTION
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_TM_CHILLING_WATER
 	.2byte ITEM_TM_DRAINING_KISS
 	.2byte ITEM_TM_ICY_WIND
+	.2byte ITEM_TM_BUG_BITE
+	.2byte ITEM_TM_SNARL
+	.2byte ITEM_TM_BULLET_SEED
 	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokemartExpanded::
@@ -45,6 +48,9 @@ RustboroCity_Mart_Pokemart_Expanded:
 	.2byte ITEM_TM_CHILLING_WATER
 	.2byte ITEM_TM_DRAINING_KISS
 	.2byte ITEM_TM_ICY_WIND
+	.2byte ITEM_TM_BUG_BITE
+	.2byte ITEM_TM_SNARL
+	.2byte ITEM_TM_BULLET_SEED
 	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokefanF::

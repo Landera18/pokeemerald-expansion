@@ -58,7 +58,7 @@
     F(WILD_CHARGE) \
     F(BUG_BITE) \
     F(DAZZLING_GLEAM) \
-    F(MOONBLAST) \
+    F(TRI_ATTACK) \
     F(HURRICANE) \
     F(BULLDOZE) \
     F(ICICLE_SPEAR) \
@@ -77,6 +77,16 @@
     F(WEATHER_BALL) \
     F(OVERHEAT) \
     F(BUG_BUZZ) \
+    F(BULLET_SEED) \
+    F(ICE_PUNCH) \
+    F(FIRE_PUNCH) \
+    F(THUNDER_PUNCH) \
+    F(TELEPORT) \
+    F(CROSS_POISON) \
+    F(AURA_SPHERE) \
+    F(DRAGON_PULSE) \
+    F(DUAL_CHOP) \
+    F(PLAY_ROUGH) \
 
 #define FOREACH_HM(F) \
     F(CUT) \

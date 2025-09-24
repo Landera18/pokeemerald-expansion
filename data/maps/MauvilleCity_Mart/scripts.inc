@@ -15,7 +15,7 @@ MauvilleCity_Mart_EventScript_Clerk::
 MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_FULL_RESTORE
-	.2byte ITEM_MAX_POTION
+	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_LEAF_STONE
 	.2byte ITEM_FIRE_STONE
@@ -26,6 +26,9 @@ MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_DUSK_STONE
 	.2byte ITEM_DAWN_STONE
 	.2byte ITEM_ICE_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_EVERSTONE
+	.2byte ITEM_METAL_COAT
 	pokemartlistend
 
 MauvilleCity_Mart_EventScript_ExpertM::

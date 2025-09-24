@@ -13,15 +13,11 @@ SlateportCity_Mart_EventScript_Clerk::
 
 	.align 2
 SlateportCity_Mart_Pokemart:
-	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_POTION
+	.2byte ITEM_HYPER_POTION
 	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_REPEL
-	.2byte ITEM_HARBOR_MAIL
+	.2byte ITEM_POTION
+	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_TM_HIDDEN_POWER
 	.2byte ITEM_TM_SECRET_POWER
 	.2byte ITEM_TM_STOMPING_TANTRUM

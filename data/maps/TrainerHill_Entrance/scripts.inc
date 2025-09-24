@@ -230,8 +230,9 @@ TrainerHill_Entrance_EventScript_ManTrainerHillClosed::
 	end
 
 TrainerHill_Entrance_EventScript_Girl::
-	goto_if_unset FLAG_SYS_GAME_CLEAR, TrainerHill_Entrance_EventScript_GirlTrainerHillClosed
-	msgbox TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop, MSGBOX_NPC
+	goto_if_unset FLAG_BADGE03_GET, TrainerHill_Entrance_EventScript_GirlTrainerHillClosed
+	msgbox TrainerHill_Gift_Encounter, MSGBOX_NPC
+	giveegg SPECIES_MAGIKARP
 	end
 
 TrainerHill_Entrance_EventScript_GirlTrainerHillClosed::
@@ -251,17 +252,24 @@ TrainerHill_Entrance_EventScript_Clerk::
 
 	.align 2
 TrainerHill_Entrance_Pokemart_Basic:
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SP_ATK
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_MIRACLE_SEED
+	.2byte ITEM_MYSTIC_WATER
+	.2byte ITEM_CHARCOAL
+	.2byte ITEM_SOFT_SAND
+	.2byte ITEM_HARD_STONE
+	.2byte ITEM_TWISTED_SPOON
+	.2byte ITEM_SHARP_BEAK
+	.2byte ITEM_POISON_BARB
+	.2byte ITEM_NEVER_MELT_ICE
+	.2byte ITEM_BLACK_BELT
+	.2byte ITEM_MAGNET
+	.2byte ITEM_FAIRY_FEATHER
+	.2byte ITEM_DRAGON_FANG
+	.2byte ITEM_SILVER_POWDER
+	.2byte ITEM_SPELL_TAG
+	.2byte ITEM_METAL_COAT
+	.2byte ITEM_BLACK_GLASSES
+	.2byte ITEM_SILK_SCARF
 	pokemartlistend
 
 TrainerHill_Entrance_EventScript_ExpandedPokemart::
@@ -434,16 +442,18 @@ TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
 	.string "I'll knock aside anyone that stands\n"
 	.string "in my way!$"
 
-TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
-	.string "Do you see the Time Board over there?\p"
-	.string "My friends and I are trying to see who\n"
-	.string "can reach the top in the least time.$"
+TrainerHill_Gift_Encounter:
+	.string "Oh wow is that the Dynamo Badge?\p"
+	.string "Wattson is no joke with that fucking\n"
+	.string "Raikou. Hey you might be better off with\n"
+	.string "this EGG than me. I got no clue what's\n"
+	.string "in it but hopefully its good.$"
 
 TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
-	.string "Do you know when they're opening\n"
-	.string "this place up?\p"
-	.string "I'm waiting here to be the first\n"
-	.string "challenger ever!$"
+	.string "Hey don't speak to me if you\n"
+	.string "got no Dynamo Badge\p"
+	.string "dumbass broke loser you can get some\n"
+	.string "of this when you have it$"
 
 TrainerHill_Elevator_Text_ReturnToReception:
 	.string "Would you like to return to\n"

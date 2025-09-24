@@ -13,10 +13,16 @@ LavaridgeTown_HerbShop_EventScript_Clerk::
 
 	.align 2
 LavaridgeTown_HerbShop_Pokemart:
-	.2byte ITEM_ENERGY_POWDER
-	.2byte ITEM_ENERGY_ROOT
-	.2byte ITEM_HEAL_POWDER
-	.2byte ITEM_REVIVAL_HERB
+	.2byte ITEM_TM_FLASH_CANNON
+	.2byte ITEM_TM_SEED_BOMB
+	.2byte ITEM_TM_EARTH_POWER
+	.2byte ITEM_TM_PSYCHIC_FANGS
+	.2byte ITEM_TM_BREAKING_SWIPE
+	.2byte ITEM_TM_ENERGY_BALL
+	.2byte ITEM_TM_DAZZLING_GLEAM
+	.2byte ITEM_TM_SHADOW_CLAW
+	.2byte ITEM_TM_WEATHER_BALL
+	.2byte ITEM_TM_BUG_BUZZ
 	pokemartlistend
 
 LavaridgeTown_HerbShop_EventScript_ExpertM::
