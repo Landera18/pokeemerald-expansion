@@ -138,6 +138,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS
 	setflag FLAG_HIDE_MAP_NAME_POPUP
+	setflag FLAG_ARCHIE_BEATEN
 	warp MAP_ROUTE128, 38, 22
 	waitstate
 	releaseall
