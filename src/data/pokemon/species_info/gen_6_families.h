@@ -5548,7 +5548,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sBergmiteTeachableLearnset,
         .eggMoveLearnset = sBergmiteEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_AVALUGG},
-                                {EVO_LEVEL, 34, SPECIES_AVALUGG_HISUI, CONDITIONS({IF_KNOWS_MOVE, MOVE_ANCIENT_POWER})}),
+                                {EVO_LEVEL, 0, SPECIES_AVALUGG_HISUI, CONDITIONS({IF_KNOWS_MOVE, MOVE_ANCIENT_POWER})}),
     },
 
     [SPECIES_AVALUGG] =
