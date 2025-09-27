@@ -46,8 +46,12 @@
 #include "union_room_chat.h"
 #include "constants/map_groups.h"
 #include "constants/items.h"
+<<<<<<< HEAD
 #include "difficulty.h"
 #include "follower_npc.h"
+=======
+#include "tx_registered_items_menu.h"
+>>>>>>> 52195d6600b7175668d2d86f55f3f3f917ef46b1
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
@@ -186,10 +190,17 @@ void NewGameInitData(void)
     gPlayerPartyCount = 0;
     ZeroPlayerPartyMons();
     ResetPokemonStorageSystem();
+<<<<<<< HEAD
     DeactivateAllRoamers();
     gSaveBlock1Ptr->registeredItem = ITEM_NONE;
+=======
+    ClearRoamerData();
+    ClearRoamerLocationData();
+    gSaveBlock1Ptr->registeredItemSelect = ITEM_NONE;
+>>>>>>> 52195d6600b7175668d2d86f55f3f3f917ef46b1
     ClearBag();
     NewGameInitPCItems();
+    TxRegItemsMenu_RegisteredItemsMenuNewGame();
     ClearPokeblocks();
     ClearDecorationInventories();
     InitEasyChatPhrases();
