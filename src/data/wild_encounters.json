@@ -8734,6 +8734,71 @@
         {
           "map": "MAP_SLATEPORT_CITY",
           "base_label": "gSlateportCity",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_WINGULL"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_SEEL"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_SEEL"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_PACHIRISU"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_PACHIRISU"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_SPEAROW"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_SPEAROW"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_PIDOVE"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_PIDOVE"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_STARYU"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_STARYU"
+              },
+              {
+                "min_level": 8,
+                "max_level": 12,
+                "species": "SPECIES_PHIONE"
+              }
+            ]
+          },
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -8816,71 +8881,6 @@
                 "min_level": 8,
                 "max_level": 12,
                 "species": "SPECIES_QWILFISH_HISUI"
-              }
-            ]
-          },
-          "land_mons": {
-            "encounter_rate": 10,
-            "mons": [
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_WINGULL"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_SEEL"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_SEEL"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_PACHIRISU"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_PACHIRISU"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_SPEAROW"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_SPEAROW"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_PIDOVE"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_PIDOVE"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_STARYU"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_STARYU"
-              },
-              {
-                "min_level": 8,
-                "max_level": 12,
-                "species": "SPECIES_PHIONE"
               }
             ]
           }

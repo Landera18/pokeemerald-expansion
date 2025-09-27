@@ -87,6 +87,7 @@
     F(DRAGON_PULSE) \
     F(DUAL_CHOP) \
     F(PLAY_ROUGH) \
+    F(FOLLOW_ME)
 
 #define FOREACH_HM(F) \
     F(CUT) \
