@@ -7081,14 +7081,16 @@ Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
 Scyther @ Eviolite  
-Ability: Technician   
+Ability: Technician  
+Level: 40   
 - X-Scissor  
 - Dual Wingbeat  
 - Brick Break  
 - U-turn  
 
 Scizor @ Occa Berry  
-Ability: Technician   
+Ability: Technician  
+Level: 40    
 - Bug Bite  
 - Bullet Punch  
 - Dual Wingbeat  
@@ -7096,10 +7098,13 @@ Ability: Technician
 
 Kleavor @ Passho Berry  
 Ability: Sharpness  
+Level: 40    
 - Night Slash  
 - X-Scissor  
 - Stone Axe  
 - Quick Attack  
+
+ 
 
 === TRAINER_DILLON ===
 Name: DILLON
@@ -7111,7 +7116,8 @@ Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
 Watchog @ Iron Ball  
-Ability: Analytic    
+Ability: Analytic  
+Level: 40  
 Adamant Nature  
 - Return  
 - Aqua Tail  
@@ -7120,6 +7126,7 @@ Adamant Nature
 
 Zebstrika @ Magnet  
 Ability: Sap Sipper  
+Level: 40    
 Jolly Nature  
 - Flame Charge  
 - Supercell Slam  
@@ -7128,6 +7135,7 @@ Jolly Nature
 
 Rotom-Frost @ Assault Vest  
 Ability: Levitate  
+Level: 40    
 Modest Nature  
 IVs: 0 Atk  
 - Blizzard  
@@ -9153,7 +9161,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: AI_FLAG_SMART_TRAINER
+AI: AI_FLAG_SMART_TRAINER / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Bronzong @ Iron Ball  
 Ability: Levitate  
