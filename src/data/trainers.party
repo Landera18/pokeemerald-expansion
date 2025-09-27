@@ -12675,15 +12675,15 @@ Careful Nature
 - Iron Head  
 - Iron Defense  
 
-Houndoom-Mega @ Houndoominite  
-Ability: Solar Power  
+Houndoom @ Houndoominite  
+Ability: Early Bird  
 Level: 45    
 Timid Nature  
 IVs: 0 Atk  
-- Dark Pulse  
 - Flamethrower  
+- Dark Pulse  
 - Shadow Ball  
-- Nasty Plot  
+- Will-O-Wisp
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -13227,6 +13227,8 @@ Adamant Nature
 
 Dugtrio @ Focus Sash  
 Ability: Arena Trap  
+Level: 40
+Adamant Nature
 - Earthquake  
 - Final Gambit  
 - Foul Play  
