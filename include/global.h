@@ -5,7 +5,6 @@
 #include <limits.h>
 #include "config/general.h" // we need to define config before gba headers as print stuff needs the functions nulled before defines.
 #include "gba/gba.h"
-#include "siirtc.h"
 #include "fpmath.h"
 #include "metaprogram.h"
 #include "constants/global.h"
@@ -27,10 +26,6 @@
 // to help in decompiling
 #define asm_unified(x) asm(".syntax unified\n" x "\n.syntax divided")
 #define NAKED __attribute__((naked))
-
-#if MODERN
-#define asm __asm__
-#endif
 
 /// IDE support
 #if defined(__APPLE__) || defined(__CYGWIN__) || defined(__INTELLISENSE__)
@@ -107,9 +102,6 @@
 #define T2_READ_32(ptr) ((ptr)[0] + ((ptr)[1] << 8) + ((ptr)[2] << 16) + ((ptr)[3] << 24))
 #define T2_READ_PTR(ptr) (void *) T2_READ_32(ptr)
 
-#define PACK(data, shift, mask)   ( ((data) << (shift)) & (mask) )
-#define UNPACK(data, shift, mask) ( ((data) & (mask)) >> (shift) )
-
 // Macros for checking the joypad
 #define TEST_BUTTON(field, button) ((field) & (button))
 #define JOY_NEW(button) TEST_BUTTON(gMain.newKeys,  button)
@@ -139,7 +131,7 @@
 
 #define FEATURE_FLAG_ASSERT(flag, id) STATIC_ASSERT(flag > TEMP_FLAGS_END || flag == 0, id)
 
-// NOTE: This uses hardware timers 2 and 3; this will not work during active link connections or with the eReader
+#ifndef NDEBUG
 static inline void CycleCountStart()
 {
     REG_TM2CNT_H = 0;
@@ -162,6 +154,7 @@ static inline u32 CycleCountEnd()
     // return result
     return REG_TM2CNT_L | (REG_TM3CNT_L << 16u);
 }
+#endif
 
 struct Coords8
 {
@@ -207,51 +200,18 @@ struct Time
     /*0x04*/ s8 seconds;
 };
 
-struct NPCFollowerPadding
-{
-    u8 padding1;
-    u8 padding2;
-    u8 padding3;
-};
-
-struct NPCFollower
-{
-    u8 inProgress:1;
-    u8 warpEnd:1;
-    u8 createSurfBlob:3;
-    u8 comeOutDoorStairs:2;
-    u8 forcedMovement:1;
-    u8 objId;
-    u8 currentSprite;
-    u8 delayedState;
-    struct NPCFollowerPadding padding;
-    struct Coords16 log;
-    const u8 *script;
-    u16 flag;
-    u16 graphicsId;
-    u16 flags;
-    u8 battlePartner; // If you have more than 255 total battle partners defined, change this to a u16
-};
-
 #include "constants/items.h"
 #define ITEM_FLAGS_COUNT ((ITEMS_COUNT / 8) + ((ITEMS_COUNT % 8) ? 1 : 0))
 
 struct SaveBlock3
 {
 #if OW_USE_FAKE_RTC
-    struct SiiRtcInfo fakeRTC;
-#endif
-#if FNPC_ENABLE_NPC_FOLLOWERS
-    struct NPCFollower NPCfollower;
+    struct Time fakeRTC;
 #endif
 #if OW_SHOW_ITEM_DESCRIPTIONS == OW_ITEM_DESCRIPTIONS_FIRST_TIME
     u8 itemFlags[ITEM_FLAGS_COUNT];
 #endif
-#if USE_DEXNAV_SEARCH_LEVELS == TRUE
-    u8 dexNavSearchLevels[NUM_SPECIES];
-#endif
-    u8 dexNavChain;
-}; /* max size 1624 bytes */
+};
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;
 
@@ -526,7 +486,7 @@ struct ApprenticeQuestion
     u8 moveSlot:2;
     u8 suggestedChange:2; // TRUE if told to use held item or second move, FALSE if told to use no item or first move
     //u8 padding;
-    u16 data; // used both as an itemId and a move
+    u16 data; // used both as an itemId and a moveId
 };
 
 struct PlayersApprentice
@@ -606,8 +566,6 @@ struct SaveBlock2
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
 
-extern u8 UpdateSpritePaletteWithTime(u8);
-
 struct SecretBaseParty
 {
     u32 personality[PARTY_SIZE];
@@ -658,6 +616,11 @@ struct ItemSlot
     u16 quantity;
 };
 
+struct RegisteredItemSlot
+{
+    u16 itemId;
+};
+
 struct Pokeblock
 {
     u8 color;
@@ -684,8 +647,7 @@ struct Roamer
     /*0x12*/ u8 tough;
     /*0x13*/ bool8 active;
     /*0x14*/ u8 statusB; // Stores frostbite
-    /*0x15*/ bool8 shiny;
-    /*0x16*/ u8 filler[0x6];
+    /*0x14*/ u8 filler[0x7];
 };
 
 struct RamScriptData
@@ -693,7 +655,7 @@ struct RamScriptData
     u8 magic;
     u8 mapGroup;
     u8 mapNum;
-    u8 localId;
+    u8 objectId;
     u8 script[995];
     //u8 padding;
 };
@@ -724,8 +686,8 @@ struct MauvilleManBard
 {
     /*0x00*/ u8 id;
     /*0x01*/ //u8 padding1;
-    /*0x02*/ u16 songLyrics[NUM_BARD_SONG_WORDS];
-    /*0x0E*/ u16 newSongLyrics[NUM_BARD_SONG_WORDS];
+    /*0x02*/ u16 songLyrics[BARD_SONG_LENGTH];
+    /*0x0E*/ u16 temporaryLyrics[BARD_SONG_LENGTH];
     /*0x1A*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     /*0x22*/ u8 filler_2DB6[0x3];
     /*0x25*/ u8 playerTrainerId[TRAINER_ID_LENGTH];
@@ -858,7 +820,8 @@ struct DayCare
 {
     struct DaycareMon mons[DAYCARE_MON_COUNT];
     u32 offspringPersonality;
-    u32 stepCounter;
+    u8 stepCounter;
+    //u8 padding[3];
 };
 
 struct LilycoveLadyQuiz
@@ -1048,15 +1011,6 @@ struct ExternalEventFlags
 
 } __attribute__((packed));/*size = 0x15*/
 
-struct Bag
-{
-    struct ItemSlot items[BAG_ITEMS_COUNT];
-    struct ItemSlot keyItems[BAG_KEYITEMS_COUNT];
-    struct ItemSlot pokeBalls[BAG_POKEBALLS_COUNT];
-    struct ItemSlot TMsHMs[BAG_TMHM_COUNT];
-    struct ItemSlot berries[BAG_BERRIES_COUNT];
-};
-
 struct SaveBlock1
 {
     /*0x00*/ struct Coords16 pos;
@@ -1077,10 +1031,13 @@ struct SaveBlock1
     /*0x238*/ struct Pokemon playerParty[PARTY_SIZE];
     /*0x490*/ u32 money;
     /*0x494*/ u16 coins;
-    /*0x496*/ u16 registeredItem; // registered for use with SELECT button
+    /*0x496*/ u16 registeredItemSelect; // registered for use with SELECT button
     /*0x498*/ struct ItemSlot pcItems[PC_ITEMS_COUNT];
-    /*0x560 -> 0x848 is bag storage*/
-    /*0x560*/ struct Bag bag;
+    /*0x560*/ struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
+    /*0x5D8*/ struct ItemSlot bagPocket_KeyItems[BAG_KEYITEMS_COUNT];
+    /*0x650*/ struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
+    /*0x690*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
+    /*0x790*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
     /*0x848*/ struct Pokeblock pokeblocks[POKEBLOCKS_COUNT];
 #if FREE_EXTRA_SEEN_FLAGS_SAVEBLOCK1 == FALSE
     /*0x988*/ u8 filler1[0x34]; // Previously Dex Flags, feel free to remove.
@@ -1166,9 +1123,12 @@ struct SaveBlock1
 #endif //FREE_TRAINER_HILL
     /*0x3???*/ struct WaldaPhrase waldaPhrase;
     // sizeof: 0x3???
+                u8 registeredItemLastSelected:4; //max 16 items
+                u8 registeredItemListCount:4;
+                struct RegisteredItemSlot registeredItems[REGISTERED_ITEMS_MAX];
 };
 
-extern struct SaveBlock1 *gSaveBlock1Ptr;
+extern struct SaveBlock1* gSaveBlock1Ptr;
 
 struct MapPosition
 {
@@ -1176,9 +1136,5 @@ struct MapPosition
     s16 y;
     s8 elevation;
 };
-
-#if T_SHOULD_RUN_MOVE_ANIM
-extern bool32 gLoadFail;
-#endif // T_SHOULD_RUN_MOVE_ANIM
 
 #endif // GUARD_GLOBAL_H
