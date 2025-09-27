@@ -553,7 +553,7 @@ after:
 		call(Common_EventScript_GetGiftMonPartySlot)
 		call(Common_EventScript_NameReceivedPartyMon)
 	}
-	setflag(FLAG_UNUSED_0x91F)
+	setflag(FLAG_TRAINER_HILL_GIFT)
 	msgbox("Raise it well!")
 	release
 	end
@@ -564,7 +564,7 @@ notYet:
     end
 
 already:
-    msgbox("I've already given you an Egg. Train hard!")
+    msgbox("I've already given you a Pokemon. Train hard!")
     release
     end
 }

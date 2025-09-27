@@ -89,7 +89,7 @@ PetalburgWoods_EventScript_DevonResearcherPostBattle::
 	waitmovement 0
 	msgbox PetalburgWoods_Text_ThatWasAwfullyClose, MSGBOX_DEFAULT
 	setflag FLAG_AQUA1_BEATEN
-	giveitem ITEM_GREAT_BALL
+	giveitem ITEM_POKEMON_BOX_LINK
 	goto_if_eq VAR_RESULT, FALSE, PetalburgWoods_EventScript_BagFull
 	goto PetalburgWoods_EventScript_DevonResearcherFinish
 	end

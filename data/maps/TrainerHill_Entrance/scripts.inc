@@ -1072,7 +1072,7 @@ after:
 	goto_if_eq TrainerHill_EventScript_SupriseGiftMan_61
 TrainerHill_EventScript_SupriseGiftMan_60:
 # 556 "data/maps/TrainerHill_Entrance/scripts.pory"
-	setflag FLAG_UNUSED_0x91F
+	setflag FLAG_TRAINER_HILL_GIFT
 # 557 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_3
 # 558 "data/maps/TrainerHill_Entrance/scripts.pory"
@@ -1411,4 +1411,4 @@ TrainerHill_EventScript_SupriseGiftMan_Text_4:
 
 TrainerHill_EventScript_SupriseGiftMan_Text_5:
 # 567 "data/maps/TrainerHill_Entrance/scripts.pory"
-	.string "I've already given you an Egg. Train hard!$"
+	.string "I've already given you a Pokemon. Train hard!$"
