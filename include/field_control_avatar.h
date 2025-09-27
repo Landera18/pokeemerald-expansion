@@ -11,12 +11,7 @@ struct FieldInput
     bool8 heldDirection2:1;
     bool8 tookStep:1;
     bool8 pressedBButton:1;
-<<<<<<< HEAD
     bool8 pressedRButton:1;
-=======
-    bool8 pressedListButton:1;
-    bool8 input_field_1_0:1;
->>>>>>> 52195d6600b7175668d2d86f55f3f3f917ef46b1
     bool8 input_field_1_1:1;
     bool8 input_field_1_2:1;
     bool8 input_field_1_3:1;

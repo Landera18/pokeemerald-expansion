@@ -2040,12 +2040,7 @@ extern const u16 gBattleInterface_BallStatusBarPal[];
 extern const u16 gBattleInterface_BallDisplayPal[];
 
 extern const u32 gSwapLineGfx[];
-<<<<<<< HEAD
 extern const u16 gSwapLinePal[];
-=======
-extern const u32 gSwapLinePal[];
-extern const u32 gSwapLineGfx_RegisteredItemsMenu[];
->>>>>>> 52195d6600b7175668d2d86f55f3f3f917ef46b1
 
 extern const u32 gBattlePyramidBag_Gfx[];
 extern const u16 gBattlePyramidBag_Pal[];
