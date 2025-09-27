@@ -5742,7 +5742,7 @@ IVs: 0 Atk
 - Bitter Malice  
 - Hyper Voice  
 
-Pidgeot-Mega @ Pidgeotite  
+Pidgeot @ Pidgeotite  
 Ability: No Guard  
 Level: 52  
 Shiny: Yes  
@@ -5752,15 +5752,15 @@ Modest Nature
 - Heat Wave  
 - Pursuit  
 
-Farigiraf @ Weakness Policy  
-Ability: Armor Tail  
-Level: 51  
+Farigiraf @ Jaboca Berry  
+Ability: Cud Chew  
+Level: 51   
 Modest Nature  
 IVs: 0 Atk  
 - Hyper Voice  
 - Stored Power  
 - Shadow Ball  
-- Mimic  
+- Mimic 
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -13685,7 +13685,8 @@ IVs: 0 Atk
 - Synthesis  
 
 Miltank (F) @ Assault Vest  
-Ability: Thick Fat    
+Ability: Thick Fat 
+Level: 44   
 - Return  
 - High Horsepower  
 - Thunder Punch  
