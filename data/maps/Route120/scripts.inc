@@ -154,6 +154,7 @@ Route120_EventScript_BerryNotLove::
 Route120_EventScript_Steven::
 	lock
 	faceplayer
+	goto_if_unset FLAG_BADGE06_GET, Route120_EventScript_StevenBeatGym
 	goto_if_set FLAG_NOT_READY_FOR_BATTLE_ROUTE_120, Route120_EventScript_StevenAskReadyForBattle
 	msgbox Route120_Text_StevenGreeting, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route120_EventScript_StevenNotReady
@@ -163,6 +164,11 @@ Route120_EventScript_Steven::
 Route120_EventScript_StevenNotReady::
 	msgbox Route120_Text_StevenIllWaitHere, MSGBOX_DEFAULT
 	setflag FLAG_NOT_READY_FOR_BATTLE_ROUTE_120
+	release
+	end
+
+Route120_EventScript_StevenBeatGym::
+	msgbox Route120_Text_StevenBeatGym, MSGBOX_DEFAULT
 	release
 	end
 
@@ -358,6 +364,11 @@ Route120_EventScript_Callie::
 	trainerbattle_single TRAINER_CALLIE, Route120_Text_CallieIntro, Route120_Text_CallieDefeat
 	msgbox Route120_Text_CalliePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route120_Text_StevenBeatGym:
+	.string "STEVEN: Hi {PLAYER}.\n"
+	.string "Talk to me when you have beaten\p"
+	.string "The FORTREE CITY Gym Leader Winona.$"
 
 Route120_Text_StevenGreeting:
 	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"

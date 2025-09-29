@@ -541,12 +541,15 @@ script TrainerHill_EventScript_SupriseGiftMan {
         case 53: givemon(SPECIES_SCYTHER, 5)
         case 54: givemon(SPECIES_KLEFKI, 5)
         case 55: givemon(SPECIES_TAUROS, 5)
-        case 56: givemon(SPECIES_EEVEE, 5)  // fallback
+		case 56: givemon(SPECIES_PORYGON, 5)
+		case 57: givemon(SPECIES_DURALUDON, 5)
+		case 58: givemon(SPECIES_CHARCADET, 5)  // fallback
+		case 59: givemon(SPECIES_COSMOG, 5)  // fallback
     }
 
 after:
 	playfanfare(MUS_OBTAIN_ITEM)
-	msgbox("Recieved a Pokemon!\p")
+	msgbox("Received a Pokemon!\p")
     waitfanfare
 	msgbox("Give it a nickname?", MSGBOX_YESNO)
 	if(var(VAR_RESULT)== YES) {

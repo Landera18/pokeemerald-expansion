@@ -88,7 +88,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 21
@@ -101,7 +101,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 32
@@ -114,7 +114,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 31
@@ -131,7 +131,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 32
@@ -144,7 +144,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 32
@@ -157,7 +157,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 36
@@ -170,7 +170,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 36
@@ -183,7 +183,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 36
@@ -196,7 +196,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty
 Level: 26
@@ -270,7 +270,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 29
@@ -287,7 +287,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 30
@@ -304,7 +304,7 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zangoose
 Level: 30
@@ -321,7 +321,7 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 36
@@ -334,7 +334,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Gyarados
 Level: 34
@@ -388,15 +388,40 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales-Alola @ Focus Sash  
+Ability: Snow Warning  
+Level: 55  
+Timid Nature  
+IVs: 0 Atk  
+- Aurora Veil  
+- Blizzard  
+- Moonblast  
+- Dark Pulse  
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Beartic @ Never-Melt Ice  
+Ability: Snow Cloak  
+Level: 55  
+- Icicle Crash  
+- Play Rough  
+- Liquidation  
+- Bulk Up  
+
+Arctozolt @ Leftovers  
+Ability: Slush Rush  
+- Bolt Beak  
+- Icicle Crash  
+- Stomping Tantrum  
+- Thunder Wave  
+
+Glalie @ Bright Powder  
+Ability: Moody  
+Level: 55  
+- Explosion  
+- Earthquake  
+- Blizzard  
+- Freeze-Dry  
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
 Name: GRUNT
@@ -405,15 +430,35 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Politoed @ Rindo Berry  
+Ability: Drizzle  
+Level: 55  
+Modest Nature  
+IVs: 0 Atk  
+- Scald  
+- Ice Beam  
+- Whirlpool  
+- Perish Song  
 
-Carvanha
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Floatzel @ Muscle Band  
+Ability: Swift Swim  
+Level: 55  
+Adamant Nature  
+- Wave Crash  
+- Ice Spinner  
+- Crunch  
+- Flip Turn  
+
+Mr. Rime @ Focus Sash  
+Ability: Screen Cleaner  
+Level: 55   
+Modest Nature  
+- Freeze-Dry  
+- Psychic  
+- Dazzling Gleam  
+- Fake Out  
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
 Name: GRUNT
@@ -422,19 +467,23 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Poochyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gyarados @ Bright Powder  
+Ability: Moxie  
+Level: 55   
+- Bounce  
+- Aqua Tail  
+- Crunch  
+- Dragon Tail  
 
-Zubat
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Octillery @ Bright Powder  
+Ability: Moody  
+Level: 55    
+- Substitute  
+- Surf  
+- Flamethrower  
+- Gunk Shot  
 
 === TRAINER_GRUNT_MUSEUM_1 ===
 Name: GRUNT
@@ -503,7 +552,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 32
@@ -516,7 +565,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 32
@@ -529,7 +578,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 32
@@ -542,7 +591,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 30
@@ -559,11 +608,45 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacruel @ Black Sludge  
+Ability: Liquid Ooze  
+Level: 55  
+Timid Nature  
+IVs: 0 Atk  
+- Toxic Spikes  
+- Surf  
+- Sludge Bomb  
+- Giga Drain  
+
+Huntail @ Mystic Water  
+Ability: Swift Swim  
+Level: 55  
+Jolly Nature  
+- Dive  
+- Toxic  
+- Protect  
+- Super Fang  
+
+Pyukumuku @ Leftovers  
+Ability: Innards Out  
+Level: 55  
+Careful Nature  
+IVs: 0 Atk  
+- Counter  
+- Mirror Coat  
+- Toxic  
+- Recover  
+
+Toxapex @ Life Orb  
+Ability: Merciless  
+Level: 55  
+Brave Nature  
+- Venoshock  
+- Ice Spinner  
+- Liquidation  
+- Baneful Bunker  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
 Name: GRUNT
@@ -572,7 +655,7 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 32
@@ -585,7 +668,7 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 32
@@ -598,7 +681,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Makuhita
 Level: 30
@@ -616,7 +699,7 @@ Gender: Male
 Music: Aqua
 Items: Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 34
@@ -633,7 +716,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 31
@@ -646,15 +729,65 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Dudunsparce @ Sitrus Berry  
+Ability: Serene Grace  
+Level: 55  
+Quiet Nature  
+IVs: 0 Atk  
+- Stealth Rock  
+- Air Slash  
+- Boomburst  
+- Thunder Wave  
 
-Mightyena
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Iron Jugulis @ Choice Scarf  
+Ability: Quark Drive  
+Level: 55  
+Timid Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Flamethrower  
+- Hurricane  
+- Flash Cannon  
+
+Wailord @ Leftovers  
+Ability: Oblivious  
+Level: 56   
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Water Spout  
+- Roar  
+
+Dhelmise @ Assault Vest  
+Ability: Steelworker  
+Level: 56    
+Adamant Nature  
+- Anchor Shot  
+- Power Whip  
+- Poltergeist  
+- Knock Off  
+
+Mesprit @ Expert Belt  
+Ability: Levitate  
+Level: 57   
+Modest Nature  
+IVs: 0 Atk  
+- Psychic  
+- Thunderbolt  
+- Energy Ball  
+- Toxic  
+
+Glalie-Mega @ Glalitite  
+Ability: Refrigerate  
+Level: 57  
+Jolly Nature  
+- Return  
+- Earthquake  
+- Iron Head  
+- Taunt  
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -663,7 +796,7 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Sharpedo
 Level: 37
@@ -681,7 +814,7 @@ Gender: Male
 Music: Aqua
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 41
@@ -702,7 +835,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spoink
 Level: 31
@@ -745,24 +878,25 @@ Level: 25
 
 === TRAINER_ROSE_1 ===
 Name: ROSE
-Class: Aroma Lady
-Pic: Aroma Lady
+Class: TRAINER_CLASS_SWIMMER_F
+Pic: Swimmer F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Roserade  
+Ability: Natural Cure  
+Level: 52  
 
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arboliva  
+Ability: Harvest  
+Level: 52   
+IVs: 0 Atk  
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Venusaur  
+Ability: Overgrow  
+Level: 52   
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -772,7 +906,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 43
@@ -792,7 +926,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Roselia
 Level: 26
@@ -809,7 +943,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 26
@@ -826,7 +960,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 28
@@ -847,7 +981,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 31
@@ -868,7 +1002,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 34
@@ -906,7 +1040,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 27
@@ -939,23 +1073,12 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Sandshrew
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
-
-Sandslash
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Alcremie  
+Ability: Sweet Veil  
+Level: 50  
+Tera Type: Fairy  
 
 === TRAINER_DUSTY_2 ===
 Name: DUSTY
@@ -964,7 +1087,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandslash
 Level: 27
@@ -981,7 +1104,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandslash
 Level: 30
@@ -998,7 +1121,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandslash
 Level: 33
@@ -1015,7 +1138,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandslash
 Level: 36
@@ -1032,7 +1155,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 17
@@ -1049,7 +1172,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 27
@@ -1066,7 +1189,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 30
@@ -1083,7 +1206,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 33
@@ -1100,7 +1223,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 36
@@ -1117,7 +1240,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 39
@@ -1180,7 +1303,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 26
@@ -1193,7 +1316,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 26
@@ -1206,7 +1329,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 26
@@ -1223,7 +1346,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 29
@@ -1240,7 +1363,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 32
@@ -1257,7 +1380,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azumarill
 Level: 35
@@ -1300,7 +1423,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azurill
 Level: 12
@@ -1317,11 +1440,17 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Azumarill  
+Ability: Thick Fat  
+Level: 50  
+Tera Type: Water  
+
+Stantler  
+Ability: Intimidate  
+Level: 50  
+Tera Type: Normal  
 
 === TRAINER_RICKY_2 ===
 Name: RICKY
@@ -1330,7 +1459,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 27
@@ -1347,7 +1476,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 30
@@ -1364,7 +1493,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 33
@@ -1381,7 +1510,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 36
@@ -1572,7 +1701,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 28
@@ -1622,7 +1751,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Sableye
 Level: 44
@@ -1644,7 +1773,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mawile
 Level: 46
@@ -1700,7 +1829,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Cacturne
 Level: 43
@@ -1718,7 +1847,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 43
@@ -1736,7 +1865,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 42
@@ -1758,7 +1887,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Dodrio
 Level: 42
@@ -1784,7 +1913,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 42
@@ -1806,7 +1935,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Electrike
 Level: 26
@@ -1828,7 +1957,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 29
@@ -1850,7 +1979,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 32
@@ -1872,7 +2001,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 35
@@ -1894,7 +2023,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Graveler
 Level: 33
@@ -2047,7 +2176,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Mawile
 Level: 29
@@ -2081,7 +2210,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Lairon
 Level: 45
@@ -2142,7 +2271,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Sableye
 Level: 30
@@ -2156,7 +2285,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Roselia
 Level: 45
@@ -2170,7 +2299,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Claydol
 Level: 45
@@ -2184,7 +2313,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Torkoal
 Level: 42
@@ -2206,7 +2335,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Skarmory
 Level: 43
@@ -2224,7 +2353,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Sandslash
 Level: 42
@@ -2246,7 +2375,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 26
@@ -2268,7 +2397,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 29
@@ -2290,7 +2419,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 32
@@ -2312,7 +2441,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 34
@@ -2333,7 +2462,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Banette
 Level: 41
@@ -2350,7 +2479,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Duskull
 Level: 30
@@ -2367,7 +2496,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Duskull
 Level: 29
@@ -2384,7 +2513,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sableye
 Level: 32
@@ -2397,7 +2526,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shuppet
 Level: 32
@@ -2410,7 +2539,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sableye
 Level: 31
@@ -2427,7 +2556,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spoink
 Level: 35
@@ -2444,7 +2573,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spoink
 Level: 40
@@ -2461,7 +2590,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Duskull
 Level: 42
@@ -2507,7 +2636,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc @ Nugget
 Level: 39
@@ -2532,7 +2661,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 26
@@ -2554,7 +2683,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zigzagoon @ Nugget
 Level: 11
@@ -2570,7 +2699,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Seaking @ Nugget
 Level: 40
@@ -2584,7 +2713,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Roselia @ Nugget
 Level: 45
@@ -2598,7 +2727,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 27
@@ -2612,7 +2741,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 30
@@ -2626,7 +2755,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 33
@@ -2640,7 +2769,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 36
@@ -2657,7 +2786,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 21
@@ -2670,7 +2799,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 21
@@ -2683,7 +2812,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 21
@@ -2696,7 +2825,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 29
@@ -2721,7 +2850,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Goldeen
 Level: 40
@@ -2734,7 +2863,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azumarill
 Level: 40
@@ -2747,7 +2876,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Clamperl
 Level: 35
@@ -2779,7 +2908,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 39
@@ -2796,7 +2925,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 35
@@ -2821,7 +2950,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 38
@@ -2846,7 +2975,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 41
@@ -2871,7 +3000,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 44
@@ -2931,7 +3060,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Whiscash
 Level: 33
@@ -2949,7 +3078,7 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azumarill @ Nugget
 Level: 45
@@ -2963,7 +3092,7 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 27
@@ -2977,7 +3106,7 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 30
@@ -2991,7 +3120,7 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 33
@@ -3005,7 +3134,7 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone @ Nugget
 Level: 36
@@ -3049,7 +3178,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 25
@@ -3066,7 +3195,7 @@ Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Rhyhorn
 Level: 31
@@ -3107,7 +3236,7 @@ Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lairon
 Level: 27
@@ -3120,7 +3249,7 @@ Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lairon
 Level: 29
@@ -3137,7 +3266,7 @@ Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lairon
 Level: 32
@@ -3154,7 +3283,7 @@ Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Aggron
 Level: 35
@@ -3171,11 +3300,32 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Unown-P  
+Ability: Levitate  
+Level: 50  
+Tera Type: Psychic  
+
+Unown-E  
+Ability: Levitate  
+Level: 50  
+Tera Type: Psychic  
+
+Unown-N  
+Ability: Levitate  
+Level: 50  
+Tera Type: Psychic  
+
+Unown-I  
+Ability: Levitate  
+Level: 50  
+Tera Type: Psychic  
+
+Unown-S  
+Ability: Levitate  
+Level: 50  
+Tera Type: Psychic  
 
 === TRAINER_DOMINIK ===
 Name: DOMINIK
@@ -3184,11 +3334,17 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ludicolo  
+Ability: Swift Swim  
+Level: 50  
+Tera Type: Water  
+
+Shiftry  
+Ability: Chlorophyll  
+Level: 50  
+Tera Type: Grass  
 
 === TRAINER_DOUGLAS ===
 Name: DOUGLAS
@@ -3197,15 +3353,16 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Eevee  
+Ability: Run Away  
+Level: 50  
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Eevee  
+Ability: Run Away  
+Level: 50  
 
 === TRAINER_DARRIN ===
 Name: DARRIN
@@ -3214,19 +3371,17 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Dragonite  
+Ability: Inner Focus  
+Level: 50  
+Tera Type: Dragon  
 
-Wingull
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Slaking  
+Ability: Truant  
+Level: 50  
+Tera Type: Normal  
 
 === TRAINER_TONY_1 ===
 Name: TONY
@@ -3235,11 +3390,23 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cramorant  
+Ability: Gulp Missile  
+Level: 50  
+Tera Type: Flying  
+
+Cramorant  
+Ability: Gulp Missile  
+Level: 50  
+Tera Type: Flying  
+
+Cramorant  
+Ability: Gulp Missile  
+Level: 50  
+Shiny: Yes  
+Tera Type: Flying  
 
 === TRAINER_JEROME ===
 Name: JEROME
@@ -3248,11 +3415,18 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacruel
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Houndoom  
+Ability: Early Bird  
+Level: 50  
+Tera Type: Dark  
+
+Camerupt  
+Ability: Magma Armor  
+Level: 50  
+Shiny: Yes  
+Tera Type: Fire  
 
 === TRAINER_MATTHEW ===
 Name: MATTHEW
@@ -3261,11 +3435,15 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Smeargle  
+Ability: Own Tempo  
+Level: 75  
+Tera Type: Normal  
+IVs: 0 Atk  
+- Sheer Cold  
+- Lock-On  
 
 === TRAINER_DAVID ===
 Name: DAVID
@@ -3274,15 +3452,17 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Comfey  
+Ability: Flower Veil  
+Level: 50  
+Tera Type: Fairy  
 
-Carvanha
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pangoro  
+Ability: Iron Fist  
+Level: 50  
+Tera Type: Fighting  
 
 === TRAINER_SPENCER ===
 Name: SPENCER
@@ -3291,7 +3471,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacool
 Level: 33
@@ -3308,7 +3488,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 34
@@ -3321,7 +3501,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacruel
 Level: 34
@@ -3334,7 +3514,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Horsea
 Level: 34
@@ -3347,7 +3527,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Gyarados
 Level: 34
@@ -3360,7 +3540,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 31
@@ -3381,7 +3561,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Gyarados
 Level: 34
@@ -3394,7 +3574,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 34
@@ -3407,7 +3587,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 33
@@ -3424,7 +3604,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacruel
 Level: 33
@@ -3441,7 +3621,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sharpedo
 Level: 34
@@ -3454,7 +3634,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sealeo
 Level: 34
@@ -3467,7 +3647,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spheal
 Level: 34
@@ -3480,7 +3660,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Gyarados
 Level: 34
@@ -3493,7 +3673,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacool
 Level: 33
@@ -3514,7 +3694,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacool
 Level: 33
@@ -3531,7 +3711,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sharpedo
 Level: 30
@@ -3544,7 +3724,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sharpedo
 Level: 33
@@ -3557,7 +3737,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 34
@@ -3574,7 +3754,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Starmie
 Level: 37
@@ -3624,7 +3804,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 32
@@ -3641,7 +3821,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 34
@@ -3710,7 +3890,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machoke
 Level: 27
@@ -3723,7 +3903,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 29
@@ -3740,7 +3920,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 31
@@ -3761,7 +3941,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 33
@@ -3786,7 +3966,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Makuhita
 Level: 26
@@ -3803,7 +3983,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 19
@@ -3816,7 +3996,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 32
@@ -3866,7 +4046,7 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 31
@@ -3883,7 +4063,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 32
@@ -3913,7 +4093,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Electrike
 Level: 30
@@ -3930,7 +4110,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 15
@@ -3947,7 +4127,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 25
@@ -3968,7 +4148,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 28
@@ -3989,7 +4169,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 31
@@ -4010,7 +4190,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 34
@@ -4057,7 +4237,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 22
@@ -4121,7 +4301,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 23
@@ -4134,7 +4314,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 23
@@ -4173,7 +4353,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 26
@@ -4190,7 +4370,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 29
@@ -4207,7 +4387,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 32
@@ -4224,7 +4404,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magcargo
 Level: 35
@@ -4296,7 +4476,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Nuzleaf
 Level: 18
@@ -4343,7 +4523,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 24
@@ -4449,7 +4629,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zigzagoon
 Level: 26
@@ -4466,7 +4646,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 29
@@ -4483,7 +4663,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandshrew
 Level: 31
@@ -4504,7 +4684,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 34
@@ -4525,11 +4705,33 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Surskit
-Level: 26
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Wormadam @ Grass Gem  
+Ability: Anticipation  
+Level: 55  
+IVs: 0 Atk  
+- Leaf Storm  
+- Bug Buzz  
+- Psychic  
+- Protect  
+
+Wormadam-Sandy @ Ground Gem  
+Ability: Anticipation  
+Level: 55  
+- Headlong Rush  
+- Bug Bite  
+- Sucker Punch  
+- Protect  
+
+Wormadam-Trash @ Steel Gem  
+Ability: Anticipation  
+Level: 55  
+IVs: 0 Atk  
+- Steel Beam  
+- Bug Buzz  
+- Shadow Ball  
+- Protect  
 
 === TRAINER_DONALD ===
 Name: DONALD
@@ -4538,7 +4740,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wurmple
 Level: 24
@@ -4559,19 +4761,19 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wurmple
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Forretress  
+Ability: Sturdy  
+Level: 52   
 
-Cascoon
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Pinsir  
+Ability: Hyper Cutter  
+Level: 52  
 
-Dustox
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dustox  
+Ability: Shield Dust  
+Level: 52  
 
 === TRAINER_JEFFREY_1 ===
 Name: JEFFREY
@@ -4580,7 +4782,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 27
@@ -4601,7 +4803,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Chansey @ Eviolite  
 Ability: Serene Grace  
@@ -4636,7 +4838,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 31
@@ -4657,7 +4859,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 34
@@ -4678,7 +4880,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 36
@@ -4703,7 +4905,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 38
@@ -4766,7 +4968,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kirlia
 Level: 36
@@ -4779,7 +4981,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Ralts
 Level: 36
@@ -4792,7 +4994,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Girafarig
 Level: 36
@@ -4805,7 +5007,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Ralts
 Level: 26
@@ -4826,7 +5028,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 41
@@ -4843,7 +5045,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Solrock
 Level: 31
@@ -4856,7 +5058,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 33
@@ -4873,7 +5075,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 38
@@ -4890,7 +5092,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 41
@@ -4907,7 +5109,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Solrock
 Level: 45
@@ -4924,7 +5126,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Indeedee @ Psychic Seed  
 Ability: Psychic Surge  
@@ -4959,7 +5161,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kirlia
 Level: 36
@@ -4972,7 +5174,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Xatu
 Level: 36
@@ -4985,7 +5187,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 36
@@ -4998,7 +5200,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wobbuffet
 Level: 26
@@ -5019,7 +5221,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kirlia
 Level: 41
@@ -5036,7 +5238,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 30
@@ -5053,7 +5255,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 34
@@ -5070,7 +5272,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 37
@@ -5087,7 +5289,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 40
@@ -5104,7 +5306,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lunatone
 Level: 43
@@ -5121,7 +5323,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 29
@@ -5134,7 +5336,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 44
@@ -5151,7 +5353,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zangoose
 Level: 45
@@ -5164,7 +5366,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 34
@@ -5177,7 +5379,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 36
@@ -5202,7 +5404,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 39
@@ -5226,7 +5428,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 41
@@ -5260,7 +5462,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Force Setup First Turn
 Mugshot: Purple
 
 Mightyena
@@ -5311,7 +5513,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Green
 
 Dusclops
@@ -5362,7 +5564,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Pink
 
 Sealeo
@@ -5413,7 +5615,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Blue
 
 Shelgon
@@ -5580,7 +5782,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Kilowattrel @ Focus Sash  
 Ability: Wind Power  
@@ -5709,58 +5911,60 @@ AI: AI_FLAG_SMART_TRAINER
 
 Type: Null @ Eviolite  
 Ability: Battle Armor  
-Level: 50   
-Impish Nature  
-- Return  
+Level: 50    
+Sassy Nature  
+- Tri Attack  
 - Iron Head  
 - Pursuit  
 - Thunder Wave  
 
-Kangaskhan @ Silk Scarf  
-Ability: Scrappy  
-Level: 50    
-Adamant Nature  
-- Fake Out  
-- Last Resort  
-
-Squawkabilly-Blue @ Flame Orb  
-Ability: Guts  
-Level: 51    
-Jolly Nature  
-- Return  
-- Dual Wingbeat  
-- Lash Out  
-- Protect  
-
-Zoroark-Hisui @ Life Orb  
-Ability: Illusion  
-Level: 51  
-Timid Nature  
+Pyroar (M) @ Wise Glasses  
+Ability: Unnerve  
+Level: 51   
+Modest Nature  
 IVs: 0 Atk  
-- Will-O-Wisp  
-- Flamethrower  
-- Bitter Malice  
 - Hyper Voice  
+- Flamethrower  
+- Dark Pulse  
+- Will-O-Wisp  
+
+Azumarill @ Leftovers  
+Ability: Huge Power  
+Level: 51    
+Adamant Nature  
+- Waterfall  
+- Play Rough  
+- Ice Punch  
+- Aqua Jet  
+
+Maushold @ Wide Lens  
+Ability: Technician  
+Level: 51
+Jolly Nature   
+- Population Bomb  
+- Bullet Seed  
+- Aerial Ace  
+- Taunt  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+Level: 51    
+Modest Nature  
+IVs: 0 Atk  
+- Energy Ball  
+- Psychic  
+- Earth Power  
+- Calm Mind  
 
 Pidgeot @ Pidgeotite  
 Ability: No Guard  
 Level: 52  
-Shiny: Yes  
+Shiny: Yes    
 Modest Nature  
 - Hyper Voice  
 - Hurricane  
 - Heat Wave  
 - Pursuit  
-
-Farigiraf @ Jaboca Berry  
-Ability: Cud Chew  
-Level: 51   
-Modest Nature  
-IVs: 0 Atk  
-- Hyper Voice  
-- Stored Power  
-- Shadow Ball  
-- Mimic 
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -5769,47 +5973,60 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer / Risky
+AI: AI_FLAG_SMART_TRAINER
 
-Swablu
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Level: 60  
+- Protect  
+- Stealth Rock  
+- Earthquake  
+- Dual Wingbeat  
 
-Tropius
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
+Tornadus @ Flying Gem  
+Ability: Defiant  
+Level: 60    
+- Acrobatics  
+- Knock Off  
+- Superpower  
+- U-turn  
 
-Pelipper
-Level: 30
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
+Zapdos @ Leftovers  
+Ability: Static  
+Level: 61   
+IVs: 0 Atk  
+- Discharge  
+- Heat Wave  
+- Extrasensory  
+- Volt Switch  
 
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
+Staraptor @ Choice Band  
+Ability: Reckless  
+Level: 61   
+Jolly Nature  
+- Brave Bird  
+- Double-Edge  
+- Close Combat  
+- U-turn  
 
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+Mantine @ Leftovers  
+Ability: Water Absorb  
+Level: 62   
+IVs: 0 Atk  
+- Scald  
+- Hurricane  
+- Tailwind  
+- Roost  
+
+Altaria @ Altarianite  
+Ability: Pixilate  
+Level: 62    
+Timid Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Hyper Voice  
+- Flamethrower  
+- Roost  
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5818,7 +6035,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Claydol
 Level: 41
@@ -5859,7 +6076,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 41
@@ -5929,7 +6146,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Ralts
 Level: 17
@@ -5942,7 +6159,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 15
@@ -5963,7 +6180,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Ralts
 Level: 26
@@ -5980,7 +6197,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kirlia
 Level: 29
@@ -5997,7 +6214,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kirlia
 Level: 32
@@ -6014,7 +6231,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kirlia
 Level: 34
@@ -6073,7 +6290,7 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 16
@@ -6090,7 +6307,7 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 26
@@ -6107,7 +6324,7 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 29
@@ -6124,7 +6341,7 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 32
@@ -6141,7 +6358,7 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 35
@@ -6158,7 +6375,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spinda
 Level: 30
@@ -6222,7 +6439,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zigzagoon
 Level: 28
@@ -6246,7 +6463,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zigzagoon
 Level: 31
@@ -6270,7 +6487,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 34
@@ -6294,7 +6511,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Linoone
 Level: 36
@@ -6378,7 +6595,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty @ Oran Berry
 Level: 22
@@ -6435,7 +6652,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty @ Oran Berry
 Level: 29
@@ -6448,7 +6665,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty @ Oran Berry
 Level: 32
@@ -6461,7 +6678,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Delcatty @ Oran Berry
 Level: 35
@@ -6474,7 +6691,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Delcatty @ Sitrus Berry
 Level: 38
@@ -6514,7 +6731,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pikachu @ Oran Berry
 Level: 30
@@ -6527,7 +6744,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azurill @ Oran Berry
 Level: 35
@@ -6580,7 +6797,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle @ Oran Berry
 Level: 26
@@ -6597,7 +6814,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle @ Oran Berry
 Level: 29
@@ -6614,7 +6831,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle @ Oran Berry
 Level: 32
@@ -6631,7 +6848,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle @ Sitrus Berry
 Level: 35
@@ -6679,7 +6896,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 33
@@ -6696,7 +6913,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 36
@@ -6713,7 +6930,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 39
@@ -6730,7 +6947,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 42
@@ -6773,7 +6990,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 21
@@ -6790,7 +7007,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 30
@@ -6807,7 +7024,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 33
@@ -6824,7 +7041,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 36
@@ -6841,7 +7058,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 39
@@ -7027,7 +7244,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Slaking
 Level: 43
@@ -7053,7 +7270,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Gardevoir
 Level: 43
@@ -7149,7 +7366,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 27
@@ -7162,7 +7379,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 28
@@ -7179,7 +7396,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 31
@@ -7200,7 +7417,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 34
@@ -7221,7 +7438,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zigzagoon
 Level: 14
@@ -7305,7 +7522,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
 Wailord
@@ -7533,7 +7750,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Barboach
 Level: 19
@@ -7546,15 +7763,40 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tauros-Paldea-Aqua @ White Herb  
+Ability: Intimidate  
+Level: 52   
+- Close Combat  
+- Raging Bull  
+- High Horsepower  
+- Aqua Jet  
 
-Carvanha
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Drednaw @ Rindo Berry  
+Ability: Strong Jaw  
+Level: 52  
+- Crunch  
+- Liquidation  
+- Ice Fang  
+- Earthquake  
+
+Poliwrath @ Black Belt  
+Ability: Water Absorb  
+Level: 52  
+- Waterfall  
+- Close Combat  
+- Ice Punch  
+- Encore  
+
+Cradily @ Leftovers  
+Ability: Storm Drain  
+Level: 52  
+IVs: 0 Atk  
+- Giga Drain  
+- Earth Power  
+- Ingrain  
+- Toxic  
 
 === TRAINER_WADE ===
 Name: WADE
@@ -7563,11 +7805,16 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magikarp  
+Ability: Swift Swim  
+
+Magikarp  
+Ability: Swift Swim   
+
+Magikarp  
+Ability: Swift Swim  
 
 === TRAINER_CARTER ===
 Name: CARTER
@@ -7576,15 +7823,32 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wailmer
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Araquanid @ Choice Band  
+Ability: Water Bubble  
+Level: 54  
+- Liquidation  
+- Leech Life  
+- Crunch  
+- Sticky Web  
 
-Tentacruel
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Swampert @ Rindo Berry  
+Ability: Damp  
+Level: 54  
+- Waterfall  
+- Earthquake  
+- Ice Punch  
+- Poison Jab  
+
+Slowking @ Assault Vest  
+Ability: Oblivious  
+Level: 54  
+IVs: 0 Atk  
+- Blizzard  
+- Flamethrower  
+- Power Gem  
+- Surf  
 
 === TRAINER_ELLIOT_2 ===
 Name: ELLIOT
@@ -7593,7 +7857,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacool
 Level: 24
@@ -7614,7 +7878,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Gyarados
 Level: 29
@@ -7639,7 +7903,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Gyarados
 Level: 31
@@ -7664,7 +7928,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: AI_FLAG_SMART_TRAINER / Try To Faint
 
 Gyarados
 Level: 33
@@ -7689,7 +7953,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magikarp
 Level: 19
@@ -7795,7 +8059,7 @@ Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 30
@@ -7808,7 +8072,7 @@ Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 33
@@ -7821,7 +8085,7 @@ Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 36
@@ -7834,7 +8098,7 @@ Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 39
@@ -7881,7 +8145,7 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 28
@@ -7894,7 +8158,7 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magnemite
 Level: 31
@@ -7907,7 +8171,7 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 34
@@ -7920,7 +8184,7 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magneton
 Level: 37
@@ -7933,7 +8197,7 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Doduo
 Level: 17
@@ -7946,7 +8210,7 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Doduo
 Level: 28
@@ -7959,7 +8223,7 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Doduo
 Level: 31
@@ -7972,7 +8236,7 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dodrio
 Level: 34
@@ -7985,7 +8249,7 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dodrio
 Level: 37
@@ -8032,7 +8296,7 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Doduo
 Level: 28
@@ -8045,7 +8309,7 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Doduo
 Level: 31
@@ -8058,7 +8322,7 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dodrio
 Level: 34
@@ -8071,7 +8335,7 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dodrio
 Level: 37
@@ -8084,7 +8348,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 33
@@ -8101,7 +8365,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zigzagoon
 Level: 25
@@ -8118,7 +8382,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 35
@@ -8131,7 +8395,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 33
@@ -8148,7 +8412,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 26
@@ -8165,7 +8429,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 39
@@ -8178,7 +8442,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 42
@@ -8191,7 +8455,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Starmie
 Level: 45
@@ -8204,7 +8468,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Starmie
 Level: 48
@@ -8217,7 +8481,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 34
@@ -8230,7 +8494,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 26
@@ -8247,7 +8511,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 34
@@ -8260,7 +8524,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 35
@@ -8273,7 +8537,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 27
@@ -8290,7 +8554,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 39
@@ -8303,7 +8567,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 42
@@ -8316,7 +8580,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Starmie
 Level: 45
@@ -8329,7 +8593,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Starmie
 Level: 48
@@ -8342,7 +8606,7 @@ Pic: Dragon Tamer
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 37
@@ -8359,7 +8623,7 @@ Pic: Dragon Tamer
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 41
@@ -8376,7 +8640,7 @@ Pic: Dragon Tamer
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 44
@@ -8393,7 +8657,7 @@ Pic: Dragon Tamer
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Bagon
 Level: 46
@@ -8414,7 +8678,7 @@ Pic: Dragon Tamer
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 49
@@ -8435,7 +8699,7 @@ Pic: Dragon Tamer
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Bagon
 Level: 34
@@ -8452,11 +8716,41 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Chatot @ Life Orb  
+Ability: Tangled Feet  
+Level: 52  
+IVs: 0 Atk  
+- Boomburst  
+- Heat Wave  
+- Nasty Plot  
+
+Skarmory @ Focus Band  
+Ability: Keen Eye  
+Level: 52  
+- Iron Head  
+- Dual Wingbeat  
+- Body Press  
+- Iron Defense  
+
+Unfezant @ Scope Lens  
+Ability: Super Luck  
+Level: 52  
+Modest Nature  
+- Air Slash  
+- Night Slash  
+- Hyper Voice  
+- Detect  
+
+Fearow @ Scope Lens  
+Ability: Sniper  
+Level: 52    
+Jolly Nature  
+- Drill Peck  
+- Drill Run  
+- Return  
+- Agility  
 
 === TRAINER_HUGH ===
 Name: HUGH
@@ -8465,15 +8759,15 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Liepard  
+Ability: Limber  
+Level: 55   
 
-Tropius
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales-Alola  
+Ability: Snow Cloak  
+Level: 55  
 
 === TRAINER_PHIL ===
 Name: PHIL
@@ -8482,11 +8776,39 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Farfetch’d @ Leek  
+Ability: Defiant  
+Level: 55   
+- Swords Dance  
+- Brave Bird  
+- Close Combat  
+- First Impression  
+
+Farfetch’d-Galar @ Assault Vest  
+Ability: Steadfast  
+Level: 55   
+- Close Combat  
+- Knock Off  
+- Dual Wingbeat  
+- Poison Jab  
+
+Sirfetch’d @ Leek  
+Ability: Scrappy  
+Level: 55  
+- Knock Off  
+- Leaf Blade  
+- Close Combat  
+- Poison Jab  
+
+Swanna @ Wacan Berry  
+Ability: Hydration  
+Level: 55  
+- Surf  
+- Hurricane  
+- Ice Beam  
+- Flip Turn  
 
 === TRAINER_JARED ===
 Name: JARED
@@ -8495,7 +8817,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Doduo
 Level: 27
@@ -8516,11 +8838,43 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Skarmory
-Level: 30
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Rotom-Fan @ Air Balloon  
+Ability: Levitate  
+Level: 57  
+IVs: 0 Atk  
+- Magnet Rise  
+- Air Slash  
+- Discharge  
+- Nasty Plot  
+
+Braviary @ Life Orb  
+Ability: Sheer Force  
+Level: 57   
+Adamant Nature  
+- Body Slam  
+- Brave Bird  
+- Close Combat  
+- Heat Wave  
+
+Yanma @ Eviolite  
+Ability: Speed Boost  
+Level: 57  
+IVs: 0 Atk  
+- Hypnosis  
+- Bug Buzz  
+- Air Slash  
+- Protect  
+
+Flygon @ Soft Sand  
+Ability: Levitate  
+Level: 57  
+IVs: 0 Atk  
+- Earth Power  
+- Dragon Pulse  
+- Flamethrower  
+- Tailwind  
 
 === TRAINER_PRESLEY ===
 Name: PRESLEY
@@ -8529,7 +8883,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 33
@@ -8546,15 +8900,33 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Doduo
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Masquerain @ Charti Berry  
+Ability: Intimidate  
+Level: 55  
+IVs: 0 Atk  
+- Quiver Dance  
+- Bug Buzz  
+- Energy Ball  
+- Scald  
 
-Pelipper
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Minior @ Sitrus Berry  
+Ability: Shields Down  
+Level: 54   
+- Acrobatics  
+- Rock Slide  
+- Iron Head  
+- U-turn  
+
+Sigilyph @ Flame Orb  
+Ability: Magic Guard  
+Level: 56    
+IVs: 0 Atk  
+- Psycho Shift  
+- Psyshock  
+- Air Slash  
+- Ice Beam  
 
 === TRAINER_COLIN ===
 Name: COLIN
@@ -8563,7 +8935,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 28
@@ -8580,11 +8952,20 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Swablu
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Absol  
+Ability: Pressure  
+Level: 55  
+
+Pidgeot  
+Ability: Keen Eye  
+Level: 55  
+
+Diggersby  
+Ability: Huge Power  
+Level: 55    
+IVs: 0 Atk  
 
 === TRAINER_BENNY ===
 Name: BENNY
@@ -8593,7 +8974,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 36
@@ -8614,15 +8995,34 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pelipper @ Mystic Water  
+Ability: Drizzle  
+Level: 52  
+Modest Nature  
+- Surf  
+- Hurricane  
+- Knock Off  
+- U-turn  
 
-Swellow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Archeops @ Power Herb  
+Ability: Defeatist  
+Level: 52  
+Naive Nature  
+- Meteor Beam  
+- Dual Wingbeat  
+- Stone Edge  
+- Iron Head  
+
+Mandibuzz @ Weakness Policy  
+Ability: Weak Armor  
+Level: 52  
+Jolly Nature  
+- Acrobatics  
+- Lash Out  
+- Heat Wave  
+- Tailwind  
 
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
@@ -8631,7 +9031,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Natu
 Level: 32
@@ -8648,7 +9048,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Natu
 Level: 35
@@ -8665,7 +9065,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Natu
 Level: 38
@@ -8682,7 +9082,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 41
@@ -8699,7 +9099,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Natu
 Level: 33
@@ -8716,7 +9116,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 34
@@ -8729,11 +9129,15 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: AI_FLAG_SMART_TRAINER
 
-Ninjask
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor  
+Ability: Hydration  
+Level: 55    
+
+Flamigo  
+Ability: Scrappy  
+Level: 55  
 
 === TRAINER_TAKASHI ===
 Name: TAKASHI
@@ -8742,15 +9146,19 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: AI_FLAG_SMART_TRAINER
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor  
+Ability: Hydration  
+Level: 55    
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crobat  
+Ability: Inner Focus  
+Level: 55   
+
+Mismagius  
+Ability: Levitate  
+Level: 55   
 
 === TRAINER_DIANNE ===
 Name: DIANNE
@@ -8781,9 +9189,21 @@ Gender: Female
 Music: Girl
 Double Battle: No
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Braviary-Hisui @ Life Orb  
+Ability: Sheer Force  
+Level: 54  
+- Esper Wing  
+- Air Slash  
+- Vacuum Wave  
+- U-turn  
+
+Dondozo @ Assault Vest  
+Ability: Oblivious  
+Level: 54   
+- Aqua Tail  
+- Earthquake  
+- Order Up  
+- Zen Headbutt  
 
 === TRAINER_LAO_1 ===
 Name: LAO
@@ -9067,7 +9487,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 27
@@ -9080,7 +9500,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 27
@@ -9093,7 +9513,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 26
@@ -9110,7 +9530,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 29
@@ -9127,7 +9547,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 32
@@ -9144,7 +9564,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 35
@@ -9199,15 +9619,40 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Roselia
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lycanroc-Dusk @ Choice Scarf  
+Ability: Tough Claws  
+Level: 56   
+- Drill Run  
+- Close Combat  
+- Play Rough  
+- Stone Edge  
 
-Wailmer
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Umbreon @ Leftovers  
+Ability: Synchronize  
+Level: 55   
+IVs: 0 Atk  
+- Foul Play  
+- Taunt  
+- Wish  
+- Detect  
+
+Vileplume @ Miracle Seed  
+Ability: Effect Spore  
+Level: 55  
+- Petal Blizzard  
+- Body Slam  
+- Drain Punch  
+- Swords Dance  
+
+Plusle @ Choice Specs  
+Ability: Lightning Rod  
+Level: 55   
+IVs: 0 Atk  
+- Alluring Voice  
+- Thunderbolt  
+- Grass Knot  
 
 === TRAINER_ANGELICA ===
 Name: ANGELICA
@@ -9216,7 +9661,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Castform
 Level: 30
@@ -9233,7 +9678,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 29
@@ -9250,7 +9695,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 32
@@ -9267,7 +9712,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Roselia
 Level: 34
@@ -9292,7 +9737,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Roselia
 Level: 37
@@ -9317,15 +9762,12 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wailmer
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragonair  
+Ability: Shed Skin  
+Level: 50  
+Tera Type: Dragon  
 
 === TRAINER_IMANI ===
 Name: IMANI
@@ -9334,11 +9776,12 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alomomola  
+Ability: Healer  
+Level: 50  
+Tera Type: Water  
 
 === TRAINER_KYLA ===
 Name: KYLA
@@ -9347,11 +9790,17 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wailmer
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Farigiraf  
+Ability: Cud Chew  
+Level: 50  
+Tera Type: Normal  
+
+Indeedee-F  
+Ability: Own Tempo  
+Level: 50  
+Tera Type: Psychic  
 
 === TRAINER_DENISE ===
 Name: DENISE
@@ -9360,15 +9809,17 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meowscarada  
+Ability: Overgrow  
+Level: 50  
+Tera Type: Grass  
 
-Goldeen
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Trevenant  
+Ability: Natural Cure  
+Level: 50  
+Tera Type: Ghost  
 
 === TRAINER_BETH ===
 Name: BETH
@@ -9377,11 +9828,12 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragalge  
+Ability: Poison Point  
+Level: 50  
+Tera Type: Poison  
 
 === TRAINER_TARA ===
 Name: TARA
@@ -9390,15 +9842,43 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Horsea
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Voltorb @ Normal Gem  
+Ability: Soundproof  
+Level: 50  
+Tera Type: Electric  
+- Explosion  
 
-Marill
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Voltorb @ Normal Gem  
+Ability: Soundproof  
+Level: 50  
+Tera Type: Electric  
+- Explosion  
+
+Voltorb @ Normal Gem  
+Ability: Soundproof  
+Level: 50  
+Tera Type: Electric  
+- Explosion  
+
+Voltorb @ Normal Gem  
+Ability: Soundproof  
+Level: 50  
+Tera Type: Electric  
+- Explosion  
+
+Voltorb @ Normal Gem  
+Ability: Soundproof  
+Level: 50  
+Tera Type: Electric  
+- Explosion  
+
+Voltorb @ Normal Gem  
+Ability: Soundproof  
+Level: 50  
+Tera Type: Electric  
+- Explosion  
 
 === TRAINER_MISSY ===
 Name: MISSY
@@ -9407,11 +9887,12 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gligar  
+Ability: Hyper Cutter  
+Level: 50  
+Tera Type: Ground  
 
 === TRAINER_ALICE ===
 Name: ALICE
@@ -9420,19 +9901,17 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailord  
+Ability: Water Veil  
+Level: 50  
+Tera Type: Water  
 
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Palafin  
+Ability: Zero to Hero  
+Level: 50  
+Tera Type: Water  
 
 === TRAINER_JENNY_1 ===
 Name: JENNY
@@ -9441,7 +9920,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 34
@@ -9454,7 +9933,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 34
@@ -9467,7 +9946,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 34
@@ -9480,7 +9959,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Seaking
 Level: 34
@@ -9493,7 +9972,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 33
@@ -9510,7 +9989,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Goldeen
 Level: 34
@@ -9523,7 +10002,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Goldeen
 Level: 33
@@ -9540,7 +10019,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 34
@@ -9553,7 +10032,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Seaking
 Level: 34
@@ -9566,7 +10045,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azumarill
 Level: 34
@@ -9579,7 +10058,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 33
@@ -9596,7 +10075,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Seaking
 Level: 34
@@ -9609,7 +10088,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Horsea
 Level: 33
@@ -9626,7 +10105,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lanturn
 Level: 34
@@ -9643,7 +10122,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 33
@@ -9660,7 +10139,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Seaking
 Level: 35
@@ -9673,7 +10152,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 38
@@ -9686,7 +10165,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 41
@@ -9699,7 +10178,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 43
@@ -9716,7 +10195,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 45
@@ -9772,7 +10251,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Taillow
 Level: 17
@@ -9822,7 +10301,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty
 Level: 23
@@ -9857,7 +10336,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wobbuffet
 Level: 32
@@ -9910,7 +10389,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Shroomish
 Level: 25
@@ -9931,7 +10410,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 28
@@ -9952,7 +10431,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 31
@@ -9973,7 +10452,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 40
@@ -10032,7 +10511,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle
 Level: 27
@@ -10093,7 +10572,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Beautifly
 Level: 26
@@ -10110,7 +10589,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle
 Level: 9
@@ -10127,7 +10606,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Duskull
 Level: 10
@@ -10148,7 +10627,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle
 Level: 30
@@ -10165,7 +10644,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle
 Level: 33
@@ -10190,7 +10669,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Plusle
 Level: 36
@@ -10283,7 +10762,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 33
@@ -10300,7 +10779,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 11
@@ -10321,7 +10800,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacruel
 Level: 44
@@ -10338,7 +10817,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 43
@@ -10359,15 +10838,22 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Spheal
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Poliwag  
+Ability: Water Absorb  
+Level: 50  
+Tera Type: Water  
 
-Machoke
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Staryu  
+Ability: Illuminate  
+Level: 50  
+Tera Type: Water  
+
+Poliwhirl  
+Ability: Water Absorb  
+Level: 50  
+Tera Type: Water  
 
 === TRAINER_ERNEST_2 ===
 Name: ERNEST
@@ -10376,7 +10862,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 36
@@ -10397,7 +10883,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 39
@@ -10418,7 +10904,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 42
@@ -10439,7 +10925,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 45
@@ -10460,7 +10946,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 23
@@ -10473,7 +10959,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Feebas @ Oran Berry
 Level: 39
@@ -10499,7 +10985,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Absol
 Level: 27
@@ -10512,7 +10998,7 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Koffing
 Level: 31
@@ -10529,7 +11015,7 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Castform
 Level: 31
@@ -10546,7 +11032,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 33
@@ -10563,7 +11049,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machoke
 Level: 33
@@ -10581,7 +11067,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 34
@@ -10598,7 +11084,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 33
@@ -10615,7 +11101,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 34
@@ -10628,7 +11114,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Chinchou
 Level: 33
@@ -10675,7 +11161,7 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zangoose
 Level: 18
@@ -10692,7 +11178,7 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Camerupt
 Level: 36
@@ -10713,7 +11199,7 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lombre
 Level: 26
@@ -10730,7 +11216,7 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lombre
 Level: 29
@@ -10747,7 +11233,7 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lombre
 Level: 32
@@ -10764,7 +11250,7 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Ludicolo
 Level: 35
@@ -10782,7 +11268,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 44
@@ -10831,7 +11317,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Treecko
 Level: 5
@@ -10896,19 +11382,62 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 57  
+Adamant Nature  
+- Fake Out  
+- Knock Off  
+- Triple Axel  
+- Poison Jab  
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sceptile @ Sceptilite  
+Ability: Unburden  
+Level: 59  
+IVs: 0 Atk  
+- Leaf Storm  
+- Dragon Pulse  
+- Energy Ball  
+- Vacuum Wave  
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chandelure @ Colbur Berry  
+Ability: Flash Fire  
+Level: 58   
+Modest Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Flamethrower  
+- Energy Ball  
+- Calm Mind  
+
+Barraskewda @ Sitrus Berry  
+Ability: Swift Swim  
+Level: 58  
+Adamant Nature  
+- Liquidation  
+- Psychic Fangs  
+- Ice Fang  
+- Flip Turn  
+
+Raichu-Alola @ Electric Seed  
+Ability: Surge Surfer  
+Level: 57   
+Modest Nature  
+- Rising Voltage  
+- Psychic  
+- Surf  
+- Fake Out  
+
+Tyranitar @ Assault Vest  
+Ability: Unnerve  
+Level: 57    
+Relaxed Nature  
+- Stone Edge  
+- Crunch  
+- Thunder  
+- Ice Punch  
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: BRENDAN
@@ -10917,7 +11446,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Torchic
 Level: 5
@@ -10980,19 +11509,60 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 57  
+Adamant Nature  
+- Fake Out  
+- Knock Off  
+- Triple Axel  
+- Poison Jab  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Blaziken @ Blazikenite  
+Ability: Speed Boost  
+Level: 59  
+Adamant Nature  
+- Close Combat  
+- Thunder Punch  
+- Blaze Kick  
+- Knock Off  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chesnaught @ Leftovers  
+Ability: Bulletproof  
+Level: 58  
+Impish Nature  
+- Body Press  
+- Seed Bomb  
+- Iron Defense  
+- Leech Seed  
+
+Barraskewda @ Sitrus Berry  
+Ability: Swift Swim  
+Level: 58    
+Adamant Nature  
+- Liquidation  
+- Psychic Fangs  
+- Ice Fang  
+- Flip Turn  
+
+Raichu-Alola @ Electric Seed  
+Ability: Surge Surfer  
+Level: 57  
+Modest Nature  
+- Rising Voltage  
+- Psychic  
+- Surf  
+- Fake Out  
+
+Salamence @ Sharp Beak  
+Ability: Intimidate  
+Level: 57   
+- Dual Wingbeat  
+- Dragon Claw  
+- Thunder Fang  
+- Refresh  
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
 Name: BRENDAN
@@ -11001,7 +11571,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mudkip
 Level: 5
@@ -11065,19 +11635,62 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 57  
+Adamant Nature  
+- Fake Out  
+- Knock Off  
+- Triple Axel  
+- Poison Jab  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swampert @ Swampertite  
+Ability: Damp  
+Level: 59  
+Adamant Nature  
+- Liquidation  
+- High Horsepower  
+- Ice Punch  
+- Protect  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chandelure @ Colbur Berry  
+Ability: Flash Fire  
+Level: 58  
+Modest Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Flamethrower  
+- Energy Ball  
+- Calm Mind  
+
+Chesnaught @ Leftovers  
+Ability: Bulletproof  
+Level: 58   
+Impish Nature  
+- Body Press  
+- Seed Bomb  
+- Iron Defense  
+- Leech Seed  
+
+Raichu-Alola @ Electric Seed  
+Ability: Surge Surfer  
+Level: 57   
+Modest Nature  
+- Rising Voltage  
+- Psychic  
+- Surf  
+- Fake Out  
+
+Goodra @ Roseli Berry  
+Ability: Hydration  
+Level: 57   
+Quiet Nature  
+- Thunder  
+- Draco Meteor  
+- Knock Off  
+- Toxic  
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
 Name: MAY
@@ -11086,7 +11699,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Treecko
 Level: 5
@@ -11151,19 +11764,62 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 57   
+Adamant Nature  
+- Fake Out  
+- Knock Off  
+- Triple Axel  
+- Poison Jab  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sceptile @ Sceptilite  
+Ability: Unburden  
+Level: 59  
+IVs: 0 Atk  
+- Leaf Storm  
+- Dragon Pulse  
+- Energy Ball  
+- Vacuum Wave  
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chandelure @ Colbur Berry  
+Ability: Flash Fire  
+Level: 58    
+Modest Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Flamethrower  
+- Energy Ball  
+- Calm Mind  
+
+Barraskewda @ Sitrus Berry  
+Ability: Swift Swim  
+Level: 58   
+Adamant Nature  
+- Liquidation  
+- Psychic Fangs  
+- Ice Fang  
+- Flip Turn  
+
+Raichu-Alola @ Electric Seed  
+Ability: Surge Surfer  
+Level: 57   
+Modest Nature  
+- Rising Voltage  
+- Psychic  
+- Surf  
+- Fake Out  
+
+Tyranitar @ Assault Vest  
+Ability: Unnerve  
+Level: 57   
+Relaxed Nature  
+- Stone Edge  
+- Crunch  
+- Thunder  
+- Ice Punch  
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
 Name: MAY
@@ -11172,7 +11828,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Torchic
 Level: 5
@@ -11235,19 +11891,60 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 57  
+Adamant Nature  
+- Fake Out  
+- Knock Off  
+- Triple Axel  
+- Poison Jab  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Blaziken @ Blazikenite  
+Ability: Speed Boost  
+Level: 59  
+Adamant Nature  
+- Close Combat  
+- Thunder Punch  
+- Blaze Kick  
+- Knock Off  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chesnaught @ Leftovers  
+Ability: Bulletproof  
+Level: 58  
+Impish Nature  
+- Body Press  
+- Seed Bomb  
+- Iron Defense  
+- Leech Seed  
+
+Barraskewda @ Sitrus Berry  
+Ability: Swift Swim  
+Level: 58  
+Adamant Nature  
+- Liquidation  
+- Psychic Fangs  
+- Ice Fang  
+- Flip Turn  
+
+Raichu-Alola @ Electric Seed  
+Ability: Surge Surfer  
+Level: 57  
+Modest Nature  
+- Rising Voltage  
+- Psychic  
+- Surf  
+- Fake Out  
+
+Salamence @ Sharp Beak  
+Ability: Intimidate  
+Level: 57  
+- Dual Wingbeat  
+- Dragon Claw  
+- Thunder Fang  
+- Refresh  
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
 Name: MAY
@@ -11256,7 +11953,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mudkip
 Level: 5
@@ -11319,19 +12016,62 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 57  
+Adamant Nature  
+- Fake Out  
+- Knock Off  
+- Triple Axel  
+- Poison Jab  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swampert @ Swampertite  
+Ability: Damp  
+Level: 59   
+Adamant Nature  
+- Liquidation  
+- High Horsepower  
+- Ice Punch  
+- Protect  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chandelure @ Colbur Berry  
+Ability: Flash Fire  
+Level: 58   
+Modest Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Flamethrower  
+- Energy Ball  
+- Calm Mind  
+
+Chesnaught @ Leftovers  
+Ability: Bulletproof  
+Level: 58    
+Impish Nature  
+- Body Press  
+- Seed Bomb  
+- Iron Defense  
+- Leech Seed  
+
+Raichu-Alola @ Electric Seed  
+Ability: Surge Surfer  
+Level: 57   
+Modest Nature  
+- Rising Voltage  
+- Psychic  
+- Surf  
+- Fake Out  
+
+Goodra @ Roseli Berry  
+Ability: Hydration  
+Level: 57  
+Quiet Nature  
+- Thunder  
+- Draco Meteor  
+- Knock Off  
+- Toxic  
 
 === TRAINER_ISAAC_1 ===
 Name: ISAAC
@@ -11361,7 +12101,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pinsir
 Level: 27
@@ -11374,7 +12114,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Lunatone
 Level: 43
@@ -11399,7 +12139,7 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Loudred
 Level: 22
@@ -11432,7 +12172,7 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Loudred
 Level: 25
@@ -11465,7 +12205,7 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Loudred
 Level: 28
@@ -11498,7 +12238,7 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Loudred
 Level: 31
@@ -11531,7 +12271,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandaconda @ Wacan Berry  
 Ability: Sand Spit  
@@ -11565,7 +12305,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Sableye
 Level: 43
@@ -11582,11 +12322,25 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Sandslash
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Chimecho @ Leftovers  
+Ability: Levitate  
+Level: 54  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Energy Ball  
+- Psychic  
+- Disable  
+
+Tatsugiri @ Life Orb  
+Ability: Commander  
+Level: 54  
+IVs: 0 Atk  
+- Draco Meteor  
+- Muddy Water  
+- Icy Wind  
+- Taunt  
 
 === TRAINER_LYDIA_2 ===
 Name: LYDIA
@@ -11595,7 +12349,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 22
@@ -11628,7 +12382,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 25
@@ -11661,7 +12415,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 28
@@ -11694,7 +12448,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 31
@@ -11726,13 +12480,33 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Breloom
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Drakloak @ Eviolite  
+Ability: Infiltrator  
+Level: 55  
+- Dragon Darts  
+- Psychic Fangs  
+- Sucker Punch  
+- U-turn  
+
+Decidueye-Hisui @ Miracle Seed  
+Ability: Scrappy  
+Level: 55  
+- Triple Arrows  
+- Leaf Blade  
+- Dual Wingbeat  
+- Baton Pass  
+
+Polteageist @ Weakness Policy  
+Ability: Cursed Body  
+Level: 55  
+IVs: 0 Atk  
+- Shadow Ball  
+- Dark Pulse  
+- Stored Power  
+- Shell Smash  
 
 === TRAINER_LORENZO ===
 Name: LORENZO
@@ -11742,7 +12516,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Seedot
 Level: 28
@@ -11764,7 +12538,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Cacturne
 Level: 39
@@ -11778,7 +12552,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Breloom
 Level: 31
@@ -11792,7 +12566,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Breloom
 Level: 34
@@ -11806,7 +12580,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Breloom
 Level: 37
@@ -11820,7 +12594,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Kecleon
 Level: 39
@@ -11838,15 +12612,32 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Force Setup First Turn
 
-Gloom
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Espathra @ Iron Ball  
+Ability: Speed Boost  
+Level: 55  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Lumina Crash  
+- Energy Ball  
+- Trick  
 
-Roselia
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Gengar @ Spell Tag  
+Ability: Cursed Body  
+Level: 55   
+- Shadow Ball  
+- Sludge Bomb  
+- Dazzling Gleam  
+- Explosion  
+
+Quagsire @ Leftovers  
+Ability: Water Absorb  
+Level: 55   
+- Liquidation  
+- Earthquake  
+- Ice Punch  
+- Recover  
 
 === TRAINER_JENNA ===
 Name: JENNA
@@ -11856,7 +12647,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Lotad
 Level: 28
@@ -11878,7 +12669,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Swablu
 Level: 38
@@ -11896,7 +12687,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Gloom
 Level: 30
@@ -11914,7 +12705,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Gloom
 Level: 33
@@ -11932,7 +12723,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Gloom
 Level: 36
@@ -11950,7 +12741,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Bellossom
 Level: 39
@@ -11984,7 +12775,7 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 35
@@ -12001,7 +12792,7 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 31
@@ -12018,7 +12809,7 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 30
@@ -12035,7 +12826,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 22
@@ -12169,7 +12960,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 36
@@ -12182,7 +12973,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 34
@@ -12196,7 +12987,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 32
@@ -12218,7 +13009,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacruel
 Level: 35
@@ -12259,7 +13050,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sharpedo
 Level: 34
@@ -12272,7 +13063,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Girafarig
 Level: 37
@@ -12285,7 +13076,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spoink
 Level: 36
@@ -12298,7 +13089,7 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Kadabra
 Level: 36
@@ -12311,7 +13102,7 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Girafarig
 Level: 36
@@ -12324,7 +13115,7 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wobbuffet
 Level: 36
@@ -12337,7 +13128,7 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 31
@@ -12354,7 +13145,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 32
@@ -12367,7 +13158,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 32
@@ -12380,7 +13171,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 32
@@ -12393,7 +13184,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 32
@@ -12406,7 +13197,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Natu
 Level: 36
@@ -12419,7 +13210,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lotad
 Level: 13
@@ -12436,7 +13227,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 13
@@ -12453,7 +13244,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 33
@@ -12470,7 +13261,7 @@ Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 34
@@ -12483,15 +13274,19 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Carracosta  
+Ability: Solid Rock  
+Level: 55    
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kabutops  
+Ability: Swift Swim  
+Level: 55  
+
+Omastar  
+Ability: Swift Swim  
+Level: 55  
 
 === TRAINER_TABITHA_MT_CHIMNEY ===
 Name: TABITHA
@@ -12556,7 +13351,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Kecleon
 Level: 33
@@ -12573,7 +13368,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Slugma
 Level: 13
@@ -12590,7 +13385,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Wingull
 Level: 13
@@ -12608,7 +13403,7 @@ Gender: Male
 Music: Magma
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 37
@@ -12753,7 +13548,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 9
@@ -12792,7 +13587,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lombre
 Level: 26
@@ -12809,7 +13604,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lombre
 Level: 29
@@ -12826,7 +13621,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lombre
 Level: 32
@@ -12843,7 +13638,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 34
@@ -12864,7 +13659,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Oddish
 Level: 16
@@ -12877,7 +13672,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty
 Level: 14
@@ -12898,7 +13693,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 40
@@ -12911,7 +13706,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Goldeen
 Level: 39
@@ -13006,15 +13801,40 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Nincada
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shedinja @ Focus Sash  
+Ability: Wonder Guard  
+Level: 55  
+- Swords Dance  
+- X-Scissor  
+- Poltergeist  
+- Sucker Punch  
 
-Ninjask
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Scolipede @ Expert Belt  
+Ability: Speed Boost  
+Level: 55  
+- Poison Jab  
+- Megahorn  
+- Earthquake  
+- Protect  
+
+Ledian @ Focus Sash  
+Ability: Iron Fist  
+Level: 55  
+IVs: 0 Atk  
+- Counter  
+- Encore  
+- Bug Buzz  
+- Air Slash  
+
+Ariados @ Scope Lens  
+Ability: Sniper  
+Level: 55  
+- X-Scissor  
+- Poison Jab  
+- Knock Off  
+- Stomping Tantrum  
 
 === TRAINER_GREG ===
 Name: GREG
@@ -13023,15 +13843,15 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Volbeat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Heracross  
+Ability: Swarm  
+Level: 52  
 
-Illumise
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volbeat  
+Ability: Illuminate  
+Level: 52  
 
 === TRAINER_KENT ===
 Name: KENT
@@ -13040,11 +13860,15 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spidops  
+Ability: Insomnia  
+Level: 53    
+
+Lokix  
+Ability: Swarm  
+Level: 53  
 
 === TRAINER_JAMES_1 ===
 Name: JAMES
@@ -13077,7 +13901,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Ninjask
 Level: 27
@@ -13090,7 +13914,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dustox
 Level: 29
@@ -13107,7 +13931,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 31
@@ -13128,7 +13952,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Surskit
 Level: 33
@@ -13275,7 +14099,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 22
@@ -13361,7 +14185,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 9
@@ -13376,7 +14200,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 10
@@ -13440,7 +14264,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 24
@@ -13465,7 +14289,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 27
@@ -13490,7 +14314,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 30
@@ -13515,7 +14339,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Graveler
 Level: 33
@@ -13540,7 +14364,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Delcatty
 Level: 31
@@ -13557,7 +14381,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 45
@@ -13574,15 +14398,17 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Volbeat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gardevoir  
+Ability: Synchronize  
+Level: 50  
+Tera Type: Psychic  
 
-Illumise
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gallade  
+Ability: Steadfast  
+Level: 50  
+Tera Type: Psychic  
 
 === TRAINER_KIRA_AND_DAN_2 ===
 Name: KIRA & DAN
@@ -13591,7 +14417,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Volbeat
 Level: 30
@@ -13608,7 +14434,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Volbeat
 Level: 33
@@ -13625,7 +14451,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Volbeat
 Level: 36
@@ -13642,7 +14468,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Volbeat
 Level: 39
@@ -13659,7 +14485,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Goldeen
 Level: 13
@@ -13769,29 +14595,51 @@ IVs: 0 Atk
 - Ancient Power  
 
 === TRAINER_HIDEO ===
-Name: HIDEO
-Class: Ninja Boy
-Pic: Ninja Boy
+Name: AZARIAH
+Class: Triathlete
+Pic: Running Triathlete M
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+Mugshot: Purple
+AI: AI_FLAG_SMART_TRAINER
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
+Mr. Mime @ Light Clay  
+Ability: Technician  
+Level: 57   
+Modest Nature  
+IVs: 0 Atk  
+- Light Screen  
+- Reflect  
+- Confusion  
+- Magical Leaf  
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Poison Gas
-- Sludge
-- Smokescreen
+Snorlax @ Leftovers  
+Ability: Thick Fat  
+Level: 57  
+Brave Nature  
+- High Horsepower  
+- Body Slam  
+- Darkest Lariat  
+- Whirlwind  
+
+Hawlucha @ Electric Seed  
+Ability: Unburden  
+Level: 57   
+Adamant Nature  
+- Acrobatics  
+- Brick Break  
+- Rock Slide  
+- Hone Claws  
+
+Dragapult @ Dragon Fang  
+Ability: Infiltrator  
+Level: 57   
+Naive Nature  
+- Dragon Darts  
+- Shadow Ball  
+- Thunderbolt  
+- Will-O-Wisp  
 
 === TRAINER_KEIGO ===
 Name: KEIGO
@@ -13800,7 +14648,7 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: AI_FLAG_SMART_TRAINER
 
 Koffing
 Level: 28
@@ -13825,7 +14673,7 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: AI_FLAG_SMART_TRAINER / Try To Faint
 
 Nincada
 Level: 28
@@ -13850,15 +14698,26 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Swellow
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Oricorio @ Leftovers  
+Ability: Dancer  
+Level: 55   
+Timid Nature  
+IVs: 0 Atk  
+- Revelation Dance  
+- Hurricane  
+- Alluring Voice  
+- Quiver Dance  
 
-Xatu
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Oricorio-Sensu @ Focus Sash  
+Ability: Dancer  
+Level: 55   
+Modest Nature  
+- Revelation Dance  
+- Air Slash  
+- Trailblaze  
+- Charm  
 
 === TRAINER_ASHLEY ===
 Name: ASHLEY
@@ -13867,7 +14726,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swablu
 Level: 27
@@ -13908,7 +14767,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 47
@@ -13958,7 +14817,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 50
@@ -14008,7 +14867,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 53
@@ -14058,7 +14917,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Altaria
 Level: 56
@@ -14107,7 +14966,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 31
@@ -14132,7 +14991,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 31
@@ -14157,7 +15016,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 31
@@ -14182,7 +15041,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 31
@@ -14207,7 +15066,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 31
@@ -14232,7 +15091,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Tropius
 Level: 31
@@ -14257,7 +15116,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 30
@@ -14278,7 +15137,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Carvanha
 Level: 31
@@ -14295,7 +15154,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magikarp
 Level: 15
@@ -14317,7 +15176,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Gloom
 Level: 34
@@ -14335,7 +15194,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Shiftry
 Level: 34
@@ -14352,7 +15211,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machoke
 Level: 34
@@ -14365,7 +15224,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacool
 Level: 31
@@ -14386,7 +15245,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swellow
 Level: 32
@@ -14403,7 +15262,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Spheal
 Level: 33
@@ -14420,7 +15279,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Chinchou
 Level: 34
@@ -14477,7 +15336,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Swablu
 Level: 32
@@ -14548,10 +15407,10 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dustox
-Level: 27
+Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Gust
 - Psybeam
@@ -14559,7 +15418,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Protect
 
 Beautifly
-Level: 27
+Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Gust
 - Mega Drain
@@ -14573,7 +15432,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 39
@@ -14598,7 +15457,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 43
@@ -14623,7 +15482,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 46
@@ -14648,7 +15507,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER / Try To Faint / Force Setup First Turn
 
 Medicham
 Level: 49
@@ -14673,7 +15532,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Medicham
 Level: 52
@@ -14698,7 +15557,7 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Azumarill
 Level: 35
@@ -14715,7 +15574,7 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Chinchou
 Level: 34
@@ -14732,7 +15591,7 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Chinchou
 Level: 42
@@ -14749,7 +15608,7 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lanturn
 Level: 45
@@ -14766,7 +15625,7 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lanturn
 Level: 48
@@ -14783,7 +15642,7 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Lanturn
 Level: 51
@@ -14800,15 +15659,18 @@ Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Goldeen
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc  
+Ability: Swift Swim  
+Shiny: Yes  
+Tera Type: Water  
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc  
+Ability: Swift Swim  
+Level: 1  
+Shiny: Yes  
+Tera Type: Water  
 
 === TRAINER_CHRIS ===
 Name: CHRIS
@@ -14817,7 +15679,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Magikarp
 Level: 29
@@ -15431,7 +16293,7 @@ Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Aron
 Level: 18
@@ -15523,24 +16385,38 @@ Adamant Nature
 
 === TRAINER_DEANDRE ===
 Name: DEANDRE
-Class: Youngster
-Pic: Youngster
+Class: Swimmer M
+Pic: Swimmer M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Zigzagoon
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Simipour @ Choice Scarf  
+Ability: Torrent  
+Level: 52  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Grass Knot  
+- Focus Blast  
 
-Aron
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vaporeon @ Leftovers  
+Ability: Water Absorb  
+Level: 52  
+IVs: 0 Atk  
+- Surf  
+- Alluring Voice  
+- Shadow Ball  
+- Calm Mind  
 
-Electrike
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lumineon @ Life Orb  
+Ability: Swift Swim  
+Level: 52    
+- Draining Kiss  
+- Scald  
+- Hurricane  
+- Flip Turn  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
 Name: GRUNT
@@ -15549,7 +16425,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 29
@@ -15562,7 +16438,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 29
@@ -15575,7 +16451,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 29
@@ -15588,7 +16464,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 28
@@ -15605,7 +16481,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 28
@@ -15622,7 +16498,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 29
@@ -15635,7 +16511,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 29
@@ -15648,7 +16524,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 29
@@ -15661,7 +16537,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 29
@@ -15674,7 +16550,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 29
@@ -15687,7 +16563,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 29
@@ -15700,7 +16576,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 29
@@ -15713,7 +16589,7 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Zubat
 Level: 29
@@ -15726,7 +16602,7 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 29
@@ -15739,7 +16615,7 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 29
@@ -15752,7 +16628,7 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Baltoy
 Level: 29
@@ -15765,7 +16641,7 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Numel
 Level: 26
@@ -15791,7 +16667,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 33
@@ -15808,7 +16684,7 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mightyena
 Level: 42
@@ -15829,7 +16705,7 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Tentacool
 Level: 15
@@ -15842,7 +16718,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Marill
 Level: 15
@@ -15855,15 +16731,33 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Sandshrew
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Clefable @ Leftovers  
+Ability: Unaware  
+Level: 54  
+IVs: 0 Atk  
+- Helping Hand  
+- Dazzling Gleam  
+- Soft-Boiled  
+- Encore  
 
-Sandshrew
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Froslass @ Focus Sash  
+Ability: Cursed Body  
+Level: 54  
+- Ice Spinner  
+- Poltergeist  
+- Crunch  
+- Destiny Bond  
+
+Noctowl @ Leftovers  
+Ability: Tinted Lens  
+Level: 54  
+IVs: 0 Atk  
+- Hyper Voice  
+- Hurricane  
+- Psychic  
+- Calm Mind  
 
 === TRAINER_JOSUE ===
 Name: JOSUE
@@ -15872,15 +16766,34 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Taillow
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Beedrill-Mega @ Beedrillite  
+Ability: Adaptability  
+Level: 54  
+Jolly Nature  
+- Leech Life  
+- Poison Jab  
+- Drill Run  
+- U-turn  
 
-Wingull
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Vespiquen @ Charti Berry  
+Ability: Queenly Majesty  
+Level: 54   
+- Attack Order  
+- Dual Wingbeat  
+- Pursuit  
+- Heal Order  
+
+Vivillon @ Focus Sash  
+Ability: Compound Eyes  
+Level: 54   
+Timid Nature  
+IVs: 0 Atk  
+- Bug Buzz  
+- Hurricane  
+- Draining Kiss  
+- Powder  
 
 === TRAINER_CAMRON ===
 Name: CAMRON
@@ -15889,11 +16802,17 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Staryu
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Piloswine  
+Ability: Oblivious  
+Level: 50  
+Tera Type: Ice  
+
+Donphan  
+Ability: Sturdy  
+Level: 50  
+Tera Type: Ground  
 
 === TRAINER_CORY_1 ===
 Name: CORY
@@ -15902,19 +16821,37 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowpoke @ Eviolite  
+Ability: Regenerator  
+Level: 54  
+Brave Nature  
+IVs: 0 Spe  
+- Trick Room  
+- Slack Off  
+- Liquidation  
+- Disable  
 
-Machop
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro-Galar @ Quick Claw  
+Ability: Quick Draw  
+Level: 54    
+Quiet Nature  
+IVs: 0 Spe  
+- Shell Side Arm  
+- Flamethrower  
+- Power Gem  
+- Weather Ball  
 
-Tentacool
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro-Mega @ Slowbronite  
+Ability: Shell Armor  
+Level: 54  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Scald  
+- Psychic  
+- Ice Beam  
+- Calm Mind  
 
 === TRAINER_CAROLINA ===
 Name: CAROLINA
@@ -15924,19 +16861,38 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Manectric
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Trapinch @ Eviolite  
+Ability: Sheer Force  
+Level: 54  
+Shiny: Yes  
+Brave Nature  
+IVs: 0 Spe  
+- Earthquake  
+- Crunch  
+- First Impression  
+- Rock Slide  
 
-Swellow
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Copperajah @ Metal Coat  
+Ability: Sheer Force  
+Level: 54  
+Brave Nature  
+IVs: 0 Spe  
+- Heavy Slam  
+- Play Rough  
+- Body Press  
+- Curse  
 
-Manectric
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Crabominable @ Iron Ball  
+Ability: Iron Fist  
+Level: 54  
+Brave Nature  
+IVs: 0 Spe  
+- Ice Hammer  
+- Close Combat  
+- Knock Off  
+- Protect  
 
 === TRAINER_ELIJAH ===
 Name: ELIJAH
@@ -15945,15 +16901,35 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Skarmory
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Starmie @ Choice Scarf  
+Ability: Analytic  
+Level: 54  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Psychic  
+- Thunderbolt  
 
-Skarmory
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Basculegion-F @ Expert Belt  
+Ability: Adaptability  
+Level: 54  
+IVs: 0 Atk  
+- Ice Beam  
+- Shadow Ball  
+- Hydro Pump  
+- Pain Split  
+
+Gyarados @ Gyaradosite  
+Ability: Intimidate  
+Level: 54    
+Adamant Nature  
+- Waterfall  
+- Crunch  
+- Power Whip  
+- Dragon Dance  
 
 === TRAINER_CELIA ===
 Name: CELIA
@@ -16271,7 +17247,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 8
@@ -16391,7 +17367,7 @@ Gender: Female
 Music: Intense
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Roselia
 Level: 33
@@ -16408,11 +17384,31 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Manectric
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Conkeldurr @ Flame Orb  
+Ability: Guts  
+Level: 55  
+- Protect  
+- Drain Punch  
+- Stone Edge  
+- Earthquake  
+
+Squawkabilly @ Flame Orb  
+Ability: Guts  
+Level: 55  
+- Facade  
+- Dual Wingbeat  
+- Quick Attack  
+- Protect  
+
+Rapidash-Galar @ Fairy Feather  
+Ability: Pixilate  
+Level: 55    
+- Body Slam  
+- Zen Headbutt  
+- High Horsepower  
+- Quick Attack  
 
 === TRAINER_DAYTON ===
 Name: DAYTON
@@ -16421,15 +17417,39 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Slugma
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lilligant-Hisui @ Coba Berry  
+Ability: Hustle  
+Level: 55  
+- Axe Kick  
+- Leaf Blade  
+- Ice Spinner  
+- Victory Dance  
 
-Numel
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cloyster @ White Herb  
+Ability: Skill Link  
+Level: 55  
+- Icicle Spear  
+- Rock Blast  
+- Razor Shell  
+- Shell Smash  
+
+Rhydon @ Loaded Dice  
+Ability: Rock Head  
+Level: 55   
+- Rock Blast  
+- Earthquake  
+- Aqua Tail  
+- Rock Polish  
+
+Sharpedo @ Mystic Water  
+Ability: Speed Boost  
+Level: 55  
+- Protect  
+- Crunch  
+- Ice Fang  
+- Waterfall  
 
 === TRAINER_RACHEL ===
 Name: RACHEL
@@ -16438,11 +17458,43 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Thwackey @ Eviolite  
+Ability: Grassy Surge  
+Level: 55  
+- Grassy Glide  
+- Wood Hammer  
+- Drain Punch  
+- Fake Out  
+
+Gallade @ Focus Sash  
+Ability: Sharpness  
+Level: 55  
+Jolly Nature  
+- Leaf Blade  
+- Psycho Cut  
+- Aqua Cutter  
+- Encore  
+
+Jynx @ Focus Sash  
+Ability: Dry Skin  
+Level: 55  
+Timid Nature  
+IVs: 0 Atk  
+- Lovely Kiss  
+- Psychic  
+- Ice Beam  
+- Shadow Ball  
+
+Pawmot @ Sitrus Berry  
+Ability: Iron Fist  
+Level: 55  
+Adamant Nature  
+- Double Shock  
+- Close Combat  
+- Ice Punch  
+- Fake Out  
 
 === TRAINER_LEONEL ===
 Name: LEONEL
@@ -16452,7 +17504,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 30
@@ -16468,7 +17520,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Meditite
 Level: 28
@@ -16485,7 +17537,7 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Dustox
 Level: 29
@@ -16502,7 +17554,7 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Makuhita
 Level: 25
@@ -16535,7 +17587,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Poochyena
 Level: 25
@@ -16569,7 +17621,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Loudred
 Level: 29
@@ -16586,7 +17638,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Lotad
 Level: 13
@@ -16603,7 +17655,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Torkoal
 Level: 13
@@ -16621,7 +17673,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Golem
 Level: 32
@@ -16663,7 +17715,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Omanyte
 Level: 37
@@ -16713,7 +17765,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Omastar
 Level: 42
@@ -16763,7 +17815,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Aerodactyl
 Level: 47
@@ -16821,7 +17873,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Machamp @ Sitrus Berry
 Level: 33
@@ -16863,7 +17915,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Machamp @ Sitrus Berry
 Level: 38
@@ -16905,7 +17957,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hitmonchan
 Level: 40
@@ -16955,7 +18007,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hitmonlee
 Level: 46
@@ -17013,7 +18065,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Mareep
 Level: 36
@@ -17055,7 +18107,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Pikachu
 Level: 39
@@ -17105,7 +18157,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Raichu
 Level: 44
@@ -17155,7 +18207,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Electabuzz
 Level: 50
@@ -17213,7 +18265,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Magcargo @ White Herb
 Level: 38
@@ -17255,7 +18307,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Growlithe
 Level: 41
@@ -17305,7 +18357,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Houndour
 Level: 46
@@ -17363,7 +18415,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Arcanine
 Level: 51
@@ -17421,7 +18473,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Chansey
 Level: 42
@@ -17463,7 +18515,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Slaking @ Sitrus Berry
 Level: 47
@@ -17513,7 +18565,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Slaking @ Sitrus Berry
 Level: 52
@@ -17563,7 +18615,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Slaking @ Sitrus Berry
 Level: 57
@@ -17621,7 +18673,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: AI_FLAG_SMART_TRAINER / Risky
 
 Dratini @ Sitrus Berry
 Level: 40
@@ -17671,7 +18723,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: AI_FLAG_SMART_TRAINER / Risky
 
 Hoothoot
 Level: 43
@@ -17729,7 +18781,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: AI_FLAG_SMART_TRAINER / Risky
 
 Noctowl
 Level: 48
@@ -17787,7 +18839,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: AI_FLAG_SMART_TRAINER / Risky
 
 Noctowl
 Level: 53
@@ -17845,7 +18897,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Slowpoke
 Level: 48
@@ -17895,7 +18947,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Drowzee
 Level: 53
@@ -17953,7 +19005,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hypno
 Level: 58
@@ -18011,7 +19063,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Hypno
 Level: 63
@@ -18069,7 +19121,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Poliwag
 Level: 46
@@ -18119,7 +19171,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Poliwhirl
 Level: 50
@@ -18169,7 +19221,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Lapras
 Level: 56
@@ -18227,7 +19279,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Lapras
 Level: 61
@@ -18307,11 +19359,42 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
-Tropius
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Dragonite @ Yache Berry  
+Ability: Multiscale  
+Level: 57   
+- Dragon Dance  
+- Dragon Claw  
+- Fire Punch  
+- Extreme Speed  
+
+Emolga @ Leftovers  
+Ability: Motor Drive  
+Level: 57   
+- Thunderbolt  
+- Air Slash  
+- Energy Ball  
+- Knock Off  
+
+Mothim @ Choice Specs  
+Ability: Tinted Lens  
+Level: 57    
+IVs: 0 Atk  
+- Bug Buzz  
+- Air Slash  
+- Giga Drain  
+- Psychic  
+
+Aerodactyl @ Life Orb  
+Ability: Rock Head  
+Level: 57   
+- Double-Edge  
+- Rock Slide  
+- Dual Wingbeat  
+- Rock Polish  
+
+
 
 === TRAINER_STEVEN ===
 Name: STEVEN
@@ -18321,7 +19404,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Skarmory
 Level: 77
@@ -18378,7 +19461,7 @@ Pic: Salon Maiden Anabel
 Gender: Female
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18391,7 +19474,7 @@ Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18404,7 +19487,7 @@ Pic: Palace Maven Spenser
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18417,7 +19500,7 @@ Pic: Arena Tycoon Greta
 Gender: Female
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18430,7 +19513,7 @@ Pic: Factory Head Noland
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18443,7 +19526,7 @@ Pic: Pike Queen Lucy
 Gender: Female
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18456,7 +19539,7 @@ Pic: Pyramid King Brandon
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Beldum
 Level: 5
@@ -18469,7 +19552,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Sandshrew
 Level: 31
@@ -18486,7 +19569,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Nosepass
 Level: 33
@@ -18507,7 +19590,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Nosepass
 Level: 35
@@ -18528,7 +19611,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Nosepass
 Level: 37
@@ -18549,7 +19632,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 30
@@ -18570,7 +19653,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 32
@@ -18591,7 +19674,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 34
@@ -18612,7 +19695,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 36
@@ -18633,7 +19716,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Staryu
 Level: 37
@@ -18650,7 +19733,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wingull
 Level: 39
@@ -18671,7 +19754,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 41
@@ -18692,7 +19775,7 @@ Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Pelipper
 Level: 43
@@ -18713,7 +19796,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Machoke
 Level: 37
@@ -18730,7 +19813,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Makuhita
 Level: 39
@@ -18751,7 +19834,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 41
@@ -18772,7 +19855,7 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Hariyama
 Level: 43
@@ -18794,7 +19877,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Loudred
 Level: 35
@@ -18812,7 +19895,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Spinda
 Level: 37
@@ -18834,7 +19917,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Spinda
 Level: 39
@@ -18856,7 +19939,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Spinda
 Level: 41
@@ -18877,7 +19960,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Electrike
 Level: 35
@@ -18898,7 +19981,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Electrike
 Level: 37
@@ -18919,7 +20002,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 39
@@ -18940,7 +20023,7 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Manectric
 Level: 41
@@ -18961,7 +20044,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Geodude
 Level: 26
@@ -18978,7 +20061,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 28
@@ -18999,7 +20082,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Machop
 Level: 30
@@ -19020,7 +20103,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER
 
 Machoke
 Level: 33
@@ -19041,7 +20124,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty
 Level: 31
@@ -19074,7 +20157,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Skitty
 Level: 33
@@ -19107,7 +20190,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Delcatty
 Level: 35
@@ -19140,7 +20223,7 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Delcatty
 Level: 37
@@ -19173,7 +20256,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Wailmer
 Level: 34
@@ -19190,7 +20273,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 36
@@ -19211,7 +20294,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 38
@@ -19232,7 +20315,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_SMART_TRAINER
 
 Luvdisc
 Level: 40
