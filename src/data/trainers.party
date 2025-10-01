@@ -409,7 +409,8 @@ Level: 55
 - Bulk Up  
 
 Arctozolt @ Leftovers  
-Ability: Slush Rush  
+Ability: Slush Rush
+Level: 55 
 - Bolt Beak  
 - Icicle Crash  
 - Stomping Tantrum  
@@ -730,6 +731,7 @@ Gender: Female
 Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Purple
 
 Dudunsparce @ Sitrus Berry  
 Ability: Serene Grace  
@@ -741,7 +743,7 @@ IVs: 0 Atk
 - Boomburst  
 - Thunder Wave  
 
-Iron Jugulis @ Choice Scarf  
+Iron Jugulis @ Roseli Berry  
 Ability: Quark Drive  
 Level: 55  
 Timid Nature  
@@ -780,9 +782,9 @@ IVs: 0 Atk
 - Energy Ball  
 - Toxic  
 
-Glalie-Mega @ Glalitite  
+Glalie @ Glalitite  
 Ability: Refrigerate  
-Level: 57  
+Level: 58  
 Jolly Nature  
 - Return  
 - Earthquake  
@@ -5666,6 +5668,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Pineco @ Silver Powder  
 Ability: Sturdy  
@@ -5725,6 +5728,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Sneasel-Hisui @ Payapa Berry  
 Ability: Pickpocket  
@@ -5783,6 +5787,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Kilowattrel @ Focus Sash  
 Ability: Wind Power  
@@ -5844,6 +5849,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Charizard @ Charizardite Y  
 Ability: Blaze  
@@ -5908,6 +5914,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Type: Null @ Eviolite  
 Ability: Battle Armor  
@@ -5974,6 +5981,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Gliscor @ Toxic Orb  
 Ability: Poison Heal  
@@ -5996,7 +6004,7 @@ Ability: Static
 Level: 61   
 IVs: 0 Atk  
 - Discharge  
-- Heat Wave  
+- Signal Beam  
 - Extrasensory  
 - Volt Switch  
 
@@ -6036,6 +6044,7 @@ Gender: Male
 Music: Female
 Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Claydol
 Level: 41
@@ -6077,6 +6086,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Yellow
 
 Luvdisc
 Level: 41
@@ -11412,14 +11422,13 @@ IVs: 0 Atk
 - Energy Ball  
 - Calm Mind  
 
-Barraskewda @ Sitrus Berry  
-Ability: Swift Swim  
-Level: 58  
-Adamant Nature  
+Quagsire @ Rindo Berry  
+Ability: Water Absorb  
+Level: 58    
+- Earthquake  
 - Liquidation  
-- Psychic Fangs  
-- Ice Fang  
-- Flip Turn  
+- Ice Punch  
+- Curse  
 
 Raichu-Alola @ Electric Seed  
 Ability: Surge Surfer  
@@ -11538,14 +11547,13 @@ Impish Nature
 - Iron Defense  
 - Leech Seed  
 
-Barraskewda @ Sitrus Berry  
-Ability: Swift Swim  
+Quagsire @ Rindo Berry  
+Ability: Water Absorb  
 Level: 58    
-Adamant Nature  
+- Earthquake  
 - Liquidation  
-- Psychic Fangs  
-- Ice Fang  
-- Flip Turn  
+- Ice Punch  
+- Curse 
 
 Raichu-Alola @ Electric Seed  
 Ability: Surge Surfer  
@@ -11700,6 +11708,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Treecko
 Level: 5
@@ -11713,6 +11722,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Sneasel @ Focus Sash  
 Ability: Inner Focus  
@@ -11765,6 +11775,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Weavile @ Focus Sash  
 Ability: Pressure  
@@ -11794,14 +11805,13 @@ IVs: 0 Atk
 - Energy Ball  
 - Calm Mind  
 
-Barraskewda @ Sitrus Berry  
-Ability: Swift Swim  
-Level: 58   
-Adamant Nature  
+Quagsire @ Rindo Berry  
+Ability: Water Absorb  
+Level: 58    
+- Earthquake  
 - Liquidation  
-- Psychic Fangs  
-- Ice Fang  
-- Flip Turn  
+- Ice Punch  
+- Curse  
 
 Raichu-Alola @ Electric Seed  
 Ability: Surge Surfer  
@@ -11829,6 +11839,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Torchic
 Level: 5
@@ -11892,6 +11903,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Weavile @ Focus Sash  
 Ability: Pressure  
@@ -11920,14 +11932,13 @@ Impish Nature
 - Iron Defense  
 - Leech Seed  
 
-Barraskewda @ Sitrus Berry  
-Ability: Swift Swim  
-Level: 58  
-Adamant Nature  
+Quagsire @ Rindo Berry  
+Ability: Water Absorb  
+Level: 58    
+- Earthquake  
 - Liquidation  
-- Psychic Fangs  
-- Ice Fang  
-- Flip Turn  
+- Ice Punch  
+- Curse  
 
 Raichu-Alola @ Electric Seed  
 Ability: Surge Surfer  
@@ -11954,6 +11965,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Mudkip
 Level: 5
@@ -11967,6 +11979,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Sneasel @ Focus Sash  
 Ability: Inner Focus  
@@ -12017,6 +12030,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Green
 
 Weavile @ Focus Sash  
 Ability: Pressure  
@@ -13425,6 +13439,7 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Purple
 
 Golem @ Custap Berry  
 Ability: Sturdy  
@@ -16768,7 +16783,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Beedrill-Mega @ Beedrillite  
+Beedrill @ Beedrillite  
 Ability: Adaptability  
 Level: 54  
 Jolly Nature  
@@ -16843,7 +16858,7 @@ IVs: 0 Spe
 - Power Gem  
 - Weather Ball  
 
-Slowbro-Mega @ Slowbronite  
+Slowbro @ Slowbronite  
 Ability: Shell Armor  
 Level: 54  
 Quiet Nature  
@@ -17468,33 +17483,32 @@ Level: 55
 - Drain Punch  
 - Fake Out  
 
-Gallade @ Focus Sash  
-Ability: Sharpness  
-Level: 55  
-Jolly Nature  
-- Leaf Blade  
-- Psycho Cut  
-- Aqua Cutter  
-- Encore  
-
-Jynx @ Focus Sash  
-Ability: Dry Skin  
-Level: 55  
-Timid Nature  
-IVs: 0 Atk  
-- Lovely Kiss  
-- Psychic  
-- Ice Beam  
-- Shadow Ball  
-
 Pawmot @ Sitrus Berry  
 Ability: Iron Fist  
-Level: 55  
+Level: 55   
 Adamant Nature  
 - Double Shock  
 - Close Combat  
-- Ice Punch  
+- Play Rough  
 - Fake Out  
+
+Gogoat @ Miracle Seed  
+Ability: Grass Pelt  
+Level: 55  
+- Horn Leech  
+- Stomping Tantrum  
+- Body Slam  
+- Milk Drink  
+
+Butterfree @ Sitrus Berry  
+Ability: Compound Eyes  
+Level: 55  
+Timid Nature  
+IVs: 0 Atk  
+- Sleep Powder  
+- Air Slash  
+- Bug Buzz  
+- Giga Drain  
 
 === TRAINER_LEONEL ===
 Name: LEONEL

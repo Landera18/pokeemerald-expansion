@@ -58,7 +58,7 @@
 #define FLAG_MATT_BEATEN     0x2C // After Beating Matt in Aqua Hideout
 #define FLAG_ARCHIE_BEATEN   0x2D // After Beating Archie in Seafloor Cavern
 #define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
+#define FLAG_GOT_MEMORY_GIFT 0x2F // Set when the player has received the Memory for Silvally
 #define FLAG_UNUSED_0x030    0x30 // Unused Flag
 #define FLAG_UNUSED_0x031    0x31 // Unused Flag
 #define FLAG_UNUSED_0x032    0x32 // Unused Flag

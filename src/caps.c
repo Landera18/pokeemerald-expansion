@@ -19,7 +19,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_MAXIE1_BEATEN, 45},
         {FLAG_BADGE04_GET, 49},
         {FLAG_BADGE05_GET, 52},
-        {FLAG_SHELLY1_BEATEN, 57},
+        {FLAG_SHELLY1_BEATEN, 58},
         {FLAG_BADGE06_GET, 62},
         {FLAG_MAXIE2_BEATEN, 67},
         {FLAG_MATT_BEATEN, 70},
