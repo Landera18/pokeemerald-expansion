@@ -467,7 +467,7 @@ script TrainerHill_EventScript_SupriseGiftMan {
     faceplayer
 
     // already claimed egg
-    checkflag(FLAG_UNUSED_0x91F)
+    checkflag(FLAG_TRAINER_HILL_GIFT)
     goto_if(TRUE, already)
 
     // must have 3rd badge

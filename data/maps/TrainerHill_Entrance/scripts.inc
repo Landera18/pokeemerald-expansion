@@ -927,7 +927,7 @@ TrainerHill_EventScript_SupriseGiftMan::
 # 467 "data/maps/TrainerHill_Entrance/scripts.pory"
 	faceplayer
 # 470 "data/maps/TrainerHill_Entrance/scripts.pory"
-	checkflag FLAG_UNUSED_0x91F
+	checkflag FLAG_TRAINER_HILL_GIFT
 # 471 "data/maps/TrainerHill_Entrance/scripts.pory"
 	goto_if TRUE, already
 # 474 "data/maps/TrainerHill_Entrance/scripts.pory"
