@@ -5920,7 +5920,7 @@ Type: Null @ Eviolite
 Ability: Battle Armor  
 Level: 50    
 Sassy Nature  
-- Tri Attack  
+- Crush Claw  
 - Iron Head  
 - Pursuit  
 - Thunder Wave  
@@ -5944,7 +5944,7 @@ Adamant Nature
 - Ice Punch  
 - Aqua Jet  
 
-Maushold @ Silk Scarf  
+Maushold @ Chople Berry  
 Ability: Technician  
 Level: 51
 Jolly Nature   
@@ -5963,15 +5963,15 @@ IVs: 0 Atk
 - Earth Power  
 - Calm Mind  
 
-Pidgeot @ Pidgeotite  
-Ability: No Guard  
+Kangaskhan @ Kangaskhanite  
+Ability: Scrappy  
 Level: 52  
-Shiny: Yes    
-Adamant Nature  
-- Hyper Voice  
-- Hurricane  
-- Heat Wave  
-- Pursuit  
+Shiny: Yes   
+Brave Nature  
+- Fake Out  
+- Facade  
+- Thunder Punch  
+- Shadow Claw  
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
