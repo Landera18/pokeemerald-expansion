@@ -1659,8 +1659,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Rampardos @ Choice Scarf  
 Ability: Sheer Force  
-Level: 50  
-Tera Type: Rock  
+Level: 50   
 Adamant Nature  
 - Head Smash  
 
@@ -5670,55 +5669,58 @@ Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
-Pineco @ Silver Powder  
-Ability: Sturdy  
-Level: 15  
-- Giga Drain  
-- Lunge  
-- Rock Blast  
+Pineco @ Sitrus Berry  
+Ability: Overcoat  
+Level: 16  
+Careful Nature  
+- Rock Tomb  
+- Pounce  
+- Rapid Spin  
 - Self-Destruct  
+
+Ferroseed @ Rocky Helmet  
+Ability: Iron Barbs  
+Level: 17   
+Impish Nature  
+- Seed Bomb  
+- Metal Claw  
+- Leech Seed  
 
 Cranidos @ Muscle Band  
 Ability: Mold Breaker  
-Level: 15   
+Level: 17   
+Jolly Nature  
 - Headbutt  
 - Zen Headbutt  
 - Fire Punch  
 - Rock Blast  
 
-Pawniard @ Focus Sash  
-Ability: Defiant  
-Level: 16   
-- Iron Head  
-- Brick Break  
-- Grass Knot  
-- Sucker Punch  
-
-Nacli @ Power Herb  
+Naclstack @ Power Herb  
 Ability: Purifying Salt  
-Modest Nature
 Level: 16   
-- Salt Cure  
+Calm Nature  
 - Facade  
-- Stomping Tantrum  
+- Salt Cure  
 - Meteor Beam  
-
-Ferroseed @ Rocky Helmet  
-Ability: Iron Barbs  
-Level: 15  
-- Seed Bomb  
-- Metal Claw  
-- Leech Seed    
-
-Lycanroc-Midnight @ Sitrus Berry  
-Ability: No Guard  
-Level: 18   
-Timid Nature  
-- Rock Throw  
 - Stomping Tantrum  
-- Bite  
-- Charm  
 
+Vibrava @ Yache Berry  
+Ability: Levitate  
+Level: 17   
+Naive Nature  
+- Dragon Breath  
+- Mud Shot  
+- Swift  
+- U-turn  
+
+Nosepass @ Leftovers  
+Ability: Sand Force  
+Level: 18   
+Adamant Nature  
+- Rock Tomb  
+- Stomping Tantrum  
+- Fire Punch  
+- Taunt  
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -5732,7 +5734,8 @@ Mugshot: Yellow
 
 Sneasel-Hisui @ Payapa Berry  
 Ability: Pickpocket  
-Level: 22   
+Level: 22
+Naive Nature  
 - Fake Out  
 - Poison Tail  
 - Brick Break  
@@ -5740,7 +5743,8 @@ Level: 22
 
 Hitmontop @ Sitrus Berry  
 Ability: Intimidate  
-Level: 22    
+Level: 22 
+Jolly Nature   
 - Fake Out  
 - Mach Punch  
 - Pursuit  
@@ -5756,7 +5760,8 @@ Level: 23
 
 Kubfu @ Iapapa Berry  
 Ability: Inner Focus  
-Level: 23    
+Level: 23
+Adamant Nature    
 - Brick Break  
 - Ice Punch  
 - Zen Headbutt  
@@ -5765,7 +5770,7 @@ Level: 23
 Barbaracle @ Rindo Berry  
 Ability: Tough Claws  
 Level: 23   
-Modest Nature  
+Adamant Nature  
 - Grass Knot  
 - Razor Shell  
 - Rock Blast  
@@ -5773,7 +5778,8 @@ Modest Nature
 
 Grapploct @ Leftovers  
 Ability: Technician  
-Level: 25  
+Level: 25
+Jolly Nature  
 - Rock Smash  
 - Circle Throw  
 - Payback  
@@ -5791,7 +5797,8 @@ Mugshot: Yellow
 
 Kilowattrel @ Focus Sash  
 Ability: Wind Power  
-Level: 33   
+Level: 33  
+Modest Nature 
 IVs: 0 Atk  
 - Discharge  
 - Air Slash  
@@ -5800,7 +5807,8 @@ IVs: 0 Atk
 
 Vikavolt @ Choice Scarf  
 Ability: Levitate  
-Level: 33  
+Level: 33
+Modest Nature  
 IVs: 0 Atk  
 - Bug Buzz  
 - Thunderbolt  
@@ -5810,6 +5818,7 @@ IVs: 0 Atk
 Klang @ Eviolite  
 Ability: Clear Body  
 Level: 34  
+Adamant Nature
 - Gear Grind  
 - Wild Charge  
 - Magnet Rise  
@@ -5817,7 +5826,8 @@ Level: 34
 
 Toxtricity @ Shuca Berry  
 Ability: Punk Rock  
-Level: 34   
+Level: 34
+Timid Nature   
 - Boomburst  
 - Overdrive  
 - Psychic Noise  
@@ -5835,7 +5845,8 @@ IVs: 0 Atk
 
 Ampharos @ Ampharosite  
 Ability: Static  
-Level: 35   
+Level: 35
+Modest Nature 
 - Discharge  
 - Dragon Pulse  
 - Ice Punch  
@@ -7114,26 +7125,19 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Carvanha  
-Ability: Rough Skin  
-Level: 9   
-- Ice Fang  
-- Water Gun  
-- Bite  
-
 Dewpider  
 Ability: Water Bubble  
-Level: 9    
-IVs: 0 Atk  
-- Struggle Bug  
-- Water Gun  
+Level: 9   
+- Pounce  
+- Water Pulse  
+- Headbutt  
+- Icy Wind  
 
-Yanma @ Focus Sash  
+Yanma @ Iron Ball  
 Ability: Speed Boost  
-Level: 10   
-IVs: 0 Atk  
+Level: 11    
 - Sonic Boom  
-- Struggle Bug  
+- Acrobatics  
 - Protect  
 
 === TRAINER_JOSH ===
@@ -13894,20 +13898,21 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Dustox  
-Ability: Shield Dust  
-Level: 12   
-- Pounce  
-- Confusion  
-- Protect  
-
-Beautifly @ Wise Glasses  
+Kricketune @ Oran Berry  
 Ability: Swarm  
 Level: 12   
+- Bug Bite  
+- Aerial Ace  
+- Echoed Voice  
+- Growl  
+
+Dottler @ Wise Glasses  
+Ability: Compound Eyes  
+Level: 12  
 IVs: 0 Atk  
-- Mega Drain  
 - Struggle Bug  
-- Gust  
+- Confusion  
+- Recover  
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
@@ -17141,8 +17146,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Golbat  
 Ability: Infiltrator  
-Level: 16  
-Tera Type: Ghost  
+Level: 15   
 - Poison Fang  
 - Wing Attack  
 - Hypnosis  

@@ -40942,6 +40942,7 @@
       "MOVE_FLIP_TURN",
       "MOVE_PSYCH_UP",
       "MOVE_WHIRLPOOL",
+      "MOVE_DRAINING_KISS",
       "MOVE_ALLURING_VOICE"
     ],
     "EggMoves": [

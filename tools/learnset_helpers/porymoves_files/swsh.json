@@ -40280,6 +40280,11 @@
       "MOVE_UPROAR",
       "MOVE_HEAT_WAVE",
       "MOVE_TAUNT",
+      "MOVE_ICY_WIND",
+      "MOVE_DRAINING_KISS",
+      "MOVE_TRI_ATTACK",
+      "MOVE_FOLLOW_ME",
+      "MOVE_SHADOW_BALL",
       "MOVE_WORK_UP"
     ],
     "EggMoves": [
@@ -40371,6 +40376,11 @@
       "MOVE_UPROAR",
       "MOVE_HEAT_WAVE",
       "MOVE_TAUNT",
+      "MOVE_ICY_WIND",
+      "MOVE_DRAINING_KISS",
+      "MOVE_TRI_ATTACK",
+      "MOVE_FOLLOW_ME",
+      "MOVE_SHADOW_BALL",
       "MOVE_WORK_UP"
     ],
     "EggMoves": [
@@ -40466,6 +40476,11 @@
       "MOVE_TAUNT",
       "MOVE_BRAVE_BIRD",
       "MOVE_WORK_UP",
+      "MOVE_ICY_WIND",
+      "MOVE_DRAINING_KISS",
+      "MOVE_TRI_ATTACK",
+      "MOVE_FOLLOW_ME",
+      "MOVE_SHADOW_BALL",
       "MOVE_HURRICANE"
     ],
     "EggMoves": [
