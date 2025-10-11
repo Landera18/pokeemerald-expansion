@@ -121,15 +121,15 @@ MtPyre_2F_Text_LeahPostBattle:
 	.string "mountain…$"
 
 MtPyre_2F_Text_ZanderIntro:
-	.string "Kiyaaaaah!\n"
-	.string "I'm terrified!$"
+	.string "I'm PHOEBE of the ELITE FOUR!\n"
+	.string "... I lost my job$"
 
 MtPyre_2F_Text_ZanderDefeat:
-	.string "Nooooooo!\n"
-	.string "I lost my wits!$"
+	.string "do you know anyone\n"
+	.string "that might be hiring?$"
 
 MtPyre_2F_Text_ZanderPostBattle:
-	.string "I get freaked out every time I see\n"
-	.string "anything move…\p"
-	.string "I shouldn't have come here to train…$"
+	.string "To warn you...\n"
+	.string "This man called…\p"
+	.string "The Low Tier God took my place…$"
 

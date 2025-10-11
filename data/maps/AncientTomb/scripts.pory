@@ -1,0 +1,152 @@
+raw `AncientTomb_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, AncientTomb_OnResume
+	map_script MAP_SCRIPT_ON_LOAD, AncientTomb_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, AncientTomb_OnTransition
+	.byte 0
+
+AncientTomb_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, AncientTomb_EventScript_TryRemoveRegisteel
+	end
+
+AncientTomb_EventScript_TryRemoveRegisteel::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+AncientTomb_OnTransition:
+	setflag FLAG_LANDMARK_ANCIENT_TOMB
+	call_if_unset FLAG_DEFEATED_REGISTEEL, AncientTomb_EventScript_ShowRegisteel
+	end
+
+AncientTomb_EventScript_ShowRegisteel::
+	clearflag FLAG_HIDE_REGISTEEL
+	return
+
+AncientTomb_OnLoad:
+	call_if_unset FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED, AncientTomb_EventScript_HideRegiEntrance
+	end
+
+AncientTomb_EventScript_HideRegiEntrance::
+	setmetatile 7, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 8, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 9, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 7, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	setmetatile 8, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	setmetatile 9, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	return
+
+AncientTomb_EventScript_CaveEntranceMiddle::
+	lockall
+	goto_if_set FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED, AncientTomb_EventScript_BigHoleInWall
+	braillemsgbox AncientTomb_Braille_ShineInTheMiddle
+	releaseall
+	end
+
+AncientTomb_EventScript_BigHoleInWall::
+	msgbox gText_BigHoleInTheWall, MSGBOX_DEFAULT
+	releaseall
+	end
+
+AncientTomb_EventScript_CaveEntranceSide::
+	lockall
+	braillemsgbox AncientTomb_Braille_ShineInTheMiddle
+	releaseall
+	end
+
+AncientTomb_EventScript_Registeel::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_REGISTEEL, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_REGISTEEL, 40
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	special StartRegiBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AncientTomb_EventScript_DefeatedRegisteel
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AncientTomb_EventScript_RanFromRegisteel
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AncientTomb_EventScript_RanFromRegisteel
+	setflag FLAG_DEFEATED_REGISTEEL
+	release
+	end
+
+AncientTomb_EventScript_DefeatedRegisteel::
+	setflag FLAG_DEFEATED_REGISTEEL
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+AncientTomb_EventScript_RanFromRegisteel::
+	setvar VAR_0x8004, SPECIES_REGISTEEL
+	goto Common_EventScript_LegendaryFlewAway
+	end
+
+`
+
+script AncientTomb_EventScript_LegendaryBattle {
+    lock
+    faceplayer
+
+    // Prevent repeat
+    checkflag(FLAG_SAGE1_DONE)
+    goto_if(TRUE, alreadyUsed)
+
+    msgbox("…I sense a hero before me.\p"
+           "Shall I open the path to a mighty \n"
+           "legendary Pokémon?\n"
+           "This rite can only be performed once.", MSGBOX_YESNO)
+    compare(VAR_RESULT, NO)
+    goto_if_eq(VAR_RESULT, NO, declined)
+
+    random(20)                      
+    copyvar(VAR_TEMP_0, VAR_RESULT) 
+
+    switch (var(VAR_TEMP_0)) {
+        case 0:  setwildbattle(SPECIES_ARTICUNO, 58, ITEM_NONE)
+        case 1:  setwildbattle(SPECIES_ZAPDOS, 58, ITEM_NONE)
+        case 2:  setwildbattle(SPECIES_MOLTRES, 58, ITEM_NONE)
+        case 3:  setwildbattle(SPECIES_ZAPDOS_GALAR, 58, ITEM_NONE)
+        case 4:  setwildbattle(SPECIES_MOLTRES_GALAR, 58, ITEM_NONE)
+        case 5:  setwildbattle(SPECIES_ENTEI, 58, ITEM_NONE)
+        case 6:  setwildbattle(SPECIES_SUICUNE, 58, ITEM_NONE)
+        case 7:  setwildbattle(SPECIES_RAIKOU, 58, ITEM_NONE)
+        case 8:  setwildbattle(SPECIES_ARTICUNO_GALAR, 58, ITEM_NONE)
+        case 9:  setwildbattle(SPECIES_REGIDRAGO, 58, ITEM_NONE)
+        case 10: setwildbattle(SPECIES_REGIROCK, 58, ITEM_NONE)
+        case 11: setwildbattle(SPECIES_REGICE, 58, ITEM_NONE)
+        case 12: setwildbattle(SPECIES_REGISTEEL, 58, ITEM_NONE)
+        case 13: setwildbattle(SPECIES_REGIELEKI, 58, ITEM_NONE)
+        case 14: setwildbattle(SPECIES_OKIDOGI, 58, ITEM_NONE)
+        case 15: setwildbattle(SPECIES_MUNKIDORI, 58, ITEM_NONE)
+        case 16: setwildbattle(SPECIES_FEZANDIPITI, 58, ITEM_NONE)
+        case 17: setwildbattle(SPECIES_UXIE, 58, ITEM_NONE)
+        case 18: setwildbattle(SPECIES_MESPRIT, 58, ITEM_NONE)
+        case 19: setwildbattle(SPECIES_AZELF, 58, ITEM_NONE)
+    } 
+
+    msgbox("The veil parts… Brace yourself!")
+    closemessage
+    dowildbattle
+
+    // No matter the result (caught / defeated / fled), this event is one-time.
+    setflag(FLAG_SAGE1_DONE)
+
+    msgbox("The path closes. Such meetings are rare and precious…")
+    release
+    end
+
+declined:
+    msgbox("Very well. Return when your spirit is ready.")
+    release
+    end
+
+alreadyUsed:
+    msgbox("The rite is spent.\n"
+    "Fate seldom grants second chances.")
+    release
+    end
+}
+

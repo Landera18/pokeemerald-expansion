@@ -128,7 +128,7 @@ MagmaHideout_4F_EventScript_Tabitha::
 
 MagmaHideout_4F_Text_Grunt11Intro:
 	.string "I want to see GROUDON, too, but they\n"
-	.string "won't let me see even its tail…\p"
+	.string "won't let me see even its pussy…\p"
 	.string "It's got me feeling really frustrated.\p"
 	.string "Oh, no!\n"
 	.string "I blabbed about GROUDON!$"
@@ -138,12 +138,10 @@ MagmaHideout_4F_Text_Grunt11Defeat:
 	.string "doesn't have a calm mind…$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
-	.string "I wonder if GROUDON even has a tail?$"
+	.string "I wonder if GROUDON even has a pussy?$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
-	.string "Fuhahaha!\n"
-	.string "Soon! Very soon!\l"
-	.string "Our grand objective will be achieved!$"
+	.string "SURPRISE MOTHERFUCKER!$"
 
 MagmaHideout_4F_Text_Grunt12Defeat:
 	.string "Grrr…\n"
