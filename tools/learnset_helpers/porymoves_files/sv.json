@@ -8692,7 +8692,8 @@
       "MOVE_GRASSY_GLIDE",
       "MOVE_PSYCH_UP",
       "MOVE_CURSE",
-      "MOVE_PSYCHIC_NOISE"
+      "MOVE_PSYCHIC_NOISE",
+      "MOVE_WEATHER_BALL"
     ],
     "EggMoves": [
       "MOVE_POISON_POWDER",
@@ -8837,7 +8838,8 @@
       "MOVE_FUTURE_SIGHT",
       "MOVE_EXPANDING_FORCE",
       "MOVE_CURSE",
-      "MOVE_PSYCHIC_NOISE"
+      "MOVE_PSYCHIC_NOISE",
+      "MOVE_WEATHER_BALL"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",

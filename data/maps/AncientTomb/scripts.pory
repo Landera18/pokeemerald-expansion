@@ -101,7 +101,7 @@ script AncientTomb_EventScript_LegendaryBattle {
     compare(VAR_RESULT, NO)
     goto_if_eq(VAR_RESULT, NO, declined)
 
-    random(20)                      
+    random(15)                      
     copyvar(VAR_TEMP_0, VAR_RESULT) 
 
     switch (var(VAR_TEMP_0)) {
@@ -114,17 +114,12 @@ script AncientTomb_EventScript_LegendaryBattle {
         case 6:  setwildbattle(SPECIES_SUICUNE, 58, ITEM_NONE)
         case 7:  setwildbattle(SPECIES_RAIKOU, 58, ITEM_NONE)
         case 8:  setwildbattle(SPECIES_ARTICUNO_GALAR, 58, ITEM_NONE)
-        case 9:  setwildbattle(SPECIES_REGIDRAGO, 58, ITEM_NONE)
-        case 10: setwildbattle(SPECIES_REGIROCK, 58, ITEM_NONE)
-        case 11: setwildbattle(SPECIES_REGICE, 58, ITEM_NONE)
-        case 12: setwildbattle(SPECIES_REGISTEEL, 58, ITEM_NONE)
-        case 13: setwildbattle(SPECIES_REGIELEKI, 58, ITEM_NONE)
-        case 14: setwildbattle(SPECIES_OKIDOGI, 58, ITEM_NONE)
-        case 15: setwildbattle(SPECIES_MUNKIDORI, 58, ITEM_NONE)
-        case 16: setwildbattle(SPECIES_FEZANDIPITI, 58, ITEM_NONE)
-        case 17: setwildbattle(SPECIES_UXIE, 58, ITEM_NONE)
-        case 18: setwildbattle(SPECIES_MESPRIT, 58, ITEM_NONE)
-        case 19: setwildbattle(SPECIES_AZELF, 58, ITEM_NONE)
+        case 9:  setwildbattle(SPECIES_OKIDOGI, 58, ITEM_NONE)
+        case 10: setwildbattle(SPECIES_MUNKIDORI, 58, ITEM_NONE)
+        case 11: setwildbattle(SPECIES_FEZANDIPITI, 58, ITEM_NONE)
+        case 12: setwildbattle(SPECIES_UXIE, 58, ITEM_NONE)
+        case 13: setwildbattle(SPECIES_MESPRIT, 58, ITEM_NONE)
+        case 14: setwildbattle(SPECIES_AZELF, 58, ITEM_NONE)
     } 
 
     msgbox("The veil parts… Brace yourself!")

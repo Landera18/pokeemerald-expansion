@@ -13908,7 +13908,7 @@ Level: 69
 - Zen Headbutt  
 - Body Press  
 
-Camerupt-Mega @ Cameruptite  
+Camerupt @ Cameruptite  
 Ability: Sheer Force  
 Level: 70    
 Quiet Nature  
@@ -17276,14 +17276,15 @@ IVs: 0 Atk
 
 Machamp @ Assault Vest  
 Ability: No Guard  
+Level: 67  
 - Dynamic Punch  
-- Stone Axe  
+- Stone Edge  
 - Earthquake  
 - Ice Punch  
 
 Quagsire @ Bright Powder  
 Ability: Water Absorb  
-Level: 67  
+Level: 67   
 - Earthquake  
 - Liquidation  
 - Encore  
@@ -17505,7 +17506,8 @@ Level: 67
 
 Sandy Shocks @ Booster Energy  
 Ability: Protosynthesis   
-IVs: 0 Atk  
+IVs: 0 Atk 
+Level: 67 
 - Discharge  
 - Earth Power  
 - Tri Attack  
@@ -17613,47 +17615,6 @@ Music: Magma
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Cyclizar @ Eject Pack  
-Ability: Regenerator  
-Level: 67  
-- Draco Meteor  
-- Shed Tail  
-- Hyper Voice  
-- U-turn  
-
-Oricorio-Pom-Pom @ Life Orb  
-Ability: Dancer  
-Level: 67  
-IVs: 0 Atk  
-- Quiver Dance  
-- Revelation Dance  
-- Hurricane  
-- Alluring Voice  
-
-Maractus @ Miracle Seed  
-Ability: Water Absorb  
-Level: 67  
-- Energy Ball  
-- Spiky Shield  
-- Sucker Punch  
-
-Ursaluna @ Flame Orb  
-Ability: Guts  
-Level: 67  
-- Protect  
-- Facade  
-- Play Rough  
-- Earthquake  
-
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: AI_FLAG_SMART_TRAINER
-
 Lickilicky @ Choice Band  
 Ability: Oblivious  
 Level: 67  
@@ -17693,6 +17654,47 @@ IVs: 0 Atk
 - Mirror Coat  
 - Encore  
 - Destiny Bond  
+
+=== TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
+Name: GRUNT
+Class: Team Magma
+Pic: Magma Grunt M
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: AI_FLAG_SMART_TRAINER
+
+Cyclizar @ Eject Pack  
+Ability: Regenerator  
+Level: 67    
+- Draco Meteor  
+- Shed Tail  
+- Hyper Voice  
+- U-turn  
+
+Oricorio-Pom-Pom @ Life Orb  
+Ability: Dancer  
+Level: 67   
+IVs: 0 Atk  
+- Quiver Dance  
+- Revelation Dance  
+- Hurricane  
+- Alluring Voice  
+
+Maractus @ Miracle Seed  
+Ability: Water Absorb  
+Level: 67  
+- Energy Ball  
+- Spiky Shield  
+- Sucker Punch  
+
+Ursaluna @ Flame Orb  
+Ability: Guts  
+Level: 67   
+- Protect  
+- Facade  
+- Play Rough  
+- Earthquake  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_14 ===
 Name: GRUNT
@@ -17858,7 +17860,7 @@ Level: 68
 - Fire Punch  
 - Dragon Dance  
 
-Iron Boulder @ Booster Energy  
+Iron Boulder @ Leftovers  
 Ability: Quark Drive  
 Level: 69  
 Adamant Nature  
@@ -17867,7 +17869,7 @@ Adamant Nature
 - Earthquake  
 - Swords Dance  
 
-Sableye-Mega @ Sablenite  
+Sableye @ Sablenite  
 Ability: Magic Bounce  
 Level: 69    
 Careful Nature  

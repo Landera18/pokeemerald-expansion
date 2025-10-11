@@ -478,7 +478,7 @@ script TrainerHill_EventScript_SupriseGiftMan {
     "As a reward, take this Pokemon.\p")
 
     // Roll random number
-    random(56)                          
+    random(69)                          
     copyvar(VAR_THILL_EGG, VAR_RESULT)  
 
     // Give corresponding egg
@@ -541,21 +541,33 @@ script TrainerHill_EventScript_SupriseGiftMan {
 		case 53: givemon(SPECIES_DURALUDON, 5)
 		case 54: givemon(SPECIES_CHARCADET, 5)
 		case 55: givemon(SPECIES_COSMOG, 5)
-    }
-
-after:
-	playfanfare(MUS_OBTAIN_ITEM)
-	msgbox("Received a Pokemon!\p")
-    waitfanfare
-	msgbox("Give it a nickname?", MSGBOX_YESNO)
-	if(var(VAR_RESULT)== YES) {
-		call(Common_EventScript_GetGiftMonPartySlot)
-		call(Common_EventScript_NameReceivedPartyMon)
+		case 56: givemon(SPECIES_MAGIKARP, 5)
+		case 57: givemon(SPECIES_HERACROSS, 5)
+		case 58: givemon(SPECIES_TYRUNT, 5)
+		case 59: givemon(SPECIES_AMAURA, 5)
+		case 60: givemon(SPECIES_KANGASKHAN, 5)
+		case 61: givemon(SPECIES_BUNEARY, 5)
+		case 62: givemon(SPECIES_LAPRAS, 5)
+		case 63: givemon(SPECIES_WOOPER, 5)
+		case 64: givemon(SPECIES_CHARCADET, 5)
+		case 65: givemon(SPECIES_GASTLY, 5)
+		case 66: givemon(SPECIES_MAREEP, 5)
+		case 67: givemon(SPECIES_SNORUNT, 5)
+		case 68: givemon(SPECIES_SWABLU, 5)
 	}
-	setflag(FLAG_TRAINER_HILL_GIFT)
-	msgbox("Raise it well!")
-	release
-	end
+// Post-gift sequence
+playfanfare(MUS_OBTAIN_ITEM)
+msgbox("Received a Pokemon!\p")
+waitfanfare
+msgbox("Give it a nickname?", MSGBOX_YESNO)
+if(var(VAR_RESULT)== YES) {
+	call(Common_EventScript_GetGiftMonPartySlot)
+	call(Common_EventScript_NameReceivedPartyMon)
+}
+setflag(FLAG_TRAINER_HILL_GIFT)
+msgbox("Raise it well!")
+release
+end
 
 notYet:
     msgbox("Come back after you've earned the Dynamo Badge.")

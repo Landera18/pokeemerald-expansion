@@ -937,7 +937,7 @@ TrainerHill_EventScript_SupriseGiftMan::
 # 477 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_0
 # 481 "data/maps/TrainerHill_Entrance/scripts.pory"
-	random 56
+	random 69
 # 482 "data/maps/TrainerHill_Entrance/scripts.pory"
 	copyvar VAR_THILL_EGG, VAR_RESULT
 # 485 "data/maps/TrainerHill_Entrance/scripts.pory"
@@ -1054,42 +1054,66 @@ TrainerHill_EventScript_SupriseGiftMan::
 	case 54, TrainerHill_EventScript_SupriseGiftMan_57
 # 543 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 55, TrainerHill_EventScript_SupriseGiftMan_58
-TrainerHill_EventScript_SupriseGiftMan_1:
+# 544 "data/maps/TrainerHill_Entrance/scripts.pory"
+	case 56, TrainerHill_EventScript_SupriseGiftMan_59
+# 545 "data/maps/TrainerHill_Entrance/scripts.pory"
+	case 57, TrainerHill_EventScript_SupriseGiftMan_60
 # 546 "data/maps/TrainerHill_Entrance/scripts.pory"
-after:
+	case 58, TrainerHill_EventScript_SupriseGiftMan_61
 # 547 "data/maps/TrainerHill_Entrance/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
+	case 59, TrainerHill_EventScript_SupriseGiftMan_62
 # 548 "data/maps/TrainerHill_Entrance/scripts.pory"
-	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_1
+	case 60, TrainerHill_EventScript_SupriseGiftMan_63
 # 549 "data/maps/TrainerHill_Entrance/scripts.pory"
-	waitfanfare
+	case 61, TrainerHill_EventScript_SupriseGiftMan_64
 # 550 "data/maps/TrainerHill_Entrance/scripts.pory"
-	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_2, MSGBOX_YESNO
+	case 62, TrainerHill_EventScript_SupriseGiftMan_65
 # 551 "data/maps/TrainerHill_Entrance/scripts.pory"
-	compare VAR_RESULT, YES
-	goto_if_eq TrainerHill_EventScript_SupriseGiftMan_60
-TrainerHill_EventScript_SupriseGiftMan_59:
+	case 63, TrainerHill_EventScript_SupriseGiftMan_66
+# 552 "data/maps/TrainerHill_Entrance/scripts.pory"
+	case 64, TrainerHill_EventScript_SupriseGiftMan_67
+# 553 "data/maps/TrainerHill_Entrance/scripts.pory"
+	case 65, TrainerHill_EventScript_SupriseGiftMan_68
+# 554 "data/maps/TrainerHill_Entrance/scripts.pory"
+	case 66, TrainerHill_EventScript_SupriseGiftMan_69
 # 555 "data/maps/TrainerHill_Entrance/scripts.pory"
-	setflag FLAG_TRAINER_HILL_GIFT
+	case 67, TrainerHill_EventScript_SupriseGiftMan_70
 # 556 "data/maps/TrainerHill_Entrance/scripts.pory"
-	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_3
-# 557 "data/maps/TrainerHill_Entrance/scripts.pory"
-	release
-# 558 "data/maps/TrainerHill_Entrance/scripts.pory"
-	end
+	case 68, TrainerHill_EventScript_SupriseGiftMan_71
+TrainerHill_EventScript_SupriseGiftMan_1:
+# 559 "data/maps/TrainerHill_Entrance/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
 # 560 "data/maps/TrainerHill_Entrance/scripts.pory"
-notYet:
+	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_1
 # 561 "data/maps/TrainerHill_Entrance/scripts.pory"
-	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_4
+	waitfanfare
 # 562 "data/maps/TrainerHill_Entrance/scripts.pory"
-	release
+	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_2, MSGBOX_YESNO
 # 563 "data/maps/TrainerHill_Entrance/scripts.pory"
-	end
-# 565 "data/maps/TrainerHill_Entrance/scripts.pory"
-already:
-# 566 "data/maps/TrainerHill_Entrance/scripts.pory"
-	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_5
+	compare VAR_RESULT, YES
+	goto_if_eq TrainerHill_EventScript_SupriseGiftMan_73
+TrainerHill_EventScript_SupriseGiftMan_72:
 # 567 "data/maps/TrainerHill_Entrance/scripts.pory"
+	setflag FLAG_TRAINER_HILL_GIFT
+# 568 "data/maps/TrainerHill_Entrance/scripts.pory"
+	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_3
+# 569 "data/maps/TrainerHill_Entrance/scripts.pory"
+	release
+# 570 "data/maps/TrainerHill_Entrance/scripts.pory"
+	end
+# 572 "data/maps/TrainerHill_Entrance/scripts.pory"
+notYet:
+# 573 "data/maps/TrainerHill_Entrance/scripts.pory"
+	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_4
+# 574 "data/maps/TrainerHill_Entrance/scripts.pory"
+	release
+# 575 "data/maps/TrainerHill_Entrance/scripts.pory"
+	end
+# 577 "data/maps/TrainerHill_Entrance/scripts.pory"
+already:
+# 578 "data/maps/TrainerHill_Entrance/scripts.pory"
+	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_5
+# 579 "data/maps/TrainerHill_Entrance/scripts.pory"
 	release
 	end
 
@@ -1373,12 +1397,77 @@ TrainerHill_EventScript_SupriseGiftMan_58:
 	givemon SPECIES_COSMOG, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
+TrainerHill_EventScript_SupriseGiftMan_59:
+# 544 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_MAGIKARP, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
 TrainerHill_EventScript_SupriseGiftMan_60:
+# 545 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_HERACROSS, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_61:
+# 546 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_TYRUNT, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_62:
+# 547 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_AMAURA, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_63:
+# 548 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_KANGASKHAN, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_64:
+# 549 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_BUNEARY, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_65:
+# 550 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_LAPRAS, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_66:
+# 551 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_WOOPER, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_67:
 # 552 "data/maps/TrainerHill_Entrance/scripts.pory"
-	call Common_EventScript_GetGiftMonPartySlot
+	givemon SPECIES_CHARCADET, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_68:
 # 553 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_GASTLY, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_69:
+# 554 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_MAREEP, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_70:
+# 555 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_SNORUNT, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_71:
+# 556 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_SWABLU, 5
+	goto TrainerHill_EventScript_SupriseGiftMan_1
+
+TrainerHill_EventScript_SupriseGiftMan_73:
+# 564 "data/maps/TrainerHill_Entrance/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 565 "data/maps/TrainerHill_Entrance/scripts.pory"
 	call Common_EventScript_NameReceivedPartyMon
-	goto TrainerHill_EventScript_SupriseGiftMan_59
+	goto TrainerHill_EventScript_SupriseGiftMan_72
 
 
 TrainerHill_EventScript_SupriseGiftMan_Text_0:
@@ -1387,21 +1476,21 @@ TrainerHill_EventScript_SupriseGiftMan_Text_0:
 	.string "As a reward, take this Pokemon.\p$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_1:
-# 548 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 560 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Received a Pokemon!\p$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_2:
-# 550 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 562 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Give it a nickname?$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_3:
-# 556 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 568 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Raise it well!$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_4:
-# 561 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 573 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Come back after you've earned the Dynamo Badge.$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_5:
-# 566 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 578 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "I've already given you a Pokemon. Train hard!$"

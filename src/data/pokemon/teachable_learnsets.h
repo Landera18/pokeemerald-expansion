@@ -4844,6 +4844,7 @@ static const u16 sExeggcuteTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_TELEPORT,
     MOVE_TOXIC,
+    MOVE_WEATHER_BALL,
     MOVE_UNAVAILABLE,
 };
 
@@ -4879,6 +4880,7 @@ static const u16 sExeggutorTeachableLearnset[] = {
     MOVE_SWORDS_DANCE,
     MOVE_TELEPORT,
     MOVE_TOXIC,
+    MOVE_WEATHER_BALL,
     MOVE_UNAVAILABLE,
 };
 
