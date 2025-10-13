@@ -120,6 +120,12 @@ script AncientTomb_EventScript_LegendaryBattle {
         case 12: setwildbattle(SPECIES_UXIE, 58, ITEM_NONE)
         case 13: setwildbattle(SPECIES_MESPRIT, 58, ITEM_NONE)
         case 14: setwildbattle(SPECIES_AZELF, 58, ITEM_NONE)
+		case 15: setwildbattle(SPECIES_COBALION, 58, ITEM_NONE)
+		case 16: setwildbattle(SPECIES_TERRAKION, 58, ITEM_NONE)
+		case 17: setwildbattle(SPECIES_VIRIZION, 58, ITEM_NONE)
+		case 18: setwildbattle(SPECIES_IRON_CROWN, 58, ITEM_NONE)
+		case 19: setwildbattle(SPECIES_IRON_LEAVES, 58, ITEM_NONE)
+		case 20: setwildbattle(SPECIES_IRON_BOULDER, 58, ITEM_NONE)
     } 
 
     msgbox("The veil parts… Brace yourself!")

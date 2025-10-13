@@ -220,34 +220,46 @@ AncientTomb_EventScript_LegendaryBattle::
 	case 13, AncientTomb_EventScript_LegendaryBattle_16
 # 122 "data/maps/AncientTomb/scripts.pory"
 	case 14, AncientTomb_EventScript_LegendaryBattle_17
-AncientTomb_EventScript_LegendaryBattle_1:
+# 123 "data/maps/AncientTomb/scripts.pory"
+	case 15, AncientTomb_EventScript_LegendaryBattle_18
+# 124 "data/maps/AncientTomb/scripts.pory"
+	case 16, AncientTomb_EventScript_LegendaryBattle_19
 # 125 "data/maps/AncientTomb/scripts.pory"
-	msgbox AncientTomb_EventScript_LegendaryBattle_Text_1
+	case 17, AncientTomb_EventScript_LegendaryBattle_20
 # 126 "data/maps/AncientTomb/scripts.pory"
-	closemessage
+	case 18, AncientTomb_EventScript_LegendaryBattle_21
 # 127 "data/maps/AncientTomb/scripts.pory"
-	dowildbattle
-# 130 "data/maps/AncientTomb/scripts.pory"
-	setflag FLAG_SAGE1_DONE
+	case 19, AncientTomb_EventScript_LegendaryBattle_22
+# 128 "data/maps/AncientTomb/scripts.pory"
+	case 20, AncientTomb_EventScript_LegendaryBattle_23
+AncientTomb_EventScript_LegendaryBattle_1:
+# 131 "data/maps/AncientTomb/scripts.pory"
+	msgbox AncientTomb_EventScript_LegendaryBattle_Text_1
 # 132 "data/maps/AncientTomb/scripts.pory"
-	msgbox AncientTomb_EventScript_LegendaryBattle_Text_2
+	closemessage
 # 133 "data/maps/AncientTomb/scripts.pory"
-	release
-# 134 "data/maps/AncientTomb/scripts.pory"
-	end
+	dowildbattle
 # 136 "data/maps/AncientTomb/scripts.pory"
-declined:
-# 137 "data/maps/AncientTomb/scripts.pory"
-	msgbox AncientTomb_EventScript_LegendaryBattle_Text_3
+	setflag FLAG_SAGE1_DONE
 # 138 "data/maps/AncientTomb/scripts.pory"
-	release
+	msgbox AncientTomb_EventScript_LegendaryBattle_Text_2
 # 139 "data/maps/AncientTomb/scripts.pory"
+	release
+# 140 "data/maps/AncientTomb/scripts.pory"
 	end
-# 141 "data/maps/AncientTomb/scripts.pory"
-alreadyUsed:
 # 142 "data/maps/AncientTomb/scripts.pory"
-	msgbox AncientTomb_EventScript_LegendaryBattle_Text_4
+declined:
+# 143 "data/maps/AncientTomb/scripts.pory"
+	msgbox AncientTomb_EventScript_LegendaryBattle_Text_3
 # 144 "data/maps/AncientTomb/scripts.pory"
+	release
+# 145 "data/maps/AncientTomb/scripts.pory"
+	end
+# 147 "data/maps/AncientTomb/scripts.pory"
+alreadyUsed:
+# 148 "data/maps/AncientTomb/scripts.pory"
+	msgbox AncientTomb_EventScript_LegendaryBattle_Text_4
+# 150 "data/maps/AncientTomb/scripts.pory"
 	release
 	end
 
@@ -326,6 +338,36 @@ AncientTomb_EventScript_LegendaryBattle_17:
 	setwildbattle SPECIES_AZELF, 58, ITEM_NONE
 	goto AncientTomb_EventScript_LegendaryBattle_1
 
+AncientTomb_EventScript_LegendaryBattle_18:
+# 123 "data/maps/AncientTomb/scripts.pory"
+	setwildbattle SPECIES_COBALION, 58, ITEM_NONE
+	goto AncientTomb_EventScript_LegendaryBattle_1
+
+AncientTomb_EventScript_LegendaryBattle_19:
+# 124 "data/maps/AncientTomb/scripts.pory"
+	setwildbattle SPECIES_TERRAKION, 58, ITEM_NONE
+	goto AncientTomb_EventScript_LegendaryBattle_1
+
+AncientTomb_EventScript_LegendaryBattle_20:
+# 125 "data/maps/AncientTomb/scripts.pory"
+	setwildbattle SPECIES_VIRIZION, 58, ITEM_NONE
+	goto AncientTomb_EventScript_LegendaryBattle_1
+
+AncientTomb_EventScript_LegendaryBattle_21:
+# 126 "data/maps/AncientTomb/scripts.pory"
+	setwildbattle SPECIES_IRON_CROWN, 58, ITEM_NONE
+	goto AncientTomb_EventScript_LegendaryBattle_1
+
+AncientTomb_EventScript_LegendaryBattle_22:
+# 127 "data/maps/AncientTomb/scripts.pory"
+	setwildbattle SPECIES_IRON_LEAVES, 58, ITEM_NONE
+	goto AncientTomb_EventScript_LegendaryBattle_1
+
+AncientTomb_EventScript_LegendaryBattle_23:
+# 128 "data/maps/AncientTomb/scripts.pory"
+	setwildbattle SPECIES_IRON_BOULDER, 58, ITEM_NONE
+	goto AncientTomb_EventScript_LegendaryBattle_1
+
 
 AncientTomb_EventScript_LegendaryBattle_Text_0:
 # 97 "data/maps/AncientTomb/scripts.pory"
@@ -335,18 +377,18 @@ AncientTomb_EventScript_LegendaryBattle_Text_0:
 	.string "This rite can only be performed once.$"
 
 AncientTomb_EventScript_LegendaryBattle_Text_1:
-# 125 "data/maps/AncientTomb/scripts.pory"
+# 131 "data/maps/AncientTomb/scripts.pory"
 	.string "The veil parts… Brace yourself!$"
 
 AncientTomb_EventScript_LegendaryBattle_Text_2:
-# 132 "data/maps/AncientTomb/scripts.pory"
+# 138 "data/maps/AncientTomb/scripts.pory"
 	.string "The path closes. Such meetings are rare and precious…$"
 
 AncientTomb_EventScript_LegendaryBattle_Text_3:
-# 137 "data/maps/AncientTomb/scripts.pory"
+# 143 "data/maps/AncientTomb/scripts.pory"
 	.string "Very well. Return when your spirit is ready.$"
 
 AncientTomb_EventScript_LegendaryBattle_Text_4:
-# 142 "data/maps/AncientTomb/scripts.pory"
+# 148 "data/maps/AncientTomb/scripts.pory"
 	.string "The rite is spent.\n"
 	.string "Fate seldom grants second chances.$"

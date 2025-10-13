@@ -103,9 +103,37 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Poochyena
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Brambleghast @ Loaded Dice  
+Ability: Infiltrator  
+Level: 69   
+- Bullet Seed  
+- Poltergeist  
+- Spikes  
+- Shadow Sneak  
+
+Feraligatr @ Life Orb  
+Ability: Sheer Force  
+Level: 69   
+- Liquidation  
+- Crunch  
+- Ice Punch  
+- Aqua Jet  
+
+Qwilfish @ Leftovers  
+Ability: Intimidate  
+Level: 69   
+- Barb Barrage  
+- Liquidation  
+- Throat Chop  
+- Aqua Jet  
+
+Tauros @ Water Gem  
+Ability: Intimidate  
+Level: 69   
+- Return  
+- High Horsepower  
+- Close Combat  
+- Surf  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
 Name: GRUNT
@@ -116,13 +144,34 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volbeat @ Focus Sash  
+Ability: Prankster  
+Level: 69  
+Modest Nature  
+IVs: 0 Atk  
+- Tail Glow  
+- Baton Pass  
+- Bug Buzz  
+- Thunder  
 
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alakazam @ Life Orb  
+Ability: Magic Guard  
+Level: 69  
+Timid Nature  
+IVs: 0 Atk  
+- Stored Power  
+- Energy Ball  
+- Focus Blast  
+- Calm Mind  
+
+Golduck @ Assault Vest  
+Ability: Cloud Nine  
+Level: 69  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Grass Knot  
+- Future Sight  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
 Name: GRUNT
@@ -133,9 +182,29 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory @ Leftovers  
+Ability: Sturdy  
+Level: 69   
+- Roost  
+- Stealth Rock  
+- Spikes  
+- Dual Wingbeat  
+
+Scolipede @ Life Orb  
+Ability: Speed Boost  
+Level: 69  
+Adamant Nature  
+- Protect  
+- Megahorn  
+- Poison Jab  
+- Earthquake  
+
+Dugtrio @ Focus Sash  
+Ability: Arena Trap  
+Level: 69   
+- Earthquake  
+- Foul Play  
+- Endeavor  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
 Name: GRUNT
@@ -146,9 +215,30 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crawdaunt @ Mystic Water  
+Ability: Adaptability  
+Level: 69  
+- Crabhammer  
+- Knock Off  
+- Rock Slide  
+- Dragon Dance  
+
+Eelektross @ Expert Belt  
+Ability: Levitate  
+Level: 69  
+- Coil  
+- Wild Charge  
+- Body Press  
+- Lunge  
+
+Sharpedo @ Life Orb  
+Ability: Speed Boost  
+Level: 69   
+Lonely Nature  
+- Protect  
+- Waterfall  
+- Crunch  
+- Ice Beam  
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
 Name: GRUNT
@@ -332,9 +422,48 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro @ Leftovers  
+Ability: Regenerator  
+Level: 72  
+Adamant Nature  
+- Curse  
+- Body Press  
+- Waterfall  
+- Zen Headbutt  
+
+Chimecho @ Expert Belt  
+Ability: Levitate  
+Level: 72  
+IVs: 0 Atk  
+- Calm Mind  
+- Baton Pass  
+- Psyshock  
+- Draining Kiss  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+Level: 72  
+- Double-Edge  
+- Stone Edge  
+- Dual Wingbeat  
+- Earthquake  
+
+Decidueye-Hisui @ Life Orb  
+Ability: Scrappy  
+Level: 72   
+- Triple Arrows  
+- Leaf Blade  
+- Shadow Claw  
+- Shadow Sneak  
+
+Salazzle @ Charcoal  
+Ability: Corrosion  
+Level: 72  
+IVs: 0 Atk  
+- Fire Blast  
+- Sludge Bomb  
+- Thunder Wave  
+- Nasty Plot  
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
 Name: GRUNT
@@ -690,9 +819,38 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Quaquaval @ Life Orb  
+Ability: Moxie  
+Level: 69  
+- Aqua Step  
+- Close Combat  
+- Ice Spinner  
+- Flip Turn  
+
+Araquanid @ Splash Plate  
+Ability: Water Bubble  
+Level: 69    
+- Liquidation  
+- Leech Life  
+- Poison Jab  
+- Icy Wind  
+
+Slowking @ Leftovers  
+Ability: Regenerator  
+Level: 69   
+IVs: 0 Atk  
+- Scald  
+- Psychic  
+- Flamethrower  
+- Slack Off  
+
+Krookodile @ Earth Plate  
+Ability: Moxie  
+Level: 69  
+- Earthquake  
+- Crunch  
+- Fire Fang  
+- Bulk Up  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
 Name: GRUNT
@@ -703,9 +861,23 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Baxcalibur @ Chople Berry  
+Ability: Thermal Exchange  
+Level: 69   
+- Scale Shot  
+- Icicle Spear  
+- High Horsepower  
+- Dragon Dance  
+
+Azumarill @ Assault Vest  
+Ability: Huge Power  
+Level: 69  
+- Liquidation  
+- Play Rough  
+- Ice Punch  
+- Aqua Jet  
+
+
 
 === TRAINER_FREDRICK ===
 Name: FREDRICK
@@ -730,17 +902,62 @@ Class: Aqua Admin
 Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
-Items: Super Potion
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Purple
 
-Mightyena
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Empoleon @ Leftovers  
+Ability: Competitive  
+Level: 72  
+Bold Nature
+- Scald  
+- Flash Cannon  
+- Stealth Rock  
+- Flip Turn  
 
-Golbat
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Hydrapple @ Yache Berry  
+Ability: Regenerator  
+Level: 72  
+IVs: 0 Atk  
+- Fickle Beam  
+- Energy Ball  
+- Earth Power  
+- Recover  
+
+Iron Treads @ Booster Energy  
+Ability: Quark Drive  
+Level: 72  
+Adamant Nature  
+- Earthquake  
+- Iron Head  
+- Knock Off  
+- Volt Switch  
+
+Cloyster @ White Herb  
+Ability: Skill Link  
+Level: 72  
+Adamant Nature
+- Rock Blast  
+- Icicle Spear  
+- Liquidation  
+- Shell Smash  
+
+Buzzwole @ Life Orb  
+Ability: Beast Boost  
+Level: 73  
+- Close Combat  
+- Leech Life  
+- Ice Punch  
+- Bulk Up  
+
+Sharpedo @ Sharpedonite  
+Ability: Rough Skin  
+Level: 73  
+Jolly Nature  
+- Liquidation  
+- Crunch  
+- Ice Fang  
+- Aqua Jet  
 
 === TRAINER_ZANDER ===
 Name: PHOEBE
@@ -3666,13 +3883,14 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gyarados  
+Ability: Intimidate  
+Level: 72  
 
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Alomomola  
+Ability: Healer  
+Level: 72  
 
 === TRAINER_ROLAND ===
 Name: ROLAND
@@ -3696,10 +3914,18 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Tentacruel
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vaporeon  
+Ability: Water Absorb  
+Level: 72  
 
+Polteageist  
+Ability: Weak Armor  
+Level: 72  
+
+Copperajah  
+Ability: Sheer Force  
+Level: 72  
+ 
 === TRAINER_STAN ===
 Name: STAN
 Class: Swimmer M
@@ -3709,9 +3935,17 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Horsea
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Porygon2  
+Ability: Trace  
+Level: 72  
+
+Cryogonal  
+Ability: Levitate  
+Level: 72  
+
+Hawlucha  
+Ability: Limber  
+Level: 72  
 
 === TRAINER_BARRY ===
 Name: BARRY
@@ -3889,14 +4123,14 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Tentacool
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Milotic  
+Ability: Marvel Scale  
+Level: 72  
 
-Wailmer
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
+Araquanid  
+Ability: Water Bubble  
+Level: 72  
+ 
 === TRAINER_TONY_2 ===
 Name: TONY
 Class: Swimmer M
@@ -4262,13 +4496,43 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Poochyena
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crobat @ Focus Sash  
+Ability: Infiltrator  
+Level: 69  
+Timid Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Heat Wave  
+- Sludge Bomb  
+- Hurricane  
 
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gholdengo @ Occa Berry  
+Ability: Good as Gold  
+Level: 69  
+IVs: 0 Atk  
+- Flash Cannon  
+- Shadow Ball  
+- Power Gem  
+- Charge Beam  
+
+Basculegion-F @ Choice Specs  
+Ability: Adaptability  
+Level: 69  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Shadow Ball  
+- Ice Beam  
+- Mud Shot  
+
+Haxorus @ Yache Berry  
+Ability: Mold Breaker  
+Level: 69  
+Adamant Nature  
+- Outrage  
+- Earthquake  
+- Iron Head  
+- First Impression  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_8 ===
 Name: GRUNT
@@ -4279,9 +4543,29 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Weezing @ Bright Powder  
+Ability: Levitate  
+Level: 69   
+- Explosion  
+- Sludge Bomb  
+- Heat Wave  
+- Toxic Spikes  
+
+Kingambit @ Chople Berry  
+Ability: Defiant  
+Level: 69  
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
+- Zen Headbutt  
+
+Mandibuzz @ Leftovers  
+Ability: Overcoat  
+Level: 69  
+- Foul Play  
+- Lash Out  
+- Dual Wingbeat  
+- U-turn  
 
 === TRAINER_SHAWN ===
 Name: SHAWN
@@ -5225,9 +5509,22 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Kirlia
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Noivern @ Choice Specs  
+Ability: Telepathy  
+Level: 75  
+IVs: 0 Atk  
+- Boomburst  
+- Draco Meteor  
+- Heat Wave  
+- Air Slash  
+
+Donphan @ Leftovers  
+Ability: Sturdy  
+Level: 75   
+- High Horsepower  
+- Play Rough  
+- Fire Fang  
+- Ice Shard  
 
 === TRAINER_VIRGIL ===
 Name: VIRGIL
@@ -5238,9 +5535,30 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Ralts
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Geodude @ Quick Claw  
+Ability: Rock Head  
+Level: 1  
+Shiny: Yes  
+- Explosion  
+
+Dondozo @ Leftovers  
+Ability: Unaware  
+Level: 75  
+Adamant Nature  
+- Aqua Tail  
+- Rock Slide  
+- Earthquake  
+- Curse  
+
+Togekiss @ Scope Lens  
+Ability: Super Luck  
+Level: 75  
+Modest Nature  
+IVs: 0 Atk  
+- Psych Up  
+- Dazzling Gleam  
+- Air Slash  
+- Flamethrower  
 
 === TRAINER_BLAKE ===
 Name: BLAKE
@@ -5251,9 +5569,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Girafarig
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Coalossal @ Weakness Policy  
+Ability: Steam Engine  
+Level: 75  
+Quiet Nature  
+- Power Gem  
+- Flamethrower  
+- Scorching Sands  
+- Explosion  
+
+Revavroom @ Shuca Berry  
+Ability: Filter  
+Level: 75  
+Adamant Nature  
+- Iron Head  
+- Gunk Shot  
+- High Horsepower  
+- Shift Gear  
 
 === TRAINER_WILLIAM ===
 Name: WILLIAM
@@ -5438,9 +5770,35 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Kirlia
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Shuckle @ Leftovers  
+Ability: Sturdy  
+Level: 75  
+Brave Nature  
+IVs: 0 Spe  
+- Power Trick  
+- Stone Edge  
+- Earthquake  
+- Bug Bite  
+
+Ferrothorn @ Occa Berry  
+Ability: Iron Barbs  
+Level: 75   
+Brave Nature  
+IVs: 0 Spe  
+- Power Whip  
+- Iron Head  
+- Body Press  
+- Curse  
+
+Carbink @ Babiri Berry  
+Ability: Clear Body  
+Level: 75   
+Sassy Nature  
+IVs: 0 Spe  
+- Trick Room  
+- Body Press  
+- Iron Defense  
+- Stone Edge  
 
 === TRAINER_SAMANTHA ===
 Name: SAMANTHA
@@ -5451,9 +5809,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Xatu
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 75  
+Jolly Nature  
+- Surf  
+- Ice Punch  
+- Night Slash  
+- Fake Out  
+
+Mimikyu @ Expert Belt  
+Ability: Disguise  
+Level: 75   
+Adamant Nature  
+- Play Rough  
+- Shadow Claw  
+- Wood Hammer  
+- Will-O-Wisp  
 
 === TRAINER_MAURA ===
 Name: MAURA
@@ -5464,9 +5836,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Kadabra
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sylveon @ Pixie Plate  
+Ability: Pixilate  
+Level: 75  
+IVs: 0 Atk  
+- Helping Hand  
+- Hyper Voice  
+- Psyshock  
+- Misty Explosion  
+
+Pyroar @ Life Orb  
+Ability: Adaptability  
+Level: 75   
+IVs: 0 Atk  
+- Hyper Voice  
+- Flamethrower  
+- Dark Pulse  
+- Will-O-Wisp  
 
 === TRAINER_KAYLA ===
 Name: KAYLA
@@ -6344,37 +6730,63 @@ Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
-Claydol
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
+Deoxys-Defense @ Light Clay  
+Ability: Pressure  
+Level: 77   
+Calm Nature  
+IVs: 0 Atk  
+- Recover  
+- Light Screen  
+- Reflect  
+- Psychic  
 
-Xatu
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
-- Calm Mind
+Wyrdeer @ Assault Vest  
+Ability: Intimidate  
+Level: 77  
+Adamant Nature  
+- Psyshield Bash  
+- Return  
+- High Horsepower  
+- Megahorn  
 
-Lunatone @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
+Delphox @ Life Orb  
+Ability: Flash Fire  
+Level: 77  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Flamethrower  
+- Dazzling Gleam  
+- Will-O-Wisp  
 
-Solrock @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Starmie @ Expert Belt  
+Ability: Analytic  
+Level: 77  
+Timid Nature  
+IVs: 0 Atk  
+- Scald  
+- Dazzling Gleam  
+- Thunderbolt  
+- Ice Beam  
+
+Necrozma @ Colbur Berry  
+Ability: Prism Armor  
+Level: 78   
+Modest Nature  
+- Photon Geyser  
+- Heat Wave  
+- Earth Power  
+- Calm Mind  
+
+Alakazam @ Alakazite  
+Ability: Inner Focus  
+Level: 78  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Dazzling Gleam  
+- Shadow Ball  
+- Energy Ball  
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
@@ -9210,13 +9622,31 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Tropius
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Steelix @ Leftovers  
+Ability: Sheer Force  
+Level: 73  
+- Iron Head  
+- High Horsepower  
+- Body Press  
+- Iron Defense  
 
-Xatu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bewear @ Assault Vest  
+Ability: Fluffy  
+Level: 73  
+- Hammer Arm  
+- Return  
+- Ice Punch  
+- Iron Head  
+
+Pidgeot @ Pidgeotite  
+Ability: Big Pecks  
+Level: 73  
+Modest Nature  
+IVs: 0 Atk  
+- Hyper Voice  
+- Hurricane  
+- Heat Wave  
+- Protect  
 
 === TRAINER_EDWARDO ===
 Name: EDWARDO
@@ -10293,9 +10723,14 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Wailmer
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kingler  
+Ability: Hyper Cutter  
+Level: 72  
+
+
+Primarina  
+Ability: Torrent  
+Level: 72  
 
 === TRAINER_GRACE ===
 Name: GRACE
@@ -10306,9 +10741,52 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Marill
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Infernape @ Focus Sash  
+Ability: Iron Fist  
+Level: 72  
+- Thunder Punch  
+- Close Combat  
+- Raging Fury  
+- Bulk Up  
+
+Vivillon @ Life Orb  
+Ability: Compound Eyes  
+Level: 72  
+- Hurricane  
+- Bug Buzz  
+- Energy Ball  
+- U-turn  
+
+Doublade @ Eviolite  
+Ability: No Guard  
+Level: 72  
+- Iron Head  
+- Shadow Claw  
+- Sacred Sword  
+- Swords Dance  
+
+Cacturne @ Tanga Berry  
+Ability: Water Absorb  
+Level: 72  
+- Seed Bomb  
+- Lash Out  
+- Drain Punch  
+- Swords Dance  
+
+Bruxish @ Muscle Band  
+Ability: Strong Jaw  
+Level: 72  
+- Psychic Fangs  
+- Ice Fang  
+- Poison Fang  
+- Flip Turn  
+
+Unown-L @ Choice Specs  
+Ability: Levitate  
+Shiny: Yes  
+Modest Nature  
+IVs: 0 Atk  
+- Hidden Power
 
 === TRAINER_TANYA ===
 Name: TANYA
@@ -10319,9 +10797,9 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Luvdisc
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bellibolt  
+Ability: Electromorphosis  
+Level: 72  
 
 === TRAINER_SHARON ===
 Name: SHARON
@@ -10332,9 +10810,13 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Seaking
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wugtrio  
+Ability: Gooey  
+Level: 72   
+
+Gallade  
+Ability: Steadfast  
+Level: 72   
 
 === TRAINER_NIKKI ===
 Name: NIKKI
@@ -11135,13 +11617,9 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machoke
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Medicham  
+Ability: Pure Power  
+Level: 72  
 
 === TRAINER_DWAYNE ===
 Name: DWAYNE
@@ -11405,13 +11883,24 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Manectric
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowking-Galar @ Leftovers  
+Ability: Regenerator  
+Level: 73  
+Quiet Nature  
+IVs: 0 Atk  
+- Trick Room  
+- Sludge Wave  
+- Psychic  
+- Hex  
 
-Machamp
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bronzong @ Occa Berry  
+Ability: Levitate  
+Level: 73   
+Brave Nature  
+- Trick Room  
+- Psychic  
+- Iron Head  
+- Ice Spinner  
 
 === TRAINER_KELVIN ===
 Name: KELVIN
@@ -13418,9 +13907,34 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Meditite
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Spiritomb @ Leftovers  
+Ability: Infiltrator  
+Level: 75  
+Sassy Nature  
+IVs: 0 Atk / 0 Spe  
+- Trick Room  
+- Foul Play  
+- Hex  
+- Will-O-Wisp  
+
+Metagross @ Life Orb  
+Ability: Clear Body  
+Level: 75  
+Brave Nature  
+IVs: 0 Spe  
+- Iron Head  
+- Zen Headbutt  
+- Ice Punch  
+- Hammer Arm  
+
+Avalugg @ Maranga Berry  
+Ability: Filter  
+Level: 75  
+Brave Nature  
+- Icicle Crash  
+- Body Press  
+- Earthquake  
+- Curse  
 
 === TRAINER_LEONARDO ===
 Name: LEONARDO
@@ -13534,9 +14048,23 @@ Music: Rich
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Spoink
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tatsugiri @ Toxic Orb  
+Ability: Commander  
+Level: 75   
+IVs: 0 Atk  
+- Protect  
+- Muddy Water  
+- Icy Wind  
+- Draco Meteor  
+
+Flamigo @ Life Orb  
+Ability: Costar  
+Level: 75    
+Jolly Nature  
+- Dual Wingbeat  
+- Close Combat  
+- Throat Chop  
+- Lunge  
 
 === TRAINER_KATHLEEN ===
 Name: KATHLEEN
@@ -13547,9 +14075,34 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Kadabra
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+Level: 75   
+Adamant Nature  
+- Stealth Rock  
+- Crunch  
+- Rock Slide  
+- Ice Punch  
+
+Politoed @ Leftovers  
+Ability: Drizzle  
+Level: 75  
+Calm Nature  
+IVs: 0 Atk  
+- Muddy Water  
+- Ice Beam  
+- Toxic  
+- Perish Song  
+
+Torkoal @ Leftovers  
+Ability: Drought  
+Level: 75  
+Modest Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Heat Wave  
+- Earth Power  
+- Solar Beam  
 
 === TRAINER_CLIFFORD ===
 Name: CLIFFORD
@@ -13560,9 +14113,27 @@ Music: Rich
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Girafarig
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Marill @ Quick Claw  
+Ability: Huge Power  
+Level: 1  
+IVs: 0 Atk  
+- Misty Explosion  
+
+Hypno @ Leftovers  
+Ability: Inner Focus  
+Level: 75  
+Adamant Nature  
+- Role Play  
+- Zen Headbutt  
+- Fire Punch  
+- Ice Punch  
+
+Kecleon @ Expert Belt  
+Ability: Protean   
+- Sucker Punch  
+- Return  
+- Fire Punch  
+- Thunder Punch  
 
 === TRAINER_NICHOLAS ===
 Name: NICHOLAS
@@ -13573,9 +14144,33 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Wobbuffet
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lycanroc @ Muscle Band  
+Ability: Sand Rush  
+Level: 75  
+Adamant Nature  
+- Accelerock  
+- Rock Slide  
+- Close Combat  
+- Play Rough  
+
+Ludicolo @ Life Orb  
+Ability: Swift Swim  
+Level: 75  
+Adamant Nature  
+- Swords Dance  
+- Fake Out  
+- Seed Bomb  
+- Waterfall  
+
+Venusaur @ Flame Plate  
+Ability: Chlorophyll  
+Level: 75   
+Modest Nature  
+IVs: 0 Atk  
+- Weather Ball  
+- Energy Ball  
+- Sludge Bomb  
+- Toxic  
 
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
 Name: GRUNT
@@ -13655,9 +14250,33 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Natu
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Passimian @ Life Orb  
+Ability: Receiver  
+Level: 75  
+Adamant Nature  
+- Rock Slide  
+- Close Combat  
+- Iron Head  
+- Gunk Shot  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+Level: 75  
+Modest Nature  
+IVs: 0 Atk  
+- Skill Swap  
+- Ice Beam  
+- Psychic  
+- Shadow Ball  
+
+Spinda @ Silk Scarf  
+Ability: Contrary  
+Level: 75  
+Adamant Nature  
+- Return  
+- Superpower  
+- Ice Punch  
+- Hypnosis  
 
 === TRAINER_BRENDAN_RUSTBORO_TREECKO ===
 Name: BRENDAN
@@ -13858,64 +14477,65 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: AI_FLAG_SMART_TRAINER / AI_FLAG_FORCE_SETUP_FIRST_TURN
+AI: AI_FLAG_SMART_TRAINER 
 Mugshot: Purple
-
-Hatterene @ Focus Sash  
-Ability: Magic Bounce  
-Level: 68   
-Quiet Nature  
-IVs: 0 Atk / 0 Spe  
-- Psyshock  
-- Dazzling Gleam  
-- Mystical Fire  
-- Trick Room  
 
 Groudon @ Leftovers  
 Ability: Drought  
 Level: 70  
 Brave Nature  
-IVs: 0 Spe  
 - Precipice Blades  
 - Heat Crash  
-- Hammer Arm  
+- Solar Beam  
 - Bulk Up  
 
-Ursaluna-Bloodmoon @ Life Orb  
-Ability: Mind's Eye  
-Level: 68   
-Quiet Nature  
-IVs: 0 Atk / 0 Spe  
-- Blood Moon  
-- Earth Power  
-- Moonblast  
-- Vacuum Wave  
+Leafeon @ Focus Sash  
+Ability: Chlorophyll  
+Level: 68  
+Tera Type: Grass  
+Adamant Nature  
+- Solar Blade  
+- Knock Off  
+- X-Scissor  
+- Swords Dance  
 
-Garganacl @ Leftovers  
-Ability: Purifying Salt  
-Level: 69  
-Careful Nature  
-- Salt Cure  
-- Recover  
+Cofagrigus @ Leftovers  
+Ability: Mummy  
+Level: 68  
+Bold Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
 - Body Press  
-- Iron Defense  
+- Hex  
+- Protect  
 
-Bronzong @ Iron Ball  
-Ability: Heatproof  
-Level: 69  
-- Trick Room  
-- Heavy Slam  
-- Zen Headbutt  
-- Body Press  
+Blacephalon @ Choice Specs  
+Ability: Beast Boost  
+Level: 68    
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Heat Wave  
+- Shadow Ball  
+- Solar Beam 
+
+Gouging Fire @ Rocky Helmet  
+Ability: Protosynthesis  
+Level: 68  
+Jolly Nature  
+- Burning Bulwark  
+- Heat Crash  
+- Dragon Claw  
+- Psychic Fangs  
 
 Camerupt @ Cameruptite  
-Ability: Sheer Force  
-Level: 70    
-Quiet Nature  
-IVs: 0 Atk / 0 Spe  
+Ability: Solid Rock  
+Level: 70  
+IVs: 0 Atk 
+Modest Nature 
+- Flamethrower  
 - Earth Power  
-- Heat Wave  
-- Eruption  
+- Will-O-Wisp  
 - Flash Cannon  
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
@@ -16126,29 +16746,71 @@ Quiet Nature
 - Energy Ball  
 
 === TRAINER_KIM_AND_IRIS ===
-Name: KIM & IRIS
-Class: Sr And Jr
-Pic: Sr And Jr
-Gender: Male
-Music: Twins
-Double Battle: Yes
+Name: GLACIA
+Class: Elite Four
+Pic: Elite Four Glacia
+Gender: Female
+Music: Elite Four
+Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
+Mugshot: Purple
 
-Swablu
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sing
-- Fury Attack
-- Safeguard
-- Aerial Ace
+Abomasnow @ Abomasite  
+Ability: Snow Warning  
+Level: 76  
+Shiny: Yes  
+Quiet Nature  
+- Blizzard  
+- Energy Ball  
+- Earth Power  
+- Ice Shard  
 
-Numel
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Flamethrower
-- Take Down
-- Rest
-- Earthquake
+Avalugg-Hisui @ Assault Vest  
+Ability: Strong Jaw  
+Level: 75  
+Adamant Nature  
+- Mountain Gale  
+- Stone Edge  
+- Earthquake  
+- Body Press  
+
+Walrein @ Leftovers  
+Ability: Ice Body  
+Level: 75  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Toxic  
+- Protect  
+
+Articuno @ Bright Powder  
+Ability: Snow Cloak  
+Level: 75  
+Shiny: Yes  
+Modest Nature  
+- Freeze-Dry  
+- Ice Beam  
+- Hurricane  
+- U-turn  
+
+Mr. Rime @ Life Orb  
+Ability: Ice Body  
+Level: 75  
+Shiny: Yes  
+IVs: 0 Atk  
+- Blizzard  
+- Psyshock  
+- Dazzling Gleam  
+- Encore  
+
+Sandslash-Alola @ Never-Melt Ice  
+Ability: Slush Rush  
+Level: 75   
+- Icicle Crash  
+- Iron Head  
+- Earthquake  
+- Ice Shard  
 
 === TRAINER_TYRA_AND_IVY ===
 Name: TYRA & IVY
