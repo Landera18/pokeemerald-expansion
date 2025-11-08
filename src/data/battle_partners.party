@@ -13,34 +13,34 @@ Pic: Steven
 Gender: Male
 Music: Male
 Back Pic: Steven
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER / AI_FLAG_DOUBLE_BATTLE
 
-Metang
-Brave Nature
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Def / 6 SpA
-- Light Screen
-- Psychic
-- Reflect
-- Metal Claw
+Claydol @ Light Clay  
+Ability: Levitate  
+Level: 82  
+Calm Nature  
+IVs: 0 Atk  
+- Light Screen  
+- Reflect  
+- Earth Power  
+- Toxic  
 
-Skarmory
-Impish Nature
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 6 SpA / 252 SpD
-- Toxic
-- Aerial Ace
-- Protect
-- Steel Wing
+Iron Boulder @ Booster Energy  
+Ability: Quark Drive  
+Level: 83  
+Jolly Nature  
+- Mighty Cleave  
+- Zen Headbutt  
+- Iron Head  
+- Protect  
 
-Aggron
-Adamant Nature
-Level: 44
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 SpA / 6 SpD
-- Thunder
-- Protect
-- Solar Beam
-- Dragon Claw
+Metagross @ Metagrossite  
+Ability: Clear Body  
+Level: 84   
+Jolly Nature  
+- Meteor Mash  
+- Zen Headbutt  
+- Bullet Punch  
+- Knock Off  
+
+

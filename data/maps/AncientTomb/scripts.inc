@@ -185,7 +185,7 @@ AncientTomb_EventScript_LegendaryBattle::
 # 102 "data/maps/AncientTomb/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, declined
 # 104 "data/maps/AncientTomb/scripts.pory"
-	random 15
+	random 21
 # 105 "data/maps/AncientTomb/scripts.pory"
 	copyvar VAR_TEMP_0, VAR_RESULT
 # 107 "data/maps/AncientTomb/scripts.pory"

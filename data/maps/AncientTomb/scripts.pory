@@ -101,7 +101,7 @@ script AncientTomb_EventScript_LegendaryBattle {
     compare(VAR_RESULT, NO)
     goto_if_eq(VAR_RESULT, NO, declined)
 
-    random(15)                      
+    random(21)                      
     copyvar(VAR_TEMP_0, VAR_RESULT) 
 
     switch (var(VAR_TEMP_0)) {

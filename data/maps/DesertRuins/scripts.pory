@@ -1,0 +1,158 @@
+raw `DesertRuins_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, DesertRuins_OnResume
+	map_script MAP_SCRIPT_ON_LOAD, DesertRuins_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, DesertRuins_OnTransition
+	.byte 0
+
+DesertRuins_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, DesertRuins_EventScript_TryRemoveRegirock
+	end
+
+DesertRuins_EventScript_TryRemoveRegirock::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+DesertRuins_OnLoad:
+	call_if_unset FLAG_SYS_REGIROCK_PUZZLE_COMPLETED, DesertRuins_EventScript_HideRegiEntrance
+	end
+
+DesertRuins_EventScript_HideRegiEntrance::
+	setmetatile 7, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 8, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 9, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 7, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	setmetatile 8, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	setmetatile 9, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	return
+
+DesertRuins_OnTransition:
+	setflag FLAG_LANDMARK_DESERT_RUINS
+	call_if_unset FLAG_DEFEATED_REGIROCK, DesertRuins_EventScript_ShowRegirock
+	end
+
+DesertRuins_EventScript_ShowRegirock::
+	clearflag FLAG_HIDE_REGIROCK
+	return
+
+DesertRuins_EventScript_CaveEntranceMiddle::
+	lockall
+	goto_if_set FLAG_SYS_REGIROCK_PUZZLE_COMPLETED, DesertRuins_EventScript_BigHoleInWall
+	braillemsgbox DesertRuins_Braille_UseRockSmash
+	releaseall
+	end
+
+DesertRuins_EventScript_BigHoleInWall::
+	msgbox gText_BigHoleInTheWall, MSGBOX_DEFAULT
+	releaseall
+	end
+
+DesertRuins_EventScript_CaveEntranceSide::
+	lockall
+	braillemsgbox DesertRuins_Braille_UseRockSmash
+	releaseall
+	end
+
+DesertRuins_EventScript_Regirock::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_REGIROCK, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_REGIROCK, 40
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	special StartRegiBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, DesertRuins_EventScript_DefeatedRegirock
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, DesertRuins_EventScript_RanFromRegirock
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, DesertRuins_EventScript_RanFromRegirock
+	setflag FLAG_DEFEATED_REGIROCK
+	release
+	end
+
+DesertRuins_EventScript_DefeatedRegirock::
+	setflag FLAG_DEFEATED_REGIROCK
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+DesertRuins_EventScript_RanFromRegirock::
+	setvar VAR_0x8004, SPECIES_REGIROCK
+	goto Common_EventScript_LegendaryFlewAway
+	end
+
+`
+
+script DesertRuins_EventScript_LegendaryBattle {
+    lock
+    faceplayer
+
+    // Prevent repeat
+    checkflag(FLAG_SAGE2_DONE)
+    goto_if(TRUE, alreadyUsed1)
+
+    msgbox("…I sense a hero before me.\p"
+           "Shall I open the path to a mighty \n"
+           "legendary Pokémon?\n"
+           "This rite can only be performed once.", MSGBOX_YESNO)
+    compare(VAR_RESULT, NO)
+    goto_if_eq(VAR_RESULT, NO, declined1)
+
+    random(27)                      
+    copyvar(VAR_TEMP_0, VAR_RESULT) 
+
+    switch (var(VAR_TEMP_0)) {
+        case 0:  setwildbattle(SPECIES_REGIROCK, 80, ITEM_NONE)
+        case 1:  setwildbattle(SPECIES_REGICE, 80, ITEM_NONE)
+        case 2:  setwildbattle(SPECIES_REGISTEEL, 80, ITEM_NONE)
+        case 3:  setwildbattle(SPECIES_REGIDRAGO, 80, ITEM_NONE)
+        case 4:  setwildbattle(SPECIES_REGIELEKI, 80, ITEM_NONE)
+        case 5:  setwildbattle(SPECIES_LATIOS, 80, ITEM_NONE)
+        case 6:  setwildbattle(SPECIES_LATIAS, 80, ITEM_NONE)
+        case 7:  setwildbattle(SPECIES_CRESSELIA, 80, ITEM_NONE)
+        case 8:  setwildbattle(SPECIES_TORNADUS, 80, ITEM_REVEAL_GLASS)
+        case 9:  setwildbattle(SPECIES_THUNDURUS, 80, ITEM_REVEAL_GLASS)
+        case 10: setwildbattle(SPECIES_LANDORUS, 80, ITEM_REVEAL_GLASS)
+        case 11: setwildbattle(SPECIES_ENAMORUS, 80, ITEM_REVEAL_GLASS)
+        case 12: setwildbattle(SPECIES_WO_CHIEN, 80, ITEM_NONE)
+        case 13: setwildbattle(SPECIES_CHIEN_PAO, 80, ITEM_NONE)
+        case 14: setwildbattle(SPECIES_TING_LU, 80, ITEM_NONE)
+        case 15: setwildbattle(SPECIES_CHI_YU, 80, ITEM_NONE)
+        case 16: setwildbattle(SPECIES_KYUREM, 80, ITEM_NONE)
+        case 17: setwildbattle(SPECIES_NIHILEGO, 80, ITEM_NONE)
+        case 18: setwildbattle(SPECIES_BUZZWOLE, 80, ITEM_NONE)
+        case 19: setwildbattle(SPECIES_PHEROMOSA, 80, ITEM_NONE)
+        case 20: setwildbattle(SPECIES_XURKITREE, 80, ITEM_NONE)
+        case 21: setwildbattle(SPECIES_CELESTEELA, 80, ITEM_NONE)
+        case 22: setwildbattle(SPECIES_KARTANA, 80, ITEM_NONE)
+        case 23: setwildbattle(SPECIES_GUZZLORD, 80, ITEM_NONE)
+        case 24: setwildbattle(SPECIES_NAGANADEL, 80, ITEM_NONE)
+        case 25: setwildbattle(SPECIES_STAKATAKA, 80, ITEM_NONE)
+        case 26: setwildbattle(SPECIES_BLACEPHALON, 80, ITEM_NONE)
+    } 
+
+    msgbox("The veil parts… Brace yourself!")
+    closemessage
+    dowildbattle
+
+    // No matter the result (caught / defeated / fled), this event is one-time.
+    setflag(FLAG_SAGE2_DONE)
+
+    msgbox("The path closes. Such meetings are rare and precious…")
+    release
+    end
+
+declined1:
+    msgbox("Very well. Return when your spirit is ready.")
+    release
+    end
+
+alreadyUsed1:
+    msgbox("The rite is spent.\n"
+    "Fate seldom grants second chances.")
+    release
+    end
+}

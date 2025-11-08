@@ -1,0 +1,197 @@
+raw`IslandCave_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, IslandCave_OnResume
+	map_script MAP_SCRIPT_ON_LOAD, IslandCave_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, IslandCave_OnTransition
+	.byte 0
+
+IslandCave_OnResume:
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, IslandCave_EventScript_TryRemoveRegice
+	end
+
+IslandCave_EventScript_TryRemoveRegice::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+	removeobject VAR_LAST_TALKED
+	return
+
+IslandCave_OnLoad:
+	call_if_unset FLAG_SYS_BRAILLE_REGICE_COMPLETED, IslandCave_EventScript_HideRegiEntrance
+	end
+
+IslandCave_EventScript_HideRegiEntrance::
+	setmetatile 7, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 8, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 9, 19, METATILE_Cave_EntranceCover, TRUE
+	setmetatile 7, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	setmetatile 8, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	setmetatile 9, 20, METATILE_Cave_SealedChamberBraille_Mid, TRUE
+	return
+
+IslandCave_OnTransition:
+	setflag FLAG_LANDMARK_ISLAND_CAVE
+	call IslandCave_EventScript_ClearSteps
+	call_if_unset FLAG_DEFEATED_REGICE, IslandCave_EventScript_ShowRegice
+	end
+
+IslandCave_EventScript_ShowRegice::
+	clearflag FLAG_HIDE_REGICE
+	return
+
+IslandCave_EventScript_OpenRegiEntrance::
+	setmetatile 7, 19, METATILE_Cave_SealedChamberEntrance_TopLeft, TRUE
+	setmetatile 8, 19, METATILE_Cave_SealedChamberEntrance_TopMid, TRUE
+	setmetatile 9, 19, METATILE_Cave_SealedChamberEntrance_TopRight, TRUE
+	setmetatile 7, 20, METATILE_Cave_SealedChamberEntrance_BottomLeft, TRUE
+	setmetatile 8, 20, METATILE_Cave_SealedChamberEntrance_BottomMid, FALSE
+	setmetatile 9, 20, METATILE_Cave_SealedChamberEntrance_BottomRight, TRUE
+	special DrawWholeMapView
+	playse SE_BANG
+	setflag FLAG_SYS_BRAILLE_REGICE_COMPLETED
+	end
+
+IslandCave_EventScript_CaveEntranceMiddle::
+	lockall
+	call_if_set FLAG_TEMP_REGICE_PUZZLE_FAILED, IslandCave_EventScript_ClearSteps
+	goto_if_set FLAG_SYS_BRAILLE_REGICE_COMPLETED, IslandCave_EventScript_BigHoleInWall
+	braillemessage IslandCave_Braille_RunLapAroundWall
+	setflag FLAG_TEMP_REGICE_PUZZLE_STARTED
+	special ShouldDoBrailleRegicePuzzle
+	goto IslandCave_EventScript_CloseBrailleMsg
+	end
+
+IslandCave_EventScript_BigHoleInWall::
+	msgbox gText_BigHoleInTheWall, MSGBOX_DEFAULT
+	releaseall
+	end
+
+IslandCave_EventScript_CaveEntranceSide::
+	lockall
+	call_if_set FLAG_TEMP_REGICE_PUZZLE_FAILED, IslandCave_EventScript_ClearSteps
+	braillemessage IslandCave_Braille_RunLapAroundWall
+	goto_if_set FLAG_SYS_BRAILLE_REGICE_COMPLETED, IslandCave_EventScript_CloseBrailleMsg
+	setflag FLAG_TEMP_REGICE_PUZZLE_STARTED
+	special ShouldDoBrailleRegicePuzzle
+	goto IslandCave_EventScript_CloseBrailleMsg
+	end
+
+IslandCave_EventScript_CloseBrailleMsg::
+	waitbuttonpress
+	closebraillemessage
+	releaseall
+	end
+
+IslandCave_EventScript_ClearSteps::
+	setvar VAR_REGICE_STEPS_1, 0
+	setvar VAR_REGICE_STEPS_2, 0
+	setvar VAR_REGICE_STEPS_3, 0
+	clearflag FLAG_TEMP_REGICE_PUZZLE_FAILED
+	return
+
+IslandCave_EventScript_Regice::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_REGICE, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_REGICE, 40
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	special StartRegiBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, IslandCave_EventScript_DefeatedRegice
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, IslandCave_EventScript_RanFromRegice
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, IslandCave_EventScript_RanFromRegice
+	setflag FLAG_DEFEATED_REGICE
+	release
+	end
+
+IslandCave_EventScript_DefeatedRegice::
+	setflag FLAG_DEFEATED_REGICE
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+IslandCave_EventScript_RanFromRegice::
+	setvar VAR_0x8004, SPECIES_REGICE
+	goto Common_EventScript_LegendaryFlewAway
+	end
+`
+
+
+script IslandCave_EventScript_LegendaryBattle {
+    lock
+    faceplayer
+
+    // Prevent repeat
+    checkflag(FLAG_SAGE3_DONE)
+    goto_if(TRUE, alreadyUsed2)
+
+    msgbox("…I sense a hero before me.\p"
+           "Shall I open the path to a mighty \n"
+           "legendary Pokémon?\n"
+           "This rite can only be performed once.", MSGBOX_YESNO)
+    compare(VAR_RESULT, NO)
+    goto_if_eq(VAR_RESULT, NO, declined2)
+
+    random(33)                      
+    copyvar(VAR_TEMP_0, VAR_RESULT) 
+
+    switch (var(VAR_TEMP_0)) {
+        case 0: setwildbattle(SPECIES_MEW, 90, ITEM_NONE)
+        case 1:  setwildbattle(SPECIES_CELEBI, 90, ITEM_NONE)
+        case 2:  setwildbattle(SPECIES_JIRACHI, 90, ITEM_NONE)
+        case 3:  setwildbattle(SPECIES_MANAPHY, 90, ITEM_NONE)
+        case 4:  setwildbattle(SPECIES_SHAYMIN, 90, ITEM_GRACIDEA)
+        case 5:  setwildbattle(SPECIES_MELOETTA, 90, ITEM_NONE)
+        case 6:  setwildbattle(SPECIES_DARKRAI, 90, ITEM_NONE)
+        case 7:  setwildbattle(SPECIES_GENESECT, 90, ITEM_NONE)
+        case 8:  setwildbattle(SPECIES_VICTINI, 90, ITEM_NONE)
+        case 9:  setwildbattle(SPECIES_KELDEO, 90, ITEM_NONE)
+        case 10: setwildbattle(SPECIES_MELTAN, 5, ITEM_NONE)
+        case 11: setwildbattle(SPECIES_ZARUDE_DADA, 90, ITEM_NONE)
+        case 12: setwildbattle(SPECIES_COSMOG, 5, ITEM_NONE)
+        case 13: setwildbattle(SPECIES_KUBFU, 5, ITEM_NONE)
+        case 14: setwildbattle(SPECIES_OGERPON, 90, ITEM_NONE)
+        case 15: setwildbattle(SPECIES_HOOPA, 90, ITEM_PRISON_BOTTLE)
+        case 16: setwildbattle(SPECIES_CALYREX, 90, ITEM_NONE)
+        case 17: setwildbattle(SPECIES_VOLCANION, 90, ITEM_NONE)
+        case 18: setwildbattle(SPECIES_PECHARUNT, 90, ITEM_NONE)
+        case 19: setwildbattle(SPECIES_MARSHADOW, 90, ITEM_NONE)
+        case 20: setwildbattle(SPECIES_MAGEARNA, 90, ITEM_NONE)
+        case 21: setwildbattle(SPECIES_ZERAORA, 90, ITEM_NONE)
+        case 22: setwildbattle(SPECIES_DEOXYS, 90, ITEM_NONE)
+        case 23: setwildbattle(SPECIES_VICTINI, 90, ITEM_NONE)
+        case 24: setwildbattle(SPECIES_DIANCIE, 90, ITEM_DIANCITE)
+        case 25: setwildbattle(SPECIES_ZYGARDE, 90, ITEM_NONE)
+        case 26: setwildbattle(SPECIES_NECROZMA, 90, ITEM_NONE)
+        case 27: setwildbattle(SPECIES_HEATRAN, 90, ITEM_NONE)
+        case 28: setwildbattle(SPECIES_OGERPON, 90, ITEM_CORNERSTONE_MASK)
+        case 29: setwildbattle(SPECIES_OGERPON, 90, ITEM_HEARTHFLAME_MASK)
+        case 30: setwildbattle(SPECIES_OGERPON, 90, ITEM_WELLSPRING_MASK)
+        case 31: setwildbattle(SPECIES_GLASTRIER, 90, ITEM_NONE)
+        case 32: setwildbattle(SPECIES_SPECTRIER, 90, ITEM_NONE)
+    }
+
+    msgbox("The veil parts… Brace yourself!")
+    closemessage
+    dowildbattle
+
+    // No matter the result (caught / defeated / fled), this event is one-time.
+    setflag(FLAG_SAGE3_DONE)
+
+    msgbox("The path closes. Such meetings are rare and precious…")
+    release
+    end
+
+declined2:
+    msgbox("Very well. Return when your spirit is ready.")
+    release
+    end
+
+alreadyUsed2:
+    msgbox("The rite is spent.\n"
+    "Fate seldom grants second chances.")
+    release
+    end
+}

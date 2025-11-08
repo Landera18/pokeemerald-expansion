@@ -61,8 +61,8 @@
 #define FLAG_GOT_MEMORY_GIFT 0x2F // Set when the player has received the Memory for Silvally
 #define FLAG_RIVAL4_BEATEN   0x30 // After Beating Your Rival at Lilycove City
 #define FLAG_SAGE1_DONE      0x31 // After Completing The Legendary Event in the Ancient Tomb
-#define FLAG_UNUSED_0x032    0x32 // Unused Flag
-#define FLAG_UNUSED_0x033    0x33 // Unused Flag
+#define FLAG_SAGE2_DONE      0x32 // After Completing The Legendary Event in the Ancient Tomb
+#define FLAG_SAGE3_DONE      0x33 // After Completing The Legendary Event in the Ancient Tomb
 #define FLAG_UNUSED_0x034    0x34 // Unused Flag
 #define FLAG_UNUSED_0x035    0x35 // Unused Flag
 #define FLAG_UNUSED_0x036    0x36 // Unused Flag
