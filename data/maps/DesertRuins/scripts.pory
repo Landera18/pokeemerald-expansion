@@ -101,7 +101,7 @@ script DesertRuins_EventScript_LegendaryBattle {
     compare(VAR_RESULT, NO)
     goto_if_eq(VAR_RESULT, NO, declined1)
 
-    random(27)                      
+    random(30)                      
     copyvar(VAR_TEMP_0, VAR_RESULT) 
 
     switch (var(VAR_TEMP_0)) {
@@ -132,6 +132,9 @@ script DesertRuins_EventScript_LegendaryBattle {
         case 24: setwildbattle(SPECIES_NAGANADEL, 80, ITEM_NONE)
         case 25: setwildbattle(SPECIES_STAKATAKA, 80, ITEM_NONE)
         case 26: setwildbattle(SPECIES_BLACEPHALON, 80, ITEM_NONE)
+		case 27: setwildbattle(SPECIES_RAGING_BOLT, 80, ITEM_NONE)
+		case 28: setwildbattle(SPECIES_WALKING_WAKE, 80, ITEM_NONE)
+		case 29: setwildbattle(SPECIES_GOUGING_FIRE, 80, ITEM_NONE)
     } 
 
     msgbox("The veil parts… Brace yourself!")
