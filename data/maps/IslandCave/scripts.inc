@@ -251,7 +251,7 @@ IslandCave_EventScript_LegendaryBattle::
 # 135 "data/maps/IslandCave/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, declined2
 # 137 "data/maps/IslandCave/scripts.pory"
-	random 33
+	random 32
 # 138 "data/maps/IslandCave/scripts.pory"
 	copyvar VAR_TEMP_0, VAR_RESULT
 # 140 "data/maps/IslandCave/scripts.pory"
@@ -320,36 +320,34 @@ IslandCave_EventScript_LegendaryBattle::
 	case 30, IslandCave_EventScript_LegendaryBattle_33
 # 172 "data/maps/IslandCave/scripts.pory"
 	case 31, IslandCave_EventScript_LegendaryBattle_34
-# 173 "data/maps/IslandCave/scripts.pory"
-	case 32, IslandCave_EventScript_LegendaryBattle_35
 IslandCave_EventScript_LegendaryBattle_1:
-# 176 "data/maps/IslandCave/scripts.pory"
+# 175 "data/maps/IslandCave/scripts.pory"
 	msgbox IslandCave_EventScript_LegendaryBattle_Text_1
-# 177 "data/maps/IslandCave/scripts.pory"
+# 176 "data/maps/IslandCave/scripts.pory"
 	closemessage
-# 178 "data/maps/IslandCave/scripts.pory"
+# 177 "data/maps/IslandCave/scripts.pory"
 	dowildbattle
-# 181 "data/maps/IslandCave/scripts.pory"
+# 180 "data/maps/IslandCave/scripts.pory"
 	setflag FLAG_SAGE3_DONE
-# 183 "data/maps/IslandCave/scripts.pory"
+# 182 "data/maps/IslandCave/scripts.pory"
 	msgbox IslandCave_EventScript_LegendaryBattle_Text_2
+# 183 "data/maps/IslandCave/scripts.pory"
+	release
 # 184 "data/maps/IslandCave/scripts.pory"
-	release
-# 185 "data/maps/IslandCave/scripts.pory"
 	end
-# 187 "data/maps/IslandCave/scripts.pory"
+# 186 "data/maps/IslandCave/scripts.pory"
 declined2:
-# 188 "data/maps/IslandCave/scripts.pory"
+# 187 "data/maps/IslandCave/scripts.pory"
 	msgbox IslandCave_EventScript_LegendaryBattle_Text_3
-# 189 "data/maps/IslandCave/scripts.pory"
+# 188 "data/maps/IslandCave/scripts.pory"
 	release
-# 190 "data/maps/IslandCave/scripts.pory"
+# 189 "data/maps/IslandCave/scripts.pory"
 	end
-# 192 "data/maps/IslandCave/scripts.pory"
+# 191 "data/maps/IslandCave/scripts.pory"
 alreadyUsed2:
-# 193 "data/maps/IslandCave/scripts.pory"
+# 192 "data/maps/IslandCave/scripts.pory"
 	msgbox IslandCave_EventScript_LegendaryBattle_Text_4
-# 195 "data/maps/IslandCave/scripts.pory"
+# 194 "data/maps/IslandCave/scripts.pory"
 	release
 	end
 
@@ -470,51 +468,46 @@ IslandCave_EventScript_LegendaryBattle_25:
 
 IslandCave_EventScript_LegendaryBattle_26:
 # 164 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_VICTINI, 90, ITEM_NONE
+	setwildbattle SPECIES_DIANCIE, 90, ITEM_DIANCITE
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_27:
 # 165 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_DIANCIE, 90, ITEM_DIANCITE
+	setwildbattle SPECIES_ZYGARDE, 90, ITEM_NONE
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_28:
 # 166 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_ZYGARDE, 90, ITEM_NONE
+	setwildbattle SPECIES_NECROZMA, 90, ITEM_NONE
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_29:
 # 167 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_NECROZMA, 90, ITEM_NONE
+	setwildbattle SPECIES_HEATRAN, 90, ITEM_NONE
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_30:
 # 168 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_HEATRAN, 90, ITEM_NONE
+	setwildbattle SPECIES_OGERPON, 90, ITEM_CORNERSTONE_MASK
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_31:
 # 169 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_OGERPON, 90, ITEM_CORNERSTONE_MASK
+	setwildbattle SPECIES_OGERPON, 90, ITEM_HEARTHFLAME_MASK
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_32:
 # 170 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_OGERPON, 90, ITEM_HEARTHFLAME_MASK
+	setwildbattle SPECIES_OGERPON, 90, ITEM_WELLSPRING_MASK
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_33:
 # 171 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_OGERPON, 90, ITEM_WELLSPRING_MASK
+	setwildbattle SPECIES_GLASTRIER, 90, ITEM_NONE
 	goto IslandCave_EventScript_LegendaryBattle_1
 
 IslandCave_EventScript_LegendaryBattle_34:
 # 172 "data/maps/IslandCave/scripts.pory"
-	setwildbattle SPECIES_GLASTRIER, 90, ITEM_NONE
-	goto IslandCave_EventScript_LegendaryBattle_1
-
-IslandCave_EventScript_LegendaryBattle_35:
-# 173 "data/maps/IslandCave/scripts.pory"
 	setwildbattle SPECIES_SPECTRIER, 90, ITEM_NONE
 	goto IslandCave_EventScript_LegendaryBattle_1
 
@@ -527,18 +520,18 @@ IslandCave_EventScript_LegendaryBattle_Text_0:
 	.string "This rite can only be performed once.$"
 
 IslandCave_EventScript_LegendaryBattle_Text_1:
-# 176 "data/maps/IslandCave/scripts.pory"
+# 175 "data/maps/IslandCave/scripts.pory"
 	.string "The veil parts… Brace yourself!$"
 
 IslandCave_EventScript_LegendaryBattle_Text_2:
-# 183 "data/maps/IslandCave/scripts.pory"
+# 182 "data/maps/IslandCave/scripts.pory"
 	.string "The path closes. Such meetings are rare and precious…$"
 
 IslandCave_EventScript_LegendaryBattle_Text_3:
-# 188 "data/maps/IslandCave/scripts.pory"
+# 187 "data/maps/IslandCave/scripts.pory"
 	.string "Very well. Return when your spirit is ready.$"
 
 IslandCave_EventScript_LegendaryBattle_Text_4:
-# 193 "data/maps/IslandCave/scripts.pory"
+# 192 "data/maps/IslandCave/scripts.pory"
 	.string "The rite is spent.\n"
 	.string "Fate seldom grants second chances.$"

@@ -63,11 +63,11 @@
 #define FLAG_SAGE1_DONE      0x31 // After Completing The Legendary Event in the Ancient Tomb
 #define FLAG_SAGE2_DONE      0x32 // After Completing The Legendary Event in the Ancient Tomb
 #define FLAG_SAGE3_DONE      0x33 // After Completing The Legendary Event in the Ancient Tomb
-#define FLAG_UNUSED_0x034    0x34 // Unused Flag
-#define FLAG_UNUSED_0x035    0x35 // Unused Flag
-#define FLAG_UNUSED_0x036    0x36 // Unused Flag
-#define FLAG_UNUSED_0x037    0x37 // Unused Flag
-#define FLAG_UNUSED_0x038    0x38 // Unused Flag
+#define FLAG_VR_EJECTPACK    0x34 // Unused Flag
+#define FLAG_VR_EJECTBUTTON  0x35 // Unused Flag
+#define FLAG_128_BAND        0x36 // Unused Flag
+#define FLAG_128_SPECS       0x37 // Unused Flag
+#define FLAG_ROCKYHELMET     0x38 // Unused Flag
 #define FLAG_UNUSED_0x039    0x39 // Unused Flag
 #define FLAG_UNUSED_0x03A    0x3A // Unused Flag
 #define FLAG_UNUSED_0x03B    0x3B // Unused Flag

@@ -15,14 +15,14 @@ DesertUnderpass_EventScript_Fossil::
 	end
 
 DesertUnderpass_EventScript_GiveClawFossil::
-	giveitem ITEM_CLAW_FOSSIL
+	giveitem ITEM_HEAVY_DUTY_BOOTS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	removeobject LOCALID_UNDERPASS_FOSSIL
 	release
 	end
 
 DesertUnderpass_EventScript_GiveRootFossil::
-	giveitem ITEM_ROOT_FOSSIL
+	giveitem ITEM_HEAVY_DUTY_BOOTS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	removeobject LOCALID_UNDERPASS_FOSSIL
 	release
@@ -30,9 +30,9 @@ DesertUnderpass_EventScript_GiveRootFossil::
 
 @ Unused
 DesertUnderpass_Text_FoundRootFossil::
-	.string "{PLAYER} found the ROOT FOSSIL.$"
+	.string "{PLAYER} found a pair of boots...$"
 
 @ Unused
 DesertUnderpass_Text_FoundClawFossil::
-	.string "{PLAYER} found the CLAW FOSSIL.$"
+	.string "{PLAYER} found a pair of boots...$"
 

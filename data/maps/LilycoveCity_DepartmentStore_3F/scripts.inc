@@ -46,6 +46,8 @@ LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
 	.2byte ITEM_MAGMARIZER
 	.2byte ITEM_ELECTIRIZER
 	.2byte ITEM_PROTECTOR
+	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_SACHET
 	.2byte ITEM_RAZOR_CLAW
 	.2byte ITEM_RAZOR_FANG
 	.2byte ITEM_TART_APPLE

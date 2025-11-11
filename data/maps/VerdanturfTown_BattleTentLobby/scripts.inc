@@ -225,7 +225,7 @@ VerdanturfTown_BattleTentLobby_EventScript_AttractGiver::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_TM_ATTRACT, VerdanturfTown_BattleTentLobby_EventScript_ReceivedAttract
 	msgbox VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep, MSGBOX_DEFAULT
-	giveitem ITEM_GROUND_GEM
+	giveitem ITEM_MENTAL_HERB
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ATTRACT
 	msgbox VerdanturfTown_BattleTentLobby_Text_AttractionMutual, MSGBOX_DEFAULT
@@ -349,7 +349,7 @@ VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
 	.string "The attraction runs deep…\p"
 	.string "Oh, hi, you didn't see that, did you?\n"
 	.string "Well, it doesn't matter.\p"
-	.string "How would you like this TM for\n"
+	.string "How would you like this item for\n"
 	.string "your POKéMON?$"
 
 VerdanturfTown_BattleTentLobby_Text_AttractionMutual:

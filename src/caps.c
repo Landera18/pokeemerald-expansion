@@ -25,7 +25,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_MAXIE2_BEATEN, 70},
         {FLAG_MATT_BEATEN, 73},
         {FLAG_BADGE07_GET, 78},
-        {FLAG_ARCHIE_BEATEN, 84},
+        {FLAG_ARCHIE_BEATEN, 85},
         {FLAG_BADGE08_GET, 88},
         {FLAG_IS_CHAMPION, 96},
     };

@@ -156,8 +156,8 @@ VictoryRoad_1F_Text_WallyPostBattle:
 	.string "And challenge the POKéMON LEAGUE!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "It's me SIDNEY of the ELITE FOUR!\n"
+	.string "I got put on sabatical...$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
 	.string "My dream ends here again…$"
@@ -181,8 +181,8 @@ VictoryRoad_1F_Text_AlbertPostBattle:
 	.string "to become the CHAMPION…$"
 
 VictoryRoad_1F_Text_HopeIntro:
-	.string "This seemingly infinite and harsh road\n"
-	.string "lives up to its name of VICTORY.$"
+	.string "Hey there stranger.\n"
+	.string "Welcome to VICTORY ROAD!$"
 
 VictoryRoad_1F_Text_HopeDefeat:
 	.string "Your battle style is fantastic…$"
@@ -192,19 +192,19 @@ VictoryRoad_1F_Text_HopePostBattle:
 	.string "becoming the CHAMPION.$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "What is the VICTORY ROAD?\n"
-	.string "I'll tell you if you win!$"
+	.string ".......\n"
+	.string ".......$"
 
 VictoryRoad_1F_Text_QuincyDefeat:
-	.string "Okay!\n"
-	.string "Well done!$"
+	.string "......\n"
+	.string "......$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-	.string "Getting through here safely--that's\n"
-	.string "the final test for any TRAINER aiming\l"
-	.string "to become the POKéMON CHAMPION.\p"
-	.string "That's why it's called the VICTORY\n"
-	.string "ROAD.$"
+	.string "....\n"
+	.string "..\l"
+	.string ".\p"
+	.string "..................\n"
+	.string "..!$"
 
 VictoryRoad_1F_Text_KatelynnIntro:
 	.string "I have nothing to say to anyone\n"

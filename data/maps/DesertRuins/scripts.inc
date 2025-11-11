@@ -185,7 +185,7 @@ DesertRuins_EventScript_LegendaryBattle::
 # 102 "data/maps/DesertRuins/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, declined1
 # 104 "data/maps/DesertRuins/scripts.pory"
-	random 27
+	random 30
 # 105 "data/maps/DesertRuins/scripts.pory"
 	copyvar VAR_TEMP_0, VAR_RESULT
 # 107 "data/maps/DesertRuins/scripts.pory"
@@ -244,34 +244,40 @@ DesertRuins_EventScript_LegendaryBattle::
 	case 25, DesertRuins_EventScript_LegendaryBattle_28
 # 134 "data/maps/DesertRuins/scripts.pory"
 	case 26, DesertRuins_EventScript_LegendaryBattle_29
-DesertRuins_EventScript_LegendaryBattle_1:
+# 135 "data/maps/DesertRuins/scripts.pory"
+	case 27, DesertRuins_EventScript_LegendaryBattle_30
+# 136 "data/maps/DesertRuins/scripts.pory"
+	case 28, DesertRuins_EventScript_LegendaryBattle_31
 # 137 "data/maps/DesertRuins/scripts.pory"
+	case 29, DesertRuins_EventScript_LegendaryBattle_32
+DesertRuins_EventScript_LegendaryBattle_1:
+# 140 "data/maps/DesertRuins/scripts.pory"
 	msgbox DesertRuins_EventScript_LegendaryBattle_Text_1
-# 138 "data/maps/DesertRuins/scripts.pory"
+# 141 "data/maps/DesertRuins/scripts.pory"
 	closemessage
-# 139 "data/maps/DesertRuins/scripts.pory"
-	dowildbattle
 # 142 "data/maps/DesertRuins/scripts.pory"
-	setflag FLAG_SAGE2_DONE
-# 144 "data/maps/DesertRuins/scripts.pory"
-	msgbox DesertRuins_EventScript_LegendaryBattle_Text_2
+	dowildbattle
 # 145 "data/maps/DesertRuins/scripts.pory"
-	release
-# 146 "data/maps/DesertRuins/scripts.pory"
-	end
+	setflag FLAG_SAGE2_DONE
+# 147 "data/maps/DesertRuins/scripts.pory"
+	msgbox DesertRuins_EventScript_LegendaryBattle_Text_2
 # 148 "data/maps/DesertRuins/scripts.pory"
-declined1:
-# 149 "data/maps/DesertRuins/scripts.pory"
-	msgbox DesertRuins_EventScript_LegendaryBattle_Text_3
-# 150 "data/maps/DesertRuins/scripts.pory"
 	release
-# 151 "data/maps/DesertRuins/scripts.pory"
+# 149 "data/maps/DesertRuins/scripts.pory"
 	end
+# 151 "data/maps/DesertRuins/scripts.pory"
+declined1:
+# 152 "data/maps/DesertRuins/scripts.pory"
+	msgbox DesertRuins_EventScript_LegendaryBattle_Text_3
 # 153 "data/maps/DesertRuins/scripts.pory"
-alreadyUsed1:
+	release
 # 154 "data/maps/DesertRuins/scripts.pory"
-	msgbox DesertRuins_EventScript_LegendaryBattle_Text_4
+	end
 # 156 "data/maps/DesertRuins/scripts.pory"
+alreadyUsed1:
+# 157 "data/maps/DesertRuins/scripts.pory"
+	msgbox DesertRuins_EventScript_LegendaryBattle_Text_4
+# 159 "data/maps/DesertRuins/scripts.pory"
 	release
 	end
 
@@ -410,6 +416,21 @@ DesertRuins_EventScript_LegendaryBattle_29:
 	setwildbattle SPECIES_BLACEPHALON, 80, ITEM_NONE
 	goto DesertRuins_EventScript_LegendaryBattle_1
 
+DesertRuins_EventScript_LegendaryBattle_30:
+# 135 "data/maps/DesertRuins/scripts.pory"
+	setwildbattle SPECIES_RAGING_BOLT, 80, ITEM_NONE
+	goto DesertRuins_EventScript_LegendaryBattle_1
+
+DesertRuins_EventScript_LegendaryBattle_31:
+# 136 "data/maps/DesertRuins/scripts.pory"
+	setwildbattle SPECIES_WALKING_WAKE, 80, ITEM_NONE
+	goto DesertRuins_EventScript_LegendaryBattle_1
+
+DesertRuins_EventScript_LegendaryBattle_32:
+# 137 "data/maps/DesertRuins/scripts.pory"
+	setwildbattle SPECIES_GOUGING_FIRE, 80, ITEM_NONE
+	goto DesertRuins_EventScript_LegendaryBattle_1
+
 
 DesertRuins_EventScript_LegendaryBattle_Text_0:
 # 97 "data/maps/DesertRuins/scripts.pory"
@@ -419,18 +440,18 @@ DesertRuins_EventScript_LegendaryBattle_Text_0:
 	.string "This rite can only be performed once.$"
 
 DesertRuins_EventScript_LegendaryBattle_Text_1:
-# 137 "data/maps/DesertRuins/scripts.pory"
+# 140 "data/maps/DesertRuins/scripts.pory"
 	.string "The veil parts… Brace yourself!$"
 
 DesertRuins_EventScript_LegendaryBattle_Text_2:
-# 144 "data/maps/DesertRuins/scripts.pory"
+# 147 "data/maps/DesertRuins/scripts.pory"
 	.string "The path closes. Such meetings are rare and precious…$"
 
 DesertRuins_EventScript_LegendaryBattle_Text_3:
-# 149 "data/maps/DesertRuins/scripts.pory"
+# 152 "data/maps/DesertRuins/scripts.pory"
 	.string "Very well. Return when your spirit is ready.$"
 
 DesertRuins_EventScript_LegendaryBattle_Text_4:
-# 154 "data/maps/DesertRuins/scripts.pory"
+# 157 "data/maps/DesertRuins/scripts.pory"
 	.string "The rite is spent.\n"
 	.string "Fate seldom grants second chances.$"
