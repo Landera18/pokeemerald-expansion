@@ -11395,14 +11395,13 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_SHOCK_WAVE] =
+    [ITEM_TM_ELECTROWEB] =
     {
         .name = ITEM_NAME("TM34"),
         .price = 300,
         .description = COMPOUND_STRING(
-            "Zaps the foe with a\n"
-            "jolt of electricity\n"
-            "that never misses."),
+            "Snares the foes with an\n"
+            "electric net. Lowers Speed."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11563,7 +11562,7 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_FEINT_ATTACK] =
+    [ITEM_TM_THIEF] =
     {
         .name = ITEM_NAME("TM46"),
         .price = 300,
