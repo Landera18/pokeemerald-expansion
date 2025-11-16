@@ -813,46 +813,37 @@ Level: 55
 - Gunk Shot  
 
 === TRAINER_GRUNT_MUSEUM_1 ===
-Name: MATT
-Class: Aqua Admin
-Pic: Aqua Admin M
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Purple
 
-Swoobat @ King's Rock  
-Ability: Klutz  
-Level: 18  
-Naive Nature  
-- Skill Swap  
-- Air Cutter  
-- Heart Stamp  
-- Taunt  
+Gimmighoul @ Light Clay  
+Ability: Rattled  
+Level: 18   
+IVs: 0 Atk  
+- Reflect  
+- Light Screen  
+- Power Gem  
+- Hex  
 
-Poliwhirl @ Eviolite  
-Ability: Damp  
-Level: 19  
-Adamant Nature  
-- Strength  
-- Wake-Up Slap  
-- Ice Punch  
-- Curse  
-
-Weepinbell @ Sitrus Berry  
-Ability: Gluttony  
-Level: 18  
-- Belch  
-- Razor Leaf  
-- Stun Spore  
-- Attract  
+Eelektrik @ Assault Vest  
+Ability: Levitate  
+Level: 19    
+- Lunge  
+- Throat Chop  
+- Thunder Fang  
+- Headbutt  
 
 === TRAINER_GRUNT_MUSEUM_2 ===
-Name: SHELLY
-Class: Aqua Admin
-Pic: Aqua Admin F
-Gender: Female
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
 Music: Aqua
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
@@ -7421,27 +7412,26 @@ Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
+Pineco @ Sitrus Berry  
+Ability: Overcoat  
+Level: 16  
+Careful Nature  
+- Rock Tomb  
+- Pounce  
+- Rapid Spin  
+- Self-Destruct  
+
 Ferroseed @ Rocky Helmet  
 Ability: Iron Barbs  
-Level: 17  
+Level: 17   
 Impish Nature  
 - Seed Bomb  
 - Metal Claw  
 - Leech Seed  
-- Spikes  
-
-Shuckle @ Berry Juice  
-Ability: Sturdy  
-Level: 17  
-Lax Nature  
-- Curse  
-- Rollout  
-- Encore  
-- Infestation  
 
 Cranidos @ Muscle Band  
 Ability: Mold Breaker  
-Level: 17  
+Level: 17   
 Jolly Nature  
 - Headbutt  
 - Zen Headbutt  
@@ -7450,7 +7440,7 @@ Jolly Nature
 
 Naclstack @ Power Herb  
 Ability: Purifying Salt  
-Level: 17  
+Level: 16   
 Calm Nature  
 - Facade  
 - Salt Cure  
@@ -7459,21 +7449,21 @@ Calm Nature
 
 Vibrava @ Yache Berry  
 Ability: Levitate  
-Level: 17  
+Level: 17   
 Naive Nature  
 - Dragon Breath  
-- Sand Tomb  
-- Headbutt  
+- Mud Shot  
+- Swift  
 - U-turn  
 
 Nosepass @ Leftovers  
 Ability: Sand Force  
-Level: 18  
+Level: 18   
 Adamant Nature  
 - Rock Tomb  
 - Stomping Tantrum  
 - Fire Punch  
-- Ancient Power  
+- Taunt  
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -7487,7 +7477,7 @@ Mugshot: Yellow
 
 Sneasel-Hisui @ Payapa Berry  
 Ability: Pickpocket  
-Level: 23  
+Level: 22
 Naive Nature  
 - Fake Out  
 - Poison Tail  
@@ -7496,34 +7486,33 @@ Naive Nature
 
 Hitmontop @ Sitrus Berry  
 Ability: Intimidate  
-Level: 23  
-Jolly Nature  
+Level: 22 
+Jolly Nature   
 - Fake Out  
 - Mach Punch  
 - Pursuit  
 - Low Kick  
 
-Hakamo-o @ Roseli Berry  
-Ability: Soundproof  
-Level: 23  
-Relaxed Nature  
-- Breaking Swipe  
-- Brick Break  
-- Vacuum Wave  
-- Protect  
+Pawmo @ Eviolite  
+Ability: Volt Absorb  
+Level: 23   
+- Fake Out  
+- Knock Off  
+- Nuzzle  
+- Super Fang  
 
-Hariyama @ Coba Berry  
-Ability: Guts  
-Level: 25  
+Kubfu @ Iapapa Berry  
+Ability: Inner Focus  
+Level: 24  
 Adamant Nature  
-- Bulk Up  
-- Force Palm  
+- Brick Break  
 - Ice Punch  
-- Knock Off
+- Zen Headbutt  
+- Sucker Punch  
 
 Barbaracle @ Rindo Berry  
 Ability: Tough Claws  
-Level: 24   
+Level: 23   
 Adamant Nature  
 - Grass Knot  
 - Razor Shell  
@@ -7532,7 +7521,7 @@ Adamant Nature
 
 Grapploct @ Leftovers  
 Ability: Technician  
-Level: 25   
+Level: 25
 Jolly Nature  
 - Rock Smash  
 - Circle Throw  
@@ -13092,7 +13081,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Qwilfish @ Poison Barb  
 Ability: Poison Point  
-Level: 16   
+Level: 15   
 - Throat Chop  
 - Liquidation  
 - Toxic  
@@ -13100,7 +13089,7 @@ Level: 16
 
 Machoke @ Expert Belt  
 Ability: Steadfast  
-Level: 18  
+Level: 15  
 - Ice Punch  
 - Thunder Punch  
 - Fire Punch  
@@ -13112,27 +13101,42 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
 
-Tentacruel @ Black Sludge  
-Ability: Liquid Ooze  
-Level: 18    
-Jolly Nature  
-- Poison Jab  
-- Skitter Smack  
-- Facade  
-- Tickle  
-
-Huntail @ Mystic Water  
-Ability: Water Veil  
-Level: 17  
-Adamant Nature  
+Wattrel @ Magnet  
+Ability: Wind Power  
+Level: 18   
 IVs: 0 Atk  
+- Weather Ball  
+- Air Cutter  
+- Electro Ball  
+- Roost  
+
+Archen @ Focus Sash  
+Ability: Defeatist  
+Level: 18   
+- Tailwind  
+- Wide Guard  
+- Rock Slide  
+- Rain Dance  
+
+Wingull @ Mystic Water  
+Ability: Rain Dish  
+Level: 18   
+IVs: 0 Atk  
+- Tailwind  
 - Water Pulse  
+- Air Slash  
 - Icy Wind  
-- Mud-Slap  
-- Mimic  
+
+Poliwhirl @ Oran Berry  
+Ability: Swift Swim  
+Level: 18    
+- Ice Punch  
+- Liquidation  
+- Low Kick  
+- Rain Dance  
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -19334,29 +19338,23 @@ AI: AI_FLAG_SMART_TRAINER
 
 Swirlix @ Throat Spray  
 Ability: Unburden  
-Level: 18   
-Modest Nature  
+Level: 15   
 IVs: 0 Atk  
 - Round  
-- Fairy Wind  
-- Charm  
 
 Amaura @ Chople Berry  
 Ability: Refrigerate  
-Level: 18  
+Level: 15    
 Modest Nature  
 IVs: 0 Atk  
 - Round  
-- Ancient Power  
-- Roar  
 
 Chatot @ Silk Scarf  
 Ability: Tangled Feet  
-Level: 18   
+Level: 15  
 Modest Nature  
 IVs: 0 Atk  
 - Round  
-- Encore  
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -19367,32 +19365,29 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Tyrogue @ Flame Orb  
-Ability: Guts  
-Level: 18  
-Adamant Nature  
-- Fake Out  
-- Low Kick  
-- Rapid Spin  
-- Vacuum Wave  
+Fuecoco @ Wise Glasses  
+Ability: Blaze  
+Level: 16  
+Modest Nature  
+IVs: 0 Atk  
+- Round  
+- Encore  
 
 Togetic @ Sitrus Berry  
 Ability: Serene Grace  
-Level: 18  
+Level: 16   
 IVs: 0 Atk  
 - Round  
-- Grass Knot  
-- Seismic Toss  
-- Detect  
+- Tailwind  
+- Follow Me  
+- Helping Hand  
 
-Froakie @ Expert Belt  
+Froakie @ Oran Berry  
 Ability: Protean  
-Level: 18   
+Level: 16    
 Modest Nature  
-- Water Pulse  
-- Quick Attack  
-- Taunt  
-- Aerial Ace  
+IVs: 0 Atk  
+- Round  
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -19848,8 +19843,7 @@ Mugshot: Purple
 
 Mienshao @ Focus Sash  
 Ability: Inner Focus  
-Level: 41  
-Naive Nature  
+Level: 40   
 - Fake Out  
 - Acrobatics  
 - Aura Sphere  
@@ -19857,36 +19851,33 @@ Naive Nature
 
 Iron Thorns @ Loaded Dice  
 Ability: Quark Drive  
-Level: 41  
-Adamant Nature  
+Level: 40  
 - Rock Blast  
 - Pin Missile  
 - Stealth Rock  
 - Thunder Wave  
 
-Perrserker @ Leftovers  
-Ability: Tough Claws  
-Level: 41  
-Adamant Nature  
-- Iron Head  
-- Close Combat  
-- Aerial Ace  
-- Fake Out 
+Rotom-Heat @ White Herb  
+Ability: Levitate  
+Level: 41   
+IVs: 0 Atk  
+- Thunder  
+- Overheat  
+- Hyper Voice  
+- Volt Switch  
 
 Shiinotic @ Kebia Berry  
 Ability: Rain Dish  
 Level: 41  
-Modest Nature  
 IVs: 0 Atk  
 - Weather Ball  
 - Dazzling Gleam  
+- Strength Sap  
 - Energy Ball  
-- Spore  
 
 Drifblim @ Electric Seed  
 Ability: Unburden  
-Level: 42  
-Hasty Nature  
+Level: 40    
 - Acrobatics  
 - Shadow Ball  
 - Psychic  
@@ -19894,8 +19885,7 @@ Hasty Nature
 
 Blastoise @ Leftovers  
 Ability: Rain Dish  
-Level: 42  
-Modest Nature  
+Level: 42   
 - Weather Ball  
 - Terrain Pulse  
 - Dark Pulse  
