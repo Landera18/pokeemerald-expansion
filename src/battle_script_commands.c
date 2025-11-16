@@ -3868,9 +3868,9 @@ void SetMoveEffect(u32 battler, u32 effectBattler, bool32 primary, bool32 certai
             gFieldStatuses &= ~STATUS_FIELD_TERRAIN_ANY;
             gFieldStatuses |= statusFlag;
             if (GetBattlerHoldEffect(gBattlerAttacker, TRUE) == HOLD_EFFECT_TERRAIN_EXTENDER)
-                gFieldTimers.terrainTimer = gBattleTurnCounter + 255;
+                gFieldTimers.terrainTimer = gBattleTurnCounter + 8;
             else
-                gFieldTimers.terrainTimer = gBattleTurnCounter + 255;
+                gFieldTimers.terrainTimer = gBattleTurnCounter + 5;
             BattleScriptPush(gBattlescriptCurrInstr + 1);
             gBattlescriptCurrInstr = BattleScript_EffectSetTerrain;
         }

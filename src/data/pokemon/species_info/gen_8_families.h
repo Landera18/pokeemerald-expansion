@@ -2080,7 +2080,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sYamperLevelUpLearnset,
         .teachableLearnset = sYamperTeachableLearnset,
         .eggMoveLearnset = sYamperEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_BOLTUND}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_BOLTUND}),
     },
 
     [SPECIES_BOLTUND] =

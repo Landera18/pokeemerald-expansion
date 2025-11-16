@@ -6,7 +6,7 @@ MirageTower_4F_EventScript_RootFossil::
 	faceplayer
 	msgbox MirageTower_4F_Text_TakeRootFossil, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MirageTower_4F_EventScript_LeaveRootFossil
-	giveitem ITEM_PLUME_FOSSIL
+	giveitem ITEM_JAW_FOSSIL
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	closemessage
 	setflag FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL

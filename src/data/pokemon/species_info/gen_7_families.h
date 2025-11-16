@@ -5977,8 +5977,8 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sCosmoemLevelUpLearnset,
         .teachableLearnset = sCosmoemTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 70, SPECIES_SOLGALEO, CONDITIONS({IF_PID_UPPER_MODULO_10_GT, 4})},
-                                {EVO_LEVEL, 70, SPECIES_LUNALA, CONDITIONS({IF_PID_UPPER_MODULO_10_LT, 5})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 53, SPECIES_SOLGALEO, CONDITIONS({IF_NOT_TIME, TIME_NIGHT})},
+                                {EVO_LEVEL, 53, SPECIES_LUNALA, CONDITIONS({IF_TIME, TIME_NIGHT})}),
     },
 
     [SPECIES_SOLGALEO] =
@@ -7488,7 +7488,6 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sMeltanLevelUpLearnset,
         .teachableLearnset = sMeltanTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_METAL_ALLOY, SPECIES_MELMETAL}),
     },
 
     [SPECIES_MELMETAL] =

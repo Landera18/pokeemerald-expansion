@@ -35,7 +35,7 @@
     F(BRICK_BREAK) \
     F(DARK_PULSE) \
     F(BREAKING_SWIPE) \
-    F(ELECTROWEB) \
+    F(SHOCK_WAVE) \
     F(FLAMETHROWER) \
     F(SLUDGE_BOMB) \
     F(ROCK_SLIDE) \
@@ -47,7 +47,7 @@
     F(SECRET_POWER) \
     F(REST) \
     F(X_SCISSOR) \
-    F(THIEF) \
+    F(FEINT_ATTACK) \
     F(SMART_STRIKE) \
     F(SKILL_SWAP) \
     F(FLASH_CANNON) \

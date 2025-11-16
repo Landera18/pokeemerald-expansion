@@ -11270,32 +11270,32 @@
               {
                 "min_level": 20,
                 "max_level": 38,
-                "species": "SPECIES_TYRUNT"
-              },
-              {
-                "min_level": 20,
-                "max_level": 38,
-                "species": "SPECIES_SHIELDON"
-              },
-              {
-                "min_level": 20,
-                "max_level": 38,
-                "species": "SPECIES_CRANIDOS"
-              },
-              {
-                "min_level": 20,
-                "max_level": 38,
-                "species": "SPECIES_SIGILYPH"
-              },
-              {
-                "min_level": 20,
-                "max_level": 38,
-                "species": "SPECIES_SIGILYPH"
+                "species": "SPECIES_ARCHEN"
               },
               {
                 "min_level": 20,
                 "max_level": 38,
                 "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 20,
+                "max_level": 38,
+                "species": "SPECIES_KABUTO"
+              },
+              {
+                "min_level": 20,
+                "max_level": 38,
+                "species": "SPECIES_SIGILYPH"
+              },
+              {
+                "min_level": 20,
+                "max_level": 38,
+                "species": "SPECIES_SIGILYPH"
+              },
+              {
+                "min_level": 20,
+                "max_level": 38,
+                "species": "SPECIES_BRONZONG"
               },
               {
                 "min_level": 20,

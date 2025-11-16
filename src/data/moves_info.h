@@ -784,7 +784,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         #endif
         .effect = EFFECT_RECOIL_IF_MISS,
         .type = TYPE_FIGHTING,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 25,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -3633,7 +3633,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         #endif
         .effect = EFFECT_RECOIL_IF_MISS,
         .type = TYPE_FIGHTING,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -5735,8 +5735,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
             "An attack that increases\n"
             "in power with friendship."),
-        .effect = EFFECT_HIT,
-        .power = 102,
+        .effect = EFFECT_RETURN,
+        .power = 1,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 20,
@@ -5934,7 +5934,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_HIT,
         .power = 120,
         .type = TYPE_BUG,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -19705,7 +19705,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_RECOIL_IF_MISS,
         .power = 120,
         .type = TYPE_FIGHTING,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -21050,8 +21050,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
             "An electrified slam. If it\n"
             "misses, the user is hurt."),
-        .effect = EFFECT_HIT,
-        .power = 90,
+        .effect = EFFECT_RECOIL_IF_MISS,
+        .power = 100,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
         .pp = 15,
