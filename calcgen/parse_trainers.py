@@ -4,7 +4,7 @@
 # 3. Add the key used in 'attributes' to 'pokemon_attribute_order'.
 # 4. Update 'trainerproc.c' to parse the new key.
 
-# python3 parse_trainers.py /Users/USERNAME/Repos/pokeemerald-expansion/src/data/trainers.h /Users/USERNAME/Repos/pokeemerald-expansion/src/data/trainer_parties.h ./output/trainers.txt
+# python3 parse_trainers.py /Users/USERNAME/Documents/GitHub/pokeemerald-expansion/src/data/trainers.h /Users/USERNAME/Documents/GitHub/pokeemerald-expansion/src/data/trainer_parties.h ./output/trainers.txt
 
 
 import re
