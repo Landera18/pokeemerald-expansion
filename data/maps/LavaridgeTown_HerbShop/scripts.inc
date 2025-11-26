@@ -24,6 +24,8 @@ LavaridgeTown_HerbShop_Pokemart:
 	.2byte ITEM_TM_WEATHER_BALL
 	.2byte ITEM_TM_BUG_BUZZ
 	.2byte ITEM_TM_FOLLOW_ME
+	.2byte ITEM_TM_SUPERCELL_SLAM
+	.2byte ITEM_TM_SKITTER_SMACK
 	pokemartlistend
 
 LavaridgeTown_HerbShop_EventScript_ExpertM::

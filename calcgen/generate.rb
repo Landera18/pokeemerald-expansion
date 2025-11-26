@@ -1,28 +1,24 @@
 require 'json'
 
-def generate title
-	p "generating pokemon data"
-	`ruby parse_mons.rb`
 
-	p "generating move data"
-	`ruby parse_moves.rb`
+p "generating pokemon data"
+`ruby parse_mons.rb`
 
-	p "generating trainer sets"
-	`python3 parse_trainers.py ../src/data/trainers.h ../src/data/trainer_parties.h ./output/trainers.txt`
-	`ruby parse_sets.rb`
+p "generating move data"
+`ruby parse_moves.rb`
 
-
-	mons = JSON.parse(File.read("./output/mons.json"))
-	moves = JSON.parse(File.read("./output/moves.json"))
-	sets = JSON.parse(File.read("./output/sets.json"))
-
-	npoint = {title: title, poks: mons, formatted_sets: sets, moves: moves}
-
-	File.write("./output/npoint.json", npoint.to_json)
+p "generating trainer sets"
+`ruby parse_sets.rb`
 
 
-	p "npoint data source outputted to pokeemerald-expansion/calc/output/npoint.json"
+mons = JSON.parse(File.read("./output/mons.json"))
+moves = JSON.parse(File.read("./output/moves.json"))
+sets = JSON.parse(File.read("./output/sets.json"))
 
-end
+npoint = {formatted_sets: sets, poks: mons, moves: moves}
 
-generate ARGV[0]
+File.write('./Dynamic-Calc/backups/test.js', 'backup_data = ')
+File.write('./Dynamic-Calc/backups/test.js', JSON.pretty_generate(npoint), mode: 'a+')
+
+p "calc can viewed by opening Dynamic-Calc/index.html in your browser"
+

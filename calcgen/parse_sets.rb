@@ -2,10 +2,13 @@ require_relative 'helpers'
 require_relative 'nature_calc'
 require 'json'
 
+
 $mons = JSON.parse(File.read("./output/mons.json"))
 
+
+
 def generate_sets 
-	trainers = File.readlines("./output/trainers.txt")
+	trainers = File.readlines("../src/data/trainers.party")
 	trainers += ["","","","","","","","","","","",""] #padding
 	mons = $mons
 	
@@ -26,12 +29,29 @@ def generate_sets
 	ai_tags = []
 	status = nil
 
+	inComment = false
+
+
 
 	statuses = {"Frostbite" => "Frozen", "Burn" => "Burned", "Toxic Poison" => "Badly Poisoned"}
 	trainer_pok_counts = {}
 
 
 	trainers.each_with_index do |line, i|
+
+		# skip one line commens
+		if line.include?("/*") and line.include?("*/")
+			next
+		# skip comment start
+		elsif line.include?("/*") and !line.include?("*/")
+			inComment = true
+		# skip comment end 
+		elsif line.include?("*/")
+			inComment = false
+			next
+		end
+		next if inComment
+
 		if line.include?("===")
 			tr_name = line.split("TRAINER_")[1][0..-6]
 			# p trainers[i + 1].split("Name: ")[1].strip.upcase
@@ -40,6 +60,7 @@ def generate_sets
 			rescue
 				raw_tr_name = ""
 			end
+
 			tr_class = trainers[i + 2].split("Class: ")[1].strip
 			gender = trainers[i + 4].split("Gender: ")[1].strip
 			sub_index = 0
@@ -85,44 +106,71 @@ def generate_sets
 		end
 
 
+
 		if line.include?("Level: ")
 			delta = nil
 			level = line[7..-1].strip.to_i
-			species_name = trainers[i - 1].strip.split(" @")[0]
+			gender = false
+
 			status = nil
+
+			# For each optional field specified after level,  offset += 1
+			offset = 0
+
 
 
 			if level >= 200
 				delta = 200 - level
 				level = "#{delta}"
 			end
+		
+			# Ability specified
+			if trainers[i - 1].include?("Ability: ")
+				ability = trainers[i - 1].split("Ability: ")[-1].strip.gsub("Rks S", "RKS S").gsub("Of Ruin", "of Ruin")
+				species_name = trainers[i - 2].strip
+			# no ability specified
+			else
+				species_name = trainers[i - 1].strip
+				ability = ""
+			end
 
-			if species_name.include?(" Nature")
-				nature = species_name.split(" Nature")[0]
-				species_name = trainers[i - 2].strip.split(" @")[0]
 
-				if trainers[i - 2].include?("@")
-					item = trainers[i - 2].split("@ ")[-1].strip.gsub("Heavy Duty", "Heavy-Duty").gsub("Nevermeltice", "Never-Melt Ice").gsub("Never Melt", "Never-Melt")
-				end
+			if species_name.include?("@")
+				item = species_name.split("@ ")[-1].strip.gsub("Heavy Duty", "Heavy-Duty").gsub("Nevermeltice", "Never-Melt Ice").gsub("Never Melt", "Never-Melt")
+			end
+			species_name = species_name.split(" @")[0]
+			if species_name.include?("(M)")
+				gender = "Male"
+				species_name = species_name.gsub(" (M)", "")
+			elsif species_name.include?("(F)")
+				gender = "Female"
+				species_name = species_name.gsub(" (F)", "")
+			end
+
+			if trainers[i + 1].include?(" Nature")
+				nature = trainers[i + 1].split(" Nature")[0]
+				offset += 1			
 			else
 				pok_names << species_name.upcase
 				nature = calculate_nature(raw_tr_name, pok_names, battle_type_value)
 			end
+
+			###### CUSTOM STRING FORMATTING FOR SHOWDOWN GOES HERE
 
 			species_name = species_name.gsub(" Therian", "Therian").gsub("Mr ", "Mr. ").gsub(" Disguised", "").gsub("o-O", "o-o").gsub("-Pa'U", "-Pa'u").gsub("fetchd", "fetch’d").gsub(/ F$/, "-F").gsub("Paldea ", "Paldea-").gsub(/ M$/, "")
 
 			if species_name == "Aegislash"
 				species_name = "Aegislash-Shield"
 			end
-
 			species_name = "Oricorio" if species_name == "Oricorio Baile"
 			species_name = "Silvally" if species_name == "Silvally-Normal"
+
+			####################################################
 
 			trainer_pok_counts[species_name] ||= {}
 
 
 			set_name = "Lvl #{level} #{tr_class} #{tr_name} "
-
 
 			# to handle same level same species within same trainer
 			dup_counter = 0
@@ -134,76 +182,46 @@ def generate_sets
 			trainer_pok_counts[species_name][set_name] = true
 			dup_counter = 0
 				
-
-			offset = 0
-
-			if trainers[i + 1].include?("Ability: ")
-				ability = trainers[i + 1].split("Ability: ")[-1].strip
-				offset = 1
+			if trainers[i + 1 + offset].include?("IVs:")
+				ivs = parse_stats trainers[i + 1 + offset], 31
+				offset += 1
 			else
-				ability = ""
+				ivs = {"hp": 31, "at": 31, "df": 31, "sa": 31, "sd": 31, "sp": 31,}
 			end
 
-			ivs = trainers[i + 1 + offset][5..-1].split(" / ").map {|s| s.split(" ")[0].to_i}
-
-			if trainers[i + 2 + offset].include?("EVs")
-				evs = trainers[i + 2 + offset][5..-1].split(" / ").map {|s| s.split(" ")[0].to_i}
+			if trainers[i + 1 + offset].include?("EVs")
+				evs = parse_stats trainers[i + 2 + offset], 0
+				offset += 1
 			else
-				evs = [0,0,0,0,0,0]
+				evs = {}
 			end
 			moves = []
 
-			if trainers[i + 2 + offset].include?("- ")
-				offset -= 1 
-				# p set_name
-			end
 
-			if trainers[i + 3 + offset].include?("- ")		
+			if trainers[i + 1 + offset].include?("- ")		
 				
 				# binding.pry if set_name.include?("Roark")
-				[3,4,5,6].each do |n|
+				[1,2,3,4].each do |n|
 					if trainers[i + n + offset].include?("- ")
-
 						move = trainers[i + n + offset].split("- ")[1].strip
 						moves << showdown_subs(move)
 					end
 				end
 			else
-				moves = get_moves_at_level(mons[species_name]["learnset_info"]["learnset"], level)
-			end
-
-			if trainers[i + 7 + offset] and trainers[i + 7 + offset].include?("Status: ")
-
-				status = statuses[trainers[i + 7 + offset][8..-1].strip]
-			end
-
-			if species_name[-2..-1] == " F"
-				species_name = species_name.gsub(" F", "-F")
-			elsif species_name[-2..-1] == " M"
-				species_name = species_name[0..-3]
+				begin
+					moves = get_moves_at_level(mons[species_name]["learnset_info"]["learnset"], level)
+				rescue
+					moves = []
+					p "could not find learnset into for #{species_name}"
+				end
 			end
 
 			formatted_sets[species_name] ||= {}
-
 			set_name = set_name.gsub(/  $/, " ")
 
 			formatted_sets[species_name][set_name] = {
-				"ivs": {
-					"hp": ivs[0],
-					"at": ivs[1],
-					"df": ivs[2],
-					"sa": ivs[3],
-					"sd": ivs[4],
-					"sp": ivs[5],
-				},
-				"evs": {
-					"hp": evs[0],
-					"at": evs[1],
-					"df": evs[2],
-					"sa": evs[3],
-					"sd": evs[4],
-					"sp": evs[5],
-				},
+				"ivs": ivs,
+				"evs": evs,
 				"item": item,
 				"level": level,
 				"nature": nature,
@@ -213,29 +231,28 @@ def generate_sets
 				"ai_tags": ai_tags 
 			}
 
-			if status
-				formatted_sets[species_name][set_name]["status"] = status
-			end
-
 			mega_species_name = nil
 			transformed_species_name = nil
-
-			if ability != ""
-				formatted_sets[species_name][set_name]["ability"] = ability.gsub("Rks S", "RKS S").gsub("Of Ruin", "of Ruin")
-			end
 
 			if delta
 				formatted_sets[species_name][set_name]["sublevel"] = delta
 			end
 
-			if item && item[-3..-1] == "ite" && item != "Eviolite"
+			if gender
+				formatted_sets[species_name][set_name]["gender"] = gender
+			end
+
+			# Check if a mega item was applied to a non mega 
+			if item && item[-3..-1] == "ite" && item != "Eviolite" && !species_name.include?("-Mega")
 				mega_species_name = species_name + "-Mega"
-			elsif item && item[-5..-2] == "ite "
+			elsif item && item[-5..-2] == "ite " && !species_name.include?("-Mega")
 				mega_species_name = species_name + "-Mega-#{item[-1]}"
 			end
 
 			if mega_species_name
 				formatted_sets[mega_species_name] ||= {}
+
+				p mega_species_name
 
 				formatted_sets[mega_species_name][set_name] = formatted_sets[species_name][set_name].clone
 				# p formatted_sets[species_name][set_name]
@@ -279,9 +296,7 @@ def add_species_transformations formatted_sets
 			end
 		end
 	end
-
-	File.write("./output/sets2.json", JSON.pretty_generate(formatted_sets))
-
+	File.write("./output/sets.json", JSON.pretty_generate(formatted_sets))
 end
 
 generate_sets

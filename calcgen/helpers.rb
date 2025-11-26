@@ -13,6 +13,46 @@ def format_learnset_move_name(move_string)
     .join(' ')
 end
 
+def parse_stats(str, default=31)
+  # Default all IVs to 31
+  ivs = {
+    "HP"  => default,
+    "Atk" => default,
+    "Def" => default,
+    "SpA" => default,
+    "SpD" => default,
+    "Spe" => default
+  }
+
+  return convert_keys(ivs) unless str
+
+  s = str.sub(/^IVs:\s*/, "")
+
+  s.split("/").each do |segment|
+    segment.strip!
+    next if segment.empty?
+
+    if segment =~ /(\d+)\s*(HP|Atk|Def|SpA|SpD|Spe)/
+      value = $1.to_i
+      stat  = $2
+      ivs[stat] = value
+    end
+  end
+
+  convert_keys(ivs)
+end
+
+def convert_keys(old)
+  {
+    "hp" => old["HP"],
+    "at" => old["Atk"],
+    "df" => old["Def"],
+    "sa" => old["SpA"],
+    "sd" => old["SpD"],
+    "sp" => old["Spe"]
+  }
+end
+
 # non mega stones
 def transform_items
 	{
@@ -178,7 +218,6 @@ def showdown_subs move
 	    "Solarbeam": "Solar Beam",
 	    "Sonicboom": "Sonic Boom",
 	    "Poisonpowder": "Poison Powder",
-	    "Thunderpunch": "Thunder Punch",
 	    "Thundershock": "Thunder Shock",
 	    "Ancientpower": "Ancient Power",
 	    "Extremespeed": "Extreme Speed",
@@ -188,11 +227,9 @@ def showdown_subs move
 	    "Featherdance": "Feather Dance",
 	    "Faint Attack": "Feint Attack",
 	    "Smellingsalt": "Smelling Salts",
-	    "Roar Of Time": "Roar of Time",
 	    "U-Turn": "U-turn",
 	    "V-Create": "V-create",
 	    "Sand-Attack": "Sand Attack",
-	    "Selfdestruct": "Self-Destruct",
 	    "Softboiled": "Soft-Boiled",
 	    "Vicegrip": "Vise Grip",
 	    "Hi Jump Kick": "High Jump Kick",

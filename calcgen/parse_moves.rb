@@ -4,9 +4,6 @@ require_relative 'helpers'
 
 move_file = File.readlines("../src/data/moves_info.h")
 
-
-
-
 current_move = ""
 target = nil
 is_drain = false
@@ -23,7 +20,7 @@ move_file.each_with_index do |line, i|
 	end
 
 	if line.include?(".power")
-		moves[current_move]["bp"] = line[/\d+/].to_i
+		moves[current_move]["basePower"] = line[/\d+/].to_i
 	end
 
 	if line.include?(".type")
@@ -42,6 +39,11 @@ move_file.each_with_index do |line, i|
 		moves[current_move]["acc"] = line[/\d+/].to_i
 	end
 
+	if line.include?(".priority")
+		moves[current_move]["priority"] = line[/\d+/].to_i if line[/\d+/].to_i != 0
+	end
+
+
 	if line.include?(".target")
 		if line.include?("BOTH")
 			moves[current_move]["target"] = "allAdjacentFoes"
@@ -50,6 +52,10 @@ move_file.each_with_index do |line, i|
 		if line.include?("FOES_AND_ALLY") 
 			moves[current_move]["target"] = "allAdjacent"
 		end
+	end
+
+	if line.include?(".criticalHitStage")
+		moves[current_move]["crit_stage"] = line[/\d+/].to_i
 	end
 
 	if line.include?(".strikeCount")

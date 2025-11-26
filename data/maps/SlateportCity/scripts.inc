@@ -547,6 +547,7 @@ SlateportCity_Pokemart_PowerTMs:
 	.2byte ITEM_TM_POWER_GEM
 	.2byte ITEM_TM_ME_FIRST
 	.2byte ITEM_TM_WATER_PULSE
+	.2byte ITEM_TM_GRAVITY
 	pokemartlistend
 
 @ Scene with Capt Sterns interview and Team Aqua announcing plans to steal Submarine

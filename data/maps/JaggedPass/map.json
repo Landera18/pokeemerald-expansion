@@ -42,34 +42,34 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 23,
-      "y": 24,
+      "x": 8,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_BURN_HEAL",
+      "trainer_sight_or_berry_tree_id": "ITEM_ABILITY_CAPSULE",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_JAGGED_PASS_BURN_HEAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
-      "x": 9,
-      "y": 21,
+      "x": 8,
+      "y": 19,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "JaggedPass_EventScript_Diana",
       "flag": "0"
     },
     {
       "local_id": "LOCALID_MAGMA_HIDEOUT_GUARD",
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
-      "x": 16,
+      "x": 17,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -82,24 +82,24 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
-      "x": 16,
-      "y": 21,
+      "x": 5,
+      "y": 19,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "1",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "JaggedPass_EventScript_Autumn",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
-      "x": 20,
-      "y": 26,
+      "x": 12,
+      "y": 21,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 1,
+      "movement_type": "MOVEMENT_TYPE_WALK_RIGHT_AND_LEFT",
+      "movement_range_x": 7,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
@@ -141,6 +141,13 @@
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_MAGMA_HIDEOUT_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_JAGGEDCOVE",
       "dest_warp_id": "0"
     }
   ],
@@ -229,19 +236,27 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 8,
-      "y": 10,
+      "x": 6,
+      "y": 18,
       "elevation": 3,
-      "item": "ITEM_FULL_HEAL",
+      "item": "ITEM_SMOKE_BALL",
       "flag": "FLAG_HIDDEN_ITEM_JAGGED_PASS_FULL_HEAL"
     },
     {
       "type": "hidden_item",
-      "x": 7,
-      "y": 29,
+      "x": 13,
+      "y": 38,
       "elevation": 3,
-      "item": "ITEM_GREAT_BALL",
+      "item": "ITEM_SERIOUS_MINT",
       "flag": "FLAG_HIDDEN_ITEM_JAGGED_PASS_GREAT_BALL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "item": "ITEM_ABILITY_CAPSULE",
+      "flag": "FLAG_JAGGED_CAPSULE"
     }
   ]
 }

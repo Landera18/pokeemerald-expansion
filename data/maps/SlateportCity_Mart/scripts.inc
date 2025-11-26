@@ -24,6 +24,7 @@ SlateportCity_Mart_Pokemart:
 	.2byte ITEM_TM_POWER_GEM
 	.2byte ITEM_TM_ME_FIRST
 	.2byte ITEM_TM_WATER_PULSE
+	.2byte ITEM_TM_GRAVITY
 	pokemartlistend
 
 SlateportCity_Mart_EventScript_BlackBelt::

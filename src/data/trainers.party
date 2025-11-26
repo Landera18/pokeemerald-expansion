@@ -824,7 +824,7 @@ Mugshot: Purple
 
 Swoobat @ King's Rock  
 Ability: Klutz  
-Level: 18  
+Level: 19  
 Naive Nature  
 - Skill Swap  
 - Air Cutter  
@@ -842,7 +842,7 @@ Adamant Nature
 
 Weepinbell @ Sitrus Berry  
 Ability: Gluttony  
-Level: 18  
+Level: 19  
 - Belch  
 - Razor Leaf  
 - Stun Spore  
@@ -860,7 +860,7 @@ Mugshot: Purple
 
 Frogadier @ Lagging Tail  
 Ability: Protean  
-Level: 18  
+Level: 19  
 - Fling  
 - Switcheroo  
 - Grass Knot  
@@ -1214,7 +1214,7 @@ Jolly Nature
 - Ice Fang  
 - Aqua Jet  
 
-=== TRAINER_ZANDER ===
+=== TRAINER_PHOEBEPYRE ===
 Name: PHOEBE
 Class: Elite Four
 Pic: Elite Four Phoebe
@@ -1554,6 +1554,16 @@ Level: 25
 - Seed Bomb  
 - Stomping Tantrum  
 - Knock Off  
+
+Clefairy @ Life Orb  
+Ability: Magic Guard  
+Level: 25    
+Modest Nature  
+IVs: 0 Atk  
+- Alluring Voice  
+- Flamethrower  
+- Blizzard  
+- Encore
 
 === TRAINER_ROSE_1 ===
 Name: ROSE
@@ -2520,7 +2530,7 @@ Jolly Nature
 - Ice Punch  
 - Throat Chop  
 
-=== TRAINER_EDGAR ===
+=== TRAINER_SIDNEYVR ===
 Name: SIDNEY
 Class: Elite Four
 Pic: Elite Four Sidney
@@ -2588,7 +2598,7 @@ IVs: 0 Atk
 - Overheat  
 - Psychic  
 
-=== TRAINER_ALBERT ===
+=== TRAINER_BRAWLYVR ===
 Name: BRAWLY
 Class: Leader
 Pic: Leader Brawly
@@ -2641,7 +2651,7 @@ Adamant Nature
 - Ice Punch  
 - Fake Out  
 
-=== TRAINER_SAMUEL ===
+=== TRAINER_FLANNERYVR ===
 Name: Flannery
 Class: Leader
 Pic: Leader Flannery
@@ -3176,7 +3186,7 @@ Level: 63
 - Leech Life  
 - Poison Jab  
 
-=== TRAINER_HOPE ===
+=== TRAINER_ROXANNEVR ===
 Name: ROXANNE
 Class: Leader
 Pic: Leader Roxanne
@@ -3228,7 +3238,7 @@ Naive Nature
 - Flamethrower  
 - Iron Head  
 
-=== TRAINER_SHANNON ===
+=== TRAINER_WATTSONVR ===
 Name: WATTSON
 Class: Leader
 Pic: Leader Wattson
@@ -3282,7 +3292,7 @@ IVs: 0 Atk
 - Signal Beam  
 - Volt Switch  
 
-=== TRAINER_MICHELLE ===
+=== TRAINER_JUANVR ===
 Name: JUAN
 Class: Leader
 Pic: Leader Juan
@@ -3337,7 +3347,7 @@ Level: 93
 - Iron Head  
 - Dragon Dance  
 
-=== TRAINER_CAROLINE ===
+=== TRAINER_WINONAVR ===
 Name: WINONA
 Class: Leader
 Pic: Leader Winona
@@ -3391,7 +3401,7 @@ Adamant Nature
 - Psychic Fangs  
 - Stone Edge  
 
-=== TRAINER_JULIE ===
+=== TRAINER_NORMANVR ===
 Name: NORMAN
 Class: Leader
 Pic: Leader Norman
@@ -5147,14 +5157,6 @@ Level: 23
 - Fire Punch  
 - Fake Out  
 
-Hakamo-o @ Roseli Berry  
-Ability: Overcoat  
-Level: 23  
-- Breaking Swipe  
-- Brick Break  
-- Vacuum Wave  
-- Dragon Tail  
-
 === TRAINER_HITOSHI ===
 Name: HITOSHI
 Class: Black Belt
@@ -6067,9 +6069,38 @@ AI: AI_FLAG_SMART_TRAINER
 
 Sawsbuck-Autumn @ King's Rock  
 Ability: Serene Grace  
-Level: 44   
+Level: 45   
+Jolly Nature  
 - Zen Headbutt  
 - Headbutt  
+
+Arboliva @ Petaya Berry  
+Ability: Harvest   
+Level: 45
+Calm Nature  
+IVs: 0 Atk  
+- Substitute  
+- Energy Ball  
+- Alluring Voice  
+- Mirror Coat  
+
+Swampert @ Assault Vest  
+Ability: Damp  
+Level: 45   
+Adamant Nature  
+- Flip Turn  
+- Hammer Arm  
+- Earthquake  
+- Liquidation  
+
+Grimmsnarl @ Fairy Feather  
+Ability: Prankster  
+Level: 45  
+Adamant Nature  
+- Fake Out  
+- False Surrender  
+- Spirit Break  
+- Confide  
 
 === TRAINER_TRAVIS ===
 Name: TRAVIS
@@ -6224,17 +6255,34 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Wurmple
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Masquerain @ Focus Sash  
+Ability: Intimidate  
+Level: 54  
+Timid Nature  
+IVs: 0 Atk  
+- Scald  
+- Sticky Web  
+- Bug Buzz  
+- Air Slash  
 
-Silcoon
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rabsca @ Assault Vest  
+Ability: Synchronize  
+Level: 54  
+Modest Nature  
+IVs: 0 Atk  
+- Bug Buzz  
+- Psychic  
+- Energy Ball  
+- Earth Power  
 
-Beautifly
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Lurantis @ Expert Belt  
+Ability: Contrary  
+Level: 54   
+Adamant Nature  
+- Superpower  
+- Leaf Blade  
+- Leech Life  
+- Protect  
 
 === TRAINER_TAYLOR ===
 Name: TAYLOR
@@ -6245,17 +6293,32 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Forretress  
+Forretress @ Custap Berry  
 Ability: Sturdy  
-Level: 52   
+Level: 54  
+- Explosion  
+- Stealth Rock  
+- Toxic Spikes  
+- Secret Power  
 
-Pinsir  
-Ability: Hyper Cutter  
-Level: 52  
+Pinsir @ Charti Berry  
+Ability: Mold Breaker  
+Level: 54  
+Adamant Nature  
+- Close Combat  
+- X-Scissor  
+- Quick Attack  
+- Toxic  
 
-Dustox  
-Ability: Shield Dust  
-Level: 52  
+Dustox @ Black Sludge  
+Ability: Compound Eyes  
+Level: 54  
+Modest Nature  
+IVs: 0 Atk  
+- Sludge Bomb  
+- Bug Buzz  
+- Psychic  
+- Moonlight  
 
 === TRAINER_JEFFREY_1 ===
 Name: JEFFREY
@@ -7133,14 +7196,14 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Odor Sleuth
 - Roar
 
-=== TRAINER_SIDNEY ===
+=== TRAINER_LOWTIERGODE4 ===
 Name: LOWTIERGOD
 Class: Elite Four
 Pic: Pyramid King Brandon
 Gender: Male
 Music: Elite Four
 Double Battle: No
-AI: AI_FLAG_SMART_TRAINER / Force Setup First Turn
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Purple
 
 Greninja @ Focus Sash  
@@ -7204,7 +7267,7 @@ IVs: 0 Atk
 - Aura Sphere  
 - Shell Smash  
 
-=== TRAINER_PHOEBE ===
+=== TRAINER_WHITNEY ===
 Name: WHITNEY
 Class: Elite Four
 Pic: Salon Maiden Anabel
@@ -7275,7 +7338,7 @@ Serious Nature
 - Moonblast  
 - Rock Polish  
 
-=== TRAINER_GLACIA ===
+=== TRAINER_STEVENE4 ===
 Name: STEVEN
 Class: Elite Four
 Pic: Steven 
@@ -7512,14 +7575,14 @@ Relaxed Nature
 - Vacuum Wave  
 - Protect  
 
-Kubfu @ Iapapa Berry  
-Ability: Inner Focus  
-Level: 24  
+Hariyama @ Coba Berry  
+Ability: Guts  
+Level: 25   
 Adamant Nature  
-- Brick Break  
+- Bulk Up  
+- Force Palm  
 - Ice Punch  
-- Zen Headbutt  
-- Sucker Punch  
+- Knock Off
 
 Barbaracle @ Rindo Berry  
 Ability: Tough Claws  
@@ -7618,7 +7681,7 @@ Mugshot: Yellow
 
 Charizard @ Charizardite Y  
 Ability: Blaze  
-Level: 49    
+Level: 49  
 Modest Nature  
 IVs: 0 Atk  
 - Flamethrower  
@@ -7626,14 +7689,23 @@ IVs: 0 Atk
 - Hurricane  
 - Will-O-Wisp  
 
-Sawsbuck-Summer @ Choice Band  
-Ability: Chlorophyll  
-Level: 48    
-Jolly Nature  
-- Return  
-- Horn Leech  
-- Play Rough  
+Tauros-Paldea-Blaze @ Life Orb  
+Ability: Anger Point  
+Level: 48  
+Adamant Nature  
+- Close Combat  
+- Raging Bull  
 - High Horsepower  
+- Will-O-Wisp  
+
+Exeggutor-Alola @ Salac Berry  
+Ability: Harvest  
+Level: 48  
+Jolly Nature  
+- Natural Gift  
+- Dragon Hammer  
+- Power Whip  
+- Swords Dance  
 
 Turtonator @ Rocky Helmet  
 Ability: Shell Armor  
@@ -7644,24 +7716,6 @@ Impish Nature
 - Dragon Claw  
 - Shell Trap  
 
-Talonflame @ Flying Gem  
-Ability: Gale Wings  
-Level: 48   
-Adamant Nature  
-- Acrobatics  
-- Flare Blitz  
-- Roost  
-- U-turn  
-
-Coalossal @ Weakness Policy  
-Ability: Steam Engine  
-Level: 48  
-Adamant Nature  
-- Rock Slide  
-- Heat Crash  
-- High Horsepower  
-- Protect  
-
 Marowak-Alola @ Thick Club  
 Ability: Rock Head  
 Level: 48  
@@ -7669,7 +7723,16 @@ Brave Nature
 - Flare Blitz  
 - Shadow Bone  
 - Rock Slide  
-- Low Kick  
+- Protect  
+
+Victini @ Expert Belt  
+Ability: Victory Star  
+Level: 49  
+Timid Nature  
+- Psyshock  
+- Flamethrower  
+- Dazzling Gleam  
+- U-turn  
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -8393,31 +8456,40 @@ Music: Twins
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Crocalor @ Fire Gem  
-Ability: Unaware  
-Level: 25  
-IVs: 0 Atk  
-- Disarming Voice  
-- Heat Wave  
-- Slack Off  
-- Will-O-Wisp  
+Persian-Alola @ Chople Berry  
+Ability: Fur Coat  
+Level: 26  
+Modest Nature  
+- Fake Out  
+- Dark Pulse  
+- Power Gem  
+- Parting Shot  
 
-Mightyena @ Toxic Orb  
-Ability: Quick Feet  
-Level: 25  
-- Protect  
-- Facade  
-- Lash Out  
-- Psychic Fangs  
-
-Electivire @ Muscle Band  
-Ability: Motor Drive  
-Level: 27   
-- Supercell Slam  
+Cufant @ Occa Berry  
+Ability: Sheer Force  
+Level: 26  
+- Iron Head  
+- Play Rough  
 - Stomping Tantrum  
+- Curse  
+
+Furret @ Expert Belt  
+Ability: Keen Eye  
+Level: 26  
+Adamant Nature  
+- Hone Claws  
 - Fire Punch  
 - Ice Punch  
+- Thunder Punch  
 
+Kricketune @ Metronome  
+Ability: Technician  
+Level: 26  
+Adamant Nature  
+- Fury Cutter  
+- Fell Stinger  
+- Aerial Ace  
+- Taunt  
 
 === TRAINER_COLTON ===
 Name: COLTON
@@ -9088,7 +9160,7 @@ IVs: 0 Atk
 - Thunderbolt  
 - Surf  
 
-=== TRAINER_QUINCY ===
+=== TRAINER_REDVR ===
 Name: RED
 Class: Expert
 Pic: Red
@@ -9442,7 +9514,7 @@ Level: 20
 - Body Slam  
 - Swords Dance  
 
-=== TRAINER_WALLACE ===
+=== TRAINER_LANDEEZ ===
 Name: LANDEEZ
 Class: Champion
 Pic: Champion Wallace
@@ -9452,14 +9524,16 @@ Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
-Garchomp (F) @ Focus Sash  
-Ability: Rough Skin  
-Level: 96  
-Jolly Nature  
+Dunsparce @ Eviolite  
+Ability: Serene Grace
+Level: 100  
+Shiny: Yes   
+EVs: 252 HP / 252 Atk / 4 Def  
+Brave Nature  
+- Return  
+- Thunder Wave  
 - Stealth Rock  
-- Draco Meteor  
-- Earthquake  
-- Iron Head  
+- Rock Slide  
 
 Melmetal @ Assault Vest  
 Ability: Iron Fist  
@@ -9471,15 +9545,6 @@ Adamant Nature
 - Earthquake  
 - Body Press  
 
-Yveltal @ Leftovers  
-Ability: Dark Aura  
-Level: 96  
-Modest Nature  
-- Oblivion Wing  
-- Dark Pulse  
-- Heat Wave  
-- Sucker Punch  
-
 Primarina @ Life Orb  
 Ability: Liquid Voice  
 Level: 96  
@@ -9489,6 +9554,24 @@ IVs: 0 Atk
 - Ice Beam  
 - Hyper Voice  
 - Calm Mind  
+
+Giratina-Origin @ Griseous Core  
+Ability: Levitate  
+Level: 96  
+Adamant Nature  
+- Poltergeist  
+- Outrage  
+- Shadow Sneak  
+- Will-O-Wisp  
+
+Yveltal @ Leftovers  
+Ability: Dark Aura  
+Level: 96   
+Modest Nature  
+- Oblivion Wing  
+- Dark Pulse  
+- Heat Wave  
+- Sucker Punch  
 
 Mewtwo @ Mewtwonite Y  
 Ability: Unnerve  
@@ -9500,16 +9583,6 @@ IVs: 0 Atk
 - Aura Sphere  
 - Shadow Ball  
 - Calm Mind  
-
-Dunsparce @ Eviolite  
-Ability: Serene Grace  
-Shiny: Yes    
-EVs: 252 HP / 252 Atk / 4 Spe  
-Adamant Nature  
-- Headbutt  
-- Thunder Wave  
-- Rock Slide  
-- Roost  
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -12714,14 +12787,40 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Leavanny  
+Leavanny @ Focus Sash  
 Ability: Overcoat  
-Level: 44   
-IVs: 0 Atk  
+Level: 45  
+Adamant Nature  
+- Sticky Web  
+- Leaf Blade  
+- X-Scissor  
+- Knock Off  
 
-Froslass  
-Ability: Snow Cloak  
-Level: 43  
+Froslass @ Life Orb  
+Ability: Cursed Body  
+Level: 45  
+IVs: 0 Atk  
+- Shadow Ball  
+- Ice Beam  
+
+Salazzle @ Clear Amulet  
+Ability: Corrosion  
+Level: 45  
+Timid Nature  
+- Toxic  
+- Sludge Bomb  
+- Flamethrower  
+- Fake Out  
+
+Umbreon @ Leftovers  
+Ability: Synchronize  
+Level: 45   
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Foul Play  
 
 === TRAINER_CEDRIC ===
 Name: CEDRIC
@@ -12877,26 +12976,34 @@ Level: 27
 - Recover  
 - Dragon Cheer  
 
-Dugtrio-Alola @ Wide Lens  
-Ability: Tangling Hair  
-Level: 29  
-Brave Nature  
-IVs: 0 Atk / 0 Spe  
-- Hone Claws  
-- Fissure  
+Sliggoo @ Yache Berry  
+Ability: Sap Sipper  
+Level: 27  
+Modest Nature  
+IVs: 0 Atk  
+- Dragon Breath  
+- Acid Spray  
+- Mud Shot  
+- Toxic  
 
-Shelgon @ Normal Gem  
-Ability: Rock Head  
-Level: 27   
-- Double-Edge  
+Roselia @ Sitrus Berry  
+Ability: Poison Point  
+Level: 27  
+IVs: 0 Atk  
+- Giga Drain  
+- Sludge Bomb  
+- Hidden Power  
+- Growth  
 
-Oranguru @ Sitrus Berry  
-Ability: Telepathy  
-Level: 27   
-- Hyper Voice  
-- Instruct  
-- Encore  
-- Zen Headbutt  
+Toedscool @ Eviolite  
+Ability: Mycelium Might  
+Level: 27  
+Calm Nature  
+IVs: 0 Atk  
+- Rage Powder  
+- Spore  
+- Earth Power  
+- Foul Play    
 
 === TRAINER_AMY_AND_LIV_2 ===
 Name: AMY & LIV
@@ -14625,7 +14732,7 @@ Jolly Nature
 - Fake Out  
 - Volt Switch  
 
-=== TRAINER_MITCHELL ===
+=== TRAINER_LIZAVR ===
 Name: LIZA
 Class: Leader
 Pic: Leader Tate And Liza
@@ -14836,7 +14943,7 @@ Level: 32
 - High Horsepower  
 - Agility  
 
-=== TRAINER_HALLE ===
+=== TRAINER_TATEVR ===
 Name: Tate
 Class: Leader
 Pic: Leader Tate and Liza
@@ -18816,7 +18923,7 @@ Quiet Nature
 - Shadow Ball  
 - Energy Ball  
 
-=== TRAINER_KIM_AND_IRIS ===
+=== TRAINER_GLACIA ===
 Name: GLACIA
 Class: Elite Four
 Pic: Elite Four Glacia
@@ -19552,7 +19659,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Ninjask @ Focus Band  
 Ability: Speed Boost  
-Level: 27   
+Level: 33  
 Jolly Nature  
 - Harden  
 - Substitute  
@@ -19561,23 +19668,25 @@ Jolly Nature
 
 Lucario @ Wise Glasses  
 Ability: Inner Focus  
-Level: 27   
+Level: 33  
 Adamant Nature  
 - Flash Cannon  
 - Shadow Ball  
 - Vacuum Wave  
 - Upper Hand  
 
-Staravia @ Silk Scarf  
+Staraptor @ Silk Scarf  
 Ability: Intimidate  
-Level: 27   
+Level: 33  
+Jolly Nature  
 - Return  
 - Dual Wingbeat  
-- U-turn  
+- Steel Wing  
+- Quick Attack  
 
 Jolteon @ Magnet  
 Ability: Volt Absorb  
-Level: 27   
+Level: 33  
 Adamant Nature  
 IVs: 0 Atk  
 - Thunderbolt  
@@ -19836,7 +19945,7 @@ IVs: 0 Atk
 - Flash Cannon  
 - Thunder Wave  
 
-=== TRAINER_COBY ===
+=== TRAINER_LOWTIERGOD1 ===
 Name: LOWTIERGOD
 Class: Expert
 Pic: Pyramid King Brandon

@@ -1,11 +1,9 @@
 require 'json'
 require_relative 'helpers'
-require 'pry'
+
 
 
 if File.exist?("../src/data/pokemon/level_up_learnsets.h")
-
-
   learnset_file = File.readlines("../src/data/pokemon/level_up_learnsets.h")
 else
   learnset_file = []
@@ -135,8 +133,18 @@ var_definitions = {}
     base_stats = [["baseHP", "hp"], ["baseAttack", "at"],["baseDefense", "df"],["baseSpeed", "sp"],["baseSpAttack", "sa"],["baseSpDefense", "sd"]] 
     base_stats.each do |stat|
       if line.include?(stat[0])
-        val = line[/\d+/].to_i
-        em_mons[current_pok]["bs"][stat[1]] = val 
+
+        binding.pry if current_pok == "Beartic"
+        # always set value to first value of ternary
+        if line.include?(" ? ")
+          if match = line.match(/\.\w+\s*=\s*[^?]*\?\s*(\d+)/)
+
+            em_mons[current_pok]["bs"][stat[1]] = match[1].to_i
+          end
+        else
+          val = line[/\d+/].to_i
+          em_mons[current_pok]["bs"][stat[1]] = val 
+        end
       end
     end
 

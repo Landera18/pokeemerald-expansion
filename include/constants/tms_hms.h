@@ -12,7 +12,7 @@
     F(LOW_SWEEP) \
     F(MAGICAL_LEAF) \
     F(HIDDEN_POWER) \
-    F(ME_FIRST) \
+    F(GRAVITY) \
     F(TAUNT) \
     F(ICE_BEAM) \
     F(ICY_WIND) \
@@ -87,7 +87,12 @@
     F(DRAGON_PULSE) \
     F(DUAL_CHOP) \
     F(PLAY_ROUGH) \
-    F(FOLLOW_ME)
+    F(FOLLOW_ME) \
+    F(SUPERCELL_SLAM) \
+    F(SKITTER_SMACK) \
+    F(ME_FIRST) \
+    F(KNOCK_OFF) \
+    F(PROTECT)
 
 #define FOREACH_HM(F) \
     F(CUT) \

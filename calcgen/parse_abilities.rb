@@ -1,6 +1,6 @@
 require 'json'
 require_relative 'helpers'
-require 'pry'
+
 
 
 abils = File.read("../include/constants/abilities.h").split("\n")

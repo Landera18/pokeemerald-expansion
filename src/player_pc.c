@@ -234,8 +234,13 @@ static const struct MenuAction sItemStorage_MenuActions[] =
 
 static const u16 sNewGamePCItems[][2] =
 {
-    { ITEM_POTION, 1 },
-    { ITEM_NONE, 0 }
+    { ITEM_SHINY_CHARM, 1 },
+    { ITEM_MASTER_BALL, 999 },
+    { ITEM_FULL_RESTORE, 999 },
+    { ITEM_NUGGET, 999 },
+    { ITEM_LAVA_COOKIE, 999 },
+    { ITEM_MAX_ELIXIR, 999 },
+    { ITEM_NONE, 0 } // End of list
 };
 
 const struct MenuAction gMailboxMailOptions[] =
