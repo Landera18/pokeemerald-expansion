@@ -827,7 +827,7 @@
       "x": 9,
       "y": 1,
       "elevation": 3,
-      "item": "ITEM_DYNITE_ORE",
+      "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_1"
     },
     {

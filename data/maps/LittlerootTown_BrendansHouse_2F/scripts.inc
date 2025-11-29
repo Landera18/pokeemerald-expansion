@@ -267,7 +267,9 @@ PlayersHouse_2F_EventScript_Notebook::
 	end
 
 PlayersHouse_2F_EventScript_GameCube::
-	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
+	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_DEFAULT
+	giveitem ITEM_BOTTLE_CAP, 900
+	releaseall
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
@@ -297,6 +299,6 @@ Common_Text_LookCloserAtMap:
 	.string "HOENN region map.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "SANDBOXMODE ACTIVATED\p"
+	.string "HERE IS 900 BOTTLECAPS\n"
+	.string "HAVE FUN PUSSY!$"

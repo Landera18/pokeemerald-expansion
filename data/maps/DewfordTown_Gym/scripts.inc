@@ -7,7 +7,7 @@ DewfordTown_Gym_OnTransition:
 	end
 
 DewfordTown_Gym_EventScript_SetFlashLevel::
-	goto_if_defeated TRAINER_BRAWLY_1, DewfordTown_Gym_EventScript_SetLightsOn
+	goto_if_defeated TRAINER_LUCY_G2, DewfordTown_Gym_EventScript_SetLightsOn
 	call DewfordTown_Gym_EventScript_CountTrainersDefeated
 	copyvar VAR_0x8001, VAR_0x8000
 	goto_if_eq VAR_0x8000, 0, DewfordTown_Gym_EventScript_SetFlashLevel7
@@ -133,7 +133,7 @@ DewfordTown_Gym_EventScript_StopCountingTrainers::
 	return
 
 DewfordTown_Gym_EventScript_Brawly::
-	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_LUCY_G2, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_BrawlyRematch
 	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
@@ -184,7 +184,7 @@ DewfordTown_Gym_EventScript_GiveBulkUp2:
 	end
 
 DewfordTown_Gym_EventScript_BrawlyRematch::
-	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
+	trainerbattle_rematch_double TRAINER_LUCY_G2, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
 	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
 	end
 
@@ -286,12 +286,12 @@ DewfordTown_Gym_EventScript_GymStatue::
 DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKéMON.\p"
-	.string "Going against him with NORMAL-type\n"
+	.string "DEWFORD's GYM LEADER LUCY commands\n"
+	.string "POISON-type POKéMON.\p"
+	.string "Going against her with FAIRY-type\n"
 	.string "POKéMON is asking for trouble.\p"
-	.string "FIGHTING POKéMON will lay a serious\n"
-	.string "smack down on NORMAL POKéMON,\l"
+	.string "POISON POKéMON will lay a serious\n"
+	.string "smack down on FAIRY POKéMON,\l"
 	.string "so be careful!\p"
 	.string "What's worse, the GYM is as dark as\n"
 	.string "the ocean floor.\p"
@@ -315,7 +315,7 @@ DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for BRAWLY to be\n"
+	.string "There's no need for LUCY to be\n"
 	.string "involved!\p"
 	.string "I'll crush you!$"
 
@@ -381,18 +381,17 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "Go after that BADGE!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm BRAWLY!\n"
-	.string "DEWFORD's GYM LEADER!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
+	.string "Hey I'm LUCY\n"
+	.string "DEWFORD's new GYM LEADER!\p"
+	.string "BRAWLY had to go on paternity leave\n"
+	.string "so the league asked me to cover.\l"
+	.string "So you wanted to challenge me?\p"
 	.string "Let me see what you're made of!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
+	.string "Whoah excellent job kid.\n"
+	.string "did better than I expected\p"
+	.string "You swamped me\p"
 	.string "Okay, you've got me.\n"
 	.string "Take this GYM BADGE!$"
 
@@ -410,13 +409,13 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "MACHINE, too.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
-	.string "… … … … … …$"
+	.string "That TM08 contains LOW SWEEP.\p"
+	.string "Its whatever he had to give out\n"
+	.string "It says here when it hits\p"
+	.string "it lowers speed...$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "Registered GYM LEADER BRAWLY\n"
+	.string "Registered GYM LEADER LUCY\n"
 	.string "in the POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
@@ -429,7 +428,7 @@ DewfordTown_Gym_Text_GymStatue:
 
 DewfordTown_Gym_Text_GymStatueCertified:
 	.string "DEWFORD TOWN POKéMON GYM\p"
-	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
+	.string "LUCY'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:

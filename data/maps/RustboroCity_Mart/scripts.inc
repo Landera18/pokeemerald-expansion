@@ -28,6 +28,7 @@ RustboroCity_Mart_Pokemart_Basic:
 	.2byte ITEM_TM_BUG_BITE
 	.2byte ITEM_TM_SNARL
 	.2byte ITEM_TM_BULLET_SEED
+	.2byte ITEM_TM_ROUND
 	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokemartExpanded::
@@ -51,6 +52,7 @@ RustboroCity_Mart_Pokemart_Expanded:
 	.2byte ITEM_TM_BUG_BITE
 	.2byte ITEM_TM_SNARL
 	.2byte ITEM_TM_BULLET_SEED
+	.2byte ITEM_TM_ROUND
 	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokefanF::

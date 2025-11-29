@@ -2,7 +2,7 @@ RustboroCity_Gym_MapScripts::
 	.byte 0
 
 RustboroCity_Gym_EventScript_Roxanne::
-	trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_GRETA_G1, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_RoxanneRematch
 	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Gym_EventScript_GiveRockTomb
@@ -34,7 +34,7 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 	end
 
 RustboroCity_Gym_EventScript_RoxanneRematch::
-	trainerbattle_rematch_double TRAINER_ROXANNE_1, RustboroCity_Gym_Text_RoxannePreRematch, RustboroCity_Gym_Text_RoxanneRematchDefeat, RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons
+	trainerbattle_rematch_double TRAINER_GRETA_G1, RustboroCity_Gym_Text_RoxannePreRematch, RustboroCity_Gym_Text_RoxanneRematchDefeat, RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons
 	msgbox RustboroCity_Gym_Text_RoxannePostRematch, MSGBOX_AUTOCLOSE
 	end
 
@@ -116,11 +116,11 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "But GYM LEADERS aren't pushovers!\p"
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
-	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
-	.string "it can't stand WATER-type and\l"
-	.string "GRASS-type moves.\p"
+	.string "GRETA, the GYM LEADER, is a user\n"
+	.string "of BUG-type POKéMON.\p"
+	.string "The BUG type is very tricky, but\n"
+	.string "it can't stand FIRE-type and\l"
+	.string "FLYING-type moves.\p"
 	.string "Come see me afterwards, if you beat\n"
 	.string "the GYM LEADER.\p"
 	.string "Well, go for it!$"
@@ -145,25 +145,25 @@ RustboroCity_Gym_Text_JoshDefeat:
 	.string "You were too good for me…$"
 
 RustboroCity_Gym_Text_JoshPostBattle:
-	.string "You haven't seen anything of the ROCK\n"
+	.string "You haven't seen anything of the BUG\n"
 	.string "type's terrifying power!$"
 
 RustboroCity_Gym_Text_TommyIntro:
 	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against ROXANNE!$"
+	.string "a chance against GRETA!$"
 
 RustboroCity_Gym_Text_TommyDefeat:
 	.string "Wow! You've got some potential!$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
-	.string "ROXANNE is stronger than me by\n"
+	.string "GRETA is stronger than me by\n"
 	.string "several times.\p"
 	.string "You'd better be on your guard!$"
 
 RustboroCity_Gym_Text_MarcIntro:
 	.string "We might be in the middle of town,\n"
 	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
+	.string "My BUG POKéMON need room to\n"
 	.string "rampage!$"
 
 RustboroCity_Gym_Text_MarcDefeat:
@@ -173,14 +173,14 @@ RustboroCity_Gym_Text_MarcDefeat:
 RustboroCity_Gym_Text_MarcPostBattle:
 	.string "I have to hand it to our LEADER.\p"
 	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "pick the BUG type at her young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-	.string "Hello, I am ROXANNE, the RUSTBORO\n"
+	.string "Hello, I am GRETA, the RUSTBORO\n"
 	.string "POKéMON GYM LEADER.\p"
-	.string "I became a GYM LEADER so that I might\n"
-	.string "apply what I learned at the POKéMON\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
+	.string "I had to take over for ROXANNE\n"
+	.string "as she is currently studying\l"
+	.string "abroad of the east coast of HOENN.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which POKéMON?$"
 
@@ -198,7 +198,7 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
 	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+	.string "from GRETA.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "The STONE BADGE heightens the ATTACK\n"
@@ -212,8 +212,8 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "contains ROCK TOMB.\p"
 	.string "It not only inflicts damage by dropping\n"
 	.string "rocks, it also lowers SPEED.\p"
-	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
+	.string "I am just giving the supply she\n"
+	.string "left me while I cover.\p"
 	.string "Remember, a TM can be used only once,\n"
 	.string "so think before you use it.$"
 
@@ -228,14 +228,14 @@ RustboroCity_Gym_Text_GymStatue:
 
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "RUSTBORO CITY POKéMON GYM\p"
-	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
+	.string "GRETA'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Oh, hello, {PLAYER}?\n"
-	.string "This is ROXANNE of RUSTBORO CITY.\p"
+	.string "GRETA: Oh, hello, {PLAYER}?\n"
+	.string "This is GRETA of RUSTBORO CITY.\p"
 	.string "I heard from BRAWLY that you're\n"
 	.string "moving up through the ranks of\l"
 	.string "TRAINERS at an incredible clip.\p"
@@ -249,12 +249,12 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … Click!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER ROXANNE\n"
+	.string "Registered GYM LEADER GRETA\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-	.string "ROXANNE: I'm so glad to see you again.\n"
-	.string "I'm ROXANNE, the GYM LEADER here.\p"
+	.string "GRETA: I'm so glad to see you again.\n"
+	.string "I'm GRETA, the GYM LEADER here.\p"
 	.string "I'm sure we've both experienced many\n"
 	.string "battles since we last met.\p"
 	.string "I would like to see how much better\n"
@@ -265,14 +265,14 @@ RustboroCity_Gym_Text_RoxanneRematchDefeat:
 	.string "Again, I have lost…$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
-	.string "ROXANNE: I still have much to learn\n"
+	.string "GRETA: I still have much to learn\n"
 	.string "when it comes to battling POKéMON.\p"
 	.string "That awareness makes me love battling\n"
 	.string "all that much more!$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-	.string "ROXANNE: I'm so glad to see you again.\n"
-	.string "I'm ROXANNE, the GYM LEADER here.\p"
+	.string "GRETA: I'm so glad to see you again.\n"
+	.string "I'm GRETA, the GYM LEADER here.\p"
 	.string "I'm sure we've both experienced many\n"
 	.string "battles since we last met.\p"
 	.string "I would like to see how much better\n"

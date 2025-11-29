@@ -4996,7 +4996,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     {
         .baseHP        = 65,
         .baseAttack    = 95,
-        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 85 : 75,
+        .baseDefense   = 85,
         .baseSpeed     = 85,
         .baseSpAttack  = 55,
         .baseSpDefense = 55,
@@ -5072,7 +5072,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     {
         .baseHP        = 65,
         .baseAttack    = 95,
-        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 85 : 75,
+        .baseDefense   = 85,
         .baseSpeed     = 85,
         .baseSpAttack  = 55,
         .baseSpDefense = 55,

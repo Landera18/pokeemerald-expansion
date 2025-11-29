@@ -474,8 +474,7 @@ script TrainerHill_EventScript_SupriseGiftMan {
     checkflag(FLAG_BADGE03_GET)
     goto_if(FALSE, notYet)
 
-    msgbox("You've got spark, kid!\n" 
-    "As a reward, take this Pokemon.\p")
+    msgbox(format("You've got spark, kid!\n As a reward, take this Pokemon.\p"))
 
     // Roll random number
     random(69)                          
@@ -496,14 +495,14 @@ script TrainerHill_EventScript_SupriseGiftMan {
 		case 8:  givemon(SPECIES_MUDKIP, 5)
 		case 9:  givemon(SPECIES_TURTWIG, 5)
 		case 10: givemon(SPECIES_CHIMCHAR, 5)
-		case 11: givemon(SPECIES_PIPLUP, 5)
+		case 11: givemon(SPECIES_DITTO, 5)
 		case 12: givemon(SPECIES_SNIVY, 5)
 		case 13: givemon(SPECIES_TEPIG, 5)
 		case 14: givemon(SPECIES_OSHAWOTT, 5)
 		case 15: givemon(SPECIES_CHESPIN, 5)
-		case 16: givemon(SPECIES_FENNEKIN, 5)
+		case 16: givemon(SPECIES_KOMALA, 5)
 		case 17: givemon(SPECIES_FROAKIE, 5)
-		case 18: givemon(SPECIES_ROWLET, 5)
+		case 18: givemon(SPECIES_SPINDA, 5)
 		case 19: givemon(SPECIES_LITTEN, 5)
 		case 20: givemon(SPECIES_POPPLIO, 5)
 		case 21: givemon(SPECIES_GROOKEY, 5)
@@ -543,8 +542,8 @@ script TrainerHill_EventScript_SupriseGiftMan {
 		case 55: givemon(SPECIES_COSMOG, 5)
 		case 56: givemon(SPECIES_MAGIKARP, 5)
 		case 57: givemon(SPECIES_HERACROSS, 5)
-		case 58: givemon(SPECIES_TYRUNT, 5)
-		case 59: givemon(SPECIES_AMAURA, 5)
+		case 58: givemon(SPECIES_SNOVER, 5)
+		case 59: givemon(SPECIES_ABSOL, 5)
 		case 60: givemon(SPECIES_KANGASKHAN, 5)
 		case 61: givemon(SPECIES_BUNEARY, 5)
 		case 62: givemon(SPECIES_LAPRAS, 5)
@@ -570,12 +569,12 @@ release
 end
 
 notYet:
-    msgbox("Come back after you've earned the Dynamo Badge.")
+    msgbox(format("Come back after you've earned the Dynamo Badge."))
     release
     end
 
 already:
-    msgbox("I've already given you a Pokemon. Train hard!")
+    msgbox(format("I've already given you a Pokemon. Train hard!"))
     release
     end
 }

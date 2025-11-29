@@ -6588,7 +6588,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sDiglettTeachableLearnset,
         .eggMoveLearnset = sDiglettEggMoveLearnset,
         .formSpeciesIdTable = sDiglettFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 26, SPECIES_DUGTRIO}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_DUGTRIO}),
     },
 
     [SPECIES_DUGTRIO] =
@@ -6734,7 +6734,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sDiglettAlolaTeachableLearnset,
         .eggMoveLearnset = sDiglettAlolaEggMoveLearnset,
         .formSpeciesIdTable = sDiglettFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 26, SPECIES_DUGTRIO_ALOLA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_DUGTRIO_ALOLA}),
     },
 
     [SPECIES_DUGTRIO_ALOLA] =
@@ -7307,7 +7307,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
-        .abilities = { ABILITY_DAMP, ABILITY_CLOUD_NINE, ABILITY_SWIFT_SWIM },
+        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_DAMP, ABILITY_CLOUD_NINE },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Psyduck"),
         .cryId = CRY_PSYDUCK,
@@ -7358,7 +7358,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPsyduckLevelUpLearnset,
         .teachableLearnset = sPsyduckTeachableLearnset,
         .eggMoveLearnset = sPsyduckEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_GOLDUCK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_GOLDUCK}),
     },
 
     [SPECIES_GOLDUCK] =
@@ -7367,8 +7367,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 82,
         .baseDefense   = 78,
         .baseSpeed     = 85,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_2 ? 95 : 80,
-        .baseSpDefense = 80,
+        .baseSpAttack  = 95,
+        .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 75,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 175 : 174,
@@ -7378,7 +7378,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
-        .abilities = { ABILITY_DAMP, ABILITY_CLOUD_NINE, ABILITY_SWIFT_SWIM },
+        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_DAMP, ABILITY_CLOUD_NINE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Golduck"),
         .cryId = CRY_GOLDUCK,
@@ -7583,7 +7583,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPrimeapeLevelUpLearnset,
         .teachableLearnset = sPrimeapeTeachableLearnset,
     #if P_GEN_9_CROSS_EVOS
-        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_ANNIHILAPE, CONDITIONS({IF_USED_MOVE_X_TIMES, MOVE_RAGE_FIST, 20})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 62, SPECIES_ANNIHILAPE}),
     #endif
     },
 
@@ -7998,7 +7998,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPoliwagLevelUpLearnset,
         .teachableLearnset = sPoliwagTeachableLearnset,
         .eggMoveLearnset = sPoliwagEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_POLIWHIRL}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_POLIWHIRL}),
     },
 
     [SPECIES_POLIWHIRL] =
@@ -8074,7 +8074,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_POLIWRATH}
                             #if P_GEN_2_CROSS_EVOS
                                 ,{EVO_TRADE, 0, SPECIES_POLITOED, CONDITIONS({IF_HOLD_ITEM, ITEM_KINGS_ROCK})},
-                                {EVO_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED}
+                                {EVO_ITEM, ITEM_SUN_STONE, SPECIES_POLITOED}
                             #endif
                             ),
     },
@@ -8082,11 +8082,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_POLIWRATH] =
     {
         .baseHP        = 90,
-        .baseAttack    = P_UPDATED_STATS >= GEN_6 ? 95 : 85,
+        .baseAttack    = 95,
         .baseDefense   = 95,
         .baseSpeed     = 70,
         .baseSpAttack  = 70,
-        .baseSpDefense = P_UPDATED_STATS >= GEN_2 ? 90 : 70,
+        .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_WATER, TYPE_FIGHTING),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -8105,7 +8105,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1),
-        .abilities = { ABILITY_WATER_ABSORB, ABILITY_DAMP, ABILITY_SWIFT_SWIM },
+        .abilities = { ABILITY_WATER_ABSORB, ABILITY_SWIFT_SWIM, ABILITY_DAMP },
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = TRUE,
         .speciesName = _("Poliwrath"),
@@ -12305,7 +12305,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FOREWARN, ABILITY_INNER_FOCUS },
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_BAD_DREAMS, ABILITY_INSOMNIA },
     #else
         .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_INNER_FOCUS },
     #endif
@@ -12361,7 +12361,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sDrowzeeLevelUpLearnset,
         .teachableLearnset = sDrowzeeTeachableLearnset,
         .eggMoveLearnset = sDrowzeeEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_HYPNO}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_HYPNO}),
     },
 
     [SPECIES_HYPNO] =
@@ -12370,7 +12370,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 73,
         .baseDefense   = 70,
         .baseSpeed     = 67,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_2 ? 73 : 115,
+        .baseSpAttack  = 75,
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_PSYCHIC),
         .catchRate = 75,
@@ -12382,7 +12382,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FOREWARN, ABILITY_INNER_FOCUS },
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_BAD_DREAMS, ABILITY_INSOMNIA },
     #else
         .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_INNER_FOCUS },
     #endif
@@ -13546,7 +13546,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_LIMBER, ABILITY_RECKLESS, ABILITY_UNBURDEN },
+        .abilities = { ABILITY_LIMBER, ABILITY_UNBURDEN, ABILITY_RECKLESS },
     #else
         .abilities = { ABILITY_LIMBER, ABILITY_NONE, ABILITY_UNBURDEN },
     #endif
@@ -13979,7 +13979,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sKoffingTeachableLearnset,
         .eggMoveLearnset = sKoffingEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_WEEZING},
-                                {EVO_NONE, 0, SPECIES_WEEZING_GALAR}),
+                                {EVO_ITEM, ITEM_SHINY_STONE, SPECIES_WEEZING_GALAR}),
     },
 
     [SPECIES_WEEZING] =

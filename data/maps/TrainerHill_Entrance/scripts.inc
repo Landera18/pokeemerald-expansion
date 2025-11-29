@@ -936,536 +936,536 @@ TrainerHill_EventScript_SupriseGiftMan::
 	goto_if FALSE, notYet
 # 477 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_0
-# 481 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 480 "data/maps/TrainerHill_Entrance/scripts.pory"
 	random 69
-# 482 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 481 "data/maps/TrainerHill_Entrance/scripts.pory"
 	copyvar VAR_THILL_EGG, VAR_RESULT
-# 485 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 484 "data/maps/TrainerHill_Entrance/scripts.pory"
 	switch VAR_THILL_EGG
-# 488 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 487 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 0, TrainerHill_EventScript_SupriseGiftMan_3
-# 489 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 488 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 1, TrainerHill_EventScript_SupriseGiftMan_4
-# 490 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 489 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 2, TrainerHill_EventScript_SupriseGiftMan_5
-# 491 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 490 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 3, TrainerHill_EventScript_SupriseGiftMan_6
-# 492 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 491 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 4, TrainerHill_EventScript_SupriseGiftMan_7
-# 493 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 492 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 5, TrainerHill_EventScript_SupriseGiftMan_8
-# 494 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 493 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 6, TrainerHill_EventScript_SupriseGiftMan_9
-# 495 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 494 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 7, TrainerHill_EventScript_SupriseGiftMan_10
-# 496 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 495 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 8, TrainerHill_EventScript_SupriseGiftMan_11
-# 497 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 496 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 9, TrainerHill_EventScript_SupriseGiftMan_12
-# 498 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 497 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 10, TrainerHill_EventScript_SupriseGiftMan_13
-# 499 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 498 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 11, TrainerHill_EventScript_SupriseGiftMan_14
-# 500 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 499 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 12, TrainerHill_EventScript_SupriseGiftMan_15
-# 501 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 500 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 13, TrainerHill_EventScript_SupriseGiftMan_16
-# 502 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 501 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 14, TrainerHill_EventScript_SupriseGiftMan_17
-# 503 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 502 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 15, TrainerHill_EventScript_SupriseGiftMan_18
-# 504 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 503 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 16, TrainerHill_EventScript_SupriseGiftMan_19
-# 505 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 504 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 17, TrainerHill_EventScript_SupriseGiftMan_20
-# 506 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 505 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 18, TrainerHill_EventScript_SupriseGiftMan_21
-# 507 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 506 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 19, TrainerHill_EventScript_SupriseGiftMan_22
-# 508 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 507 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 20, TrainerHill_EventScript_SupriseGiftMan_23
-# 509 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 508 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 21, TrainerHill_EventScript_SupriseGiftMan_24
-# 510 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 509 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 22, TrainerHill_EventScript_SupriseGiftMan_25
-# 511 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 510 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 23, TrainerHill_EventScript_SupriseGiftMan_26
-# 512 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 511 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 24, TrainerHill_EventScript_SupriseGiftMan_27
-# 513 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 512 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 25, TrainerHill_EventScript_SupriseGiftMan_28
-# 514 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 513 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 26, TrainerHill_EventScript_SupriseGiftMan_29
-# 515 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 514 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 27, TrainerHill_EventScript_SupriseGiftMan_30
-# 516 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 515 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 28, TrainerHill_EventScript_SupriseGiftMan_31
-# 517 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 516 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 29, TrainerHill_EventScript_SupriseGiftMan_32
-# 518 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 517 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 30, TrainerHill_EventScript_SupriseGiftMan_33
-# 519 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 518 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 31, TrainerHill_EventScript_SupriseGiftMan_34
-# 520 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 519 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 32, TrainerHill_EventScript_SupriseGiftMan_35
-# 521 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 520 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 33, TrainerHill_EventScript_SupriseGiftMan_36
-# 522 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 521 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 34, TrainerHill_EventScript_SupriseGiftMan_37
-# 523 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 522 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 35, TrainerHill_EventScript_SupriseGiftMan_38
-# 524 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 523 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 36, TrainerHill_EventScript_SupriseGiftMan_39
-# 525 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 524 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 37, TrainerHill_EventScript_SupriseGiftMan_40
-# 526 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 525 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 38, TrainerHill_EventScript_SupriseGiftMan_41
-# 527 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 526 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 39, TrainerHill_EventScript_SupriseGiftMan_42
-# 528 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 527 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 40, TrainerHill_EventScript_SupriseGiftMan_43
-# 529 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 528 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 41, TrainerHill_EventScript_SupriseGiftMan_44
-# 530 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 529 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 42, TrainerHill_EventScript_SupriseGiftMan_45
-# 531 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 530 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 43, TrainerHill_EventScript_SupriseGiftMan_46
-# 532 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 531 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 44, TrainerHill_EventScript_SupriseGiftMan_47
-# 533 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 532 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 45, TrainerHill_EventScript_SupriseGiftMan_48
-# 534 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 533 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 46, TrainerHill_EventScript_SupriseGiftMan_49
-# 535 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 534 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 47, TrainerHill_EventScript_SupriseGiftMan_50
-# 536 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 535 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 48, TrainerHill_EventScript_SupriseGiftMan_51
-# 537 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 536 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 49, TrainerHill_EventScript_SupriseGiftMan_52
-# 538 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 537 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 50, TrainerHill_EventScript_SupriseGiftMan_53
-# 539 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 538 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 51, TrainerHill_EventScript_SupriseGiftMan_54
-# 540 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 539 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 52, TrainerHill_EventScript_SupriseGiftMan_55
-# 541 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 540 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 53, TrainerHill_EventScript_SupriseGiftMan_56
-# 542 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 541 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 54, TrainerHill_EventScript_SupriseGiftMan_57
-# 543 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 542 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 55, TrainerHill_EventScript_SupriseGiftMan_58
-# 544 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 543 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 56, TrainerHill_EventScript_SupriseGiftMan_59
-# 545 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 544 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 57, TrainerHill_EventScript_SupriseGiftMan_60
-# 546 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 545 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 58, TrainerHill_EventScript_SupriseGiftMan_61
-# 547 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 546 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 59, TrainerHill_EventScript_SupriseGiftMan_62
-# 548 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 547 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 60, TrainerHill_EventScript_SupriseGiftMan_63
-# 549 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 548 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 61, TrainerHill_EventScript_SupriseGiftMan_64
-# 550 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 549 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 62, TrainerHill_EventScript_SupriseGiftMan_65
-# 551 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 550 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 63, TrainerHill_EventScript_SupriseGiftMan_66
-# 552 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 551 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 64, TrainerHill_EventScript_SupriseGiftMan_67
-# 553 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 552 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 65, TrainerHill_EventScript_SupriseGiftMan_68
-# 554 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 553 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 66, TrainerHill_EventScript_SupriseGiftMan_69
-# 555 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 554 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 67, TrainerHill_EventScript_SupriseGiftMan_70
-# 556 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 555 "data/maps/TrainerHill_Entrance/scripts.pory"
 	case 68, TrainerHill_EventScript_SupriseGiftMan_71
 TrainerHill_EventScript_SupriseGiftMan_1:
-# 559 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 558 "data/maps/TrainerHill_Entrance/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 560 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 559 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_1
-# 561 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 560 "data/maps/TrainerHill_Entrance/scripts.pory"
 	waitfanfare
-# 562 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 561 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_2, MSGBOX_YESNO
-# 563 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 562 "data/maps/TrainerHill_Entrance/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq TrainerHill_EventScript_SupriseGiftMan_73
 TrainerHill_EventScript_SupriseGiftMan_72:
-# 567 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 566 "data/maps/TrainerHill_Entrance/scripts.pory"
 	setflag FLAG_TRAINER_HILL_GIFT
-# 568 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 567 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_3
+# 568 "data/maps/TrainerHill_Entrance/scripts.pory"
+	release
 # 569 "data/maps/TrainerHill_Entrance/scripts.pory"
-	release
-# 570 "data/maps/TrainerHill_Entrance/scripts.pory"
 	end
-# 572 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 571 "data/maps/TrainerHill_Entrance/scripts.pory"
 notYet:
-# 573 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 572 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_4
-# 574 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 573 "data/maps/TrainerHill_Entrance/scripts.pory"
 	release
-# 575 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 574 "data/maps/TrainerHill_Entrance/scripts.pory"
 	end
-# 577 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 576 "data/maps/TrainerHill_Entrance/scripts.pory"
 already:
-# 578 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 577 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_EventScript_SupriseGiftMan_Text_5
-# 579 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 578 "data/maps/TrainerHill_Entrance/scripts.pory"
 	release
 	end
 
 TrainerHill_EventScript_SupriseGiftMan_3:
-# 488 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 487 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_BULBASAUR, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_4:
-# 489 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 488 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CHARMANDER, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_5:
-# 490 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 489 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SQUIRTLE, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_6:
-# 491 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 490 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CHIKORITA, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_7:
-# 492 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 491 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CYNDAQUIL, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_8:
-# 493 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 492 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TOTODILE, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_9:
-# 494 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 493 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TREECKO, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_10:
-# 495 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 494 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TORCHIC, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_11:
-# 496 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 495 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_MUDKIP, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_12:
-# 497 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 496 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TURTWIG, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_13:
-# 498 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 497 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CHIMCHAR, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_14:
-# 499 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_PIPLUP, 5
+# 498 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_DITTO, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_15:
-# 500 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 499 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SNIVY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_16:
-# 501 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 500 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TEPIG, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_17:
-# 502 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 501 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_OSHAWOTT, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_18:
-# 503 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 502 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CHESPIN, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_19:
-# 504 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_FENNEKIN, 5
+# 503 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_KOMALA, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_20:
-# 505 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 504 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_FROAKIE, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_21:
-# 506 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_ROWLET, 5
+# 505 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_SPINDA, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_22:
-# 507 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 506 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_LITTEN, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_23:
-# 508 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 507 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_POPPLIO, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_24:
-# 509 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 508 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_GROOKEY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_25:
-# 510 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 509 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SCORBUNNY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_26:
-# 511 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 510 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SOBBLE, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_27:
-# 512 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 511 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SPRIGATITO, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_28:
-# 513 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 512 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_FUECOCO, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_29:
-# 514 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 513 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_QUAXLY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_30:
-# 515 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 514 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_DRATINI, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_31:
-# 516 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 515 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_LARVITAR, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_32:
-# 517 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 516 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_BAGON, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_33:
-# 518 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 517 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_BELDUM, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_34:
-# 519 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 518 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_GIBLE, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_35:
-# 520 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 519 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_DEINO, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_36:
-# 521 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 520 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_GOOMY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_37:
-# 522 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 521 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_JANGMO_O, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_38:
-# 523 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 522 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_DREEPY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_39:
-# 524 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 523 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_FRIGIBAX, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_40:
-# 525 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 524 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TOGEPI, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_41:
-# 526 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 525 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SMOOCHUM, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_42:
-# 527 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 526 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_ELEKID, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_43:
-# 528 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 527 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_MAGBY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_44:
-# 529 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 528 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_AZURILL, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_45:
-# 530 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 529 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_WYNAUT, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_46:
-# 531 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 530 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_MUNCHLAX, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_47:
-# 532 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 531 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_RIOLU, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_48:
-# 533 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 532 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_LARVESTA, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_49:
-# 534 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 533 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SNOM, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_50:
-# 535 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 534 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_DARUMAKA, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_51:
-# 536 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 535 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_DARUMAKA_GALAR, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_52:
-# 537 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 536 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SCYTHER, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_53:
-# 538 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 537 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_KLEFKI, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_54:
-# 539 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 538 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_TAUROS, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_55:
-# 540 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 539 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_PORYGON, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_56:
-# 541 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 540 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_DURALUDON, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_57:
-# 542 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 541 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CHARCADET, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_58:
-# 543 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 542 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_COSMOG, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_59:
-# 544 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 543 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_MAGIKARP, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_60:
-# 545 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 544 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_HERACROSS, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_61:
-# 546 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_TYRUNT, 5
+# 545 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_SNOVER, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_62:
-# 547 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_AMAURA, 5
+# 546 "data/maps/TrainerHill_Entrance/scripts.pory"
+	givemon SPECIES_ABSOL, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_63:
-# 548 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 547 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_KANGASKHAN, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_64:
-# 549 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 548 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_BUNEARY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_65:
-# 550 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 549 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_LAPRAS, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_66:
-# 551 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 550 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_WOOPER, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_67:
-# 552 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 551 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_CHARCADET, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_68:
-# 553 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 552 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_GASTLY, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_69:
-# 554 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 553 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_MAREEP, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_70:
-# 555 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 554 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SNORUNT, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_71:
-# 556 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 555 "data/maps/TrainerHill_Entrance/scripts.pory"
 	givemon SPECIES_SWABLU, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_73:
-# 564 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 563 "data/maps/TrainerHill_Entrance/scripts.pory"
 	call Common_EventScript_GetGiftMonPartySlot
-# 565 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 564 "data/maps/TrainerHill_Entrance/scripts.pory"
 	call Common_EventScript_NameReceivedPartyMon
 	goto TrainerHill_EventScript_SupriseGiftMan_72
 
@@ -1473,24 +1473,27 @@ TrainerHill_EventScript_SupriseGiftMan_73:
 TrainerHill_EventScript_SupriseGiftMan_Text_0:
 # 477 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "You've got spark, kid!\n"
-	.string "As a reward, take this Pokemon.\p$"
+	.string "As a reward, take this Pokemon.\p"
+	.string "$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_1:
-# 560 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 559 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Received a Pokemon!\p$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_2:
-# 562 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 561 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Give it a nickname?$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_3:
-# 568 "data/maps/TrainerHill_Entrance/scripts.pory"
+# 567 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Raise it well!$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_4:
-# 573 "data/maps/TrainerHill_Entrance/scripts.pory"
-	.string "Come back after you've earned the Dynamo Badge.$"
+# 572 "data/maps/TrainerHill_Entrance/scripts.pory"
+	.string "Come back after you've earned the\n"
+	.string "Dynamo Badge.$"
 
 TrainerHill_EventScript_SupriseGiftMan_Text_5:
-# 578 "data/maps/TrainerHill_Entrance/scripts.pory"
-	.string "I've already given you a Pokemon. Train hard!$"
+# 577 "data/maps/TrainerHill_Entrance/scripts.pory"
+	.string "I've already given you a Pokemon. Train\n"
+	.string "hard!$"

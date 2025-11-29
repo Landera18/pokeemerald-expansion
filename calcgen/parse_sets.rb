@@ -228,7 +228,9 @@ def generate_sets
 				"battle_type": battle_type,
 				"moves": moves,
 				"sub_index": sub_index,
-				"ai_tags": ai_tags 
+				"ai_tags": ai_tags,
+				"ability": ability
+
 			}
 
 			mega_species_name = nil

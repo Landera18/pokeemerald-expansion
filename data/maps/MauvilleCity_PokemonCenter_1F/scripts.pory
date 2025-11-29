@@ -1,0 +1,113 @@
+raw`MauvilleCity_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+MauvilleCity_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_MAUVILLE_CITY
+	call Common_EventScript_UpdateBrineyLocation
+	goto MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx::
+	special SetMauvilleOldManObjEventGfx
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_MAUVILLE_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Woman1::
+	msgbox MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings, MSGBOX_NPC
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Woman2::
+	msgbox MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner, MSGBOX_NPC
+	end
+
+MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
+	msgbox MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun, MSGBOX_NPC
+	end
+
+MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
+	.string "That man over there, he says weird\n"
+	.string "things!\p"
+	.string "He's funny in a weird way.\n"
+	.string "I doubt I'll forget about him!$"
+
+MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
+	.string "When I accessed the RECORD CORNER,\n"
+	.string "the data for what's hot in DEWFORD\l"
+	.string "got updated.\p"
+	.string "Now that bit of data is the same\n"
+	.string "as my friend's!$"
+
+MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
+	.string "A RECORD CORNER opened upstairs in\n"
+	.string "the POKéMON CENTER.\p"
+	.string "I don't know what it's about, but it\n"
+	.string "sounds fun. I'll go check it out!$"
+`
+
+script MauvilleCity_PokemonCenter_1F_HyperTraining {
+    lock
+    faceplayer
+    msgbox(format("For one BOTTLE CAP, I can hyper train one of your POKéMON. Would you like to hyper train a POKéMON?"))
+	checkitem(ITEM_BOTTLE_CAP, 1)
+		if(var(VAR_RESULT) == 0) {
+		msgbox(format("You don't have any Bottle Caps.$"))
+        release
+        end
+    }
+	special(ChoosePartyMon)
+    if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
+        releaseall
+        end
+    }
+    msgbox(format("Which stat would you like to hyper train?"))
+    waitbuttonpress
+    dynmultichoice(0, 0, TRUE, 3, 0, DYN_MULTICHOICE_CB_NONE, "HP", "ATTACK", "DEFENSE", "SP. ATK", "SP. DEF", "SPEED", "Cancel")
+    buffernumberstring(STR_VAR_1, VAR_RESULT)
+switch (var(VAR_RESULT)) {
+    case 0: // HP
+        hypertrain(STAT_HP, VAR_0x8004)
+        goto(HyperTrain_Done4)
+
+    case 1: // Attack
+        hypertrain(STAT_ATK, VAR_0x8004)
+        goto(HyperTrain_Done4)
+
+    case 2: // Defense
+        hypertrain(STAT_DEF, VAR_0x8004)
+        goto(HyperTrain_Done4)
+
+    case 3: // Sp. Atk
+        hypertrain(STAT_SPATK, VAR_0x8004)
+        goto(HyperTrain_Done4)
+
+    case 4: // Sp. Def
+        hypertrain(STAT_SPDEF, VAR_0x8004)
+        goto(HyperTrain_Done4)
+
+    case 5: // Speed
+        hypertrain(STAT_SPEED, VAR_0x8004)
+        goto(HyperTrain_Done4)
+
+    case 6: // Cancel
+        msgbox(format("Maybe another time then."))
+        releaseall
+        end
+}
+
+// Common end for all successful choices
+HyperTrain_Done4:
+removeitem(ITEM_BOTTLE_CAP, 1)
+msgbox(format("Your POKéMON has been hyper trained! Its base stat has been maximized."))
+releaseall
+end
+
+    }

@@ -3627,9 +3627,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         #if B_UPDATED_MOVE_DATA >= GEN_5
             .power = 130,
         #elif B_UPDATED_MOVE_DATA == GEN_4
-            .power = 100,
+            .power = 130,
         #else
-            .power = 85,
+            .power = 130,
         #endif
         .effect = EFFECT_RECOIL_IF_MISS,
         .type = TYPE_FIGHTING,
@@ -13036,7 +13036,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
-        .zMove = { .powerOverride = 160 },
         .argument = { .status = STATUS1_ANY },
         .contestEffect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
         .contestCategory = CONTEST_CATEGORY_SMART,

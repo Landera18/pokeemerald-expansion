@@ -751,10 +751,10 @@
     },
     {
       "type": "hidden_item",
-      "x": 34,
-      "y": 69,
+      "x": 14,
+      "y": 94,
       "elevation": 3,
-      "item": "ITEM_NORMAL_GEM",
+      "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_110_FULL_HEAL"
     },
     {

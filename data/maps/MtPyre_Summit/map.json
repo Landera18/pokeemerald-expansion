@@ -211,7 +211,7 @@
       "x": 9,
       "y": 25,
       "elevation": 0,
-      "item": "ITEM_REVIVE",
+      "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_ZINC"
     },
     {
@@ -219,7 +219,7 @@
       "x": 37,
       "y": 7,
       "elevation": 3,
-      "item": "ITEM_DYNITE_ORE",
+      "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_RARE_CANDY"
     }
   ]

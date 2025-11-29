@@ -16,6 +16,8 @@ tm_file = File.readlines("../src/data/pokemon/teachable_learnsets.h")
 
 
 mons_by_id = JSON.parse(File.read("showdown_defaults/mons_by_id.json"))
+$types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water","Grass","Electric","Psychic","Ice","Dragon","Dark"]
+
 
 em_mons = {}
 em_tms = {}
@@ -180,6 +182,7 @@ var_definitions = {}
     end
 
     if line.include?(".types")
+
       type_value = line.split("=")[1].split(",")[0].strip
       
       line.gsub(/[A-Z]*_FAMILY_TYPE/, "TYPE_FAIRY")
@@ -189,6 +192,22 @@ var_definitions = {}
         types = line[/[\(\{}](.*?)[\)\}]/, 1].split(",").map(&:strip).map {|ab| format_name(ab, "TYPE_")}.uniq
         em_mons[current_pok]["types"] = types
       end
+
+      #validate types, use showdown defaults if anything went wrong
+      use_backup = false
+      em_mons[current_pok]["types"].each do |t|
+        use_backup = true if !$types.include?(t)
+      end
+      if use_backup && mons_by_id[current_pok]
+        p current_pok
+        em_mons[current_pok]["types"] = mons_by_id[current_pok]["types"] 
+      end
+
+
+
+
+
+
     end
     
     if line.include?(".growthRate")
@@ -234,6 +253,7 @@ em_mons["basculegionf"]["gr"] = em_mons["basculegion"]["gr"]
 
 
 
+
 custom_megas = []
 unhandled = []
 
@@ -266,6 +286,11 @@ em_mons = em_mons.transform_keys do |species_name|
       end   
     end
   end
+end
+
+$types.each do |ty|
+  em_mons["Silvally-#{ty}"] = em_mons["Silvally"]
+  em_mons["Silvally-#{ty}"]["type"] = ty
 end
 
 showdown_ignore_list.each do |species_name|

@@ -1871,8 +1871,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sBurmyTeachableLearnset,
         .formSpeciesIdTable = sBurmyFormSpeciesIdTable,
         .formChangeTable = sBurmyFormChangeTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_WORMADAM_PLANT, CONDITIONS({IF_GENDER, MON_FEMALE})},
-                                {EVO_LEVEL, 20, SPECIES_MOTHIM_PLANT, CONDITIONS({IF_GENDER, MON_MALE})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_WORMADAM_PLANT, CONDITIONS({IF_GENDER, MON_FEMALE})},
+                                {EVO_LEVEL, 18, SPECIES_MOTHIM_PLANT, CONDITIONS({IF_GENDER, MON_MALE})}),
     },
 
     [SPECIES_BURMY_SANDY] =
@@ -1940,8 +1940,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sBurmyTeachableLearnset,
         .formSpeciesIdTable = sBurmyFormSpeciesIdTable,
         .formChangeTable = sBurmyFormChangeTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_WORMADAM_SANDY, CONDITIONS({IF_GENDER, MON_FEMALE})},
-                                {EVO_LEVEL, 20, SPECIES_MOTHIM_SANDY, CONDITIONS({IF_GENDER, MON_MALE})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_WORMADAM_SANDY, CONDITIONS({IF_GENDER, MON_FEMALE})},
+                                {EVO_LEVEL, 18, SPECIES_MOTHIM_SANDY, CONDITIONS({IF_GENDER, MON_MALE})}),
     },
 
     [SPECIES_BURMY_TRASH] =
@@ -2009,8 +2009,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sBurmyTeachableLearnset,
         .formSpeciesIdTable = sBurmyFormSpeciesIdTable,
         .formChangeTable = sBurmyFormChangeTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_WORMADAM_TRASH, CONDITIONS({IF_GENDER, MON_FEMALE})},
-                                {EVO_LEVEL, 20, SPECIES_MOTHIM_TRASH, CONDITIONS({IF_GENDER, MON_MALE})}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_WORMADAM_TRASH, CONDITIONS({IF_GENDER, MON_FEMALE})},
+                                {EVO_LEVEL, 18, SPECIES_MOTHIM_TRASH, CONDITIONS({IF_GENDER, MON_MALE})}),
     },
 
     [SPECIES_WORMADAM_PLANT] =
@@ -2031,7 +2031,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_ANTICIPATION, ABILITY_NONE, ABILITY_OVERCOAT },
+        .abilities = { ABILITY_OVERCOAT, ABILITY_HARVEST, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Wormadam"),
         .cryId = CRY_WORMADAM,
@@ -2097,7 +2097,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_ANTICIPATION, ABILITY_NONE, ABILITY_OVERCOAT },
+        .abilities = { ABILITY_OVERCOAT, ABILITY_MOLD_BREAKER, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Wormadam"),
         .cryId = CRY_WORMADAM,
@@ -2164,7 +2164,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_ANTICIPATION, ABILITY_NONE, ABILITY_OVERCOAT },
+        .abilities = { ABILITY_OVERCOAT, ABILITY_STEELY_SPIRIT, ABILITY_NONE },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Wormadam"),
         .cryId = CRY_WORMADAM,
@@ -2231,7 +2231,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,                                  \
         .growthRate = GROWTH_MEDIUM_FAST,                                   \
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),                         \
-        .abilities = { ABILITY_SWARM, ABILITY_NONE, ABILITY_TINTED_LENS },  \
+        .abilities = { ABILITY_TINTED_LENS, ABILITY_TECHNICIAN, ABILITY_NONE },  \
         .bodyColor = BODY_COLOR_YELLOW,                                     \
         .speciesName = _("Mothim"),                                         \
         .cryId = CRY_MOTHIM,                                                \
@@ -2364,7 +2364,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sCombeeLevelUpLearnset,
         .teachableLearnset = sCombeeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_VESPIQUEN}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_VESPIQUEN}),
     },
 
     [SPECIES_VESPIQUEN] =
@@ -2386,7 +2386,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_PRESSURE, ABILITY_QUEENLY_MAJESTY, ABILITY_UNNERVE },
+        .abilities = { ABILITY_INTIMIDATE, ABILITY_QUEENLY_MAJESTY, ABILITY_UNNERVE },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Vespiquen"),
         .cryId = CRY_VESPIQUEN,
@@ -5408,7 +5408,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_GRASS),
-        .abilities = { ABILITY_SNOW_WARNING, ABILITY_NONE, ABILITY_SOUNDPROOF },
+        .abilities = { ABILITY_SOUNDPROOF, ABILITY_NONE, ABILITY_SNOW_WARNING },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Snover"),
         .cryId = CRY_SNOVER,
@@ -5470,7 +5470,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sSnoverLevelUpLearnset,
         .teachableLearnset = sSnoverTeachableLearnset,
         .eggMoveLearnset = sSnoverEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_ABOMASNOW}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_ABOMASNOW}),
     },
 
     [SPECIES_ABOMASNOW] =
@@ -5492,7 +5492,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_GRASS),
-        .abilities = { ABILITY_SNOW_WARNING, ABILITY_NONE, ABILITY_SOUNDPROOF },
+        .abilities = { ABILITY_SOUNDPROOF, ABILITY_NONE, ABILITY_SNOW_WARNING },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Abomasnow"),
         .cryId = CRY_ABOMASNOW,

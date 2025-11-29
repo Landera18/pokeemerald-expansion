@@ -873,13 +873,14 @@ Level: 19
 - Lash Out  
 - Sucker Punch  
 
-Dragonair @ Eviolite  
-Ability: Shed Skin  
-Level: 20    
-- Rest  
-- Breaking Swipe  
-- Slam  
-- Sleep Talk  
+Gothorita @ Wise Glasses  
+Ability: Shadow Tag  
+Level: 20   
+Modest Nature  
+- Fake Out  
+- Psybeam  
+- Shock Wave  
+- Wonder Room 
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -5141,21 +5142,33 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Sandslash @ Leftovers  
-Ability: Sand Rush  
-Level: 23   
-- Stealth Rock  
-- Stomping Tantrum  
-- Counter  
-- Knock Off  
+Arbok @ Liechi Berry  
+Ability: Intimidate  
+Level: 21  
+Adamant Nature  
+- Poison Fang  
+- Ice Fang  
+- Fire Fang  
+- Coil  
 
-Monferno @ Punching Glove  
-Ability: Iron Fist  
-Level: 23   
-- Mach Punch  
-- Thunder Punch  
-- Fire Punch  
-- Fake Out  
+Ivysaur @ Sitrus Berry  
+Ability: Overgrow  
+Level: 21  
+Modest Nature  
+IVs: 21 Atk / 30 SpA  
+- Mega Drain  
+- Sludge  
+- Hidden Power  
+- Roar  
+
+Roselia @ Eviolite  
+Ability: Leaf Guard  
+Level: 21   
+Modest Nature  
+- Magical Leaf  
+- Sludge Bomb  
+- Body Slam  
+- Dazzling Gleam  
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -7446,12 +7459,12 @@ Impish Nature
 - Curse  
 - Earthquake  
 
-Zygarde @ Haban Berry  
+Zygarde @ Yache Berry  
 Ability: Power Construct  
 Level: 96  
 Shiny: Yes  
 Adamant Nature  
-- Core Enforcer  
+- Outrage  
 - Thousand Arrows  
 - Extreme Speed  
 - Coil  
@@ -7474,24 +7487,24 @@ Adamant Nature
 - Earthquake  
 - Dragon Dance  
 
-=== TRAINER_ROXANNE_1 ===
-Name: ROXANNE
+=== TRAINER_GRETA_G1 ===
+Name: GRETA
 Class: Leader
-Pic: Leader Roxanne
+Pic: Arena Tycoon Greta
 Gender: Female
 Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
-Ferroseed @ Rocky Helmet  
-Ability: Iron Barbs  
+Vivillon @ Charti Berry  
+Ability: Shield Dust  
 Level: 17  
-Impish Nature  
-- Seed Bomb  
-- Metal Claw  
-- Leech Seed  
-- Spikes  
+Timid Nature  
+- Acrobatics  
+- Struggle Bug  
+- Psybeam  
+- Sleep Powder  
 
 Shuckle @ Berry Juice  
 Ability: Sturdy  
@@ -7502,105 +7515,111 @@ Lax Nature
 - Encore  
 - Infestation  
 
-Cranidos @ Muscle Band  
-Ability: Mold Breaker  
+Yanma @ Choice Band  
+Ability: Compound Eyes  
 Level: 17  
+Shiny: Yes  
 Jolly Nature  
-- Headbutt  
-- Zen Headbutt  
-- Fire Punch  
-- Rock Blast  
+- Dual Wingbeat  
+- Skitter Smack  
+- Thief  
+- U-turn  
 
-Naclstack @ Power Herb  
-Ability: Purifying Salt  
+Spidops @ Rocky Helmet  
+Ability: Stakeout  
 Level: 17  
-Calm Nature  
-- Facade  
-- Salt Cure  
-- Meteor Beam  
-- Stomping Tantrum  
+Shiny: Yes  
+Adamant Nature  
+- Lunge  
+- Shadow Claw  
+- Throat Chop  
+- Silk Trap  
 
 Vibrava @ Yache Berry  
 Ability: Levitate  
-Level: 17  
+Level: 18  
+Shiny: Yes  
 Naive Nature  
 - Dragon Breath  
 - Sand Tomb  
 - Headbutt  
 - U-turn  
 
-Nosepass @ Leftovers  
-Ability: Sand Force  
-Level: 18  
-Adamant Nature  
-- Rock Tomb  
-- Stomping Tantrum  
-- Fire Punch  
-- Ancient Power  
+Vespiquen @ Leftovers  
+Ability: Queenly Majesty  
+Level: 18   
+Careful Nature  
+- Attack Order  
+- Dual Wingbeat  
+- Defend Order  
+- Protect  
 
-=== TRAINER_BRAWLY_1 ===
-Name: BRAWLY
+=== TRAINER_LUCY_G2 ===
+Name: LUCY
 Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
+Pic: Pike Queen Lucy
+Gender: Female
+Music: Female
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
-Sneasel-Hisui @ Payapa Berry  
-Ability: Pickpocket  
+Grafaiai @ Iron Ball  
+Ability: Prankster  
 Level: 23  
-Naive Nature  
-- Fake Out  
-- Poison Tail  
-- Brick Break  
-- Lash Out  
+- Switcheroo  
+- Toxic  
+- U-turn  
+- Return  
 
-Hitmontop @ Sitrus Berry  
-Ability: Intimidate  
+Haunter @ Colbur Berry  
+Ability: Levitate  
 Level: 23  
+Timid Nature  
+IVs: 0 Atk  
+- Hex  
+- Venoshock  
+- Will-O-Wisp  
+- Encore  
+
+Poipole @ Eviolite  
+Ability: Beast Boost  
+Level: 24  
+Shiny: Yes  
+Modest Nature  
+IVs: 0 Atk / 30 SpA / 30 Spe  
+- Sludge Wave  
+- Hidden Power  
+- Signal Beam  
+- Nasty Plot  
+
+Clodsire @ Black Sludge  
+Ability: Unaware  
+Level: 24  
+Careful Nature  
+- Poison Jab  
+- Stomping Tantrum  
+- Recover  
+- Yawn  
+
+Toxicroak @ Focus Sash  
+Ability: Poison Touch  
+Level: 25  
+Shiny: Yes  
 Jolly Nature  
 - Fake Out  
-- Mach Punch  
-- Pursuit  
+- Cross Poison  
 - Low Kick  
+- Thunder Punch  
 
-Hakamo-o @ Roseli Berry  
-Ability: Soundproof  
-Level: 23  
-Relaxed Nature  
-- Breaking Swipe  
-- Brick Break  
-- Vacuum Wave  
-- Protect  
-
-Hariyama @ Coba Berry  
-Ability: Guts  
-Level: 25   
-Adamant Nature  
-- Bulk Up  
-- Force Palm  
-- Ice Punch  
-- Knock Off
-
-Barbaracle @ Rindo Berry  
-Ability: Tough Claws  
-Level: 24   
-Adamant Nature  
-- Grass Knot  
-- Razor Shell  
-- Rock Blast  
-- Brick Break  
-
-Grapploct @ Leftovers  
-Ability: Technician  
-Level: 25   
-Jolly Nature  
-- Rock Smash  
-- Circle Throw  
-- Payback  
-- Octolock  
+Seviper @ Expert Belt  
+Ability: Infiltrator  
+Level: 25  
+Shiny: Yes   
+- Poison Jab  
+- Aqua Tail  
+- Lash Out  
+- Coil  
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -7801,68 +7820,75 @@ Brave Nature
 - Thunder Punch  
 - Shadow Claw  
 
-=== TRAINER_WINONA_1 ===
-Name: WINONA
+=== TRAINER_NOLAND_G6 ===
+Name: NOLAND
 Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
+Pic: Factory Head Noland
+Gender: Male
+Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
+Starting Status: STARTING_STATUS_GRASSY_TERRAIN
 
-Gliscor @ Toxic Orb  
-Ability: Poison Heal  
-Level: 60  
-- Protect  
-- Stealth Rock  
-- Earthquake  
-- Dual Wingbeat  
+Grimmsnarl @ Light Clay  
+Ability: Prankster  
+Level: 60 
+Shiny: Yes 
+Adamant Nature  
+- Light Screen  
+- Reflect  
+- Fake Out  
+- False Surrender  
 
-Tornadus @ Flying Gem  
-Ability: Defiant  
-Level: 60    
-- Acrobatics  
-- Knock Off  
+Lurantis @ Assault Vest  
+Ability: Contrary  
+Level: 60 
+Shiny: Yes 
+Brave Nature  
 - Superpower  
-- U-turn  
+- Leaf Storm  
+- Psycho Cut  
+- Leaf Blade  
 
-Zapdos @ Leftovers  
-Ability: Static  
-Level: 61   
-IVs: 0 Atk  
-- Discharge  
-- Signal Beam  
-- Extrasensory  
-- Volt Switch  
-
-Staraptor @ Choice Band  
-Ability: Reckless  
-Level: 61   
+Rillaboom @ Miracle Seed  
+Ability: Overgrow  
+Level: 61  
 Jolly Nature  
-- Brave Bird  
-- Double-Edge  
-- Close Combat  
+- Grassy Glide  
+- Drum Beating  
+- High Horsepower  
 - U-turn  
 
-Mantine @ Leftovers  
-Ability: Water Absorb  
-Level: 62   
-IVs: 0 Atk  
-- Scald  
-- Hurricane  
-- Tailwind  
-- Roost  
+Hydreigon @ Choice Scarf  
+Ability: Levitate  
+Level: 61 
+Timid Nature  
+- Dragon Pulse  
+- Dark Pulse  
+- Flamethrower  
+- U-turn  
 
-Altaria @ Altarianite  
-Ability: Pixilate  
-Level: 62    
+Moltres-Galar @ Life Orb  
+Ability: Berserk  
+Level: 62
+Shiny: Yes    
 Timid Nature  
 IVs: 0 Atk  
-- Draco Meteor  
-- Hyper Voice  
-- Flamethrower  
-- Roost  
+- Fiery Wrath  
+- Hurricane  
+- Shadow Ball  
+- Tailwind  
+
+Venusaur @ Venusaurite  
+Ability: Thick Fat  
+Level: 62    
+Modest Nature  
+IVs: 0 Atk  
+- Sludge Bomb  
+- Giga Drain  
+- Earth Power  
+- Sleep Powder  
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -7873,132 +7899,138 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
-
-Deoxys-Defense @ Light Clay  
-Ability: Pressure  
-Level: 77   
-Calm Nature  
-IVs: 0 Atk  
-- Recover  
-- Light Screen  
-- Reflect  
-- Psychic  
+Starting Status: STARTING_STATUS_TRICK_ROOM
 
 Wyrdeer @ Assault Vest  
 Ability: Intimidate  
-Level: 77  
-Adamant Nature  
+Level: 76    
+Brave Nature  
+IVs: 0 Spe  
 - Psyshield Bash  
 - Return  
 - High Horsepower  
-- Megahorn  
+- Sucker Punch  
 
-Delphox @ Life Orb  
-Ability: Flash Fire  
-Level: 77  
-Timid Nature  
-IVs: 0 Atk  
+Slowbro @ Leftovers  
+Ability: Regenerator  
+Level: 76  
+Sassy Nature  
+IVs: 0 Atk / 0 Spe  
+- Scald  
 - Psychic  
 - Flamethrower  
-- Dazzling Gleam  
-- Will-O-Wisp  
+- Slack Off  
 
-Starmie @ Expert Belt  
-Ability: Analytic  
+Stakataka @ Life Orb  
+Ability: Beast Boost  
 Level: 77  
-Timid Nature  
-IVs: 0 Atk  
-- Scald  
-- Dazzling Gleam  
-- Thunderbolt  
-- Ice Beam  
+Brave Nature  
+IVs: 0 Spe  
+- Heavy Slam  
+- Stone Edge  
+- Body Press  
+- Protect  
 
-Necrozma @ Colbur Berry  
-Ability: Prism Armor  
+Porygon2 @ Eviolite  
+Ability: Download  
+Level: 77  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Recover  
+- Tri Attack  
+- Ice Beam  
+- Psychic  
+
+Latios @ Soul Dew  
+Ability: Levitate  
 Level: 78   
 Modest Nature  
-- Photon Geyser  
-- Heat Wave  
-- Earth Power  
-- Calm Mind  
-
-Alakazam @ Alakazite  
-Ability: Inner Focus  
-Level: 78  
-Timid Nature  
-IVs: 0 Atk  
+- Draco Meteor  
 - Psychic  
-- Dazzling Gleam  
-- Shadow Ball  
 - Energy Ball  
+- Flip Turn  
 
-=== TRAINER_JUAN_1 ===
-Name: JUAN
+Gardevoir @ Gardevoirite  
+Ability: Trace  
+Level: 78  
+Shiny: Yes   
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Hyper Voice  
+- Aura Sphere  
+- Psychic  
+- Calm Mind  
+  
+=== TRAINER_TUCKER_G8 ===
+Name: TUCKER
 Class: Leader
-Pic: Leader Juan
+Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
-Pelipper @ Focus Sash  
-Ability: Drizzle  
-Level: 88  
+Clefable @ Leftovers  
+Ability: Magic Guard  
+Level: 86  
+Shiny: Yes   
+IVs: 0 Atk  
+- Stealth Rock  
+- Soft-Boiled  
+- Moonblast  
+- Flamethrower  
+
+Tangrowth @ Assault Vest  
+Ability: Regenerator  
+Level: 86   
 Modest Nature  
 IVs: 0 Atk  
-- Tailwind  
-- Scald  
-- Hurricane  
-- Ice Beam  
-
-Ludicolo @ Life Orb  
-Ability: Swift Swim  
-Level: 88  
-Modest Nature  
-IVs: 0 Atk  
-- Surf  
-- Hydro Pump  
-- Giga Drain  
-- Ice Beam  
-
-Dragonite @ Weakness Policy  
-Ability: Multiscale  
-Level: 88  
-Modest Nature  
-IVs: 0 Atk  
-- Agility  
-- Hurricane  
-- Draco Meteor  
-- Ice Beam  
-
-Keldeo @ Expert Belt  
-Ability: Justified  
-Level: 88  
-Timid Nature  
-- Secret Sword  
-- Scald  
-- Vacuum Wave  
-- Flip Turn  
-
-Manaphy @ Wacan Berry  
-Ability: Hydration  
-Level: 88  
-Modest Nature  
-IVs: 0 Atk  
-- Tail Glow  
-- Ice Beam  
-- Scald  
 - Energy Ball  
+- Focus Blast  
+- Sludge Bomb  
+- Ancient Power  
 
-Swampert-Mega @ Swampertite  
+Moltres @ Charti Berry  
+Ability: Flame Body  
+Level: 87   
+Modest Nature  
+IVs: 0 Atk  
+- Fire Blast  
+- Hurricane  
+- Extrasensory  
+- Will-O-Wisp  
+
+Swampert @ Swampertite  
 Ability: Damp  
-Level: 88  
+Level: 87  
+Shiny: Yes  
 Adamant Nature  
-- Liquidation  
 - Earthquake  
+- Liquidation  
 - Ice Punch  
 - Flip Turn  
+
+Tapu Koko @ Life Orb  
+Ability: Electric Surge  
+Level: 88  
+Shiny: Yes  
+Modest Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Dazzling Gleam  
+- Hyper Voice  
+- Volt Switch  
+
+Latias @ Soul Dew  
+Ability: Levitate  
+Level: 88   
+Timid Nature  
+IVs: 0 Atk  
+- Mist Ball  
+- Draco Meteor  
+- Surf  
+- Calm Mind  
 
 === TRAINER_JERRY_1 ===
 Name: JERRY
@@ -9059,21 +9091,22 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Bonsly @ Hard Stone  
-Ability: Sturdy  
+Dustox @ Leftovers  
+Ability: Shield Dust  
 Level: 14  
-- Low Kick  
-- Foul Play  
-- Rock Blast  
+Sassy Nature  
+IVs: 0 Atk  
+- Confusion  
+- Struggle Bug  
+- Protect  
 
-Tyrunt @ Muscle Band  
-Ability: Strong Jaw  
-Level: 14   
-Modest Nature  
-- Ice Fang  
-- Fire Fang  
-- Thunder Fang  
-- Bite  
+Anorith @ Silver Powder  
+Ability: Battle Armor  
+Level: 14  
+- X-Scissor  
+- Rock Blast  
+- Aqua Jet  
+- Brick Break  
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -9084,30 +9117,31 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Geodude  
-Ability: Sturdy  
-Level: 15   
-- Rock Blast  
-- Bulldoze  
-- Fire Punch  
-- Rock Polish  
-
-Omanyte @ Mystic Water  
-Ability: Shell Armor  
-Level: 15  
-IVs: 0 Atk  
-- Ice Beam  
-- Scald  
-- Power Gem  
-- Ancient Power  
-
-Geodude-Alola @ Toxic Orb  
-Ability: Galvanize  
+Wormadam @ Occa Berry  
+Ability: Overcoat  
 Level: 16  
-Jolly Nature  
-- Facade  
+Adamant Nature  
+- Razor Leaf  
+- Bug Bite  
+- Sucker Punch  
 - Protect  
-- Rock Blast  
+
+Dwebble @ Hard Stone  
+Ability: Shell Armor  
+Level: 15   
+Adamant Nature  
+- Smack Down  
+- Bug Bite  
+- Curse  
+
+Ledian @ Punching Glove  
+Ability: Iron Fist  
+Level: 16   
+Jolly Nature  
+- Comet Punch  
+- Ice Punch  
+- Thunder Punch  
+- Mega Punch  
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -11680,20 +11714,33 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Buneary @ Silk Scarf  
-Ability: Limber  
+Swalot @ Poison Barb  
+Ability: Sticky Hold  
 Level: 22  
-Happiness: 0  
-- Frustration  
-- Fake Out  
-- U-turn  
+Adamant Nature  
+- Poison Jab  
+- Headbutt  
+- Fire Punch  
+- Encore  
 
-Floatzel @ Salac Berry  
-Ability: Water Veil  
-Level: 22    
-- Brick Break  
-- Ice Fang  
-- Waterfall  
+Golbat @ Eviolite  
+Ability: Infiltrator  
+Level: 21  
+Modest Nature  
+IVs: 0 Atk  
+- Heat Wave  
+- Air Slash  
+- Sludge Bomb  
+- Agility  
+
+Croagunk @ Salac Berry  
+Ability: Poison Touch  
+Level: 21  
+Hasty Nature  
+- Fake Out  
+- Belch  
+- Poison Jab  
+- Vacuum Wave  
 
 === TRAINER_LAURA ===
 Name: LAURA
@@ -11704,20 +11751,32 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Stufful @ Sitrus Berry  
-Ability: Fluffy  
-Level: 20   
-- Low Sweep  
-- Brutal Swing  
-- Headbutt  
+Koffing @ Black Sludge  
+Ability: Levitate  
+Level: 21  
+Timid Nature  
+- Sludge  
+- Shadow Ball  
+- Thunderbolt  
+- Self-Destruct  
 
-Spidops  
-Ability: Insomnia  
-Level: 20  
-- Lunge  
-- Knock Off  
-- Sucker Punch  
-- Silk Trap  
+Beedrill @ Poison Barb  
+Ability: Swarm  
+Level: 21  
+Brave Nature  
+- Poison Jab  
+- Bug Bite  
+- Brick Break  
+- Agility  
+
+Skorupi @ Silver Powder  
+Ability: Battle Armor  
+Level: 21  
+Adamant Nature  
+- Bug Bite  
+- Poison Fang  
+- Crunch  
+- Facade  
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -15633,7 +15692,7 @@ AI: AI_FLAG_SMART_TRAINER
 
 Cacnea @ Miracle Seed  
 Ability: Water Absorb  
-Level: 15  
+Level: 15   
 - Needle Arm  
 - Feint Attack  
 - Thunder Punch  
@@ -15641,27 +15700,30 @@ Level: 15
 
 Rhyhorn  
 Ability: Lightning Rod  
-Level: 15    
+Level: 15  
 Modest Nature  
 - Rock Blast  
 - Megahorn  
 - Bulldoze  
 
-Nidorina  
-Ability: Poison Point  
-Level: 16   
-- Double Kick  
-- Dig  
-- Poison Jab  
-
-Sudowoodo @ Wise Glasses  
-Ability: Sturdy  
+Applin @ Yache Berry  
+Ability: Bulletproof  
 Level: 16    
+Adamant Nature  
+- Sucker Punch  
+- Pounce  
+- Rollout  
+- Defense Curl  
+
+Venonat @ Wise Glasses  
+Ability: Tinted Lens  
+Level: 17  
+Modest Nature  
 IVs: 0 Atk  
-- Calm Mind  
-- Power Gem  
-- Grass Knot  
-- Earth Power  
+- Bug Buzz  
+- Sludge Bomb  
+- Psychic Noise  
+- Swift  
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -15714,30 +15776,31 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_SMART_TRAINER
 
-Pignite @ Passho Berry  
-Ability: Thick Fat  
-Level: 22  
-- Arm Thrust  
-- Flame Charge  
+Gloom @ King's Rock  
+Ability: Stench  
+Level: 21  
+- Return  
+- Seed Bomb  
+- Drain Punch  
+- Curse  
+
+Gastly @ Focus Band  
+Ability: Levitate  
+Level: 21  
+Adamant Nature  
+- Ice Punch  
+- Fire Punch  
 - Thunder Punch  
-- Will-O-Wisp  
+- Shadow Ball  
 
-Heracross @ Coba Berry  
-Ability: Guts  
-Level: 22   
-Brave Nature  
-- Brick Break  
-- Bug Bite  
-- Facade  
-- Protect  
-
-Breloom @ Loaded Dice  
-Ability: Technician  
-Level: 22  
-- Bullet Seed  
-- Rock Tomb  
-- Mach Punch  
-- Aerial Ace  
+Foongus @ Black Sludge  
+Ability: Effect Spore  
+Level: 21   
+Adamant Nature  
+- Stun Spore  
+- Seed Bomb  
+- Body Slam  
+- Astonish  
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
@@ -16541,7 +16604,6 @@ Brave Nature
 Leafeon @ Focus Sash  
 Ability: Chlorophyll  
 Level: 68  
-Tera Type: Grass  
 Adamant Nature  
 - Solar Blade  
 - Knock Off  
@@ -16580,7 +16642,6 @@ Jolly Nature
 Camerupt @ Cameruptite  
 Ability: Solid Rock  
 Level: 70  
-IVs: 0 Atk 
 Modest Nature 
 - Flamethrower  
 - Earth Power  

@@ -92,7 +92,11 @@
     F(SKITTER_SMACK) \
     F(ME_FIRST) \
     F(KNOCK_OFF) \
-    F(PROTECT)
+    F(PROTECT) \
+    F(DEFOG) \
+    F(RAPID_SPIN) \
+    F(ACROBATICS) \
+    F(ROUND)
 
 #define FOREACH_HM(F) \
     F(CUT) \

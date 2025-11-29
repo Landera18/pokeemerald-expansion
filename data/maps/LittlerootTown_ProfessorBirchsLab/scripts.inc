@@ -530,6 +530,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	giveitem ITEM_POKE_BALL, 100
 	giveitem ITEM_ORAN_BERRY, 500
 	giveitem ITEM_LEPPA_BERRY, 50
+	giveitem ITEM_BOTTLE_CAP, 1
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 0
@@ -540,6 +541,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	giveitem ITEM_POKE_BALL, 100
 	giveitem ITEM_ORAN_BERRY, 500
 	giveitem ITEM_LEPPA_BERRY, 50
+	giveitem ITEM_BOTTLE_CAP, 1
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 1

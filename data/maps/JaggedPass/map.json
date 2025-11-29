@@ -255,7 +255,7 @@
       "x": 8,
       "y": 17,
       "elevation": 0,
-      "item": "ITEM_ABILITY_CAPSULE",
+      "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_JAGGED_CAPSULE"
     }
   ]

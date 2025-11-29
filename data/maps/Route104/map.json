@@ -293,7 +293,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_DEOXYS_TRIANGLE",
       "x": 39,
       "y": 15,
       "elevation": 3,
@@ -301,7 +301,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_PP_UP",
+      "trainer_sight_or_berry_tree_id": "ITEM_GARDEVOIRITE",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_104_PP_UP"
     },
@@ -405,7 +405,7 @@
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_X_ACCURACY",
+      "trainer_sight_or_berry_tree_id": "ITEM_BOTTLE_CAP",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_104_X_ACCURACY"
     },
@@ -438,7 +438,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
       "x": 5,
-      "y": 26,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -607,7 +607,7 @@
       "x": 14,
       "y": 55,
       "elevation": 3,
-      "item": "ITEM_POTION",
+      "item": "ITEM_SERIOUS_MINT",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_POTION"
     },
     {
@@ -623,7 +623,7 @@
       "x": 16,
       "y": 64,
       "elevation": 3,
-      "item": "ITEM_HEART_SCALE",
+      "item": "ITEM_BOTTLE_CAP",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE"
     }
   ]

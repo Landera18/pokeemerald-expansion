@@ -1,0 +1,108 @@
+raw`LavaridgeTown_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+LavaridgeTown_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_LAVARIDGE_TOWN
+	call Common_EventScript_UpdateBrineyLocation
+	end
+
+LavaridgeTown_PokemonCenter_1F_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_LAVARIDGE_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+
+LavaridgeTown_PokemonCenter_1F_EventScript_Youngster::
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate, MSGBOX_NPC
+	end
+
+LavaridgeTown_PokemonCenter_1F_EventScript_Woman::
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether, MSGBOX_NPC
+	end
+
+LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman::
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo, MSGBOX_NPC
+	end
+
+LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether:
+	.string "I think POKéMON get closer to their\n"
+	.string "TRAINERS if they spend time together.\p"
+	.string "The longer the better.\n"
+	.string "That's what I think.$"
+
+LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
+	.string "It's sort of magical how just sitting\n"
+	.string "in a hot-spring pool can invigorate.\p"
+	.string "I wish I could let my POKéMON\n"
+	.string "soak, too.$"
+
+LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
+	.string "Hohoho! Hey, kid, you can reach\n"
+	.string "the hot springs from here.\p"
+	.string "If POKéMON are getting rest, so too\n"
+	.string "should their TRAINERS.$"
+
+`
+
+script LavaridgeTown_PokemonCenter_1F_HyperTraining {
+    lock
+    faceplayer
+    msgbox(format("For one BOTTLE CAP, I can hyper train one of your POKéMON. Would you like to hyper train a POKéMON?"))
+	checkitem(ITEM_BOTTLE_CAP, 1)
+		if(var(VAR_RESULT) == 0) {
+		msgbox(format("You don't have any Bottle Caps.$"))
+        release
+        end
+    }
+	special(ChoosePartyMon)
+    if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
+        releaseall
+        end
+    }
+    msgbox(format("Which stat would you like to hyper train?"))
+    waitbuttonpress
+    dynmultichoice(0, 0, TRUE, 3, 0, DYN_MULTICHOICE_CB_NONE, "HP", "ATTACK", "DEFENSE", "SP. ATK", "SP. DEF", "SPEED", "Cancel")
+    buffernumberstring(STR_VAR_1, VAR_RESULT)
+switch (var(VAR_RESULT)) {
+    case 0: // HP
+        hypertrain(STAT_HP, VAR_0x8004)
+        goto(HyperTrain_Done6)
+
+    case 1: // Attack
+        hypertrain(STAT_ATK, VAR_0x8004)
+        goto(HyperTrain_Done6)
+
+    case 2: // Defense
+        hypertrain(STAT_DEF, VAR_0x8004)
+        goto(HyperTrain_Done6)
+
+    case 3: // Sp. Atk
+        hypertrain(STAT_SPATK, VAR_0x8004)
+        goto(HyperTrain_Done6)
+
+    case 4: // Sp. Def
+        hypertrain(STAT_SPDEF, VAR_0x8004)
+        goto(HyperTrain_Done6)
+
+    case 5: // Speed
+        hypertrain(STAT_SPEED, VAR_0x8004)
+        goto(HyperTrain_Done6)
+
+    case 6: // Cancel
+        msgbox(format("Maybe another time then."))
+        releaseall
+        end
+}
+
+// Common end for all successful choices
+HyperTrain_Done6:
+removeitem(ITEM_BOTTLE_CAP, 1)
+msgbox(format("Your POKéMON has been hyper trained! Its base stat has been maximized."))
+releaseall
+end
+
+    }
