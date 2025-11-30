@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/JAGGEDCOVE/border.bin",
       "blockdata_filepath": "data/layouts/JAGGEDCOVE/map.bin"
+    },
+    {
+      "id": "LAYOUT_SECRETHIDEOUT",
+      "name": "SECRETHIDEOUT_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SECRETHIDEOUT/border.bin",
+      "blockdata_filepath": "data/layouts/SECRETHIDEOUT/map.bin"
     }
   ]
 }

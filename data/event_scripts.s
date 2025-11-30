@@ -1162,3 +1162,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MeteorFalls_B1F_2R_2/scripts.inc"
 
 	.include "data/maps/JAGGEDCOVE/scripts.inc"
+
+	.include "data/maps/SECRETHIDEOUT/scripts.inc"

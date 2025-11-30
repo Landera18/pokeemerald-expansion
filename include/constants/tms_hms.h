@@ -82,7 +82,7 @@
     F(FIRE_PUNCH) \
     F(THUNDER_PUNCH) \
     F(TELEPORT) \
-    F(CROSS_POISON) \
+    F(NATURAL_GIFT) \
     F(AURA_SPHERE) \
     F(DRAGON_PULSE) \
     F(DUAL_CHOP) \
@@ -96,7 +96,8 @@
     F(DEFOG) \
     F(RAPID_SPIN) \
     F(ACROBATICS) \
-    F(ROUND)
+    F(ROUND) \
+    F(BODY_PRESS)
 
 #define FOREACH_HM(F) \
     F(CUT) \

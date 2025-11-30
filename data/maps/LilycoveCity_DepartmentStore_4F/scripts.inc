@@ -30,7 +30,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM_FLAMETHROWER
 	.2byte ITEM_TM_DARK_PULSE
 	.2byte ITEM_TM_HYPER_VOICE
-	.2byte ITEM_TM_CROSS_POISON
+	.2byte ITEM_TM_BODY_PRESS
 	.2byte ITEM_TM_WILD_CHARGE
 	pokemartlistend
 
@@ -52,6 +52,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	.2byte ITEM_TM_DRAGON_PULSE
 	.2byte ITEM_TM_PLAY_ROUGH
 	.2byte ITEM_TM_TRI_ATTACK
+	.2byte ITEM_TM_HURRICANE
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:

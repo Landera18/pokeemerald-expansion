@@ -92,8 +92,11 @@ DewfordTown_EventScript_NotGettingItchToFish::
 	end
 
 DewfordTown_EventScript_HowsFishing::
-	fadescreen FADE_FROM_BLACK
+	msgbox DewfordTown_Text_bestofluck
+	fadescreen FADE_TO_BLACK
+	setvar VAR_DEWFORD_GYM_MAN, 1
 	removeobject LOCALID_DEWFORD_GYMGUY
+	fadescreen FADE_FROM_BLACK
 	release
 	end
 
@@ -787,3 +790,7 @@ DewfordTown_Text_YeahDefinitionOfInRightNow:
 	.string "Yeah, absolutely right!\p"
 	.string "“{STR_VAR_1}” is the\n"
 	.string "definition of “in” right now.$"
+
+DewfordTown_Text_bestofluck:
+	.string "Best of luck with the gym\n"
+	.string "fyi BRAWLY is not in today.$"

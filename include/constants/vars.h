@@ -266,8 +266,8 @@
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
 #define VAR_UNUSED_0x40F7                                0x40F7 // LTG Battle Var
 #define VAR_THILL_EGG                                    0x40F8 // TrainerHill Egg Var
-#define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
-#define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
+#define VAR_DEWFORD_GYM_MAN                              0x40F9 // DEWFORD GYM MAN VAR
+#define VAR_ROUTE110_OLDWOMAN                            0x40FA // 110 OLD LADY VAR
 #define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
 #define VAR_UNUSED_0x40FC                                0x40FC // Unused Var
 #define VAR_UNUSED_0x40FD                                0x40FD // Unused Var

@@ -3,6 +3,9 @@ Route110_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route110_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route110_OnFrame
 	.byte 0
+Route110_OnLoad:
+	call_if_unset FLAG_BADGE05_GET, Route110_EventScript_CloseTrickHouse
+	end
 
 Route110_OnResume:
 	special UpdateCyclingRoadState
@@ -25,6 +28,11 @@ Route110_OnFrame:
 Route110_EventScript_BeginCylcingRoadChallenge::
 	special Special_BeginCyclingRoadChallenge
 	setvar VAR_CYCLING_CHALLENGE_STATE, 2
+	return
+
+Route110_EventScript_CloseTrickHouse::
+	setmetatile 11, 66, 0x2A9, TRUE
+	setmetatile 11, 65, 0x2A4, TRUE
 	return
 
 Route110_EventScript_AquaGrunt1::

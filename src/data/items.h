@@ -12029,14 +12029,14 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_CROSS_POISON] =
+    [ITEM_TM_NATURAL_GIFT] =
     {
         .name = ITEM_NAME("TM81"),
         .price = 300,
         .description = COMPOUND_STRING(
-            "A slashing attack\n"
-            "that may poison\n"
-            "the foe."),
+            "The type and power\n"
+            "depend on the\n"
+            "held Berry."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -12235,11 +12235,14 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM96] =
+    [ITEM_TM_BODY_PRESS] =
     {
         .name = ITEM_NAME("TM96"),
         .price = 300,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Uses the user's\n"
+            "Defense stat to\n"
+            "calculate damage."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,

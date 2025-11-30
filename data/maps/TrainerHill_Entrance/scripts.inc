@@ -1304,7 +1304,7 @@ TrainerHill_EventScript_SupriseGiftMan_39:
 
 TrainerHill_EventScript_SupriseGiftMan_40:
 # 524 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_TOGEPI, 5
+	givemon SPECIES_FINIZEN, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_41:
@@ -1324,7 +1324,7 @@ TrainerHill_EventScript_SupriseGiftMan_43:
 
 TrainerHill_EventScript_SupriseGiftMan_44:
 # 528 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_AZURILL, 5
+	givemon SPECIES_ROTOM, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_45:
@@ -1374,7 +1374,7 @@ TrainerHill_EventScript_SupriseGiftMan_53:
 
 TrainerHill_EventScript_SupriseGiftMan_54:
 # 538 "data/maps/TrainerHill_Entrance/scripts.pory"
-	givemon SPECIES_TAUROS, 5
+	givemon SPECIES_MIMIKYU, 5
 	goto TrainerHill_EventScript_SupriseGiftMan_1
 
 TrainerHill_EventScript_SupriseGiftMan_55:

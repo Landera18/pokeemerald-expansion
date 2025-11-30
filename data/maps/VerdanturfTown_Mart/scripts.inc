@@ -25,6 +25,7 @@ VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_TM_THUNDER_PUNCH
 	.2byte ITEM_TM_FIRE_PUNCH
 	.2byte ITEM_TM_DUAL_CHOP
+	.2byte ITEM_TM_BULLDOZE
 	pokemartlistend
 
 VerdanturfTown_Mart_EventScript_Boy::
